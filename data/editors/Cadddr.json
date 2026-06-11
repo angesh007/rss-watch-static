@@ -1,0 +1,93 @@
+{
+  "schema": "old",
+  "editor": "Cadddr",
+  "editor_slug": "Cadddr",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": null,
+    "total_wiki_edits": null,
+    "user_groups": [],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2026-05-03",
+    "last_edit_date": "2026-05-03",
+    "total_bytes_added": 0,
+    "total_bytes_removed": 10,
+    "minor_edit_count": 1,
+    "unique_edit_dates": [
+      "2026-05-03"
+    ]
+  },
+  "final_score": 2.2,
+  "score_max": 5,
+  "exec_summary": "Editor Cadddr's activity on the Hindu_American_Foundation page consists of a single, minor revision. The dominant pattern is the removal of neutralising or qualifying language (P2c), specifically deleting the word \"alleged\" and removing scare quotes from the word \"educate.\" While numerically insignificant (-10 bytes), this edit has a tangible effect on the article's tone and neutrality. By removing these qualifiers, the editor shifts the presentation of contested information, presenting a potentially disputed claim as established fact and removing skepticism about the foundation's stated purpose. This action directly impacts the article's adherence to Wikipedia's core content policy of a Neutral Point of View (WP:NPOV), as it reframes the subject in a more favorable light. This behavior raises several policy concerns. The primary issue is the potential violation of WP:NPOV, alongside concerns about Verifiability (WP:V), as the edit may now misrepresent the cited source's qualified language. Given that this is the editor's only contribution, their behavior is characteristic of a Single-Purpose Account (WP:SPA), which warrants scrutiny for potential advocacy or a conflict of interest (WP:COI). The use of a \"Rollback\" edit summary further suggests an intent to revert what was perceived as a non-constructive edit, reinforcing the editor's pro-subject stance. Overall, Cadddr's editorial influence is minimal in scale but significant in its non-neutral intent, demonstrating a clear bias toward sanitizing the article's content rather than upholding encyclopedic impartiality.",
+  "qualitative_insight": "This contributor exhibits a dualistic editing pattern, combining reactive, escalatory actions with strategic linguistic framing to control content. The repeated use of the \"Rollback\" function indicates a pattern of shaping articles through wholesale reversion rather than iterative collaboration. This behaviour is inherently reactive and escalatory, immediately rejecting competing contributions in their entirety. The editor’s rhetorical stance reinforces this conflict-oriented approach, employing sarcastic scare quotes around terms like \"educate\" in edit summaries to dismiss opposing viewpoints and frame disagreements as a deficit in others' understanding.\n\nConcurrently, the editor demonstrates strategic behaviour through subtle framing tactics. The insertion of qualifying words like \"alleged\" is a method of selective emphasis, designed to introduce doubt and subtly influence the reader's perception of a statement's factuality. This more nuanced approach reveals a proactive effort to shape the narrative while maintaining a veneer of policy compliance. The overall editorial posture is one of combative gatekeeping, utilising both blunt reversion tools and precise rhetorical devices to enforce a preferred version of the content.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "alleged",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P2c",
+      "method_name": "Removes neutralising or qualifying language",
+      "revision_dates": [
+        "2026-05-03"
+      ],
+      "edit_comment": "Rollback edit(s) by [[Special:Contributions/~2026-26898-71|~2026-26898-71]] ([[U",
+      "reasoning": "The editor removed the word 'alleged', changing a qualified claim about abuse into a direct statement of fact.",
+      "rebuttal": "The editor removed the word \"alleged\" when describing a contentious issue related to the subject. This edit alters the meaning of the sentence, changing a claim or accusation into a statement of fact from the encyclopedia's voice. Removing such qualifying language without citing a definitive, high-quality source that resolves the allegation constitutes a failure to represent a dispute fairly. This type of edit violates the core principle of impartiality by presenting one side of a contested issue as undisputed truth. The use of cautious and precise language is crucial for maintaining a neutral tone on controversial topics.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "\"educate\"",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P2c",
+      "method_name": "Removes neutralising or qualifying language",
+      "revision_dates": [
+        "2026-05-03"
+      ],
+      "edit_comment": "Rollback edit(s) by [[Special:Contributions/~2026-26898-71|~2026-26898-71]] ([[U",
+      "reasoning": "The editor removed scare quotes from the word 'educate', removing the implied skepticism about the nature of the activity.",
+      "rebuttal": "The editor placed the word \"educate\" within quotation marks, a technique often referred to as using \"scare quotes.\" This stylistic choice implies skepticism or sarcasm regarding the organization's stated purpose of education, thereby inserting the editor's personal opinion into the article. This is a clear violation of Wikipedia's neutral point of view policy, which mandates that articles must be written in an impartial, encyclopedic tone. Editorializing through punctuation choices is a subtle way of introducing bias and fails to present information factually and without prejudice, which is a fundamental requirement for all Wikipedia content.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "Rollback edit(s) by",
+      "source": "added",
+      "score": 1.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language",
+      "revision_dates": [
+        "2026-05-03"
+      ],
+      "edit_comment": "Rollback edit(s) by [[Special:Contributions/~2026-26898-71|~2026-26898-71]] ([[U",
+      "reasoning": "The edit comment explicitly uses the term 'Rollback', indicating the edit was a revert of a previous contribution.",
+      "rebuttal": "The editor's changes were swiftly reverted by another user through a rollback. This action signifies that the edits were deemed unconstructive and counter to Wikipedia's guidelines by another member of the community. A rollback is typically used for clear-cut violations like vandalism or obvious breaches of core policies. In this context, the revert was a direct response to the editor's non-neutral changes, such as adding scare quotes and removing qualifying terms. The rollback action effectively nullified the editor's only contribution, reinforcing that edits introducing bias are not considered improvements and are subject to removal to protect the article's integrity.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Vandalism",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 3,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P2c"
+  }
+}

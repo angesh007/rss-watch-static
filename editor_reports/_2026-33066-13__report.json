@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "editor": "~2026-33066-13",
+    "page_title": "Hindu_American_Foundation",
+    "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+    "account": {
+      "registration_date": "2026-06-03",
+      "total_wiki_edits": 10,
+      "user_groups": [
+        "temp"
+      ],
+      "is_admin": false,
+      "is_bot": false
+    }
+  },
+  "page_activity": {
+    "total_revisions": 10,
+    "first_edit_date": "2026-06-03",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 470,
+    "total_bytes_removed": 3600,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2026-06-03",
+      "2026-06-04"
+    ]
+  },
+  "executive_summary": {
+    "text": "Editor ~2026-33066-13 is a new account whose contributions are exclusively focused on the Hindu American Foundation page, indicating behavior consistent with a **Single-Purpose Account (WP:SPA)**. The editor’s activity, conducted in a single burst, is dominated by the systematic removal of critical and controversial content (Pattern P2d). This includes excising sourced statements linking the organization to the Sangh Parivar, deleting specific critical commentary, and removing contentious page categories. The large net removal of over 3,100 bytes of data underscores this primary pattern. The net effect of these edits is a significant and deliberate skewing of the article's balance away from neutrality. By stripping sourced criticism while selectively adding a single sourced quote that offers a more favorable perspective (Pattern P1a), the editor engages in clear POV pushing. This sanitization effort compromises the article's comprehensiveness and violates Wikipedia's core **Neutral Point of View (WP:NPOV)** policy. The removal of charged, yet potentially relevant, descriptors like \"Hindutva advocacy\" (Pattern P3b) further serves this agenda to soften the subject's portrayal. The primary policy concerns are violations of **WP:NPOV** and tendentious editing. The editor’s actions do not appear aimed at collaborative improvement but rather at controlling the narrative around the article's subject. Overall, this editor has exerted a moderate but substantively influential (3.33/5) effect, successfully altering the article's tone to be more favorable to the Hindu American Foundation through the targeted removal of negative information.",
+    "influence_score": 4.5
+  },
+  "qualitative_insight": "This editor demonstrates a pattern of strategic content shaping, consistently introducing information that frames the subject within a critical context. Rhetorical framing is achieved through the use of specific terminology such as ‘Hindutva advocacy’ and by establishing associative links to controversial entities like the ‘Sangh Parivar’. This behaviour extends to structural edits, such as adding the highly charged category ‘Hindutva harassment of scholars’, which represents an escalation in the critical framing of the article over time.\n\nThe editing pattern is proactive and strategic rather than reactive, selectively emphasising sources like CJ Werleman to build a particular narrative of organisational hypocrisy. While the inclusion of a counter-perspective from Jeffrey Long suggests some engagement with balancing material, it is positioned within a predominantly critical framework established by the editor’s other contributions. Overall, the editor’s posture is that of a critical framer, systematically working across multiple revisions to define the subject’s public perception through a specific, and often negative, political lens. The behaviour is focused on long-term narrative construction, not merely isolated factual corrections.",
+  "edit_patterns": [
+    {
+      "id": "1",
+      "snippet": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+      "pattern_code": "P3b",
+      "pattern_name": "Replaces charged language with neutral terms (detoxification)",
+      "severity": 4,
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "rm clear violation of NPOV",
+      "reasoning": "The editor removed the politically charged term 'Hindutva' from the lead sentence, replacing it with 'Hindu'.",
+      "narrative": "The editor removed the word \"Hindutva\" from the lead sentence's description of the Hindu American Foundation. This is a significant edit that alters a key, sourced descriptor of the organization's ideological alignment. While labels can be contentious, unilaterally removing a potentially negative but verifiable descriptor without discussion or a counter-source constitutes point-of-view (POV) editing. This action appears aimed at sanitizing the article's subject, which is contrary to the encyclopedia's goal of presenting a neutral summary of information found in reliable sources. Such edits can be disruptive and violate Wikipedia's core content policies.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "2",
+      "snippet": "The organisation has its roots in the Sangh Parivar, a collection of Hindutva organisation led by the paramilitary Rashtriya Swayamsevak Sangh...",
+      "pattern_code": "P2d",
+      "pattern_name": "Removes criticism of a subject",
+      "severity": 4,
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "rm clear violation of NPOV",
+      "reasoning": "The editor removed a paragraph detailing the organization's alleged roots in the Sangh Parivar.",
+      "narrative": "The editor deleted a sentence connecting the HAF to the Sangh Parivar and the Rashtriya Swayamsevak Sangh (RSS). This edit removed sourced information about the organization's background and alleged affiliations. Deleting verifiable content, particularly material that provides critical context, is a violation of the Neutral Point of View policy. By excising this information, the editor presented an incomplete and potentially more favorable view of the subject. The burden is on the editor making the removal to justify why the source is unreliable or why the information is not due for inclusion, rather than silently deleting it.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "3",
+      "snippet": "Writing in Byline Times, columnist CJ Werleman noted that while the HAF actively promotes anti-conversion legislation in India, it has remained silent...",
+      "pattern_code": "P2d",
+      "pattern_name": "Removes criticism of a subject",
+      "severity": 4,
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "/* Anti-conversion laws and Hinduisation */ CJ werleman is not a reliable source",
+      "reasoning": "The editor removed a section of criticism regarding the organization's advocacy on anti-conversion laws, citing the source as unreliable.",
+      "narrative": "This edit involved the complete removal of a sourced paragraph containing criticism of the HAF from columnist CJ Werleman. The deleted content concerned the organization's position on anti-conversion legislation in India. Excising sourced critical commentary is a clear violation of the Neutral Point of view (NPOV) policy. NPOV mandates that articles must fairly represent all significant viewpoints published by reliable sources, including criticism. Removing negative perspectives unbalances the article and creates an unduly positive portrayal of the subject. Such an edit is considered disruptive POV-pushing unless the source can be proven to be unreliable.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "4",
+      "snippet": "Category:Sangh Parivar\nCategory:Hindutva harassment of scholars",
+      "pattern_code": "P2d",
+      "pattern_name": "Removes criticism of a subject",
+      "severity": 3,
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "rm irrelevant and inaccurate categories",
+      "reasoning": "The editor removed multiple categories that associated the subject with controversial topics and political movements.",
+      "narrative": "The editor removed two maintenance categories from the article: \"Sangh Parivar\" and \"Hindutva harassment of scholars.\" Wikipedia categories are used to group related articles and should be based on verifiable information within the article's text. This removal is consistent with the editor's other deletions of text connecting the HAF to these topics. If the article's sources support these categorizations, removing them constitutes POV editing. It is a structural method of dissociating the subject from relevant, albeit controversial, affiliations, thereby violating the principles of a Neutral Point of View.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "5",
+      "snippet": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one...\"",
+      "pattern_code": "P1a",
+      "pattern_name": "Adds sourced factual content",
+      "severity": 2,
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "/* Response */",
+      "reasoning": "The editor added a sourced quote that provides a balancing viewpoint, qualifying the organization's ideological orientation.",
+      "narrative": "The editor added a sourced quote from Professor Jeffrey Long describing the HAF as \"a complex one.\" While adding sourced material is generally encouraged, this edit's context is problematic. It was performed at the same time as multiple deletions of sourced criticism and negative affiliations. This pattern suggests an attempt to whitewash the article by selectively adding a vague, mitigating statement while removing specific, negative information. Such behavior is characteristic of a Single-Purpose Account focused on advocacy rather than neutral encyclopedia-building, which is contrary to the spirit of the Neutral Point of View policy.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Single-purpose_account"
+    },
+    {
+      "id": "6",
+      "snippet": "N/A",
+      "pattern_code": "P6a",
+      "pattern_name": "Burst editing — many edits in a short window",
+      "severity": 3,
+      "revision_dates": [
+        "2026-06-03",
+        "2026-06-04"
+      ],
+      "edit_comment": "N/A",
+      "reasoning": "The editor, a new account, made all 10 of their edits to this single page within a two-day period.",
+      "narrative": "This editor has demonstrated a pattern of activity characteristic of a Single-purpose account (SPA). Since registering, all ten of the user's edits have been exclusively dedicated to the 'Hindu American Foundation' article. While contributing to a narrow set of articles is not forbidden, this type of focused editing can sometimes indicate an undeclared conflict of interest or a tendency toward advocacy rather than neutral encyclopedic editing. The account's contributions should be monitored to ensure they adhere to core policies like Neutral Point of View and Verifiability, as SPAs are often subject to closer community scrutiny to prevent non-neutral promotion or tendentious editing.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Single-purpose_account"
+    }
+  ],
+  "summary": {
+    "total_detections": 6,
+    "dominant_pattern": "P2d",
+    "editorial_influence": 3.33,
+    "notes": ""
+  }
+}

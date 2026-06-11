@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editor Profile — RSS Watch</title>
+  <meta name="description" content="Wikipedia editor contribution profile — RSS Watch" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (injected by common.js) -->
+  <header class="navbar" id="app-navbar"></header>
+
+  <!-- MAIN -->
+  <div class="page-wrapper">
+    <div class="container">
+
+      <!-- LOADING -->
+      <div class="empty-state" id="loading-state">
+        <div class="loading-spinner"></div>
+        <p>Loading…</p>
+      </div>
+
+      <!-- ERROR -->
+      <div class="empty-state" id="error-state" style="display:none">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <path d="M24 4L44 40H4L24 4Z" stroke="#cbd5e1" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M24 18V26M24 32V32.5" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <p id="error-text">Editor not found.</p>
+        <a href="index.html" class="back-link" style="margin-top:8px;">
+          Return to Editor Overview
+        </a>
+      </div>
+
+      <!-- CONTENT -->
+      <div id="profile-content" style="display:none">
+
+        <!-- BACK -->
+        <a href="index.html" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Return to Editor Overview
+        </a>
+
+        <!-- PROFILE CARDS ROW -->
+        <div class="profile-cards-row">
+
+          <!-- INFO CARD -->
+          <div class="info-card">
+            <div class="info-avatar" id="info-avatar"></div>
+            <div class="info-details">
+              <h1 id="editor-name">—</h1>
+              <div class="info-pills" id="info-pills"></div>
+              <div class="info-items" id="info-items"></div>
+            </div>
+          </div>
+
+          <!-- STATS CARD -->
+          <div class="stats-card">
+            <h3>Editor Statistics</h3>
+            <div class="stat-grid" id="profile-stats"></div>
+          </div>
+
+        </div>
+
+        <!-- EXEC SUMMARY -->
+        <section class="card executive">
+          <div class="card-header">
+            <h2>Executive Summary</h2>
+            <div class="score-badge-large">
+              <span class="score-label">Final Score</span>
+              <span class="score-value" id="exec-score-value">—</span>
+            </div>
+          </div>
+          <p class="summary-text" id="exec-summary-text">—</p>
+        </section>
+
+        <!-- QUALITATIVE INSIGHT -->
+        <section class="card">
+          <div class="card-header">
+            <h2>Qualitative Insight</h2>
+          </div>
+          <p class="insight-text" id="qualitative-text">No qualitative insights provided.</p>
+        </section>
+
+        <!-- ACTIVITY TIMELINE -->
+        <section class="card" id="timeline-section" style="display:none">
+          <div class="card-header">
+            <h2>Revision Timeline</h2>
+            <span class="item-count" id="timeline-count">0 Revisions</span>
+          </div>
+          <div class="timeline-list" id="timeline-list"></div>
+        </section>
+
+        <!-- HITS / APPENDIX -->
+        <section class="card appendix-section" id="hits-section">
+          <div class="card-header">
+            <h2>Flagged Contributions</h2>
+            <span class="item-count" id="hits-count">0 / 0 References</span>
+          </div>
+
+          <!-- Category filter chips -->
+          <div class="cat-filter-bar" id="cat-filter-bar"></div>
+
+          <!-- Hit cards -->
+          <div class="appendix-grid" id="hits-grid"></div>
+
+          <!-- Empty (no hits) -->
+          <div class="empty-state" id="hits-empty" style="display:none">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <path d="M24 24C28.4183 24 32 20.4183 32 16C32 11.5817 28.4183 8 24 8C19.5817 8 16 11.5817 16 16C16 20.4183 19.5817 24 24 24Z" stroke="#cbd5e1" stroke-width="2.5"/>
+              <path d="M8 40C8 32.268 14.268 26 22 26H26C33.732 26 40 32.268 40 40" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <p>No flagged content detected for this editor.</p>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER (injected by common.js) -->
+  <footer class="footer" id="app-footer"></footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>

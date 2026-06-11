@@ -1,0 +1,1450 @@
+{
+  "page_title": "Rajiv_Malhotra",
+  "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+  "generated_at": "2026-06-11T08:35:22.492514+00:00",
+  "total_editors": 31,
+  "total_hits": 101,
+  "avg_score": 3.12,
+  "editors": [
+    {
+      "editor": "Ratnahastin",
+      "editor_slug": "Ratnahastin",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2021-04-04",
+        "total_wiki_edits": 19956,
+        "user_groups": [
+          "extendedconfirmed",
+          "patroller",
+          "reviewer",
+          "rollbacker"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 3,
+        "first_edit_date": "2024-10-27",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 9252,
+        "total_bytes_removed": 7687,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2024-10-27",
+          "2026-06-04"
+        ]
+      },
+      "final_score": 5.0,
+      "score_max": 5,
+      "total_hits": 6,
+      "summary": {
+        "total_detections": 6,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3a"
+      },
+      "top_hit": {
+        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+        "score": 5.0,
+        "method_name": "Replaces neutral language with charged/loaded terms"
+      }
+    },
+    {
+      "editor": "Flyingphoenixchips",
+      "editor_slug": "Flyingphoenixchips",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2024-03-19",
+        "total_wiki_edits": 6314,
+        "user_groups": [
+          "extendedconfirmed",
+          "temporary-account-viewer"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 10,
+        "first_edit_date": "2026-04-25",
+        "last_edit_date": "2026-04-25",
+        "total_bytes_added": 10793,
+        "total_bytes_removed": 161,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-04-25"
+        ]
+      },
+      "final_score": 5.0,
+      "score_max": 5,
+      "total_hits": 5,
+      "summary": {
+        "total_detections": 5,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1a"
+      },
+      "top_hit": {
+        "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organisations linked to Sangh Parivar networks that had together received...",
+        "score": 5.0,
+        "method_name": "Adds sourced factual content"
+      }
+    },
+    {
+      "editor": "~2026-33953-78",
+      "editor_slug": "2026-33953-78",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2026-06-08",
+        "last_edit_date": "2026-06-08",
+        "total_bytes_added": 1994,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-08"
+        ]
+      },
+      "final_score": 5.0,
+      "score_max": 5,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1b"
+      },
+      "top_hit": {
+        "text": "(because Hindus have faced targeted terrorism and killings by muslim minorities including 2025 Pahalgam attack, killing of a West Delhi boy by Muslim group",
+        "score": 5.0,
+        "method_name": "Adds unsourced or weakly-sourced claims"
+      }
+    },
+    {
+      "editor": "Joshua Jonathan",
+      "editor_slug": "Joshua_Jonathan",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2011-09-10",
+        "total_wiki_edits": 116011,
+        "user_groups": [
+          "autoreviewer",
+          "extendedconfirmed",
+          "reviewer"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 12,
+        "first_edit_date": "2023-03-19",
+        "last_edit_date": "2026-03-28",
+        "total_bytes_added": 2235,
+        "total_bytes_removed": 1415,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2023-03-19",
+          "2023-03-21",
+          "2023-04-08",
+          "2023-04-14",
+          "2023-05-02",
+          "2023-05-10",
+          "2023-10-12",
+          "2024-05-07",
+          "2024-05-14",
+          "2024-08-05",
+          "2024-08-07",
+          "2026-03-28"
+        ]
+      },
+      "final_score": 5.0,
+      "score_max": 5,
+      "total_hits": 3,
+      "summary": {
+        "total_detections": 3,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5c"
+      },
+      "top_hit": {
+        "text": "Reverted 7 edits by [[Special:Contributions/Ancientsouthasia|Ancientsouthasia]]",
+        "score": 5.0,
+        "method_name": "Edit comments use revert/undo language"
+      }
+    },
+    {
+      "editor": "Bluethricecreamman",
+      "editor_slug": "Bluethricecreamman",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2013-01-31",
+        "total_wiki_edits": 8213,
+        "user_groups": [
+          "extendedconfirmed"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 8,
+        "first_edit_date": "2024-10-09",
+        "last_edit_date": "2026-06-03",
+        "total_bytes_added": 10834,
+        "total_bytes_removed": 1648,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2024-10-09",
+          "2024-10-23",
+          "2026-02-24",
+          "2026-06-03"
+        ]
+      },
+      "final_score": 4.7,
+      "score_max": 5,
+      "total_hits": 8,
+      "summary": {
+        "total_detections": 8,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3a"
+      },
+      "top_hit": {
+        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+        "score": 4.0,
+        "method_name": "Replaces neutral language with charged/loaded terms"
+      }
+    },
+    {
+      "editor": "Shahinshah121",
+      "editor_slug": "Shahinshah121",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2018-08-27",
+        "total_wiki_edits": 102,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 5,
+        "first_edit_date": "2025-07-08",
+        "last_edit_date": "2026-06-07",
+        "total_bytes_added": 1451,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 4,
+        "unique_edit_dates": [
+          "2025-07-08",
+          "2025-09-03",
+          "2026-06-07"
+        ]
+      },
+      "final_score": 4.5,
+      "score_max": 5,
+      "total_hits": 6,
+      "summary": {
+        "total_detections": 6,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5c"
+      },
+      "top_hit": {
+        "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organizations linked to Sangh Parivar networks that had together received...",
+        "score": 4.0,
+        "method_name": "Adds sourced factual content"
+      }
+    },
+    {
+      "editor": "~2026-33066-13",
+      "editor_slug": "2026-33066-13",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2026-06-03",
+        "total_wiki_edits": 10,
+        "user_groups": [
+          "temp"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 10,
+        "first_edit_date": "2026-06-03",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 470,
+        "total_bytes_removed": 3600,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-03",
+          "2026-06-04"
+        ]
+      },
+      "final_score": 4.5,
+      "score_max": 5,
+      "total_hits": 6,
+      "summary": {
+        "total_detections": 6,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P2d"
+      },
+      "top_hit": {
+        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+        "score": 4.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "Dz5t 8O12",
+      "editor_slug": "Dz5t_8O12",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2026-02-21",
+        "total_wiki_edits": 1854,
+        "user_groups": [
+          "extendedconfirmed"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 9,
+        "first_edit_date": "2026-04-08",
+        "last_edit_date": "2026-05-23",
+        "total_bytes_added": 1001,
+        "total_bytes_removed": 250,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2026-04-08",
+          "2026-04-20",
+          "2026-05-22",
+          "2026-05-23"
+        ]
+      },
+      "final_score": 4.4,
+      "score_max": 5,
+      "total_hits": 5,
+      "summary": {
+        "total_detections": 5,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3b"
+      },
+      "top_hit": {
+        "text": "Indian-born American right-wing Hindutva ideologue",
+        "score": 4.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2023-02-26",
+        "total_wiki_edits": 16373,
+        "user_groups": [
+          "extendedconfirmed",
+          "ipblock-exempt",
+          "patroller",
+          "reviewer",
+          "rollbacker",
+          "temporary-account-viewer"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 26,
+        "first_edit_date": "2026-03-10",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 1270,
+        "total_bytes_removed": 710,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-17",
+          "2026-06-04"
+        ]
+      },
+      "final_score": 4.4,
+      "score_max": 5,
+      "total_hits": 5,
+      "summary": {
+        "total_detections": 5,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P6a"
+      },
+      "top_hit": {
+        "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterised the organisation as part of a movement...",
+        "score": 4.0,
+        "method_name": "Removes sourced content without explanation"
+      }
+    },
+    {
+      "editor": "ZDRX",
+      "editor_slug": "ZDRX",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2023-03-04",
+        "total_wiki_edits": 7080,
+        "user_groups": [
+          "extendedconfirmed",
+          "patroller",
+          "reviewer",
+          "temporary-account-viewer"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 3,
+        "first_edit_date": "2025-12-16",
+        "last_edit_date": "2026-05-24",
+        "total_bytes_added": 808,
+        "total_bytes_removed": 981,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2025-12-16",
+          "2026-03-28",
+          "2026-05-24"
+        ]
+      },
+      "final_score": 4.4,
+      "score_max": 5,
+      "total_hits": 5,
+      "summary": {
+        "total_detections": 5,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3a"
+      },
+      "top_hit": {
+        "text": "\"Indian-American author, public intellectual , and a proponent of Hindutva\" was replaced with \"Indian-born American right-wing Hindutva ideologue\".",
+        "score": 4.0,
+        "method_name": "Replaces neutral language with charged/loaded terms"
+      }
+    },
+    {
+      "editor": "Hemiauchenia",
+      "editor_slug": "Hemiauchenia",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-08",
+        "last_edit_date": "2026-06-08",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 997,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-08"
+        ]
+      },
+      "final_score": 4.3,
+      "score_max": 5,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1c"
+      },
+      "top_hit": {
+        "text": "The HAF's activism aligns with the Hindu nationalist ideology of Hindutva, alongside impinging on academic freedom.",
+        "score": 4.0,
+        "method_name": "Adds framing language (adjectives, qualifiers, tone shifts)"
+      }
+    },
+    {
+      "editor": "~2026-78555-0",
+      "editor_slug": "2026-78555-0",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2026-02-04",
+        "total_wiki_edits": 402,
+        "user_groups": [
+          "temp"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 11,
+        "first_edit_date": "2026-03-19",
+        "last_edit_date": "2026-03-29",
+        "total_bytes_added": 2926,
+        "total_bytes_removed": 69,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-03-19",
+          "2026-03-25",
+          "2026-03-28",
+          "2026-03-29"
+        ]
+      },
+      "final_score": 4.3,
+      "score_max": 5,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1b"
+      },
+      "top_hit": {
+        "text": "Malhotra goes to great lengths to argue the existence of a Cultural Marxism type conspiracy involved in perpetuating and normalising anti-Hindu sentiments...",
+        "score": 4.0,
+        "method_name": "Adds unsourced or weakly-sourced claims"
+      }
+    },
+    {
+      "editor": "Doug Weller",
+      "editor_slug": "Doug_Weller",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-08",
+        "last_edit_date": "2026-06-08",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 997,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-08"
+        ]
+      },
+      "final_score": 3.3,
+      "score_max": 5,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P2b"
+      },
+      "top_hit": {
+        "text": "they have no links with Rashtriya Swayamsevak Sangh and are an independent organization",
+        "score": 3.0,
+        "method_name": "Removes counter-arguments or alternative viewpoints"
+      }
+    },
+    {
+      "editor": "NavjotSR",
+      "editor_slug": "NavjotSR",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-03-28",
+        "last_edit_date": "2026-03-28",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 968,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-03-28"
+        ]
+      },
+      "final_score": 3.3,
+      "score_max": 5,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P2a"
+      },
+      "top_hit": {
+        "text": "The book has received critical acclaim from Hindu nationalists for its strong anti-Communist, anti-Western and anti-globalisation message, with RSS ideologue Se",
+        "score": 3.0,
+        "method_name": "Removes sourced content without explanation"
+      }
+    },
+    {
+      "editor": "Chronos.Zx",
+      "editor_slug": "Chronos_Zx",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2025-10-20",
+        "last_edit_date": "2025-10-22",
+        "total_bytes_added": 765,
+        "total_bytes_removed": 2,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2025-10-20",
+          "2025-10-22"
+        ]
+      },
+      "final_score": 3.2,
+      "score_max": 5,
+      "total_hits": 3,
+      "summary": {
+        "total_detections": 3,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1c"
+      },
+      "top_hit": {
+        "text": "right-wing Hindutva ideologue",
+        "score": 3.0,
+        "method_name": "Adds framing language (adjectives, qualifiers, tone shifts)"
+      }
+    },
+    {
+      "editor": "Lorstaking",
+      "editor_slug": "Lorstaking",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2026-03-20",
+        "last_edit_date": "2026-04-20",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 601,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-03-20",
+          "2026-04-20"
+        ]
+      },
+      "final_score": 3.2,
+      "score_max": 5,
+      "total_hits": 3,
+      "summary": {
+        "total_detections": 3,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P2d"
+      },
+      "top_hit": {
+        "text": "No member of the advisory board was an academic and most belonged to the software industry.",
+        "score": 3.0,
+        "method_name": "Removes criticism of a subject (possible whitewashing)"
+      }
+    },
+    {
+      "editor": "Mazaltu",
+      "editor_slug": "Mazaltu",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-04",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 26,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-04"
+        ]
+      },
+      "final_score": 3.2,
+      "score_max": 5,
+      "total_hits": 3,
+      "summary": {
+        "total_detections": 3,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3b"
+      },
+      "top_hit": {
+        "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+        "score": 3.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "ClueBot NG",
+      "editor_slug": "ClueBot_NG",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2025-09-23",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 26,
+        "total_bytes_removed": 15,
+        "minor_edit_count": 2,
+        "unique_edit_dates": [
+          "2025-09-23",
+          "2026-06-04"
+        ]
+      },
+      "final_score": 3.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5c"
+      },
+      "top_hit": {
+        "text": "Reverting possible vandalism by [[Special:Contribs/2601:204:D100:1250:A41C:D5C7:",
+        "score": 3.0,
+        "method_name": "Edit comments use revert/undo language"
+      }
+    },
+    {
+      "editor": "Lechtkaeaeia",
+      "editor_slug": "Lechtkaeaeia",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2026-04-10",
+        "last_edit_date": "2026-04-24",
+        "total_bytes_added": 246,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-04-10",
+          "2026-04-24"
+        ]
+      },
+      "final_score": 3.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P1c"
+      },
+      "top_hit": {
+        "text": "According to his supporters, he provides readers with the intellectual tools and language needed to stay connected to their culture and resist losing their anci",
+        "score": 3.0,
+        "method_name": "Adds framing language"
+      }
+    },
+    {
+      "editor": "Orientls",
+      "editor_slug": "Orientls",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2026-05-22",
+        "last_edit_date": "2026-05-22",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 378,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-05-22"
+        ]
+      },
+      "final_score": 3.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5c"
+      },
+      "top_hit": {
+        "text": "Rv, wikilawyering wont work, use talk page",
+        "score": 3.0,
+        "method_name": "Edit comments use revert/undo language (conflict indicator)"
+      }
+    },
+    {
+      "editor": "~2026-33063-32",
+      "editor_slug": "2026-33063-32",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-04",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 76,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-06-04"
+        ]
+      },
+      "final_score": 3.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3a"
+      },
+      "top_hit": {
+        "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives",
+        "score": 3.0,
+        "method_name": "Replaces neutral language with charged/loaded terms"
+      }
+    },
+    {
+      "editor": "Cadddr",
+      "editor_slug": "Cadddr",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-05-03",
+        "last_edit_date": "2026-05-03",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 10,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2026-05-03"
+        ]
+      },
+      "final_score": 2.2,
+      "score_max": 5,
+      "total_hits": 3,
+      "summary": {
+        "total_detections": 3,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P2c"
+      },
+      "top_hit": {
+        "text": "alleged",
+        "score": 2.0,
+        "method_name": "Removes neutralising or qualifying language"
+      }
+    },
+    {
+      "editor": "2603:7000:A8F0:7B20:61A3:9A31:8C0A:7417",
+      "editor_slug": "2603_7000_A8F0_7B20_61A3_9A31_8C0A_7417",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2025-10-20",
+        "last_edit_date": "2025-10-20",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 765,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2025-10-20"
+        ]
+      },
+      "final_score": 2.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3b"
+      },
+      "top_hit": {
+        "text": "right-wing Hindutva ideologue",
+        "score": 2.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "Lexiconaut",
+      "editor_slug": "Lexiconaut",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 2,
+        "first_edit_date": "2025-08-09",
+        "last_edit_date": "2025-11-30",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 115,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2025-08-09",
+          "2025-11-30"
+        ]
+      },
+      "final_score": 2.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5d"
+      },
+      "top_hit": {
+        "text": "Remove Goodreads as a reference per [[WP:GOODREADS]]",
+        "score": 2.0,
+        "method_name": "Edit comments reference external sources or policy"
+      }
+    },
+    {
+      "editor": "Plasticwonder",
+      "editor_slug": "Plasticwonder",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-04",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 76,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2026-06-04"
+        ]
+      },
+      "final_score": 2.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3b"
+      },
+      "top_hit": {
+        "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives,",
+        "score": 2.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "Waonderer",
+      "editor_slug": "Waonderer",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-01-30",
+        "last_edit_date": "2026-01-30",
+        "total_bytes_added": 44,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-01-30"
+        ]
+      },
+      "final_score": 1.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P4a"
+      },
+      "top_hit": {
+        "text": "Category:Sanskrit–English translators",
+        "score": 1.0,
+        "method_name": "Section additions or removals"
+      }
+    },
+    {
+      "editor": "Zackmann08",
+      "editor_slug": "Zackmann08",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2025-10-21",
+        "last_edit_date": "2025-10-21",
+        "total_bytes_added": 37,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2025-10-21"
+        ]
+      },
+      "final_score": 1.1,
+      "score_max": 5,
+      "total_hits": 2,
+      "summary": {
+        "total_detections": 2,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P4a"
+      },
+      "top_hit": {
+        "text": "{{Infobox social media personality",
+        "score": 1.0,
+        "method_name": "Section additions or removals"
+      }
+    },
+    {
+      "editor": "Smasongarrison",
+      "editor_slug": "Smasongarrison",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-01-01",
+        "last_edit_date": "2026-01-01",
+        "total_bytes_added": 0,
+        "total_bytes_removed": 47,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-01-01"
+        ]
+      },
+      "final_score": 1.0,
+      "score_max": 5,
+      "total_hits": 1,
+      "summary": {
+        "total_detections": 1,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P5d"
+      },
+      "top_hit": {
+        "text": "already in Indian emigrants to",
+        "score": 1.0,
+        "method_name": "Edit comments reference external sources or policy"
+      }
+    },
+    {
+      "editor": "~2026-26898-71",
+      "editor_slug": "2026-26898-71",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-05-03",
+        "last_edit_date": "2026-05-03",
+        "total_bytes_added": 10,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-05-03"
+        ]
+      },
+      "final_score": 1.0,
+      "score_max": 5,
+      "total_hits": 1,
+      "summary": {
+        "total_detections": 1,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": "P3b"
+      },
+      "top_hit": {
+        "text": "the alleged abuse of Hindus",
+        "score": 1.0,
+        "method_name": "Replaces charged language with neutral terms (detoxification)"
+      }
+    },
+    {
+      "editor": "Gråbergs Gråa Sång",
+      "editor_slug": "Gråbergs_Gråa_Sång",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-06-04",
+        "last_edit_date": "2026-06-04",
+        "total_bytes_added": 1,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2026-06-04"
+        ]
+      },
+      "final_score": 0.0,
+      "score_max": 5,
+      "total_hits": 0,
+      "summary": {
+        "total_detections": 0,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": null
+      },
+      "top_hit": null
+    },
+    {
+      "editor": "Kvinnen",
+      "editor_slug": "Kvinnen",
+      "is_ip": false,
+      "account": {
+        "registration_date": null,
+        "total_wiki_edits": null,
+        "user_groups": [],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 1,
+        "first_edit_date": "2026-05-23",
+        "last_edit_date": "2026-05-23",
+        "total_bytes_added": 5,
+        "total_bytes_removed": 0,
+        "minor_edit_count": 1,
+        "unique_edit_dates": [
+          "2026-05-23"
+        ]
+      },
+      "final_score": 0.0,
+      "score_max": 5,
+      "total_hits": 0,
+      "summary": {
+        "total_detections": 0,
+        "strong": null,
+        "medium": null,
+        "weak": null,
+        "dominant_pattern": null
+      },
+      "top_hit": null
+    }
+  ],
+  "top_hits": [
+    {
+      "id": "1",
+      "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 5,
+      "method_code": "P3a",
+      "method_name": "Replaces neutral language with charged/loaded terms",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Changed the description in the lead sentence from 'Hindu advocacy' to 'Hindutva advocacy', a term with specific and strong political connotations.",
+      "rebuttal": "The editor removed the word \"Hindutva\" from the lead sentence, altering the description of the Hindu American Foundation from a \"Hindutva advocacy organization\" to simply an \"advocacy organization.\" This is a significant content change that removes a specific, and potentially contentious, political descriptor. If the term \"Hindutva\" is well-supported by reliable sources within the article body, its removal from the lead summary could be considered a violation of policy. The Neutral Point of View policy requires that articles represent significant, reliably sourced viewpoints fairly and without bias. Removing a key descriptor used by sources may present an incomplete or unduly sanitized perspective of the subject.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Ratnahastin",
+      "editor_slug": "Ratnahastin"
+    },
+    {
+      "id": "1",
+      "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organisations linked to Sangh Parivar networks that had together received...",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 5,
+      "method_code": "P1a",
+      "method_name": "Adds sourced factual content",
+      "revision_dates": [
+        "2026-04-25"
+      ],
+      "edit_comment": "/* Funding Controversies */ adding more sourced content on funds, and anti minor",
+      "reasoning": "Editor adds a substantial block of text detailing controversial funding, explicitly attributing the information to a news outlet.",
+      "rebuttal": "The editor added a sentence specifying that, according to an Al Jazeera report, the Hindu American Foundation was one of five U.S.-based organizations linked to Sangh Parivar that received substantial COVID-19 relief funds. This edit contributes a specific claim and attributes it to a named secondary source. The action aligns with Wikipedia's core content policies, as it adds information that is verifiable and presents a significant viewpoint on the article's subject. By citing the source of the critical information, the edit adheres to the principles of Verifiability and helps maintain a Neutral Point of View by representing perspectives from reliable sources.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Flyingphoenixchips",
+      "editor_slug": "Flyingphoenixchips"
+    },
+    {
+      "id": "3",
+      "text": "(because Hindus have faced targeted terrorism and killings by muslim minorities including 2025 Pahalgam attack, killing of a West Delhi boy by Muslim group",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 5,
+      "method_code": "P1b",
+      "method_name": "Adds unsourced or weakly-sourced claims",
+      "revision_dates": [
+        "2026-06-08"
+      ],
+      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
+      "reasoning": "Inserted a long parenthetical clause with specific, inflammatory, and unsourced allegations of violence.",
+      "rebuttal": "The editor inserted a parenthetical clause to justify the organization's purpose, citing recent and inflammatory events. This addition constitutes a clear violation of the \"No original research\" (NOR) policy. The editor synthesized information about unrelated attacks to construct a novel argument—that these events necessitate the organization's work. This is a form of editorializing that is strictly forbidden. Wikipedia articles must report what reliable sources have already published on a topic, not present an editor's own analysis or conclusions. Furthermore, the claims were unsourced, also violating the Verifiability policy. Such argumentative and unsourced additions are unsuitable for an encyclopedia.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:No_original_research",
+      "red_flag": false,
+      "slur": false,
+      "editor": "~2026-33953-78",
+      "editor_slug": "2026-33953-78"
+    },
+    {
+      "id": "1",
+      "text": "Reverted 7 edits by [[Special:Contributions/Ancientsouthasia|Ancientsouthasia]]",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language",
+      "revision_dates": [
+        "2023-03-21"
+      ],
+      "edit_comment": "Reverted 7 edits by [[Special:Contributions/Ancientsouthasia|Ancientsouthasia]]",
+      "reasoning": "All 12 of the editor's revision comments on this page use 'Reverted' or 'Undid' language.",
+      "rebuttal": "The editor executed seven reverts against edits made by user Ancientsouthasia. This behaviour indicates a content dispute. Wikipedia policy strongly discourages editors from repeatedly reversing each other's changes, as this constitutes edit warring. Instead of engaging in a 'revert war', the appropriate course of action is to stop editing and begin a discussion on the article's talk page to seek consensus. While not necessarily a violation of the 'three-revert rule' in a single day, a pattern of numerous reverts against a single user is disruptive and contrary to the collaborative principles of the project. This behaviour risks sanctions if it persists without attempts at dispute resolution.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Joshua Jonathan",
+      "editor_slug": "Joshua_Jonathan"
+    },
+    {
+      "id": "2",
+      "text": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one, not...",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P2b",
+      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Removed a sourced quote from a scholar that presented a more complex and less uniformly critical view of the organization.",
+      "rebuttal": "In this edit, the editor added a quote attributed to Jeffrey Long, an academic in a relevant field, which describes the foundation as a \"complex\" entity. This contribution adds a specific, sourced viewpoint to the article. This action aligns with core Wikipedia policies, as it enhances the article's depth by including attributable information from what appears to be a reliable expert source. The Neutral Point of View (NPOV) policy encourages the inclusion of multiple significant viewpoints to provide a balanced and comprehensive overview of a topic. Attributing opinions to named sources is a fundamental practice for achieving verifiability and neutrality, making this a constructive edit in principle.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Ratnahastin",
+      "editor_slug": "Ratnahastin"
+    },
+    {
+      "id": "2",
+      "text": "...this pattern reflects the HAF's broader function as an apologist for Hindu majoritarianism rather than a defender of pluralism.",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P1c",
+      "method_name": "Adds framing language",
+      "revision_dates": [
+        "2026-04-25"
+      ],
+      "edit_comment": "/* Activism */ expanding with sourced content about coerced conversion works",
+      "reasoning": "Editor adds a sourced academic opinion that frames the subject's activities in a highly critical manner, shaping the article's overall tone.",
+      "rebuttal": "The editor appended their own analytical conclusion, stating that the subject's actions reflect a function as \"an apologist for Hindu majoritarianism rather than a defender of pluralism.\" This constitutes a clear violation of core Wikipedia policy. The statement is an unattributed editorial opinion inserted as fact into the encyclopedia's voice. This type of synthesis, where an editor draws their own conclusions from sourced material, is explicitly forbidden by the \"No original research\" policy. Furthermore, presenting such a charged, analytical claim as an objective truth is a serious breach of the Neutral Point of View policy.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:No_original_research",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Flyingphoenixchips",
+      "editor_slug": "Flyingphoenixchips"
+    },
+    {
+      "id": "3",
+      "text": "== Funding Controversies == (added) / == Take Back Yoga campaign == (removed)",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P4a",
+      "method_name": "Section additions or removals",
+      "revision_dates": [
+        "2026-04-25"
+      ],
+      "edit_comment": "added new section on funds",
+      "reasoning": "Editor adds new sections focused on controversies while removing a section about one of the organization's own campaigns.",
+      "rebuttal": "In this edit, the editor replaced the section heading \"== Take Back Yoga campaign ==\" with \"== Funding Controversies ==\". While reorganizing content and adjusting headings is a normal editorial function, this change frames the section's content in a significantly more negative and contentious light. Such an action can be a subtle violation of the Neutral Point of View policy, which requires that article structure and headings be impartial. Unless the new heading is a more accurate and neutral summary of the section's expanded content, it may serve to give undue weight to controversy, rather than neutrally describing the subject matter for the reader.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Flyingphoenixchips",
+      "editor_slug": "Flyingphoenixchips"
+    },
+    {
+      "id": "5",
+      "text": "N/A (Pattern observed from page activity metadata: +10,793 bytes in 10 revisions)",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P6d",
+      "method_name": "Low revision count but high byte impact (high-impact editor)",
+      "revision_dates": [
+        "2026-04-25"
+      ],
+      "edit_comment": "expanding with sourced content about coerced conversion works",
+      "reasoning": "The editor added a very large amount of text in a small number of edits, fundamentally altering the article's content and length.",
+      "rebuttal": "The editor added a very large amount of material—over 10,000 bytes—to the article in a rapid sequence of ten revisions. This method of making large, bold changes to a potentially contentious article without prior discussion is highly disruptive and can provoke conflict. It bypasses the standard collaborative process of building consensus for significant changes on the article's talk page. This behaviour can be a form of edit warring, as it attempts to overwhelm other editors and impose a preferred version of the article. Such substantial, undiscussed additions are often reverted to encourage a more cooperative and consensus-based approach to editing.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Flyingphoenixchips",
+      "editor_slug": "Flyingphoenixchips"
+    },
+    {
+      "id": "1",
+      "text": "Hindu rights activist organization",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P3b",
+      "method_name": "Replaces charged language with neutral terms (detoxification)",
+      "revision_dates": [
+        "2026-06-08"
+      ],
+      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
+      "reasoning": "Replaced the description 'Hindutva organization' with the more neutral-to-positive 'Hindu rights activist organization'.",
+      "rebuttal": "The editor modified the article to describe the Hindu American Foundation as a \"Hindu rights activist organization.\" While this may be how the group self-identifies or is seen by some, applying such a label without attribution to a reliable, independent source is problematic. The term \"rights activist\" can carry a positive connotation, and its uncritical use may constitute a non-neutral presentation. Per Wikipedia's Neutral Point of View policy, descriptive labels should reflect what is verifiable from sources, avoiding original phrasing or framing that could introduce editorial bias. This edit favors a particular viewpoint without establishing its basis in independent reporting, which is contrary to encyclopedic standards.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false,
+      "editor": "~2026-33953-78",
+      "editor_slug": "2026-33953-78"
+    },
+    {
+      "id": "2",
+      "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multicultu",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P2b",
+      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "revision_dates": [
+        "2026-06-08"
+      ],
+      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
+      "reasoning": "Removed a sentence providing a critical interpretation of the organization's motives and activism.",
+      "rebuttal": "The editor removed a critical sentence that characterized the organization's activities as an attempt to rebrand 'Hindutva' as 'Hindu rights'. Deleting properly sourced critical commentary is a violation of the Neutral Point of View (NPOV) policy. NPOV requires articles to represent all significant viewpoints that have been published by reliable sources, in proportion to their prominence. By removing this perspective, the editor skewed the article in favor of the subject, creating a more sanitized and less comprehensive overview. This action undermines the encyclopedic goal of providing a balanced account, which must include relevant criticisms and alternative analyses found in reputable sources, not just positive or self-promotional information.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false,
+      "editor": "~2026-33953-78",
+      "editor_slug": "2026-33953-78"
+    }
+  ]
+}

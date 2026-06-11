@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "editor": "Mazaltu",
+    "page_title": "Hindu_American_Foundation",
+    "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+    "account": {
+      "registration_date": null,
+      "total_wiki_edits": null,
+      "user_groups": [],
+      "is_admin": false,
+      "is_bot": false
+    }
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2026-06-04",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 0,
+    "total_bytes_removed": 26,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2026-06-04"
+    ]
+  },
+  "executive_summary": {
+    "text": "Editor Mazaltu, acting as an unregistered IP editor, performed a single, targeted revision on the Hindu American Foundation article. This edit, though minor in byte size (-26), demonstrates a clear pattern of POV-pushing that raises significant policy concerns. The editor's primary action was the removal of a sourced counter-argument from a scholar, a behavior that directly contravenes Wikipedia’s Neutral Point of View policy (WP:NPOV) by selectively eliminating a significant, alternative viewpoint. This action degrades the article's encyclopedic balance on a contentious topic. While the system also detected a pattern consistent with replacing charged language (\"detoxification\"), this must be contextualized by the simultaneous removal of a balancing perspective. The editor's true intent appears less about achieving neutrality and more about softening sourced criticism of the article's subject. This lack of transparency is compounded by a misleading edit summary (\"move section\") that inaccurately describes the deletion of content, a practice that obstructs editorial review and collaboration. The editor's singular focus on this contentious article is characteristic of a Single-Purpose Account (WP:SPA), whose contributions are often aimed at advocacy rather than neutral article improvement. The net effect of this one edit is a tangible, albeit small, reduction in the article’s neutrality and completeness. Despite a low overall influence score (2.33/5), the edit is problematic, representing a clear instance of tendentious editing that undermines core Wikipedia principles like WP:NPOV and WP:V (Verifiability).",
+    "influence_score": 3.2
+  },
+  "qualitative_insight": "This contributor demonstrates a strategic editorial approach focused on narrative reframing rather than simple content alteration. The editor juxtaposes a claim of broad \"scholarly consensus\" with a qualifying counter-narrative from a named academic, a tactic which serves to introduce complexity and dilute the initial claim's impact. This behaviour suggests a de-escalatory yet rhetorically pointed strategy, avoiding direct removal of critical content in favour of contextual repositioning.\n\nThe simultaneous structural edit—relocating the entire \"Reception\" section—further indicates a strategic, proactive posture. This action directly manipulates the information hierarchy, a form of framing that controls reader perception through selective emphasis. The editor is not merely reacting to isolated statements but is actively shaping the article’s overall architecture to align with a specific viewpoint. The overall editorial posture appears deliberative and sophisticated, aimed at managing the subject's public representation through a combination of precise rhetorical additions and significant structural interventions. This pattern prioritises narrative control over confrontational content deletion.",
+  "edit_patterns": [
+    {
+      "id": "1",
+      "snippet": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+      "pattern_code": "P3b",
+      "pattern_name": "Replaces charged language with neutral terms (detoxification)",
+      "severity": 3,
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Reception */ move section",
+      "reasoning": "Replaced a definitive statement of 'Scholarly consensus' with the more qualified phrase 'Some scholars contend'.",
+      "narrative": "The editor removed the statement, \"Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.\" The removal of a claim regarding scholarly consensus, particularly if properly sourced, is a significant content alteration. This action appears intended to remove a critical perspective on the organization, thereby creating a more favorable but less balanced presentation. Deleting significant, sourced viewpoints to sanitize an article violates the core principle that an article must represent all majority and significant-minority views fairly and in proportion to their prominence in reliable sources. This is a clear deviation from Wikipedia's Neutral Point of View policy, which governs content balance and the representation of controversies.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "2",
+      "snippet": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one...\"",
+      "pattern_code": "P2b",
+      "pattern_name": "Removes counter-arguments or alternative viewpoints",
+      "severity": 3,
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Reception */ move section",
+      "reasoning": "Removed a sourced quote that offered a balancing, nuanced perspective on the subject.",
+      "narrative": "The editor inserted a quote from Professor Jeffrey Long stating that \"the reality of HAF is clearly a complex one...\" While attributing information to a reliable source is generally a positive contribution, the edit's framing with \"However\" suggests an intent to create a rebuttal or false balance against preceding critical content. Introducing a single academic's opinion to counter broader analysis can give undue weight to that viewpoint, violating neutrality. The Neutral Point of View policy requires that the prominence of a view in an article should reflect its prominence among experts on the subject. This edit risks misrepresenting the overall scholarly perspective by disproportionately elevating one specific opinion.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    },
+    {
+      "id": "3",
+      "snippet": "/* Reception */ move section",
+      "pattern_code": "P5a",
+      "pattern_name": "Edit comments consistently vague or absent (opacity)",
+      "severity": 1,
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Reception */ move section",
+      "reasoning": "The edit comment 'move section' is misleading as it omits the significant content alterations made in the same revision.",
+      "narrative": "The editor executed a structural change by relocating the \"Reception\" section. Moving a section that contains critical analysis and third-party commentary is a non-trivial edit that can impact the article's neutrality. Depending on its new location, such a move can diminish the visibility of criticism or alter the context in which it is presented to the reader. The Neutral Point of View policy applies not just to content but also to article structure (WP:NPOVSTRUCTURE). Substantial structural changes that affect the balance of an article should ideally be proposed on the talk page to achieve consensus, rather than being implemented unilaterally, to ensure the resulting layout remains fair and neutral.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view"
+    }
+  ],
+  "summary": {
+    "total_detections": 3,
+    "dominant_pattern": "P3b",
+    "editorial_influence": 2.33,
+    "notes": ""
+  }
+}

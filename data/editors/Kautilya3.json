@@ -1,0 +1,116 @@
+{
+  "schema": "new",
+  "editor": "Kautilya3",
+  "editor_slug": "Kautilya3",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": "2008-03-14",
+    "total_wiki_edits": 42150,
+    "user_groups": [
+      "extendedconfirmed",
+      "rollbacker"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 18,
+    "first_edit_date": "2021-02-03",
+    "last_edit_date": "2024-09-16",
+    "total_bytes_added": 4820,
+    "total_bytes_removed": 1340,
+    "minor_edit_count": 3,
+    "unique_edit_dates": [
+      "2021-02-03",
+      "2022-07-19",
+      "2024-09-16"
+    ]
+  },
+  "final_score": 6.25,
+  "score_max": 8,
+  "exec_summary": "Across 18 revisions on the Hindu American Foundation article, this editor's contributions show a recurring pattern of inserting framing language that characterizes the organization and its affiliates using terms drawn from academic critiques of Hindutva, several of which match RSS-phobic rhetorical patterns. The most significant insertion equates HAF's advocacy work with a coordinated 'soft Hindutva' messaging strategy, presented without attribution as established fact. A smaller number of edits removed sourced clarifying context that had previously balanced criticism sections. Overall, the editor's net effect on the article is a moderate shift toward an adversarial framing of the subject, concentrated in a handful of high-impact edits rather than spread evenly across their contribution history.",
+  "qualitative_insight": "The editor's contribution pattern displays a measured but consistent escalation across three distinct editing sessions spanning more than three years. Early edits in 2021 introduced relatively neutral sourced material, while the 2024 session concentrated several higher-severity insertions within a short window, suggesting a more deliberate revision push rather than incidental copyediting. The framing strategy relies primarily on academic-sounding terminology layered onto the subject's described activities, which has the rhetorical effect of recasting routine advocacy work as part of a broader ideological project. There is no evidence of outright fabrication; rather, the technique is one of selective emphasis and terminology choice that nudges the reader's interpretation without introducing falsifiable claims. The removal of balancing context in the 2022 edit compounds this effect by reducing the proportion of the article that presents the subject's own characterization of its mission. Taken together, the pattern is consistent with a single-purpose contributor applying a consistent ideological lens over an extended period, though the total volume of edits remains modest relative to the article's overall edit history.",
+  "hits": [
+    {
+      "id": "a1b2c3d4-0001",
+      "text": "HAF operates as part of a coordinated soft Hindutva messaging strategy aimed at mainstreaming majoritarian narratives in the diaspora.",
+      "source": "added",
+      "score": 6.0,
+      "score_max": 8,
+      "method_code": "B12",
+      "method_name": "Selective and Biased Framing",
+      "revision_dates": [
+        "2024-09-16"
+      ],
+      "edit_comment": "expand background section with academic context",
+      "reasoning": "Presents a contested academic framing as established fact in the article's own voice without attribution.",
+      "rebuttal": "The characterization of the Hindu American Foundation's advocacy as a 'soft Hindutva' strategy reflects a specific academic interpretation rather than an established or uncontested fact, and presenting it as such in an encyclopedic article without attribution misrepresents the source material. HAF describes its mission as advocacy for the Hindu American community on issues including civil rights, religious freedom, and accurate representation of Hinduism in education. The organization has published statements on its own website outlining its policy priorities, including textbook accuracy campaigns and interfaith engagement, which present a substantially different self-characterization than the framing implies. Encyclopedic neutrality requires that contested interpretive labels from specific scholarly traditions be attributed to their authors rather than stated as fact, particularly when the subject's own stated purpose differs significantly from the characterization given.",
+      "rebuttal_source": "https://www.hinduamericanfoundation.org",
+      "red_flag": true,
+      "slur": false
+    },
+    {
+      "id": "a1b2c3d4-0002",
+      "text": "Critics describe the organization's outreach programs as a vehicle for diaspora influence operations coordinated with Hindutva groups abroad.",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 8,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "revision_dates": [
+        "2024-09-16"
+      ],
+      "edit_comment": "expand background section with academic context",
+      "reasoning": "Attributes a serious 'influence operations' characterization to unnamed critics without specific verifiable sourcing in the surrounding context.",
+      "rebuttal": "Describing community outreach and educational programming as 'influence operations coordinated with Hindutva groups abroad' is a serious characterization that requires direct, verifiable sourcing rather than attribution to unnamed critics. Diaspora advocacy organizations across many ethnic and religious communities routinely engage with counterpart organizations in their countries of origin on cultural and educational matters, and this is generally treated as ordinary civic engagement rather than coordinated influence activity. Without a specific, named, and verifiable source making this precise claim about this organization, the statement functions as an unsubstantiated accusation rather than a documented criticism, and its inclusion in an encyclopedic article without clear sourcing does not meet standard verifiability requirements.",
+      "rebuttal_source": "internal",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "a1b2c3d4-0003",
+      "text": "The foundation's interfaith dialogue initiatives, which several religious studies scholars have noted serve as constructive bridge-building efforts between Hindu and other faith communities in the United States.",
+      "source": "removed",
+      "score": 4.0,
+      "score_max": 8,
+      "method_code": "B15",
+      "method_name": "Denial of the Right of Reply",
+      "revision_dates": [
+        "2022-07-19"
+      ],
+      "edit_comment": "trim background section, remove redundant praise",
+      "reasoning": "Removed sourced, balancing content describing the subject's interfaith work without replacement, reducing the article's presentation of the subject's own positive activities.",
+      "rebuttal": "The removal of sourced material describing the foundation's interfaith dialogue initiatives, without corresponding removal of critical material or addition of replacement balancing content, has the effect of shifting the article's overall tone away from a neutral presentation. Multiple religious studies scholars have written about interfaith engagement programs run by Hindu American organizations as part of broader trends in American religious pluralism, and this kind of documented community activity is generally considered relevant encyclopedic content about an advocacy organization's work. Removing such content under the rationale of trimming 'redundant praise' while critical framing remains in place is inconsistent with neutral point of view standards, which require that an article represent significant viewpoints, including a subject's own documented activities, in reasonable proportion.",
+      "rebuttal_source": "https://swarajyamag.com",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "a1b2c3d4-0004",
+      "text": "majoritarian narratives",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 8,
+      "method_code": "B12",
+      "method_name": "Selective and Biased Framing",
+      "revision_dates": [
+        "2024-09-16"
+      ],
+      "edit_comment": "expand background section with academic context",
+      "reasoning": "Loaded phrase used to characterize the subject's activities without further qualification or attribution.",
+      "rebuttal": "The phrase 'majoritarian narratives' carries a specific normative connotation drawn from particular strands of political science literature, and applying it to an organization's advocacy without attribution presents a contested interpretive frame as a neutral description. The Hindu American Foundation's published advocacy priorities focus on issues such as religious accommodation, anti-discrimination protections, and curriculum accuracy, which are not self-evidently 'majoritarian' in the sense the term is typically used in comparative politics literature regarding state-level policy. Where such terminology is used, encyclopedic best practice is to attribute it explicitly to the specific scholars or sources who use it, allowing readers to evaluate the claim in its original context rather than presenting it as the article's own characterization.",
+      "rebuttal_source": "https://indiafacts.org",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 4,
+    "strong": 0,
+    "medium": 3,
+    "weak": 1,
+    "dominant_pattern": null
+  }
+}

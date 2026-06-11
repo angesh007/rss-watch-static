@@ -1,0 +1,136 @@
+{
+  "schema": "old",
+  "editor": "Dz5t 8O12",
+  "editor_slug": "Dz5t_8O12",
+  "is_ip": false,
+  "page_title": "Rajiv_Malhotra",
+  "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+  "account": {
+    "registration_date": "2026-02-21",
+    "total_wiki_edits": 1854,
+    "user_groups": [
+      "extendedconfirmed"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 9,
+    "first_edit_date": "2026-04-08",
+    "last_edit_date": "2026-05-23",
+    "total_bytes_added": 1001,
+    "total_bytes_removed": 250,
+    "minor_edit_count": 1,
+    "unique_edit_dates": [
+      "2026-04-08",
+      "2026-04-20",
+      "2026-05-22",
+      "2026-05-23"
+    ]
+  },
+  "final_score": 4.4,
+  "score_max": 5,
+  "exec_summary": "Editor Dz5t 8O12’s contributions to the Rajiv Malhotra article are primarily characterized by a \"detoxification\" pattern (P3b), where charged or contentious language is replaced with more neutral terminology. This is evidenced by edits removing labels like \"right-wing Hindutva ideologue.\" This dominant pattern is constructively supported by the addition of sourced factual content from academic authorities (P1a) and the use of policy-grounded edit summaries (P5d) that explicitly reference sourcing requirements for biographies. The net effect on the article is a clear improvement in neutrality and adherence to core Wikipedia principles. By systematically removing unsourced or poorly sourced contentious labels, the editor brings the article into closer alignment with the Neutral Point of View (WP:NPOV) policy. This behavior is particularly vital on a Biography of a Living Person (BLP), and the editor demonstrates a strong grasp of the stringent requirements outlined in WP:BLP, especially regarding exceptional claims. The burst editing pattern (P6a) observed is minor and appears to reflect focused work sessions rather than disruptive conduct. No policy violations are evident; on the contrary, the editor’s actions enforce policy. Overall, Dz5t 8O12 exerts a moderate but decidedly positive editorial influence (2.8/5). They act as a stabilizing force on a contentious article by methodically applying the principles of WP:NPOV and WP:BLP to improve its encyclopedic quality and tone.",
+  "qualitative_insight": "This contributor demonstrates a highly strategic editorial posture, focused on shaping the subject's biographical narrative through precise rhetorical framing. Content is shaped across revisions by introducing and reinforcing contentious labels, such as \"right-wing Hindutva ideologue,\" and then systematically buttressing these claims with attributed academic sources like Lucia and Hawley. This represents a clear tactic of selective emphasis, prioritising critical scholarly perspectives.\n\nThe editing behaviour appears more strategic than reactive. The pattern of clustered edits on specific dates, rather than continuous back-and-forth engagement, suggests planned interventions. This methodical approach can also be interpreted as a de-escalation pattern, as it avoids rapid-fire reverts in favour of making a substantive, sourced change and then disengaging. The explicit citation of Wikipedia policy (WP:BESTSOURCES) is a proactive move to defend these labels, framing them as compliant with encyclopaedic standards. The overall posture is that of a policy-astute editor using established rules and academic attribution to construct and defend a specific, critical portrayal of the subject.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "Indian-born American right-wing Hindutva ideologue",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P3b",
+      "method_name": "Replaces charged language with neutral terms (detoxification)",
+      "revision_dates": [
+        "2026-05-22"
+      ],
+      "edit_comment": "Labels on BLPs need WP:BESTSOURCES and attribution. Information in the article a",
+      "reasoning": "The charged term 'ideologue' and label 'right-wing' were removed and replaced with more neutral descriptors 'author, public intellectual'.",
+      "rebuttal": "The editor added the phrase \"Indian-born American right-wing Hindutva ideologue\" to describe the subject of the article. Applying such contentious and politically charged labels to a living person is strictly governed by Wikipedia policy. Without robust sourcing from multiple high-quality, independent sources demonstrating that this is a common and accepted descriptor, the edit violates the core principles of Neutral Point of View (NPOV). Furthermore, the Biographies of Living Persons (BLP) policy demands that material about living subjects be written conservatively and with extreme care. Unattributed or poorly-sourced labels of this nature fail to meet this standard and can be seen as a form of editorializing rather than presenting verifiable facts.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "According to Amanda J Lucia, Associate Professor of Religious Studies at University of California, Malhotra is a \"famed Hindu nationalist\" .",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P1a",
+      "method_name": "Adds sourced factual content",
+      "revision_dates": [
+        "2026-05-22"
+      ],
+      "edit_comment": "Labels on BLPs need WP:BESTSOURCES and attribution. Information in the article a",
+      "reasoning": "A descriptive label is added with direct attribution to a named academic source, in line with biographical sourcing policies.",
+      "rebuttal": "In this edit, the user inserted a statement directly attributed to an academic source: \"According to Amanda J Lucia, Associate Professor of Religious Studies at University of California, Malhotra is a 'famed Hindu nationalist'\". This action aligns with Wikipedia's content policies. By using in-text attribution, the editor correctly presents a significant, published viewpoint without stating it as fact in Wikipedia's voice. This is a fundamental technique for adhering to the Neutral Point of View policy when handling opinions from reliable sources. So long as the source is cited and accurately represented, this edit fully complies with the Verifiability policy, which requires that material likely to be challenged is attributable to a reliable source.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "Labels on BLPs need WP:BESTSOURCES and attribution.",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P5d",
+      "method_name": "Edit comments reference external sources or policy",
+      "revision_dates": [
+        "2026-05-22"
+      ],
+      "edit_comment": "Labels on BLPs need WP:BESTSOURCES and attribution. Information in the article a",
+      "reasoning": "The edit comment explicitly cites Wikipedia policy (WP:BESTSOURCES) as the justification for changes to the article.",
+      "rebuttal": "The editor used the edit summary: \"Labels on BLPs need WP:BESTSOURCES and attribution.\" This is not an article change but rather a justification for an edit, likely the removal or rewording of a contentious label. This conduct demonstrates a strong understanding of policy and is considered a best practice. By clearly explaining the policy-based rationale for a change, the editor fosters a collaborative environment and helps prevent edit disputes. This behavior fully aligns with the principles of the Biographies of Living Persons (BLP) policy, which requires that contentious claims about living individuals be supported by the highest quality sources. This is a constructive, policy-grounded action that improves editorial transparency.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "4",
+      "text": "Columbia University's Jack Hawley, has published a refutation of the foundation's characteristic charges",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P3b",
+      "method_name": "Replaces charged language with neutral terms (detoxification)",
+      "revision_dates": [
+        "2026-05-22"
+      ],
+      "edit_comment": "cross checked citations and stuck to them, fixed the tenses, and names of people",
+      "reasoning": "The definitive and strong term 'refutation' was replaced with the more neutral academic term 'critique'.",
+      "rebuttal": "The editor introduced a critical perspective on the subject's work by adding the clause: \"Columbia University's Jack Hawley, has published a refutation of the foundation's characteristic charges\". This type of edit is crucial for encyclopedic balance. Including significant, attributable counter-arguments from reliable academic sources is a core requirement of the Neutral Point of View (NPOV) policy. It ensures the article does not present a one-sided or promotional view of the subject. By attributing this critical analysis to a named academic, the edit also adheres to the Verifiability policy, allowing readers to check the source of the information. This is a constructive edit that enhances the article's neutrality and comprehensiveness.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "5",
+      "text": "Three edits on 2026-04-08; two edits on 2026-04-20; three edits on 2026-05-22.",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P6a",
+      "method_name": "Burst editing — many edits in a short window",
+      "revision_dates": [
+        "2026-04-08",
+        "2026-04-20",
+        "2026-05-22"
+      ],
+      "edit_comment": "(Multiple)",
+      "reasoning": "The editor's activity is concentrated in short bursts on specific days rather than being distributed over the entire period.",
+      "rebuttal": "The editor performed several edits to the same article on multiple days: three on April 8, two on April 20, and three on May 22. This pattern indicates focused interest but is not inherently a policy violation. The key concern with such activity is the potential for edit warring, which is the act of repeatedly reversing other editors' changes. The Wikipedia:Edit warring policy, particularly the three-revert rule (3RR), prohibits an editor from performing more than three reverts on a single page within a 24-hour period. While this detected pattern shows multiple edits, it does not confirm they were reverts. If these edits were part of a content dispute, this behavior would be disruptive; otherwise, it is simply normal editing.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 5,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3b"
+  }
+}

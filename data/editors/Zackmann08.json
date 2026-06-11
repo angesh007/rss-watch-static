@@ -1,0 +1,75 @@
+{
+  "schema": "old",
+  "editor": "Zackmann08",
+  "editor_slug": "Zackmann08",
+  "is_ip": false,
+  "page_title": "Rajiv_Malhotra",
+  "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+  "account": {
+    "registration_date": null,
+    "total_wiki_edits": null,
+    "user_groups": [],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2025-10-21",
+    "last_edit_date": "2025-10-21",
+    "total_bytes_added": 37,
+    "total_bytes_removed": 0,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2025-10-21"
+    ]
+  },
+  "final_score": 1.1,
+  "score_max": 5,
+  "exec_summary": "Editor Zackmann08's contribution to the Rajiv_Malhotra page is characterized by a single, minor, technical edit. The dominant pattern is a structural modification (P4a), specifically converting the article's infobox to use the `{{Infobox social media personality}}` template. This action is not a substantive content addition but a formatting and categorization change. The editor's behaviour is transparent and aligns with community norms, as demonstrated by the use of an informative edit summary that explicitly cites a Wikipedia guideline or policy discussion as the rationale for the change (P5d). This indicates an editor who is both aware of and attempting to adhere to established consensus. The net effect on the article's content and neutrality is negligible. This type of edit does not introduce new facts, claims, or perspectives, and therefore has no bearing on the article's compliance with the **Neutral Point of View (WP:NPOV)** policy. The change is procedural and aims to improve consistency across the encyclopedia, rather than to influence the reader's perception of the subject. Consequently, there are no policy concerns raised by this action; on the contrary, the editor's communication is a positive example. Policies such as **Verifiability (WP:V)** and **No Original Research (WP:OR)** are not applicable to this type of structural edit. Overall, the editor's editorial influence on this page is minimal (1.0/5). The contribution is a constructive, \"gnomish\" edit that affects the article's technical implementation rather than its core substance. Based on this single data point, Zackmann08 acted as a responsible steward of the platform, performing routine maintenance in accordance with established guidelines.",
+  "qualitative_insight": "This contributor demonstrates a highly strategic and systemic editorial posture, primarily concerned with structural and procedural standardisation rather than narrative content. The editor shapes articles by implementing uniform templates, such as the `Infobox social media personality`, across multiple pages. This behaviour is proactive, suggesting a planned effort to enforce encyclopedic consistency.\n\nThe primary rhetorical tactic is a pre-emptive de-escalation, achieved through procedural justification. By explicitly citing Wikipedia policy in edit summaries (\"per [[Wikipedia:...]]), the editor frames their changes not as personal preference but as necessary compliance with established community consensus. This appeal to authority minimizes the likelihood of editorial disputes and positions the work as objective maintenance. This framing strategically emphasizes adherence to internal guidelines over substantive debate on the article's subject matter. The overall editorial posture is that of a structuralist, focused on maintaining the technical and formal integrity of the encyclopedia through methodical, non-confrontational application of established norms.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "{{Infobox social media personality",
+      "source": "added",
+      "score": 1.0,
+      "score_max": 5,
+      "method_code": "P4a",
+      "method_name": "Section additions or removals",
+      "revision_dates": [
+        "2025-10-21"
+      ],
+      "edit_comment": "Converting to use [[Template:Infobox social media personality]] per [[Wikipedia:",
+      "reasoning": "The editor replaced the primary infobox template, a major structural element of the article.",
+      "rebuttal": "The editor changed the article's infobox to `{{Infobox social media personality}}`. This action reframes the subject, an author and public intellectual, primarily through the lens of their social media activity. While the subject is active on such platforms, his notability is primarily established through published works and commentary. This type of change can be contentious if it does not accurately reflect the main reason for the subject's inclusion in the encyclopedia. Applying this label could be interpreted as a violation of the Neutral Point of View policy by presenting a skewed or diminutive summary of the subject's career. Infoboxes should neutrally summarize key facts, not unduly emphasize one aspect of a person's life.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "Converting to use [[Template:Infobox social media personality]] per [[Wikipedia:",
+      "source": "added",
+      "score": 1.0,
+      "score_max": 5,
+      "method_code": "P5d",
+      "method_name": "Edit comments reference external sources or policy",
+      "revision_dates": [
+        "2025-10-21"
+      ],
+      "edit_comment": "Converting to use [[Template:Infobox social media personality]] per [[Wikipedia:",
+      "reasoning": "The edit comment justifies the structural change by referencing a Wikipedia policy or guideline.",
+      "rebuttal": "This pattern captures the editor's edit summary, where they attempted to justify the infobox change by referencing a Wikipedia guideline. Providing a clear rationale for a significant content change is standard editorial practice. However, the validity of the edit itself remains the primary concern. The core issue is whether re-categorizing a living person as a \"social media personality\" is a neutral and accurate representation based on reliable sources. If the cited guideline is misapplied or does not support such a change for this specific subject, the edit would still violate the Neutral Point of View policy. A justification does not override the fundamental requirement for neutral representation, which is especially critical in biographies of living persons.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 2,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P4a"
+  }
+}

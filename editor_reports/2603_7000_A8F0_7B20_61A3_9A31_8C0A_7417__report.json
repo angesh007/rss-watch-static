@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "editor": "2603:7000:A8F0:7B20:61A3:9A31:8C0A:7417",
+    "page_title": "Rajiv_Malhotra",
+    "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+    "account": {
+      "registration_date": null,
+      "total_wiki_edits": null,
+      "user_groups": [],
+      "is_admin": false,
+      "is_bot": false
+    }
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2025-10-20",
+    "last_edit_date": "2025-10-20",
+    "total_bytes_added": 0,
+    "total_bytes_removed": 765,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2025-10-20"
+    ]
+  },
+  "executive_summary": {
+    "text": "This anonymous editor has engaged in a single, substantial edit on the Rajiv Malhotra article, which is characteristic of single-purpose editing (WP:SPA). The dominant pattern is the removal of charged language (P3b), specifically excising the descriptor \"right-wing Hindutva ideologue.\" This action suggests an intent to improve the article's compliance with the Neutral Point of View (WP:NPOV) policy, a critical concern for any Biography of Living Persons (WP:BLP). Such \"detoxification\" can be a net positive if the removed label lacks attribution to multiple high-quality, reliable sources. However, the net effect on the article is ambiguous and procedurally problematic. The removal of 765 bytes indicates that more than just the contentious label was deleted, potentially including sourced material. This raises a policy concern regarding Verifiability (WP:V). Furthermore, the complete absence of an edit summary (P5a) hinders transparency and collaboration, leaving other editors to guess the rationale behind a significant deletion. This \"drive-by\" editing style is discouraged as it often leads to edit warring rather than consensus-building. The editor's overall influence is assessed as low (1.5/5). While the edit's goal may have been to address NPOV and BLP policy concerns, the unexplained removal of a large block of content without any communication is a disruptive editing practice. The positive potential of neutralizing contentious phrasing is largely negated by the opaque methodology and the likely removal of accompanying text, making the contribution more of a cleanup task for other editors than a clear improvement.",
+    "influence_score": 2.1
+  },
+  "qualitative_insight": "This contributor’s editorial behaviour indicates a pattern of strategic rhetorical framing followed by tactical disengagement. The editor shapes content proactively through the insertion of politically charged and ideologically specific labels, such as \"right-wing Hindutva ideologue.\" This tactic represents a strategic effort to frame the subject and influence reader perception by emphasizing a particular, often contentious, identity. This approach is inherently escalatory as it introduces non-neutral, interpretive language into the encyclopedic voice.\n\nIn contrast, the use of \"(no comment)\" in an edit summary suggests a shift to a reactive posture, potentially in response to a revert or challenge. This behaviour is ambiguous; it could function as a de-escalatory move to avoid a protracted dispute, or as a form of passive escalation, dismissing the prior edit as unworthy of debate. The overall editorial posture is that of a POV (Point of View) advocate rather than a neutral curator. The editor alternates between overt narrative shaping and tactical silence, demonstrating a calculated approach to embedding a specific ideological perspective within the article's content.",
+  "edit_patterns": [
+    {
+      "id": "1",
+      "snippet": "right-wing Hindutva ideologue",
+      "pattern_code": "P3b",
+      "pattern_name": "Replaces charged language with neutral terms (detoxification)",
+      "severity": 2,
+      "revision_dates": [
+        "2025-10-20"
+      ],
+      "edit_comment": "(no comment)",
+      "reasoning": "The editor removed the political descriptor 'right-wing' from the lead sentence, softening the subject's description.",
+      "narrative": "The editor inserted the contentious label \"right-wing Hindutva ideologue\" into the article, which is a biography of a living person. Adding such politically charged descriptors requires exceptional care and must be supported by high-quality, reliable secondary sources to avoid violating the neutral point of view policy. Contentious labels applied to living individuals must be handled with caution, ensuring the description is widely used in reliable sources and not just the editor's interpretation. Un- or poorly-sourced material of this nature is a serious violation of biographical policy, as it can be seen as an attempt to introduce a non-neutral viewpoint or attack the subject of the article.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons"
+    },
+    {
+      "id": "2",
+      "snippet": "(no comment)",
+      "pattern_code": "P5a",
+      "pattern_name": "Edit comments consistently vague or absent (opacity)",
+      "severity": 1,
+      "revision_dates": [
+        "2025-10-20"
+      ],
+      "edit_comment": "(no comment)",
+      "reasoning": "The editor provided no explanation for a substantive change to the article's lead sentence.",
+      "narrative": "The editor made their change without providing an edit summary. While not a direct policy violation in itself, failing to explain edits is strongly discouraged, particularly when adding contentious material to a biography of a living person. An edit summary is crucial for justifying such a significant change, ideally by referencing a reliable source that supports the new information. The lack of an explanation makes the edit appear unconstructive and hinders collaborative review. It forces other editors to scrutinize the contribution without any context, which can lead to the edit being reverted as unsubstantiated. This practice is contrary to the principles of verifiability and transparency.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability"
+    }
+  ],
+  "summary": {
+    "total_detections": 2,
+    "dominant_pattern": "P3b",
+    "editorial_influence": 1.5,
+    "notes": ""
+  }
+}

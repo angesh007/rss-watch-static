@@ -1,0 +1,139 @@
+{
+  "schema": "old",
+  "editor": "EarthDude",
+  "editor_slug": "EarthDude",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": "2023-02-26",
+    "total_wiki_edits": 16373,
+    "user_groups": [
+      "extendedconfirmed",
+      "ipblock-exempt",
+      "patroller",
+      "reviewer",
+      "rollbacker",
+      "temporary-account-viewer"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 26,
+    "first_edit_date": "2026-03-10",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 1270,
+    "total_bytes_removed": 710,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-17",
+      "2026-06-04"
+    ]
+  },
+  "final_score": 4.4,
+  "score_max": 5,
+  "exec_summary": "Editor EarthDude's contributions to the Hindu_American_Foundation page are characterized by procedurally sophisticated, high-intensity engagement. The dominant pattern is \"burst editing\" (P6a), with 20 of their 26 revisions occurring on a single day, indicating a focused effort to reshape the article in a short period. This behaviour, while not inherently against policy, can stifle collaborative editing. The net effect on the article is a significant shift in tone and balance, raising neutrality concerns. The editor demonstrates a pattern of removing sourced content critical of the HAF, such as its alleged role in Hindutva networks (P2a), while simultaneously adding sourced content that is more favourable, such as a U.S. court ruling (P1a). This selective curation of facts alters the article's presentation away from a neutral summary of reliable sources. Such actions directly implicate the core tenets of Wikipedia's Neutral Point of View (WP:NPOV) policy, particularly the principle of Due Weight (WP:DUE), which requires fair representation of all significant viewpoints. Policy concerns are present but complex. While the editor problematically removes sourced material, they also demonstrate policy awareness by citing rules like WP:SYNTH in edit summaries (P5d). This suggests they are not an unsophisticated vandal but an editor using policy arguments to justify contentious removals. This behaviour pattern can be indicative of tendentious editing or advocacy (WP:ADVOCACY). Overall, EarthDude exerts a moderate-to-high editorial influence (3.4/5). They are an active and knowledgeable editor whose actions are steering the article towards a less critical, more favourable portrayal of its subject. Their pattern of high-volume, targeted edits warrants close monitoring for ongoing NPOV and behavioural policy compliance.",
+  "qualitative_insight": "This editor demonstrates a highly strategic and procedurally focused approach to content shaping, concentrated within intense bursts of activity, such as twenty revisions in a single day. This pattern suggests a pre-planned, strategic engagement rather than a reactive one, indicating a period of escalated focus on a contentious topic. The editor’s behaviour involves both rhetorical framing and structural modifications. They employ selective emphasis by introducing a U.S. court ruling that frames critical characterisations as “opinions,” thereby counterbalancing source material that presents these characterisations as findings from investigations.\n\nThis is coupled with a tactic of removing opposing content under the justification of core Wikipedia policies like WP:SYNTH, a move that leverages the platform’s rules to legitimise their edits. Structurally, adding a “controversies” category reinforces the disputed nature of the subject. The overall editorial posture is that of a knowledgeable participant adept at using procedural arguments and selective sourcing to navigate content disputes and steer the article’s narrative toward a specific, legally-defensible framing.",
+  "hits": [
+    {
+      "id": "2",
+      "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterised the organisation as part of a movement...",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P2a",
+      "method_name": "Removes sourced content without explanation",
+      "revision_dates": [
+        "2026-03-10"
+      ],
+      "edit_comment": "The source does not even mention the HAF, removing per [[WP:SYNTH]]",
+      "reasoning": "The editor removed a large block of text (-285 bytes), providing a specific policy-based justification for the removal.",
+      "rebuttal": "The editor added content characterizing the Hindu American Foundation's alleged role within the 'U.S.-based Hindutva network'. The inclusion of significant, critical viewpoints is essential for encyclopedic balance. According to Wikipedia's neutral point-of-view policy, articles must fairly represent all verifiable perspectives published by reliable sources, in proportion to their prominence. Adding such characterizations, provided they are properly attributed to credible third-party sources and not given undue weight, is consistent with this policy. It allows the reader to understand the full context and controversies surrounding the subject, which is a key goal of a neutral encyclopedia.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "removing per [[WP:SYNTH]]",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P5d",
+      "method_name": "Edit comments reference external sources or policy",
+      "revision_dates": [
+        "2026-03-10"
+      ],
+      "edit_comment": "The source does not even mention the HAF, removing per [[WP:SYNTH]]",
+      "reasoning": "The edit summary explicitly cites a core Wikipedia content policy (WP:SYNTH) to justify a significant content removal.",
+      "rebuttal": "In this edit, the user provided a clear, policy-based rationale in the edit summary for removing content, citing WP:SYNTH. This is a commendable practice that promotes transparency and collaborative editing. WP:SYNTH is a key component of the 'No original research' policy, which prohibits editors from combining material from multiple sources to reach or imply a conclusion not explicitly stated by any of the sources. By explaining the removal with a direct policy link, the editor clearly communicates their reasoning, educates other editors, and helps prevent the edit from being misinterpreted as simple disagreement or vandalism. This is the mark of an experienced, constructive contributor.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:No_original_research",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "4",
+      "text": "Adjudicating that suit, U.S. District Judge Amit Mehta ruled that statements characterising the HAF as supportive of Hindutva were opinions that could...",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P1a",
+      "method_name": "Adds sourced factual content",
+      "revision_dates": [
+        "2026-03-10"
+      ],
+      "edit_comment": "The article itself states that these views have scholarly consensus behind them.",
+      "reasoning": "A large amount of content (+488 bytes) was added with an edit summary indicating it is based on sourced information presented as consensus.",
+      "rebuttal": "The editor added a sentence describing a specific U.S. District Court ruling related to the article's subject. This is a constructive edit that strengthens the article by including a highly relevant and factual data point. The core policy of Verifiability requires that material challenged or likely to be challenged be supported by a reliable, published source. Citing a legal ruling from a court record is an excellent way to meet this standard. This addition provides verifiable, specific information about how claims regarding the organization have been treated in a legal context, significantly enhancing the article's depth and reliability for the reader.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "1",
+      "text": "20 revisions made on 2026-03-10",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P6a",
+      "method_name": "Burst editing — many edits in a short window",
+      "revision_dates": [
+        "2026-03-10"
+      ],
+      "edit_comment": "Multiple comments",
+      "reasoning": "The editor made 20 distinct revisions to the page within a single 24-hour period.",
+      "rebuttal": "The editor made 20 revisions to a single page within a 24-hour period. This high volume of activity, while not inherently a policy violation, can be indicative of disruptive editing if it involves repeatedly reverting other editors' contributions. Such behaviour can lead to an edit war, where editors override each other's changes to enforce their preferred version of the article. Wikipedia encourages editors to slow down and use the article's talk page to discuss contentious changes and build consensus rather than engaging in rapid-fire edits. This approach is crucial for collaborative editing and maintaining a stable, neutral article.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "5",
+      "text": "added [[Category:2000s controversies in the United States]] using [[WP:HC|HotCat",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P4a",
+      "method_name": "Section additions or removals",
+      "revision_dates": [
+        "2026-03-10"
+      ],
+      "edit_comment": "added [[Category:2000s controversies in the United States]] using [[WP:HC|HotCat",
+      "reasoning": "The editor repeatedly used a tool to add multiple new categories to the article, altering its structural classification.",
+      "rebuttal": "The editor used the HotCat tool to add the article to the '2000s controversies in the United States' category. Categorization is a routine editorial task that helps organize the encyclopedia and allows readers to find related articles. However, applying categories, particularly those with a negative connotation like 'controversies', must be done carefully to maintain a neutral point of view. The category must be supported by verifiable content within the article itself. If the article body documents notable controversies from that period with reliable sources, then this categorization is appropriate and aligns with policy. It reflects the sourced content without introducing an editorial opinion.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 5,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P6a"
+  }
+}

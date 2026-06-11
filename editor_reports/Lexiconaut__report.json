@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "editor": "Lexiconaut",
+    "page_title": "Rajiv_Malhotra",
+    "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+    "account": {
+      "registration_date": null,
+      "total_wiki_edits": null,
+      "user_groups": [],
+      "is_admin": false,
+      "is_bot": false
+    }
+  },
+  "page_activity": {
+    "total_revisions": 2,
+    "first_edit_date": "2025-08-09",
+    "last_edit_date": "2025-11-30",
+    "total_bytes_added": 0,
+    "total_bytes_removed": 115,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2025-08-09",
+      "2025-11-30"
+    ]
+  },
+  "executive_summary": {
+    "text": "The unregistered editor Lexiconaut has engaged in a limited but constructive pattern of activity on the Rajiv Malhotra page. With only two revisions, their behaviour is dominated by minor sourcing and citation maintenance, justified by explicit reference to Wikipedia policy in the edit summaries. This is a positive and desirable editorial pattern. The net effect of these changes is a marginal but clear improvement to the article's sourcing integrity. Specifically, the editor's removal of a Goodreads reference, correctly citing WP:GOODREADS (a guideline within the broader Verifiability policy, WP:V), strengthens the article by eliminating an unreliable, user-generated source. This action, while small, aligns the content more closely with the principles of WP:RS (Reliable Sources). The edits are too minor to have a significant impact on the article's overall Neutral Point of View (WP:NPOV), but they contribute positively to its factual and citation-based foundation. From a policy perspective, there are no concerns; on the contrary, the editor demonstrates a competent application of sourcing guidelines. The exclusive focus on a single article could be characteristic of a Single-Purpose Account (WP:SPA), but given the constructive, policy-compliant nature of the edits, this is not problematic. Overall, Lexiconaut's editorial influence is correctly assessed as low (1.5/5) due to the minimal scope of their contributions. However, the quality of these minor interventions is high, representing a methodologically sound approach to improving the encyclopedia.",
+    "influence_score": 2.1
+  },
+  "qualitative_insight": "Based on the provided snippets, the contributor’s editing pattern demonstrates a clear focus on structural integrity and policy adherence. They shape content not through narrative alteration but by improving its verifiability and compliance with established guidelines. This is seen in the precise addition of an ISBN and the removal of an unreliable source. The editing behaviour is fundamentally de-escalatory; by citing a specific policy like `[[WP:GOODREADS]]` in the edit summary, the editor grounds their action in community consensus rather than personal preference, a tactic that preempts disputes.\n\nThis posture is strategic and proactive, aimed at upholding encyclopedic standards rather than reacting to a specific viewpoint. While there is no evidence of framing narrative content, the editor selectively emphasises procedural correctness and source reliability as paramount. The overall editorial posture is that of a diligent, policy-oriented maintenance editor. Their actions are constructive and non-confrontational, serving to enforce quality control standards and improve the article's structural foundation without engaging in content-based conflict.",
+  "edit_patterns": [
+    {
+      "id": "1",
+      "snippet": "ISBN 978-9392209093 ). .",
+      "pattern_code": "P5d",
+      "pattern_name": "Edit comments reference external sources or policy",
+      "severity": 1,
+      "revision_dates": [
+        "2025-08-09"
+      ],
+      "edit_comment": "ISBN template; remove duplicate ISBN",
+      "reasoning": "The edit comment justifies the removal of text by referencing a template and data duplication.",
+      "narrative": "The editor performed a minor copyedit, adding a period and an extra space following an ISBN number within a citation. This is a standard formatting correction aimed at improving the readability and stylistic consistency of the article's references. Such edits are generally considered constructive and are a routine part of maintaining Wikipedia's presentation standards. While minor, this change supports the principles of verifiability by ensuring that citations are presented clearly and professionally, making the source material easier for readers to locate and consult. The edit does not violate any Wikipedia policy and is a typical example of good-faith housekeeping on the encyclopedia.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability"
+    },
+    {
+      "id": "2",
+      "snippet": "Remove Goodreads as a reference per [[WP:GOODREADS]]",
+      "pattern_code": "P5d",
+      "pattern_name": "Edit comments reference external sources or policy",
+      "severity": 2,
+      "revision_dates": [
+        "2025-11-30"
+      ],
+      "edit_comment": "Remove Goodreads as a reference per [[WP:GOODREADS]]",
+      "reasoning": "The edit comment explicitly cites a Wikipedia policy page (WP:GOODREADS) to justify a content removal.",
+      "narrative": "In this edit, the editor removed a citation that used Goodreads as its source, correctly noting in the edit summary that the site is not a reliable reference per Wikipedia guidelines (WP:GOODREADS). This action is a clear and appropriate application of Wikipedia's core content policies. Goodreads is a user-generated content site and is not considered a reliable source for verifiable facts. By removing this citation, the editor strengthened the article's adherence to the Verifiability policy, which requires that all material be attributable to reliable, published sources. This is a policy-compliant and beneficial edit that improves the overall quality and trustworthiness of the article's sourcing.",
+      "policy_ref": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability"
+    }
+  ],
+  "summary": {
+    "total_detections": 2,
+    "dominant_pattern": "P5d",
+    "editorial_influence": 1.5,
+    "notes": ""
+  }
+}
