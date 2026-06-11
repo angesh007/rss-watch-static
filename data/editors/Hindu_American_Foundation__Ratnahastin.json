@@ -1,0 +1,158 @@
+{
+  "schema": "old",
+  "editor": "Ratnahastin",
+  "editor_slug": "Ratnahastin",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_slug": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": "2021-04-04",
+    "total_wiki_edits": 19956,
+    "user_groups": [
+      "extendedconfirmed",
+      "patroller",
+      "reviewer",
+      "rollbacker"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 3,
+    "first_edit_date": "2024-10-27",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 9252,
+    "total_bytes_removed": 7687,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2024-10-27",
+      "2026-06-04"
+    ]
+  },
+  "final_score": 5.0,
+  "score_max": 5,
+  "exec_summary": "Editor Ratnahastin is a highly experienced user whose contributions to the Hindu American Foundation article are characterized by a pattern of reframing the subject through a critical, politically charged lens. Despite a low revision count, the editor's changes have a high byte impact, indicating substantial content replacement rather than incremental improvement. The dominant pattern (P3a) involves replacing neutral or self-described language with loaded terminology, most notably by defining the organization in the lede as a \"Hindutva advocacy organization.\" This edit fundamentally alters the article's framing from the outset. This behaviour has a significant negative effect on the article's neutrality. The editor’s actions go beyond simple reframing; they include the removal of sourced counter-arguments (P2b) and the insertion of interpretive framing language that ascribes motive (P1c), such as describing the subject's work as an \"attempt to rebrand Hindutva.\" This pattern of adding a specific critical viewpoint while removing alternative perspectives creates an imbalanced and less encyclopedic article. These edits raise serious policy concerns, primarily with Wikipedia's core content policy on a Neutral Point of View (WP:NPOV), specifically regarding WP:LABEL and WP:UNDUE weight. The insertion of interpretive analysis also suggests potential violations of No Original Research (WP:NOR). The addition of contentious categories, such as \"Sangh Parivar,\" further solidifies this non-neutral framing. Overall, Ratnahastin's editorial influence on this page is significant and directionally consistent. The editor uses their experience to execute impactful changes that push the article away from a neutral, descriptive tone towards one of pointed criticism and advocacy, which is inconsistent with Wikipedia's encyclopedic mission.",
+  "qualitative_insight": "This contributor exhibits a pattern of strategic framing combined with reactive content control. The editor proactively shapes the narrative by inserting specific, politically charged terminology (\"Hindutva advocacy organization\") and applying contentious categories (\"Sangh Parivar,\" \"Hindutva harassment of scholars\"). This structural editing establishes a critical framework from the outset. Framing is further reinforced through selective emphasis, incorporating academic commentary that interprets the subject's actions as a strategic \"rebranding\" of Hindutva. This demonstrates a clear intent to guide the reader’s interpretation.\n\nThe behaviour escalates from strategic placement to reactive defense when edits are challenged. The reversion of another user’s contribution, coupled with a large-scale deletion of content (-7,687 bytes), signals a low tolerance for alternative viewpoints and a pattern of escalation in content disputes. The overall editorial posture is not one of neutral compilation but of a vigilant advocate for a specific critical perspective. The editor employs a combination of rhetorical framing, structural categorization, and aggressive procedural actions to construct and defend their preferred version of the article.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+      "source": "added",
+      "score": 5.0,
+      "score_max": 5,
+      "method_code": "P3a",
+      "method_name": "Replaces neutral language with charged/loaded terms",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Changed the description in the lead sentence from 'Hindu advocacy' to 'Hindutva advocacy', a term with specific and strong political connotations.",
+      "rebuttal": "The editor removed the word \"Hindutva\" from the lead sentence, altering the description of the Hindu American Foundation from a \"Hindutva advocacy organization\" to simply an \"advocacy organization.\" This is a significant content change that removes a specific, and potentially contentious, political descriptor. If the term \"Hindutva\" is well-supported by reliable sources within the article body, its removal from the lead summary could be considered a violation of policy. The Neutral Point of View policy requires that articles represent significant, reliably sourced viewpoints fairly and without bias. Removing a key descriptor used by sources may present an incomplete or unduly sanitized perspective of the subject.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one, not...",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P2b",
+      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Removed a sourced quote from a scholar that presented a more complex and less uniformly critical view of the organization.",
+      "rebuttal": "In this edit, the editor added a quote attributed to Jeffrey Long, an academic in a relevant field, which describes the foundation as a \"complex\" entity. This contribution adds a specific, sourced viewpoint to the article. This action aligns with core Wikipedia policies, as it enhances the article's depth by including attributable information from what appears to be a reliable expert source. The Neutral Point of View (NPOV) policy encourages the inclusion of multiple significant viewpoints to provide a balanced and comprehensive overview of a topic. Attributing opinions to named sources is a fundamental practice for achieving verifiability and neutrality, making this a constructive edit in principle.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "...these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multiculturalism...",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P1c",
+      "method_name": "Adds framing language",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Added text that interprets the subject's motives, framing their advocacy as a political rebranding strategy.",
+      "rebuttal": "The editor removed a clause that presented a critical analysis of the organization's activities, specifically the claim that its efforts function as \"an attempt to rebrand Hindutva as 'Hindu rights'\". Deleting reliably sourced critical commentary is a potential violation of the Neutral Point of View policy. NPOV mandates that articles should not be sanitized to present a subject in a more favorable light. For a balanced article, significant viewpoints, including critical perspectives published in reliable sources, must be included. By excising this analytical claim without a clear policy-based rationale (such as the source being unreliable), the editor may be engaging in POV editing to weaken criticism of the subject.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "4",
+      "text": "Category:Sangh Parivar\nCategory:Hindutva harassment of scholars",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P4a",
+      "method_name": "Section additions or removals",
+      "revision_dates": [
+        "2024-10-27",
+        "2026-06-04"
+      ],
+      "edit_comment": "Restored last good version",
+      "reasoning": "Added several new categories that associate the subject with controversial groups and topics.",
+      "rebuttal": "The editor removed the article from two categories: \"Category:Sangh Parivar\" and \"Category:Hindutva harassment of scholars.\" Wikipedia categories serve to group related articles and must be supported by the sourced content within the article text. If reliable sources establish a clear connection between the Hindu American Foundation and these topics, removing the categories is improper. Such an action can be construed as an attempt to dissociate the subject from controversial affiliations or activities. This would violate the Neutral Point of View policy by presenting an incomplete contextual picture and potentially sanitizing the subject's public perception by removing valid, though contentious, associations.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "6",
+      "text": "-7,687 bytes",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P6d",
+      "method_name": "Low revision count but high byte impact",
+      "revision_dates": [
+        "2024-10-27"
+      ],
+      "edit_comment": "Reverted 1 edit by [[Special:Contributions/Jattlife121|Jattlife121]] ([[User tal",
+      "reasoning": "The editor's few edits involved thousands of bytes, indicating major content changes rather than incremental tweaks.",
+      "rebuttal": "The editor executed a large-scale content removal, deleting approximately 7,700 bytes of text from the article. This action is not vandalism but a significant editorial decision, likely aimed at excising content that violated core policies. Such removals often target sections that are poorly sourced, contain original research, or present a biased viewpoint. Removing substantial amounts of text that fails to meet verifiability standards or gives undue weight to a particular perspective is a valid, and often necessary, action to improve an article's quality. This aligns with the editorial responsibility to ensure articles are balanced, encyclopedic, and based on reliable sources, even if it means removing large swathes of problematic material.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "5",
+      "text": "Reverted 1 edit by [[Special:Contributions/Jattlife121|Jattlife121]] ([[User tal",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language",
+      "revision_dates": [
+        "2024-10-27"
+      ],
+      "edit_comment": "Reverted 1 edit by [[Special:Contributions/Jattlife121|Jattlife121]] ([[User tal",
+      "reasoning": "The edit summary explicitly uses the term 'Reverted', indicating a content dispute with another editor.",
+      "rebuttal": "The editor, who has advanced permissions including 'rollbacker', reverted an edit by another user. The automated summary indicates a swift reversion. The rollback tool is intended primarily for reverting obvious vandalism, not for good-faith content disagreements. If this tool was used to settle a content dispute, it would be an inappropriate use of privileges. The Edit Warring policy requires editors to seek consensus through discussion on the article's talk page rather than repeatedly reverting opposing changes. Using administrative tools to gain an advantage in a content dispute is discouraged as it can escalate conflict and bypass the collaborative editing process that Wikipedia is built upon.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 6,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3a"
+  }
+}

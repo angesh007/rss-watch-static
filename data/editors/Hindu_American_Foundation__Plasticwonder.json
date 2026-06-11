@@ -1,0 +1,76 @@
+{
+  "schema": "old",
+  "editor": "Plasticwonder",
+  "editor_slug": "Plasticwonder",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_slug": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": null,
+    "total_wiki_edits": null,
+    "user_groups": [],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2026-06-04",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 0,
+    "total_bytes_removed": 76,
+    "minor_edit_count": 1,
+    "unique_edit_dates": [
+      "2026-06-04"
+    ]
+  },
+  "final_score": 2.1,
+  "score_max": 5,
+  "exec_summary": "Editor Plasticwonder’s contribution behaviour on the Hindu American Foundation page is characterized by a single, targeted, and corrective action. The dominant pattern (P3b) is the removal of highly polemical and unsourced language—specifically, a pejorative description of an academic as a \"fake historian... vilifying Hindus.\" This was executed via a simple reversion (P5c) of a previous edit made by an unregistered user, indicating a reactive, clean-up-oriented motivation rather than proactive content creation. The net effect on the article is unambiguously positive. The edit directly improved the article's quality and neutrality by excising a clear violation of Wikipedia's core content policies. The removed text failed the standards for Verifiability (WP:V) and represented a serious breach of the policy on Biographies of Living Persons (WP:BLP), which strictly prohibits unsourced, contentious material about individuals. By removing this attack, Plasticwonder restored the article's compliance with the Neutral Point of View (WP:NPOV). From a policy standpoint, the edit itself is commendable. The primary concern is contextual: as this is the editor’s only contribution, they present as a classic Single-Purpose Account (WP:SPA). While SPAs are not prohibited, they are often scrutinized for potential tendentious editing or conflicts of interest. In this case, however, the single purpose demonstrated was a constructive one aligned with Wikipedia's goals. Overall, the editor's editorial influence is minimal, warranting the 1.5/5 assessment. The action was a small but necessary reversion that restored the *status quo ante*, rather than a substantive addition that shaped the article's long-term trajectory. It was a beneficial but low-impact instance of policy enforcement.",
+  "qualitative_insight": "The contributor demonstrates a pattern of strategic, advocacy-driven editing aimed at shaping narrative. Content is primarily shaped through the proactive insertion of polemical and non-neutral language, employing ad hominem attacks (“fake historian”) and loaded accusations (“vilifying Hindus”) to frame the subject negatively. This represents a clear strategic effort to control the article's tone and perspective.\n\nThis initial behaviour predictably leads to a reactive and escalatory pattern. The use of reverts, as indicated by edit summaries, serves to defend these contentious insertions against challenges from other editors. This combination of proactive framing and reactive reverts creates an escalatory cycle, prioritising ideological gatekeeping over collaborative consensus. The editor’s tactics rely heavily on framing and selective emphasis, discrediting the subject’s credentials and attributing malicious intent to their work rather than engaging with it neutrally. The overall editorial posture is that of a partisan advocate, fundamentally at odds with the encyclopaedia’s core policy of a neutral point of view.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives,",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P3b",
+      "method_name": "Replaces charged language with neutral terms (detoxification)",
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Reverted edits by [[Special:Contributions/~2026-33063-32|~2026-33063-32]] ([[Use",
+      "reasoning": "Editor removed unsourced, pejorative language used to describe a cited academic.",
+      "rebuttal": "The editor added highly contentious and derogatory material about a living person, describing them as a \"fake historian... known for vilifying Hindus.\" This addition is an unambiguous violation of core Wikipedia policies. The content is unsourced, fails to maintain a neutral point of view, and introduces pejorative claims into an article. The Biographies of living persons (BLP) policy requires that all material, especially negative claims, about living individuals be written conservatively and be backed by high-quality, reliable sources. This edit introduces unsourced, libellous content, which is subject to immediate removal. Such edits are considered disruptive and degrade the encyclopedia's integrity and reliability.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "Reverted edits by [[Special:Contributions/~2026-33063-32|~2026-33063-32]]",
+      "source": "added",
+      "score": 1.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language (conflict indicator)",
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Reverted edits by [[Special:Contributions/~2026-33063-32|~2026-33063-32]] ([[Use",
+      "reasoning": "The edit comment explicitly identifies the action as a revert of another user's contribution.",
+      "rebuttal": "The editor's edit summary indicates they reverted a previous edit made by another user. While reverting is a standard function used to undo unproductive changes, it can become disruptive when used to enforce a non-neutral version of an article. Given the editor's other contribution, this revert was likely part of a content dispute where they were re-inserting their own policy-violating material. Repeatedly reverting other editors' changes without engaging in discussion on the article's talk page is considered edit warring. Even a single revert can be disruptive if it is part of a clear effort to impose a biased perspective against consensus and core content policies like NPOV and BLP.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 2,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3b"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "old",
+  "editor": "~2026-33063-32",
+  "editor_slug": "2026-33063-32",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_slug": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": null,
+    "total_wiki_edits": null,
+    "user_groups": [],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 1,
+    "first_edit_date": "2026-06-04",
+    "last_edit_date": "2026-06-04",
+    "total_bytes_added": 76,
+    "total_bytes_removed": 0,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2026-06-04"
+    ]
+  },
+  "final_score": 3.1,
+  "score_max": 5,
+  "exec_summary": "This unregistered editor (~2026-33063-32) has made a single contribution to Wikipedia, focused entirely on the Hindu American Foundation page. The dominant pattern is the insertion of highly charged and pejorative language (P3a) targeting a living person. By adding the phrase \"a fake historian... known for vilifying Hindus and spreading anti Hindu narratives,\" the editor engages in polemic rather than encyclopedic description. This behaviour is characteristic of a Single-Purpose Account (WP:SPA), where an editor's activity is confined to pushing a specific point of view on a narrow set of articles. The net effect of this edit is negative, directly undermining the article's integrity. It introduces unsourced, contentious claims that degrade the content from a neutral, factual tone to one of personal attack. This action raises significant policy concerns. The language is a clear violation of the Neutral Point of View (WP:NPOV) policy. Furthermore, because the edit introduces unsourced, negative material about an identifiable living individual, it is a severe breach of the Biographies of Living Persons (WP:BLP) policy, which mandates the immediate removal of such content. The lack of sourcing also contravenes the core policy of Verifiability (WP:V). Overall, this editor’s editorial influence is disruptive. While the byte change is minor, the edit's flagrant violation of multiple core content policies—particularly WP:BLP—necessitates immediate corrective action from other editors. The contribution is non-constructive, aimed at disparaging a subject rather than improving the encyclopedia.",
+  "qualitative_insight": "This contributor demonstrates a pattern of strategic, non-neutral editing aimed at shaping a subject’s biography. The initial revision employs highly polemical language, combining an ad hominem attack on professional credentials (“fake historian”) with a strong ideological accusation (“vilifying Hindus”). This proactive edit attempts to fundamentally frame the subject in a negative light. The subsequent modification, which removes the professional attack while retaining the ideological claim, suggests a tactical de-escalation. This is likely a reactive behaviour, possibly in response to a revert, intended to make the tendentious edit more subtle and likely to persist.\n\nThe editor’s primary tactic is framing through selective emphasis, using phrases like “is known for” to present a contentious viewpoint as established fact, a clear violation of neutral point-of-view policy. This shifts the focus from verifiable academic achievements to a specific, negative interpretation of the subject’s work. The overall editorial posture is adversarial and tendentious, prioritizing the insertion of a specific point of view over collaborative, policy-compliant article development. This behaviour is characteristic of pov-pushing rather than constructive contribution.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P3a",
+      "method_name": "Replaces neutral language with charged/loaded terms",
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Attacks on academic freedom */ Improved the description",
+      "reasoning": "Replaced the neutral biographical description 'a historian' with the charged and derogatory term 'a fake historian'.",
+      "rebuttal": "The editor inserted a highly contentious and unsourced phrase describing a living person as \"a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives.\" This edit introduces multiple unsubstantiated claims attacking an individual's professional credibility and personal motives. Adding derogatory, unsourced material about a living person is a serious violation of policy. This type of edit fails to adhere to the strict sourcing and neutrality requirements for biographical content and may be treated as disruptive editing or vandalism. The content was not presented neutrally and lacked any verifiable source.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "who is known for vilifying Hindus and spreading anti Hindu narratives",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P1b",
+      "method_name": "Adds unsourced or weakly-sourced claims",
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Attacks on academic freedom */ Improved the description",
+      "reasoning": "Added contentious and unsourced claims about a living person's reputation and work.",
+      "rebuttal": "The editor added the unsourced clause \"who is known for vilifying Hindus and spreading anti Hindu narratives\" to describe a living individual. This phrasing presents a highly critical and biased opinion as an undisputed fact. The use of \"is known for\" constitutes weasel words, failing to attribute the viewpoint to any specific source as required for verifiability. By inserting a one-sided, negative characterization without evidence, the editor fundamentally violated the core policy of maintaining a neutral point of view. All significant viewpoints must be presented fairly and proportionately, based on reliable sources, not stated as objective truth.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 2,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3a"
+  }
+}

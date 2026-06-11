@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-11T08:59:33.417200+00:00",
+  "total_pages": 2,
+  "total_editors": 31,
+  "total_hits": 101,
+  "pages": [
+    {
+      "page_title": "Hindu_American_Foundation",
+      "page_slug": "Hindu_American_Foundation",
+      "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+      "total_editors": 16,
+      "total_hits": 61,
+      "avg_score": 3.46,
+      "top_editor": "Ratnahastin",
+      "top_score": 5.0,
+      "score_max": 5
+    },
+    {
+      "page_title": "Rajiv_Malhotra",
+      "page_slug": "Rajiv_Malhotra",
+      "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+      "total_editors": 15,
+      "total_hits": 40,
+      "avg_score": 2.76,
+      "top_editor": "Joshua Jonathan",
+      "top_score": 5.0,
+      "score_max": 5
+    }
+  ]
+}

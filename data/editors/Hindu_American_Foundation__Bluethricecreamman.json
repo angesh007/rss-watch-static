@@ -1,0 +1,199 @@
+{
+  "schema": "old",
+  "editor": "Bluethricecreamman",
+  "editor_slug": "Bluethricecreamman",
+  "is_ip": false,
+  "page_title": "Hindu_American_Foundation",
+  "page_slug": "Hindu_American_Foundation",
+  "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+  "account": {
+    "registration_date": "2013-01-31",
+    "total_wiki_edits": 8213,
+    "user_groups": [
+      "extendedconfirmed"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 8,
+    "first_edit_date": "2024-10-09",
+    "last_edit_date": "2026-06-03",
+    "total_bytes_added": 10834,
+    "total_bytes_removed": 1648,
+    "minor_edit_count": 0,
+    "unique_edit_dates": [
+      "2024-10-09",
+      "2024-10-23",
+      "2026-02-24",
+      "2026-06-03"
+    ]
+  },
+  "final_score": 4.7,
+  "score_max": 5,
+  "exec_summary": "Editor Bluethricecreamman exhibits a pattern of tendentious editing focused on reframing the Hindu American Foundation article from a critical perspective. The dominant behavior (P3a) is the replacement of neutral language with charged terminology, most notably by inserting \"Hindutva\" into the lead sentence to characterize the organization. This is accompanied by the addition of sourced, but pointedly critical, content linking the foundation to the Sangh Parivar (P1a) and the application of controversial categories (P4a). The net effect is a significant degradation of the article's neutrality. By aggressively pushing a specific framing while simultaneously removing sourced, counter-balancing academic viewpoints (P2b), the editor skews the article's content in violation of Wikipedia's core Neutral Point of View policy (**WP:NPOV**). This selective presentation of facts fails the principle of due weight (**WP:DUE**) and moves the article away from an impartial, encyclopedic tone. Several policy concerns are evident. The editing pattern strongly indicates POV-pushing and a disregard for **WP:NPOV** and **WP:LABEL**. Furthermore, the use of \"Undo\" actions in edit summaries (P5c) points to conflict-oriented editing and a potential for edit-warring (**WP:EW**). Although the editor is experienced and references policies like **WP:RS** to support their additions, the overall pattern suggests these policies are being used to justify a predetermined narrative rather than to build a balanced article. Given the high-impact nature of their edits (P6d), Bluethricecreamman has exerted a considerable editorial influence, successfully shifting the article's tone and content to align with a critical viewpoint.",
+  "qualitative_insight": "This contributor demonstrates a pattern of tendentious editing aimed at shaping the article's narrative from a specific, critical viewpoint. The editor’s behaviour alternates between strategic and reactive modes. Large, sourced additions, such as the `+4,705` byte edit and insertion of academic commentary, suggest premeditated, structural changes intended to frame the subject. This contrasts with informal, emotional edit summaries (\"Wait wtf\") and immediate reverts, which indicate a reactive and escalatory response to opposing edits.\n\nFraming and selective emphasis are core tactics. The editor strategically inserts contentious labels like \"Hindutva advocacy organization\" and links the subject to the \"Sangh Parivar\" to establish a particular ideological context. The application of a highly charged category (\"Hindutva harassment of scholars\") further solidifies this narrative. While using policy justifications like citing `[[WP:RS]]` to defend sources, the overall editorial posture is not one of neutrality. Rather, it is that of a committed advocacy editor, consistently working to entrench a specific interpretation of the subject matter.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P3a",
+      "method_name": "Replaces neutral language with charged/loaded terms",
+      "revision_dates": [
+        "2024-10-09",
+        "2024-10-23",
+        "2026-06-03"
+      ],
+      "edit_comment": "Undid revision [[Special:Diff/1252991097|1252991097]] by [[Special:Contributions",
+      "reasoning": "Editor repeatedly reverts to a version that describes the subject as a 'Hindutva' organization, rather than 'Hindu'.",
+      "rebuttal": "The editor removed the descriptor \"Hindutva\" from the lead sentence, changing the article's characterization of the Hindu American Foundation from a \"Hindutva advocacy organization\" to simply an \"advocacy organization.\" This edit significantly alters the initial definition presented to the reader. If the term \"Hindutva\" is used by multiple reliable, secondary sources to describe the organization, its removal may constitute a violation of Wikipedia's Neutral Point of View policy. This policy requires that articles represent significant viewpoints from reliable sources fairly and in proportion to their prominence. Removing a well-sourced, critical descriptor without consensus or a strong policy-based rationale can unduly favor the subject's preferred portrayal.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "The organisation has its roots in the Sangh Parivar, a collection of Hindutva organisation led by the paramilitary Rashtriya Swayamsevak Sangh...",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P1a",
+      "method_name": "Adds sourced factual content",
+      "revision_dates": [
+        "2024-10-09",
+        "2024-10-23",
+        "2026-06-03"
+      ],
+      "edit_comment": "Sacramento Bee is [[WP:RS]], as is clarion india Undid revision [[Special:Diff/1",
+      "reasoning": "Editor repeatedly adds a large volume of sourced, critical content linking the subject to specific political groups.",
+      "rebuttal": "This edit adds a significant and potentially contentious claim linking the Hindu American Foundation to the Sangh Parivar and the Rashtriya Swayamsevak Sangh (RSS). Such material requires strict adherence to Wikipedia's core content policies. The information must be attributable to high-quality, independent, and reliable sources. Without clear and explicit sourcing, this addition could be considered original research, where an editor synthesizes information to reach a new conclusion. Per the Verifiability policy, the burden to demonstrate verifiability rests on the editor who adds or restores material. For claims that could be seen as exceptional or pejorative, this standard is applied with exceptional rigor.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "Undid revision [[Special:Diff/1252991097|1252991097]] by [[Special:Contributions",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language (conflict indicator)",
+      "revision_dates": [
+        "2024-10-09",
+        "2024-10-23",
+        "2026-06-03"
+      ],
+      "edit_comment": "Undid revision [[Special:Diff/1252991097|1252991097]] by [[Special:Contributions",
+      "reasoning": "The majority of the editor's high-impact edits use 'Undo' or 'Revert' in the summary, indicating persistent content disputes.",
+      "rebuttal": "The editor executed a revert, undoing another user's revision. While reverting is a standard tool for combating vandalism or obvious errors, its repeated use to settle content disputes is prohibited. This action, when part of a back-and-forth pattern with another editor over the same content, can constitute edit warring. The Edit Warring policy requires editors to engage in discussion on the article's talk page to resolve disagreements rather than repeatedly reverting each other's changes. The goal is to build consensus through communication, not to force a preferred version through persistence. Continued reverts without discussion can lead to sanctions, including blocks from editing.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "4",
+      "text": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one...",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P2b",
+      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "revision_dates": [
+        "2024-10-23",
+        "2026-06-03"
+      ],
+      "edit_comment": "Reverted 9 edits by [[Special:Contributions/~2026-33066-13|~2026-33066-13]] ([[U",
+      "reasoning": "The editor's reverts remove a version of the text containing a scholarly quote that offers a more nuanced perspective.",
+      "rebuttal": "The editor introduced a quotation from a named academic, Jeffrey Long, to add nuance to the description of the Hindu American Foundation. This contribution appears to be a constructive effort to improve the article's balance. The Neutral Point of View policy mandates that articles should fairly represent all significant viewpoints found in reliable sources. By including a sourced, attributed perspective from a relevant expert that offers a more complex view, the editor is helping to ensure the article avoids a one-sided presentation. This type of edit, which provides context and represents diverse scholarly interpretations, is a positive example of adherence to core encyclopedic principles for controversial topics.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "5",
+      "text": "Category:Hindutva harassment of scholars",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P4a",
+      "method_name": "Section additions or removals",
+      "revision_dates": [
+        "2024-10-09",
+        "2026-06-03"
+      ],
+      "edit_comment": "Sacramento Bee is [[WP:RS]], as is clarion india Undid revision [[Special:Diff/1",
+      "reasoning": "Editor adds multiple controversial categories that frame the subject in a specific negative context.",
+      "rebuttal": "The editor added the article to the category \"Hindutva harassment of scholars.\" This is a highly contentious and potentially defamatory categorization. According to Wikipedia policy, categories applied to articles must be verifiable based on the information present and sourced within the article itself. For such a strong, negative claim, the article body must contain explicit statements, supported by high-quality reliable sources, that directly and unambiguously connect the organization to the act of harassing scholars. Adding this category without such clear, verifiable justification in the article text constitutes a serious violation of the Verifiability and Neutral Point of View policies, as it applies a negative label without adequate foundation.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "6",
+      "text": "+4,705 bytes",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P6d",
+      "method_name": "Low revision count but high byte impact (high-impact editor)",
+      "revision_dates": [
+        "2024-10-09",
+        "2024-10-23",
+        "2026-06-03"
+      ],
+      "edit_comment": "Undid revision [[Special:Diff/1252991097|1252991097]] by [[Special:Contributions",
+      "reasoning": "The editor's activity consists of a few revisions which make very large changes to the page content.",
+      "rebuttal": "The editor performed a large-scale content addition, increasing the page size by 4,705 bytes. This edit introduced a substantial new section titled \"Criticism and controversy,\" detailing allegations of ties to Hindu nationalist groups and criticism from other organizations. While adding well-sourced critical information is important for balance, large, one-sided additions can risk violating the neutral point of view policy. Such edits must be carefully attributed to reliable sources and integrated into the article in a balanced manner, ensuring due weight is given to all significant viewpoints. Without proper sourcing and neutral framing, this type of edit can be seen as an attempt to introduce a biased perspective into the article.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "7",
+      "text": "Wait wtf. when did all this change. Undid revision [[Special:Diff/1357668708|135",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P6a",
+      "method_name": "Burst editing — many edits in a short window",
+      "revision_dates": [
+        "2026-06-03"
+      ],
+      "edit_comment": "Wait wtf. when did all this change. Undid revision [[Special:Diff/1357668708|135",
+      "reasoning": "The editor made three large revert-related edits on a single day.",
+      "rebuttal": "In this edit, the editor reverted a significant change made by another user, using the edit summary \"Wait wtf. when did all this change. Undid revision...\". This action constitutes a reversion of a contentious edit. While reverting blatant vandalism is encouraged, undoing good-faith edits without prior discussion on the talk page can lead to an edit war. The editor's use of informal and aggressive language (\"wtf\") in the summary is uncivil and unproductive. The correct approach is to engage in discussion with other editors to reach a consensus, rather than repeatedly reverting changes. This behavior risks violating the policy against edit warring, which prioritizes discussion over unilateral actions.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "8",
+      "text": "Sacramento Bee is [[WP:RS]], as is clarion india",
+      "source": "added",
+      "score": 1.0,
+      "score_max": 5,
+      "method_code": "P5d",
+      "method_name": "Edit comments reference external sources or policy",
+      "revision_dates": [
+        "2024-10-09"
+      ],
+      "edit_comment": "Sacramento Bee is [[WP:RS]], as is clarion india Undid revision [[Special:Diff/1",
+      "reasoning": "An edit comment justifies a revert by referencing Wikipedia's reliable sources policy (WP:RS).",
+      "rebuttal": "The editor justified their content restoration by citing specific sources (Sacramento Bee, Clarion India) and explicitly linking to the reliable sources guideline (WP:RS) in the edit summary. This action shows an awareness of Wikipedia's core content policies, specifically the need for verifiability. By referencing policy to support their choice of sources, the editor is attempting to ground the content dispute in established community guidelines. This is generally a constructive approach, as it moves the disagreement from a simple content preference to a discussion about whether the sources meet Wikipedia's standards. It appropriately frames the debate around the principles of verifiability, which is central to building a reliable encyclopedia.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 8,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3a"
+  }
+}

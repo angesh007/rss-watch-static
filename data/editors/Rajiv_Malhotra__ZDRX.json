@@ -1,0 +1,142 @@
+{
+  "schema": "old",
+  "editor": "ZDRX",
+  "editor_slug": "ZDRX",
+  "is_ip": false,
+  "page_title": "Rajiv_Malhotra",
+  "page_slug": "Rajiv_Malhotra",
+  "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
+  "account": {
+    "registration_date": "2023-03-04",
+    "total_wiki_edits": 7080,
+    "user_groups": [
+      "extendedconfirmed",
+      "patroller",
+      "reviewer",
+      "temporary-account-viewer"
+    ],
+    "is_admin": false,
+    "is_bot": false
+  },
+  "page_activity": {
+    "total_revisions": 3,
+    "first_edit_date": "2025-12-16",
+    "last_edit_date": "2026-05-24",
+    "total_bytes_added": 808,
+    "total_bytes_removed": 981,
+    "minor_edit_count": 1,
+    "unique_edit_dates": [
+      "2025-12-16",
+      "2026-03-28",
+      "2026-05-24"
+    ]
+  },
+  "final_score": 4.4,
+  "score_max": 5,
+  "exec_summary": "Editor ZDRX’s activity on the Rajiv Malhotra page, though comprising only three revisions, displays a clear and disruptive pattern of non-neutral editing. The dominant behavior is the replacement of encyclopedic language with politically charged terms (P3a), exemplified by changing \"proponent of Hindutva\" to \"right-wing activist.\" This action directly contravenes Wikipedia's core Neutral Point of View policy (WP:NPOV) by substituting a specific, descriptive term with a broader, more contentious label. This POV-pushing is further substantiated by the selective removal of balancing content (P2b), such as the deletion of a passage noting a book's \"critical acclaim from Hindu nationalists.\" This removal skews the article's presentation of the subject's work by eliminating a relevant, albeit partisan, viewpoint, which violates the WP:NPOV principle of representing all significant viewpoints fairly. While ZDRX has added sourced factual content (P1a), its critical nature, combined with the other edits, contributes to a net negative effect on the article's balance. The use of a revert summary (P5c) also indicates a potentially confrontational editing style, raising concerns about future edit warring (WP:EW). Overall, ZDRX's editorial influence (3.0/5) on this page is moderate but pointedly negative in its effect on neutrality. The pattern of substituting loaded language and removing counter-arguments is tendentious and requires scrutiny against core content policies.",
+  "qualitative_insight": "The contributor demonstrates a pattern of strategic editing, employing both significant rhetorical reframing and structural reorganization to shape article narratives. Rhetorically, the editor’s revisions consistently frame subjects from a critical perspective. The shift from \"public intellectual\" to \"right-wing Hindutva ideologue\" replaces a neutral descriptor with a politically charged one. This framing is reinforced through selective emphasis and attribution; positive reception is specifically ascribed to \"Hindu nationalists,\" while critical views are attributed to \"scholars,\" lending them academic authority and shaping reader perception.\n\nThe editor exhibits both reactive and strategic behaviours. The reversion of another user’s edit indicates a reactive posture, defending a preferred version of the text. Conversely, the consolidation of sections under a unified 'Biography' header is a proactive, structural change aimed at improving article organization. This blend suggests a dual focus on both ideological positioning and encyclopedic formatting. Overall, the editorial posture is that of a deliberate narrative shaper. While a single revert does not confirm an escalation pattern, it suggests a willingness to engage in content disputes to maintain their edits, pointing towards a potentially contentious approach.",
+  "hits": [
+    {
+      "id": "1",
+      "text": "\"Indian-American author, public intellectual , and a proponent of Hindutva\" was replaced with \"Indian-born American right-wing Hindutva ideologue\".",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 5,
+      "method_code": "P3a",
+      "method_name": "Replaces neutral language with charged/loaded terms",
+      "revision_dates": [
+        "2025-12-16",
+        "2026-03-28",
+        "2026-05-24"
+      ],
+      "edit_comment": "Read the review, it is negative but the IP user is using it to praise the book",
+      "reasoning": "Altered the lead sentence to use more pointed and politically charged labels ('right-wing', 'ideologue') while removing more neutral descriptors.",
+      "rebuttal": "The editor replaced the description \"Indian-American author, public intellectual , and a proponent of Hindutva\" with \"Indian-born American right-wing Hindutva ideologue.\" This change introduces more pointed and potentially contentious language. While \"proponent\" is a relatively neutral term, labels like \"right-wing\" and \"ideologue\" require strong attribution to high-quality, reliable sources to avoid editorializing. Without such sourcing, the edit risks violating the core policy of representing viewpoints fairly and in a neutral tone. For a biography of a living person, applying such labels without clear, verifiable sourcing is a significant policy concern, as it can be seen as presenting a contentious opinion as fact.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "2",
+      "text": "The book has received critical acclaim from Hindu nationalists for its strong anti-Communist, anti-Western and anti-globalisation message...",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P2b",
+      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "revision_dates": [
+        "2026-03-28"
+      ],
+      "edit_comment": "Read the review, it is negative but the IP user is using it to praise the book",
+      "reasoning": "Removed a paragraph describing the positive reception of the subject's book from a specific ideological group.",
+      "rebuttal": "The editor added a sentence stating a book received \"critical acclaim from Hindu nationalists for its strong anti-Communist, anti-Western and anti-globalisation message.\" This is a substantive claim about the reception of the subject's work. For this addition to comply with Wikipedia policy, it must be accompanied by a citation to a reliable, published source. Without a verifiable source, the statement constitutes original research, where an editor introduces their own analysis or synthesis of information. The core policy of Verifiability dictates that all material challenged or likely to be challenged, and all quotations, must be attributed to a reliable source.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "3",
+      "text": "...scholars of Hinduism and South Asia see it largely as an organization committed to the \"surveillance of the Academy (academia)\"...",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P1a",
+      "method_name": "Adds sourced factual content",
+      "revision_dates": [
+        "2025-12-16"
+      ],
+      "edit_comment": "Reverted 1 edit by [[Special:Contributions/OrigamiSoft|OrigamiSoft]] ([[User tal",
+      "reasoning": "Added a paragraph summarizing critical academic views of the subject's foundation, framing it as a surveillance organization.",
+      "rebuttal": "The editor introduced a critical perspective on an organization associated with the article's subject, claiming that \"scholars of Hinduism and South Asia see it largely as an organization committed to the 'surveillance of the Academy (academia)'.\" Attributing a specific, strong viewpoint to a broad academic group requires clear and unambiguous sourcing. The use of quotation marks implies the phrase is taken directly from a source. As per the Verifiability policy, this information must be directly supported by a citation to a reliable source. If unsourced, the edit would be a serious policy violation by misrepresenting opinion as fact and failing the verifiability threshold.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "4",
+      "text": "Reverted 1 edit by [[Special:Contributions/OrigamiSoft|OrigamiSoft]]",
+      "source": "added",
+      "score": 3.0,
+      "score_max": 5,
+      "method_code": "P5c",
+      "method_name": "Edit comments use revert/undo language (conflict indicator)",
+      "revision_dates": [
+        "2025-12-16",
+        "2026-05-24"
+      ],
+      "edit_comment": "Reverted 1 edit by [[Special:Contributions/OrigamiSoft|OrigamiSoft]] ([[User tal",
+      "reasoning": "Two of the editor's three revisions on the page explicitly use revert/restore language, indicating activity is focused on content disputes.",
+      "rebuttal": "The editor executed a revert, undoing an edit made by another user, OrigamiSoft. Reverting is a standard tool for undoing edits that are not seen as improvements. A single revert is not a policy violation in itself. However, this action can be the first step in a dispute. The Wikipedia:Edit warring guideline prohibits editors from repeatedly reverting each other to enforce a preferred version of a page. Instead of reverting back and forth, editors are expected to engage in discussion on the article's talk page to resolve disagreements and build consensus. This action, while not inherently a violation, signals a content dispute that should be handled through discussion.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    },
+    {
+      "id": "5",
+      "text": "Removed section headers '== Early life and education ==' and '== Career ==' and merged content under a new '== Biography ==' section.",
+      "source": "added",
+      "score": 2.0,
+      "score_max": 5,
+      "method_code": "P4c",
+      "method_name": "Splitting or merging of topic coverage",
+      "revision_dates": [
+        "2025-12-16",
+        "2026-03-28",
+        "2026-05-24"
+      ],
+      "edit_comment": "Reverted 1 edit by [[Special:Contributions/OrigamiSoft|OrigamiSoft]] ([[User tal",
+      "reasoning": "Consolidated two biographical sections into a single, broader section, altering the article's structure.",
+      "rebuttal": "The editor performed a structural edit, removing two section headers ('Early life and education', 'Career') and merging the content under a single 'Biography' heading. This type of edit alters the article's layout and organization rather than its substantive content. Such changes are a matter of editorial style and are generally permissible if they improve readability and structure. This action does not violate core content policies. However, a significant restructuring can be considered a bold edit. If another editor disagrees with the change, the dispute should be resolved through discussion on the talk page rather than through repeated reverts, in line with the principles of collaborative editing.",
+      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "summary": {
+    "total_detections": 5,
+    "strong": null,
+    "medium": null,
+    "weak": null,
+    "dominant_pattern": "P3a"
+  }
+}
