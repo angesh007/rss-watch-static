@@ -120,6 +120,7 @@ body {
 .page-header h1 { margin: 0 0 10px; font-size: 2.1rem; font-weight: 800; color: #0f172a; letter-spacing: -0.02em; line-height: 1.2; }
 .page-header__link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; color: #64748b; text-decoration: none; font-weight: 500; transition: color 0.2s; }
 .page-header__link:hover { color: #ff9933; }
+.page-header__sub { margin: 8px 0 0; font-size: 0.95rem; color: #64748b; }
 
 .stats-title { margin: 0 0 20px; font-size: 1.1rem; font-weight: 700; color: #0f172a; }
 
@@ -160,6 +161,21 @@ body {
 .editor-card__footer { margin-top: auto; padding: 12px 22px; background: #f8fafc; border-top: 1px solid #f1f5f9; }
 .view-profile { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 700; color: #ff9933; transition: gap 0.2s; }
 .editor-card:hover .view-profile { gap: 9px; }
+
+/* ═══════════════════════════════════════════════════════════════
+   PAGE CARD (landing page — list of analyzed wiki pages)
+   ═══════════════════════════════════════════════════════════════ */
+.page-card { display: flex; flex-direction: column; background: white; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 1px 4px rgba(0,0,0,0.07); text-decoration: none; color: inherit; overflow: hidden; transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s; cursor: pointer; }
+.page-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.11); transform: translateY(-3px); border-color: #ff9933; }
+
+.page-card__top { display: flex; align-items: center; gap: 14px; padding: 20px 22px 18px; }
+.page-card__icon { width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #fff8ee, #ffedd5); color: #ff9933; border: 1px solid #fde8c8; }
+.page-card__title-block { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.page-card__title { margin: 0; font-size: 1.05rem; font-weight: 800; color: #0f172a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.page-card__url { font-size: 0.74rem; color: #94a3b8; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.page-card__stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 22px 18px; padding-top: 14px; border-top: 1px dashed #e2e8f0; }
+.ec-stat__num--text { font-size: 0.82rem; }
 
 /* ═══════════════════════════════════════════════════════════════
    TOP HITS LIST (overview page)

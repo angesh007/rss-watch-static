@@ -18,12 +18,30 @@ async function fetchJSON(path) {
   return res.json();
 }
 
-async function fetchIndex() {
-  return fetchJSON(`${DATA_BASE}/index.json`);
+/** All wiki pages that have been analyzed (data/pages.json) */
+async function fetchPagesList() {
+  return fetchJSON(`${DATA_BASE}/pages.json`);
 }
 
-async function fetchEditor(slug) {
-  return fetchJSON(`${DATA_BASE}/editors/${encodeURIComponent(slug)}.json`);
+/** Per-page summary + editor list (data/pages/<page_slug>/index.json) */
+async function fetchPageIndex(pageSlug) {
+  return fetchJSON(`${DATA_BASE}/pages/${encodeURIComponent(pageSlug)}/index.json`);
+}
+
+/** One normalized editor file (data/editors/<page_slug>__<editor_slug>.json) */
+async function fetchEditor(pageSlug, editorSlug) {
+  const key = `${pageSlug}__${editorSlug}`;
+  return fetchJSON(`${DATA_BASE}/editors/${encodeURIComponent(key)}.json`);
+}
+
+/** Build the URL for a page's overview */
+function pageHref(pageSlug) {
+  return `page.html?page=${encodeURIComponent(pageSlug)}`;
+}
+
+/** Build the URL for an editor's profile, scoped to its page */
+function editorHref(pageSlug, editorSlug) {
+  return `editor.html?page=${encodeURIComponent(pageSlug)}&editor=${encodeURIComponent(editorSlug)}`;
 }
 
 /* ── Navbar / Footer ───────────────────────────────────────────── */
@@ -36,13 +54,28 @@ const STAR_ICON = `
 /**
  * Injects the shared navbar and footer.
  * @param {object} opts
- * @param {string} [opts.pageUrl] - source Wikipedia article URL, shown as a nav link if present
+ * @param {string} [opts.pageUrl]   - source Wikipedia article URL, shown as a nav link if present
+ * @param {string} [opts.pageSlug]  - current page_slug, shows an "All Pages" link back to index.html
+ * @param {string} [opts.pageTitle] - current page title, shown as a breadcrumb link to page.html
  */
 function injectChrome(opts = {}) {
   const navbar = document.getElementById("app-navbar");
   const footer = document.getElementById("app-footer");
 
   if (navbar) {
+    const links = [];
+
+    if (opts.pageSlug) {
+      links.push(`<a href="index.html">All Pages</a>`);
+      links.push(`<a href="${pageHref(opts.pageSlug)}" class="active">${escapeHtml((opts.pageTitle || opts.pageSlug).replace(/_/g, " "))}</a>`);
+    } else {
+      links.push(`<a href="index.html" class="active">All Pages</a>`);
+    }
+
+    if (opts.pageUrl) {
+      links.push(`<a href="${escapeAttr(opts.pageUrl)}" target="_blank" rel="noopener noreferrer">Source Article</a>`);
+    }
+
     navbar.innerHTML = `
       <div class="container nav-inner">
         <a href="index.html" class="logo">
@@ -50,8 +83,7 @@ function injectChrome(opts = {}) {
           <span>RSS Watch</span>
         </a>
         <nav class="nav-links">
-          <a href="index.html">Editor Overview</a>
-          ${opts.pageUrl ? `<a href="${escapeAttr(opts.pageUrl)}" target="_blank" rel="noopener noreferrer">Source Article</a>` : ""}
+          ${links.join("\n")}
         </nav>
       </div>
       <div class="nav-accent"></div>
@@ -247,4 +279,119 @@ function editorTagLabel(editor) {
   if (editor.account?.is_bot) return "Bot";
   if (editor.account?.total_wiki_edits != null) return `${fmtNum(editor.account.total_wiki_edits)} wiki edits`;
   return "Registered editor";
+}
+
+/* ── Card renderers ───────────────────────────────────────────── */
+
+/**
+ * renderEditorCard — one editor summary card, linking to their profile
+ * page scoped to the given pageSlug.
+ */
+function renderEditorCard(editor, pageSlug) {
+  const scoreCls = severityClass(editor.final_score, editor.score_max);
+  const tagLabel = editorTagLabel(editor);
+  const isMuted  = editor.is_ip || (!editor.account?.is_admin && !editor.account?.is_bot && editor.account?.total_wiki_edits == null);
+
+  const topHitHtml = editor.top_hit
+    ? `<p class="editor-top-hit"><span class="quote-mark">&ldquo;</span>${escapeHtml(editor.top_hit.text)}<span class="quote-mark">&rdquo;</span></p>`
+    : `<p class="editor-top-hit editor-top-hit--empty">No flagged content detected for this editor.</p>`;
+
+  const act = editor.page_activity || {};
+
+  return `
+    <a href="${editorHref(pageSlug, editor.editor_slug)}" class="editor-card">
+      <div class="editor-card__top">
+        <div class="editor-avatar ${editor.is_ip ? "editor-avatar--ip" : ""}">
+          ${editor.is_ip ? ICONS.ip : ICONS.user}
+        </div>
+        <div class="editor-name-block">
+          <h3 class="editor-name">${escapeHtml(editor.editor)}</h3>
+          <span class="editor-tag ${isMuted ? "editor-tag--muted" : ""}">${escapeHtml(tagLabel)}</span>
+        </div>
+        <div class="editor-score ${scoreCls}">
+          <span class="editor-score__num">${editor.final_score}</span>
+          <span class="editor-score__max">/${editor.score_max}</span>
+        </div>
+      </div>
+
+      ${topHitHtml}
+
+      <div class="editor-card__stats">
+        <div class="ec-stat">
+          <span class="ec-stat__num">${editor.total_hits}</span>
+          <span class="ec-stat__label">Hit${editor.total_hits === 1 ? "" : "s"}</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num">${act.total_revisions ?? "—"}</span>
+          <span class="ec-stat__label">Revisions</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num">${fmtSignedNum(act.total_bytes_added)}</span>
+          <span class="ec-stat__label">Bytes Added</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num">${act.total_bytes_removed != null ? "\u2212" + fmtNum(act.total_bytes_removed) : "—"}</span>
+          <span class="ec-stat__label">Bytes Removed</span>
+        </div>
+      </div>
+
+      <div class="editor-card__footer">
+        <span class="view-profile">
+          View editor profile
+          ${ICONS.chevronRight}
+        </span>
+      </div>
+    </a>
+  `;
+}
+
+/**
+ * renderPageCard — one Wikipedia page summary card, linking to that
+ * page's editor overview (page.html?page=<slug>).
+ */
+function renderPageCard(page) {
+  const scoreCls = severityClass(page.top_score, page.score_max || 8);
+  const niceTitle = (page.page_title || page.page_slug).replace(/_/g, " ");
+
+  return `
+    <a href="${pageHref(page.page_slug)}" class="page-card">
+      <div class="page-card__top">
+        <div class="page-card__icon">${ICONS.doc}</div>
+        <div class="page-card__title-block">
+          <h3 class="page-card__title">${escapeHtml(niceTitle)}</h3>
+          ${page.page_url ? `<span class="page-card__url">${escapeHtml(page.page_url.replace(/^https?:\/\//, ""))}</span>` : ""}
+        </div>
+        <div class="editor-score ${scoreCls}">
+          <span class="editor-score__num">${page.top_score}</span>
+          <span class="editor-score__max">/${page.score_max || 8}</span>
+        </div>
+      </div>
+
+      <div class="page-card__stats">
+        <div class="ec-stat">
+          <span class="ec-stat__num">${page.total_editors}</span>
+          <span class="ec-stat__label">Editor${page.total_editors === 1 ? "" : "s"}</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num">${page.total_hits}</span>
+          <span class="ec-stat__label">Hit${page.total_hits === 1 ? "" : "s"}</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num">${page.avg_score}</span>
+          <span class="ec-stat__label">Avg Score</span>
+        </div>
+        <div class="ec-stat">
+          <span class="ec-stat__num ec-stat__num--text">${page.top_editor ? escapeHtml(page.top_editor) : "—"}</span>
+          <span class="ec-stat__label">Top Editor</span>
+        </div>
+      </div>
+
+      <div class="editor-card__footer">
+        <span class="view-profile">
+          View editors for this page
+          ${ICONS.chevronRight}
+        </span>
+      </div>
+    </a>
+  `;
 }

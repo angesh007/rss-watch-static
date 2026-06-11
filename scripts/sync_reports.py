@@ -9,10 +9,21 @@
     OLD  -> edit_patterns + narrative/policy_ref  (severity 1-5)
     NEW  -> phobic_references + rebuttal/rebuttal_source (score 1-8)
 
-  ...into one consistent shape, and writes:
+  Reports may come from MULTIPLE Wikipedia pages (different
+  page_title/page_url per editor). This script groups editors
+  by their source page and writes a multi-page data layout:
 
-    data/index.json          <- page-level summary + editor list
-    data/editors/<slug>.json <- one normalized file per editor
+    data/pages.json
+        <- list of all pages, each with summary stats + editor list
+
+    data/pages/<page_slug>/index.json
+        <- per-page summary (same shape as the old top-level index.json):
+           page_title, page_url, totals, editors[], top_hits[]
+
+    data/editors/<page_slug>__<editor_slug>.json
+        <- one normalized file per (page, editor) pair.
+           Namespacing by page avoids collisions when the same
+           username appears on multiple pages.
 
   This script only READS the existing report JSONs. It does not
   modify wiki.py / editor_m.py / report.py or their outputs.
@@ -26,6 +37,7 @@
 import json
 import os
 import re
+from collections import defaultdict
 from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -39,11 +51,13 @@ SRC_DIR = os.environ.get(
     os.path.join(ROOT_DIR, "editor_reports"),
 )
 
-OUT_DIR     = os.path.join(ROOT_DIR, "data")
-OUT_EDITORS = os.path.join(OUT_DIR, "editors")
-OUT_INDEX   = os.path.join(OUT_DIR, "index.json")
+OUT_DIR       = os.path.join(ROOT_DIR, "data")
+OUT_EDITORS   = os.path.join(OUT_DIR, "editors")
+OUT_PAGES_DIR = os.path.join(OUT_DIR, "pages")
+OUT_PAGES_LIST = os.path.join(OUT_DIR, "pages.json")
 
 os.makedirs(OUT_EDITORS, exist_ok=True)
+os.makedirs(OUT_PAGES_DIR, exist_ok=True)
 
 
 # ─────────────────────────────────────────────────────────
@@ -140,15 +154,20 @@ def normalize_report(raw: dict, fallback_editor_name: str) -> dict:
 
     editor_name = meta.get("editor") or raw.get("editor") or fallback_editor_name or "Unknown"
 
-    is_ip = bool(re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$", editor_name))
+    is_ip = bool(re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$", editor_name)) \
+        or bool(re.match(r"^[0-9a-fA-F:]+:[0-9a-fA-F:]+$", editor_name))  # IPv6
+
+    page_title = meta.get("page_title") or raw.get("page_title", "") or "Unknown_Page"
+    page_url   = meta.get("page_url") or raw.get("page_url", "")
 
     return {
         "schema":      schema,
         "editor":      editor_name,
         "editor_slug": safe_slug(editor_name),
         "is_ip":       is_ip,
-        "page_title":  meta.get("page_title") or raw.get("page_title", ""),
-        "page_url":    meta.get("page_url") or raw.get("page_url", ""),
+        "page_title":  page_title,
+        "page_slug":   safe_slug(page_title),
+        "page_url":    page_url,
         "account":     meta.get("account") or raw.get("account") or {},
         "page_activity": raw.get("page_activity", {}),
         "final_score": round(final_score, 2),
@@ -171,18 +190,14 @@ def normalize_report(raw: dict, fallback_editor_name: str) -> dict:
 # ─────────────────────────────────────────────────────────
 
 def write_empty():
-    empty = {
-        "page_title": "No Data",
-        "page_url": "",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "total_editors": 0,
-        "total_hits": 0,
-        "avg_score": 0,
-        "editors": [],
-        "top_hits": [],
-    }
-    with open(OUT_INDEX, "w", encoding="utf-8") as f:
-        json.dump(empty, f, indent=2, ensure_ascii=False)
+    with open(OUT_PAGES_LIST, "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "total_pages": 0,
+            "total_editors": 0,
+            "total_hits": 0,
+            "pages": [],
+        }, f, indent=2, ensure_ascii=False)
 
 
 def main():
@@ -201,9 +216,13 @@ def main():
 
     print(f"[sync_reports] Found {len(files)} report file(s) in:\n  {SRC_DIR}\n")
 
-    editors = []
-    page_title = ""
-    page_url = ""
+    # editor_slug collisions are now namespaced by page, but two files for
+    # the SAME (page_slug, editor_slug) would still collide if they exist.
+    # Track that explicitly so it's visible rather than silently overwritten.
+    seen_keys = {}
+
+    # page_slug -> { page_title, page_url, editors: [...] }
+    pages = defaultdict(lambda: {"page_title": "", "page_url": "", "editors": []})
 
     for fname in files:
         full = os.path.join(SRC_DIR, fname)
@@ -217,12 +236,23 @@ def main():
         fallback_name = re.sub(r"(__report)?\.json$", "", fname, flags=re.IGNORECASE)
         norm = normalize_report(raw, fallback_name)
 
-        if not page_title and norm["page_title"]:
-            page_title = norm["page_title"]
-        if not page_url and norm["page_url"]:
-            page_url = norm["page_url"]
+        page_slug = norm["page_slug"]
+        page_bucket = pages[page_slug]
+        if not page_bucket["page_title"]:
+            page_bucket["page_title"] = norm["page_title"]
+        if not page_bucket["page_url"] and norm["page_url"]:
+            page_bucket["page_url"] = norm["page_url"]
 
-        out_path = os.path.join(OUT_EDITORS, f"{norm['editor_slug']}.json")
+        # Namespace the editor file by page to avoid cross-page collisions.
+        editor_key = f"{page_slug}__{norm['editor_slug']}"
+
+        if editor_key in seen_keys:
+            print(f"  [WARN] Duplicate editor+page combo '{editor_key}' "
+                  f"(files: {seen_keys[editor_key]!r} and {fname!r}) — "
+                  f"the later file overwrites the earlier one.")
+        seen_keys[editor_key] = fname
+
+        out_path = os.path.join(OUT_EDITORS, f"{editor_key}.json")
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(norm, f, indent=2, ensure_ascii=False)
 
@@ -235,9 +265,10 @@ def main():
                 "method_name": h["method_name"],
             }
 
-        editors.append({
+        page_bucket["editors"].append({
             "editor":        norm["editor"],
             "editor_slug":   norm["editor_slug"],
+            "editor_key":    editor_key,
             "is_ip":         norm["is_ip"],
             "account":       norm["account"],
             "page_activity": norm["page_activity"],
@@ -249,45 +280,87 @@ def main():
         })
 
         rel = os.path.relpath(out_path, ROOT_DIR)
-        print(f"  [OK]  {norm['editor']:<28}  score {norm['final_score']}/{norm['score_max']}  "
+        print(f"  [OK]  [{page_slug}] {norm['editor']:<28}  "
+              f"score {norm['final_score']}/{norm['score_max']}  "
               f"({len(norm['hits'])} hits)  -> {rel}")
 
-    # Sort editors by score desc, then by hit count
-    editors.sort(key=lambda e: (e["final_score"], e["total_hits"]), reverse=True)
+    # ── Build per-page index files ─────────────────────────────────
+    pages_summary = []
 
-    # Build top_hits across all editors
-    all_hits = []
-    for e in editors:
-        ed_path = os.path.join(OUT_EDITORS, f"{e['editor_slug']}.json")
-        with open(ed_path, "r", encoding="utf-8") as f:
-            full = json.load(f)
-        for h in full["hits"]:
-            hit = dict(h)
-            hit["editor"] = full["editor"]
-            hit["editor_slug"] = full["editor_slug"]
-            all_hits.append(hit)
+    for page_slug, bucket in pages.items():
+        editors = bucket["editors"]
+        editors.sort(key=lambda e: (e["final_score"], e["total_hits"]), reverse=True)
 
-    all_hits.sort(key=lambda h: h["score"], reverse=True)
+        # Build top_hits for this page across its editors
+        all_hits = []
+        for e in editors:
+            ed_path = os.path.join(OUT_EDITORS, f"{e['editor_key']}.json")
+            with open(ed_path, "r", encoding="utf-8") as f:
+                full = json.load(f)
+            for h in full["hits"]:
+                hit = dict(h)
+                hit["editor"] = full["editor"]
+                hit["editor_slug"] = full["editor_slug"]
+                hit["editor_key"] = e["editor_key"]
+                all_hits.append(hit)
 
-    total_hits = sum(e["total_hits"] for e in editors)
-    avg_score = round(sum(e["final_score"] for e in editors) / len(editors), 2) if editors else 0
+        all_hits.sort(key=lambda h: h["score"], reverse=True)
 
-    index = {
-        "page_title": page_title or "Unknown Page",
-        "page_url": page_url or "",
+        total_hits = sum(e["total_hits"] for e in editors)
+        avg_score = round(sum(e["final_score"] for e in editors) / len(editors), 2) if editors else 0
+
+        page_index = {
+            "page_title": bucket["page_title"] or "Unknown Page",
+            "page_slug": page_slug,
+            "page_url": bucket["page_url"] or "",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "total_editors": len(editors),
+            "total_hits": total_hits,
+            "avg_score": avg_score,
+            "editors": editors,
+            "top_hits": all_hits[:10],
+        }
+
+        page_dir = os.path.join(OUT_PAGES_DIR, page_slug)
+        os.makedirs(page_dir, exist_ok=True)
+        page_index_path = os.path.join(page_dir, "index.json")
+        with open(page_index_path, "w", encoding="utf-8") as f:
+            json.dump(page_index, f, indent=2, ensure_ascii=False)
+
+        pages_summary.append({
+            "page_title": page_index["page_title"],
+            "page_slug": page_slug,
+            "page_url": page_index["page_url"],
+            "total_editors": len(editors),
+            "total_hits": total_hits,
+            "avg_score": avg_score,
+            "top_editor": editors[0]["editor"] if editors else None,
+            "top_score": editors[0]["final_score"] if editors else 0,
+            "score_max": editors[0]["score_max"] if editors else 8,
+        })
+
+        rel = os.path.relpath(page_index_path, ROOT_DIR)
+        print(f"\n  [PAGE] {page_index['page_title']:<35} "
+              f"{len(editors)} editor(s), {total_hits} hit(s)  -> {rel}")
+
+    # Sort pages by total_hits desc for the landing page
+    pages_summary.sort(key=lambda p: (p["total_hits"], p["top_score"]), reverse=True)
+
+    pages_list = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "total_editors": len(editors),
-        "total_hits": total_hits,
-        "avg_score": avg_score,
-        "editors": editors,
-        "top_hits": all_hits[:10],
+        "total_pages": len(pages_summary),
+        "total_editors": sum(p["total_editors"] for p in pages_summary),
+        "total_hits": sum(p["total_hits"] for p in pages_summary),
+        "pages": pages_summary,
     }
 
-    with open(OUT_INDEX, "w", encoding="utf-8") as f:
-        json.dump(index, f, indent=2, ensure_ascii=False)
+    with open(OUT_PAGES_LIST, "w", encoding="utf-8") as f:
+        json.dump(pages_list, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[sync_reports] Wrote index -> {os.path.relpath(OUT_INDEX, ROOT_DIR)}")
-    print(f"[sync_reports] {len(editors)} editor(s), {total_hits} total hit(s)\n")
+    print(f"\n[sync_reports] Wrote pages list -> {os.path.relpath(OUT_PAGES_LIST, ROOT_DIR)}")
+    print(f"[sync_reports] {len(pages_summary)} page(s), "
+          f"{pages_list['total_editors']} editor(s), "
+          f"{pages_list['total_hits']} total hit(s)\n")
 
 
 if __name__ == "__main__":

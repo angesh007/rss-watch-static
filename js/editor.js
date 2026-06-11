@@ -31,27 +31,40 @@
     hitsEmpty:      document.getElementById("hits-empty"),
   };
 
-  // ── Resolve slug from query string ─────────────────────────────
+  // ── Resolve page + editor slugs from query string ──────────────
   const params = new URLSearchParams(window.location.search);
-  const slug = params.get("editor");
+  const pageSlug = params.get("page");
+  const editorSlug = params.get("editor");
 
-  if (!slug) {
+  if (!pageSlug || !editorSlug) {
     showError("No editor specified.");
     injectChrome();
     return;
   }
 
+  // Back links go to this editor's page overview.
+  const backLink = document.getElementById("error-back-link");
+  if (backLink) backLink.href = pageHref(pageSlug);
+  const profileBackLink = document.getElementById("profile-back-link");
+  if (profileBackLink) profileBackLink.href = pageHref(pageSlug);
+
   let editor;
   try {
-    editor = await fetchEditor(slug);
+    editor = await fetchEditor(pageSlug, editorSlug);
   } catch (err) {
     console.error(err);
-    showError(`Could not load profile for "${slug}".`);
-    injectChrome();
+    showError(`Could not load profile for "${editorSlug}".`);
+    injectChrome({ pageSlug });
     return;
   }
 
-  injectChrome({ pageUrl: editor.page_url });
+  injectChrome({ pageUrl: editor.page_url, pageSlug, pageTitle: editor.page_title });
+
+  // Update "Return to ..." label now that we know the page title.
+  const profileBackLabel = document.getElementById("profile-back-label");
+  if (profileBackLabel) {
+    profileBackLabel.textContent = `Return to ${(editor.page_title || pageSlug).replace(/_/g, " ")}`;
+  }
 
   // ── Page title ──────────────────────────────────────────────────
   document.title = `${editor.editor} — Editor Profile · RSS Watch`;
