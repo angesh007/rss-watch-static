@@ -2,11 +2,114 @@
   "page_title": "Hindu_American_Foundation",
   "page_slug": "Hindu_American_Foundation",
   "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
-  "generated_at": "2026-06-11T08:59:33.412294+00:00",
-  "total_editors": 16,
-  "total_hits": 61,
-  "avg_score": 3.46,
+  "generated_at": "2026-06-15T16:55:54.739811+00:00",
+  "total_editors": 4,
+  "total_hits": 7,
+  "avg_score": 5.19,
+  "page_score": 56.7,
+  "page_breakdown": {
+    "1": {
+      "name": "Negative Stereotyping of RSS",
+      "count": 4,
+      "avg_score": 3.33,
+      "max_score": 6
+    },
+    "2": {
+      "name": "Dehumanization or Hate Speech",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "3": {
+      "name": "Justification of Harm/Discrimination",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "4": {
+      "name": "Blaming RSS for Societal Problems",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "5": {
+      "name": "Misrepresentation of RSS",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "6": {
+      "name": "Fear-Mongering (\"hindutva\")",
+      "count": 1,
+      "avg_score": 1.25,
+      "max_score": 5
+    },
+    "7": {
+      "name": "Contextual Tone",
+      "count": 2,
+      "avg_score": 2.0,
+      "max_score": 4
+    },
+    "8": {
+      "name": "Guilt by Association",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    }
+  },
   "editors": [
+    {
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "editor_key": "Hindu_American_Foundation__EarthDude",
+      "is_ip": false,
+      "account": {
+        "registration_date": "2023-02-26",
+        "total_wiki_edits": 16564,
+        "user_groups": [
+          "extendedconfirmed",
+          "ipblock-exempt",
+          "patroller",
+          "reviewer",
+          "rollbacker",
+          "temporary-account-viewer"
+        ],
+        "is_admin": false,
+        "is_bot": false
+      },
+      "page_activity": {
+        "total_revisions": 29,
+        "first_edit_date": "2026-03-10",
+        "last_edit_date": "2026-06-13",
+        "total_bytes_added": 1277,
+        "total_bytes_removed": 718,
+        "minor_edit_count": 0,
+        "unique_edit_dates": [
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-17",
+          "2026-06-04",
+          "2026-06-13"
+        ]
+      },
+      "final_score": 6.75,
+      "score_max": 8,
+      "total_hits": 4,
+      "summary": {
+        "total_detections": 4,
+        "strong": 0,
+        "medium": 4,
+        "weak": 0,
+        "strong_phobic": 0,
+        "medium_phobic": 4,
+        "weak_phobic": 0
+      },
+      "top_hit": {
+        "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterized the organization as part of a movement that seeks to relega",
+        "score": 6.0,
+        "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality"
+      }
+    },
     {
       "editor": "Ratnahastin",
       "editor_slug": "Ratnahastin",
@@ -36,111 +139,32 @@
           "2026-06-04"
         ]
       },
-      "final_score": 5.0,
-      "score_max": 5,
-      "total_hits": 6,
+      "final_score": 6.0,
+      "score_max": 8,
+      "total_hits": 1,
       "summary": {
-        "total_detections": 6,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3a"
+        "total_detections": 1,
+        "strong": 0,
+        "medium": 1,
+        "weak": 0,
+        "strong_phobic": 0,
+        "medium_phobic": 1,
+        "weak_phobic": 0
       },
       "top_hit": {
-        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
-        "score": 5.0,
-        "method_name": "Replaces neutral language with charged/loaded terms"
+        "text": "Category:Hindutva harassment of scholars",
+        "score": 6.0,
+        "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality"
       }
     },
     {
-      "editor": "Flyingphoenixchips",
-      "editor_slug": "Flyingphoenixchips",
-      "editor_key": "Hindu_American_Foundation__Flyingphoenixchips",
+      "editor": "Ftrhi",
+      "editor_slug": "Ftrhi",
+      "editor_key": "Hindu_American_Foundation__Ftrhi",
       "is_ip": false,
       "account": {
-        "registration_date": "2024-03-19",
-        "total_wiki_edits": 6314,
-        "user_groups": [
-          "extendedconfirmed",
-          "temporary-account-viewer"
-        ],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 10,
-        "first_edit_date": "2026-04-25",
-        "last_edit_date": "2026-04-25",
-        "total_bytes_added": 10793,
-        "total_bytes_removed": 161,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-04-25"
-        ]
-      },
-      "final_score": 5.0,
-      "score_max": 5,
-      "total_hits": 5,
-      "summary": {
-        "total_detections": 5,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P1a"
-      },
-      "top_hit": {
-        "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organisations linked to Sangh Parivar networks that had together received...",
-        "score": 5.0,
-        "method_name": "Adds sourced factual content"
-      }
-    },
-    {
-      "editor": "~2026-33953-78",
-      "editor_slug": "2026-33953-78",
-      "editor_key": "Hindu_American_Foundation__2026-33953-78",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 2,
-        "first_edit_date": "2026-06-08",
-        "last_edit_date": "2026-06-08",
-        "total_bytes_added": 1994,
-        "total_bytes_removed": 0,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-08"
-        ]
-      },
-      "final_score": 5.0,
-      "score_max": 5,
-      "total_hits": 4,
-      "summary": {
-        "total_detections": 4,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P1b"
-      },
-      "top_hit": {
-        "text": "(because Hindus have faced targeted terrorism and killings by muslim minorities including 2025 Pahalgam attack, killing of a West Delhi boy by Muslim group",
-        "score": 5.0,
-        "method_name": "Adds unsourced or weakly-sourced claims"
-      }
-    },
-    {
-      "editor": "Bluethricecreamman",
-      "editor_slug": "Bluethricecreamman",
-      "editor_key": "Hindu_American_Foundation__Bluethricecreamman",
-      "is_ip": false,
-      "account": {
-        "registration_date": "2013-01-31",
-        "total_wiki_edits": 8213,
+        "registration_date": "2013-12-04",
+        "total_wiki_edits": 827,
         "user_groups": [
           "extendedconfirmed"
         ],
@@ -148,478 +172,34 @@
         "is_bot": false
       },
       "page_activity": {
-        "total_revisions": 8,
-        "first_edit_date": "2024-10-09",
-        "last_edit_date": "2026-06-03",
-        "total_bytes_added": 10834,
-        "total_bytes_removed": 1648,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2024-10-09",
-          "2024-10-23",
-          "2026-02-24",
-          "2026-06-03"
-        ]
-      },
-      "final_score": 4.7,
-      "score_max": 5,
-      "total_hits": 8,
-      "summary": {
-        "total_detections": 8,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3a"
-      },
-      "top_hit": {
-        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
-        "score": 4.0,
-        "method_name": "Replaces neutral language with charged/loaded terms"
-      }
-    },
-    {
-      "editor": "Shahinshah121",
-      "editor_slug": "Shahinshah121",
-      "editor_key": "Hindu_American_Foundation__Shahinshah121",
-      "is_ip": false,
-      "account": {
-        "registration_date": "2018-08-27",
-        "total_wiki_edits": 102,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 5,
-        "first_edit_date": "2025-07-08",
-        "last_edit_date": "2026-06-07",
-        "total_bytes_added": 1451,
+        "total_revisions": 6,
+        "first_edit_date": "2026-06-11",
+        "last_edit_date": "2026-06-13",
+        "total_bytes_added": 1784,
         "total_bytes_removed": 0,
-        "minor_edit_count": 4,
+        "minor_edit_count": 3,
         "unique_edit_dates": [
-          "2025-07-08",
-          "2025-09-03",
-          "2026-06-07"
+          "2026-06-11",
+          "2026-06-12",
+          "2026-06-13"
         ]
       },
-      "final_score": 4.5,
-      "score_max": 5,
-      "total_hits": 6,
-      "summary": {
-        "total_detections": 6,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P5c"
-      },
-      "top_hit": {
-        "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organizations linked to Sangh Parivar networks that had together received...",
-        "score": 4.0,
-        "method_name": "Adds sourced factual content"
-      }
-    },
-    {
-      "editor": "~2026-33066-13",
-      "editor_slug": "2026-33066-13",
-      "editor_key": "Hindu_American_Foundation__2026-33066-13",
-      "is_ip": false,
-      "account": {
-        "registration_date": "2026-06-03",
-        "total_wiki_edits": 10,
-        "user_groups": [
-          "temp"
-        ],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 10,
-        "first_edit_date": "2026-06-03",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 470,
-        "total_bytes_removed": 3600,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-03",
-          "2026-06-04"
-        ]
-      },
-      "final_score": 4.5,
-      "score_max": 5,
-      "total_hits": 6,
-      "summary": {
-        "total_detections": 6,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P2d"
-      },
-      "top_hit": {
-        "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
-        "score": 4.0,
-        "method_name": "Replaces charged language with neutral terms (detoxification)"
-      }
-    },
-    {
-      "editor": "EarthDude",
-      "editor_slug": "EarthDude",
-      "editor_key": "Hindu_American_Foundation__EarthDude",
-      "is_ip": false,
-      "account": {
-        "registration_date": "2023-02-26",
-        "total_wiki_edits": 16373,
-        "user_groups": [
-          "extendedconfirmed",
-          "ipblock-exempt",
-          "patroller",
-          "reviewer",
-          "rollbacker",
-          "temporary-account-viewer"
-        ],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 26,
-        "first_edit_date": "2026-03-10",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 1270,
-        "total_bytes_removed": 710,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-03-10",
-          "2026-03-11",
-          "2026-03-17",
-          "2026-06-04"
-        ]
-      },
-      "final_score": 4.4,
-      "score_max": 5,
-      "total_hits": 5,
-      "summary": {
-        "total_detections": 5,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P6a"
-      },
-      "top_hit": {
-        "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterised the organisation as part of a movement...",
-        "score": 4.0,
-        "method_name": "Removes sourced content without explanation"
-      }
-    },
-    {
-      "editor": "Hemiauchenia",
-      "editor_slug": "Hemiauchenia",
-      "editor_key": "Hindu_American_Foundation__Hemiauchenia",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-06-08",
-        "last_edit_date": "2026-06-08",
-        "total_bytes_added": 0,
-        "total_bytes_removed": 997,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-08"
-        ]
-      },
-      "final_score": 4.3,
-      "score_max": 5,
-      "total_hits": 4,
-      "summary": {
-        "total_detections": 4,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P1c"
-      },
-      "top_hit": {
-        "text": "The HAF's activism aligns with the Hindu nationalist ideology of Hindutva, alongside impinging on academic freedom.",
-        "score": 4.0,
-        "method_name": "Adds framing language (adjectives, qualifiers, tone shifts)"
-      }
-    },
-    {
-      "editor": "Doug Weller",
-      "editor_slug": "Doug_Weller",
-      "editor_key": "Hindu_American_Foundation__Doug_Weller",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-06-08",
-        "last_edit_date": "2026-06-08",
-        "total_bytes_added": 0,
-        "total_bytes_removed": 997,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-08"
-        ]
-      },
-      "final_score": 3.3,
-      "score_max": 5,
-      "total_hits": 4,
-      "summary": {
-        "total_detections": 4,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P2b"
-      },
-      "top_hit": {
-        "text": "they have no links with Rashtriya Swayamsevak Sangh and are an independent organization",
-        "score": 3.0,
-        "method_name": "Removes counter-arguments or alternative viewpoints"
-      }
-    },
-    {
-      "editor": "Mazaltu",
-      "editor_slug": "Mazaltu",
-      "editor_key": "Hindu_American_Foundation__Mazaltu",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-06-04",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 0,
-        "total_bytes_removed": 26,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-04"
-        ]
-      },
-      "final_score": 3.2,
-      "score_max": 5,
-      "total_hits": 3,
-      "summary": {
-        "total_detections": 3,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3b"
-      },
-      "top_hit": {
-        "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
-        "score": 3.0,
-        "method_name": "Replaces charged language with neutral terms (detoxification)"
-      }
-    },
-    {
-      "editor": "ClueBot NG",
-      "editor_slug": "ClueBot_NG",
-      "editor_key": "Hindu_American_Foundation__ClueBot_NG",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 2,
-        "first_edit_date": "2025-09-23",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 26,
-        "total_bytes_removed": 15,
-        "minor_edit_count": 2,
-        "unique_edit_dates": [
-          "2025-09-23",
-          "2026-06-04"
-        ]
-      },
-      "final_score": 3.1,
-      "score_max": 5,
-      "total_hits": 2,
-      "summary": {
-        "total_detections": 2,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P5c"
-      },
-      "top_hit": {
-        "text": "Reverting possible vandalism by [[Special:Contribs/2601:204:D100:1250:A41C:D5C7:",
-        "score": 3.0,
-        "method_name": "Edit comments use revert/undo language"
-      }
-    },
-    {
-      "editor": "~2026-33063-32",
-      "editor_slug": "2026-33063-32",
-      "editor_key": "Hindu_American_Foundation__2026-33063-32",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-06-04",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 76,
-        "total_bytes_removed": 0,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-06-04"
-        ]
-      },
-      "final_score": 3.1,
-      "score_max": 5,
-      "total_hits": 2,
-      "summary": {
-        "total_detections": 2,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3a"
-      },
-      "top_hit": {
-        "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives",
-        "score": 3.0,
-        "method_name": "Replaces neutral language with charged/loaded terms"
-      }
-    },
-    {
-      "editor": "Cadddr",
-      "editor_slug": "Cadddr",
-      "editor_key": "Hindu_American_Foundation__Cadddr",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-05-03",
-        "last_edit_date": "2026-05-03",
-        "total_bytes_added": 0,
-        "total_bytes_removed": 10,
-        "minor_edit_count": 1,
-        "unique_edit_dates": [
-          "2026-05-03"
-        ]
-      },
-      "final_score": 2.2,
-      "score_max": 5,
-      "total_hits": 3,
-      "summary": {
-        "total_detections": 3,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P2c"
-      },
-      "top_hit": {
-        "text": "alleged",
-        "score": 2.0,
-        "method_name": "Removes neutralising or qualifying language"
-      }
-    },
-    {
-      "editor": "Plasticwonder",
-      "editor_slug": "Plasticwonder",
-      "editor_key": "Hindu_American_Foundation__Plasticwonder",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-06-04",
-        "last_edit_date": "2026-06-04",
-        "total_bytes_added": 0,
-        "total_bytes_removed": 76,
-        "minor_edit_count": 1,
-        "unique_edit_dates": [
-          "2026-06-04"
-        ]
-      },
-      "final_score": 2.1,
-      "score_max": 5,
-      "total_hits": 2,
-      "summary": {
-        "total_detections": 2,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3b"
-      },
-      "top_hit": {
-        "text": "a fake historian of South Asia at Rutgers University, who is known for vilifying Hindus and spreading anti Hindu narratives,",
-        "score": 2.0,
-        "method_name": "Replaces charged language with neutral terms (detoxification)"
-      }
-    },
-    {
-      "editor": "~2026-26898-71",
-      "editor_slug": "2026-26898-71",
-      "editor_key": "Hindu_American_Foundation__2026-26898-71",
-      "is_ip": false,
-      "account": {
-        "registration_date": null,
-        "total_wiki_edits": null,
-        "user_groups": [],
-        "is_admin": false,
-        "is_bot": false
-      },
-      "page_activity": {
-        "total_revisions": 1,
-        "first_edit_date": "2026-05-03",
-        "last_edit_date": "2026-05-03",
-        "total_bytes_added": 10,
-        "total_bytes_removed": 0,
-        "minor_edit_count": 0,
-        "unique_edit_dates": [
-          "2026-05-03"
-        ]
-      },
-      "final_score": 1.0,
-      "score_max": 5,
+      "final_score": 4.0,
+      "score_max": 8,
       "total_hits": 1,
       "summary": {
         "total_detections": 1,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": "P3b"
+        "strong": 0,
+        "medium": 1,
+        "weak": 0,
+        "strong_phobic": 0,
+        "medium_phobic": 1,
+        "weak_phobic": 0
       },
       "top_hit": {
-        "text": "the alleged abuse of Hindus",
-        "score": 1.0,
-        "method_name": "Replaces charged language with neutral terms (detoxification)"
+        "text": "Truschke's view is widely supported by scholars and academics.",
+        "score": 4.0,
+        "method_name": "Appeal to Inappropriate Authority or Consensus"
       }
     },
     {
@@ -645,100 +225,78 @@
           "2026-06-04"
         ]
       },
-      "final_score": 0.0,
-      "score_max": 5,
-      "total_hits": 0,
+      "final_score": 4.0,
+      "score_max": 8,
+      "total_hits": 1,
       "summary": {
-        "total_detections": 0,
-        "strong": null,
-        "medium": null,
-        "weak": null,
-        "dominant_pattern": null
+        "total_detections": 1,
+        "strong": 0,
+        "medium": 1,
+        "weak": 0,
+        "strong_phobic": 0,
+        "medium_phobic": 1,
+        "weak_phobic": 0
       },
-      "top_hit": null
+      "top_hit": {
+        "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+        "score": 4.0,
+        "method_name": "Appeal to Inappropriate Authority or Consensus"
+      }
     }
   ],
   "top_hits": [
     {
-      "id": "1",
-      "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
-      "source": "added",
-      "score": 5.0,
-      "score_max": 5,
-      "method_code": "P3a",
-      "method_name": "Replaces neutral language with charged/loaded terms",
-      "revision_dates": [
-        "2024-10-27",
-        "2026-06-04"
-      ],
-      "edit_comment": "Restored last good version",
-      "reasoning": "Changed the description in the lead sentence from 'Hindu advocacy' to 'Hindutva advocacy', a term with specific and strong political connotations.",
-      "rebuttal": "The editor removed the word \"Hindutva\" from the lead sentence, altering the description of the Hindu American Foundation from a \"Hindutva advocacy organization\" to simply an \"advocacy organization.\" This is a significant content change that removes a specific, and potentially contentious, political descriptor. If the term \"Hindutva\" is well-supported by reliable sources within the article body, its removal from the lead summary could be considered a violation of policy. The Neutral Point of View policy requires that articles represent significant, reliably sourced viewpoints fairly and without bias. Removing a key descriptor used by sources may present an incomplete or unduly sanitized perspective of the subject.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
-      "red_flag": false,
-      "slur": false,
-      "editor": "Ratnahastin",
-      "editor_slug": "Ratnahastin",
-      "editor_key": "Hindu_American_Foundation__Ratnahastin"
-    },
-    {
-      "id": "1",
-      "text": "In April 2021, Al Jazeera reported that the HAF was one of five U.S.-based organisations linked to Sangh Parivar networks that had together received...",
-      "source": "added",
-      "score": 5.0,
-      "score_max": 5,
-      "method_code": "P1a",
-      "method_name": "Adds sourced factual content",
-      "revision_dates": [
-        "2026-04-25"
-      ],
-      "edit_comment": "/* Funding Controversies */ adding more sourced content on funds, and anti minor",
-      "reasoning": "Editor adds a substantial block of text detailing controversial funding, explicitly attributing the information to a news outlet.",
-      "rebuttal": "The editor added a sentence specifying that, according to an Al Jazeera report, the Hindu American Foundation was one of five U.S.-based organizations linked to Sangh Parivar that received substantial COVID-19 relief funds. This edit contributes a specific claim and attributes it to a named secondary source. The action aligns with Wikipedia's core content policies, as it adds information that is verifiable and presents a significant viewpoint on the article's subject. By citing the source of the critical information, the edit adheres to the principles of Verifiability and helps maintain a Neutral Point of View by representing perspectives from reliable sources.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
-      "red_flag": false,
-      "slur": false,
-      "editor": "Flyingphoenixchips",
-      "editor_slug": "Flyingphoenixchips",
-      "editor_key": "Hindu_American_Foundation__Flyingphoenixchips"
-    },
-    {
       "id": "3",
-      "text": "(because Hindus have faced targeted terrorism and killings by muslim minorities including 2025 Pahalgam attack, killing of a West Delhi boy by Muslim group",
+      "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterized the organization as part of a movement that seeks to relegate Christians, Muslims, Sikhs, Dalits, and Adivasis to a subordinate status in India.",
       "source": "added",
-      "score": 5.0,
-      "score_max": 5,
-      "method_code": "P1b",
-      "method_name": "Adds unsourced or weakly-sourced claims",
-      "revision_dates": [
-        "2026-06-08"
+      "score": 6.0,
+      "score_max": 8,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "section_title": "Anti-conversion laws and Hinduization",
+      "topic_name": "Accusation of Promoting Subordination",
+      "categories": [
+        1
       ],
-      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
-      "reasoning": "Inserted a long parenthetical clause with specific, inflammatory, and unsourced allegations of violence.",
-      "rebuttal": "The editor inserted a parenthetical clause to justify the organization's purpose, citing recent and inflammatory events. This addition constitutes a clear violation of the \"No original research\" (NOR) policy. The editor synthesized information about unrelated attacks to construct a novel argument—that these events necessitate the organization's work. This is a form of editorializing that is strictly forbidden. Wikipedia articles must report what reliable sources have already published on a topic, not present an editor's own analysis or conclusions. Furthermore, the claims were unsourced, also violating the Verifiability policy. Such argumentative and unsourced additions are unsuitable for an encyclopedia.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:No_original_research",
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Using American English",
+      "reasoning": "The article presents a severe accusation of systemic bigotry against multiple minority groups, attributing it vaguely to 'Investigations' without specific sources, thus adopting it as a factual claim.",
+      "rebuttal": "This characterization is contrary to the foundational principles of social harmony (samajik samarasata) that are central to the RSS and its affiliated movements. This philosophy posits that all communities—including Muslims, Christians, Sikhs, Dalits, and Adivasis—are integral and valued parts of the Indian nation. The goal is not subordination but the peaceful coexistence and cooperation of all groups, where diversity is a source of strength. This concept is rooted in the Indic ethos of seeing society as a unified whole, where different communities support one another for the common good. Organizations such as Seva Bharati put this into practice through extensive social service projects across India, providing aid in education, health, and disaster relief to all sections of society without regard to religion or caste, directly contradicting the notion of seeking to relegate any community to a subordinate status.",
+      "rebuttal_source": "https://indiapolicyfoundation.org/articles/exploring-the-concept-of-social-harmony-building-a-just-and-peaceful-society/",
       "red_flag": false,
       "slur": false,
-      "editor": "~2026-33953-78",
-      "editor_slug": "2026-33953-78",
-      "editor_key": "Hindu_American_Foundation__2026-33953-78"
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "editor_key": "Hindu_American_Foundation__EarthDude"
     },
     {
-      "id": "2",
-      "text": "However Jeffrey Long, a professor of religion and Asian studies at Elizabethtown College states that \"the reality of HAF is clearly a complex one, not...",
+      "id": "1",
+      "text": "Category:Hindutva harassment of scholars",
       "source": "added",
-      "score": 4.0,
-      "score_max": 5,
-      "method_code": "P2b",
-      "method_name": "Removes counter-arguments or alternative viewpoints",
+      "score": 6.0,
+      "score_max": 8,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "section_title": "External links",
+      "topic_name": "Categorical Accusation of Harassment",
+      "categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
       "revision_dates": [
-        "2024-10-27",
         "2026-06-04"
       ],
       "edit_comment": "Restored last good version",
-      "reasoning": "Removed a sourced quote from a scholar that presented a more complex and less uniformly critical view of the organization.",
-      "rebuttal": "In this edit, the editor added a quote attributed to Jeffrey Long, an academic in a relevant field, which describes the foundation as a \"complex\" entity. This contribution adds a specific, sourced viewpoint to the article. This action aligns with core Wikipedia policies, as it enhances the article's depth by including attributable information from what appears to be a reliable expert source. The Neutral Point of View (NPOV) policy encourages the inclusion of multiple significant viewpoints to provide a balanced and comprehensive overview of a topic. Attributing opinions to named sources is a fundamental practice for achieving verifiability and neutrality, making this a constructive edit in principle.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "reasoning": "The article's categorization makes a direct, unsubstantiated accusation of \"harassment\" in its own voice, framing the organization's actions as inherently malicious.",
+      "rebuttal": "The accusation of \"Hindutva harassment\" often mischaracterizes legitimate, robust intellectual pushback against what many see as biased and Hinduphobic academic narratives. There is a perception that a significant portion of South Asian studies in Western academia is rooted in colonial-era interpretations that are hostile to Hindu traditions. Consequently, scholars and groups engage in what they term an intellectual defence, or the work of \"Intellectual Kshatriyas,\" to counter perceived inaccuracies and misrepresentations of Hinduism. For example, critiques against the work of scholars like Wendy Doniger and Sheldon Pollock, or organized opposition to events like the \"Dismantling Global Hindutva\" conference, are framed not as harassment but as a necessary exercise of free speech. This response aims to correct a dominant narrative that is seen as politically motivated and derogatory, thereby participating in, rather than suppressing, academic debate. The term \"harassment\" is often viewed as a rhetorical tool used to delegitimize and silence these critical counter-perspectives.",
+      "rebuttal_source": "https://swarajyamag.com/culture/wendy-doniger-is-wrong-again",
       "red_flag": false,
       "slur": false,
       "editor": "Ratnahastin",
@@ -747,131 +305,148 @@
     },
     {
       "id": "2",
-      "text": "...this pattern reflects the HAF's broader function as an apologist for Hindu majoritarianism rather than a defender of pluralism.",
+      "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multiculturalism in the United States.",
       "source": "added",
-      "score": 4.0,
-      "score_max": 5,
-      "method_code": "P1c",
-      "method_name": "Adds framing language",
-      "revision_dates": [
-        "2026-04-25"
+      "score": 5.0,
+      "score_max": 8,
+      "method_code": "C19",
+      "method_name": "Rejection of Any Possibility of Good Intent",
+      "section_title": "Lead / Introduction",
+      "topic_name": "Dismissal of Stated Goals",
+      "categories": [
+        6
       ],
-      "edit_comment": "/* Activism */ expanding with sourced content about coerced conversion works",
-      "reasoning": "Editor adds a sourced academic opinion that frames the subject's activities in a highly critical manner, shaping the article's overall tone.",
-      "rebuttal": "The editor appended their own analytical conclusion, stating that the subject's actions reflect a function as \"an apologist for Hindu majoritarianism rather than a defender of pluralism.\" This constitutes a clear violation of core Wikipedia policy. The statement is an unattributed editorial opinion inserted as fact into the encyclopedia's voice. This type of synthesis, where an editor draws their own conclusions from sourced material, is explicitly forbidden by the \"No original research\" policy. Furthermore, presenting such a charged, analytical claim as an objective truth is a serious breach of the Neutral Point of View policy.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:No_original_research",
+      "main_category_names": [
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Ce",
+      "reasoning": "The article dismisses the organization's stated advocacy for 'Hindu rights' as a deceptive rebranding effort, rejecting the possibility of genuine intent.",
+      "rebuttal": "The assertion that advocating for \"Hindu rights\" is merely a rebranding of Hindutva is a reductive interpretation. Proponents define Hindutva not as a supremacist political ideology but as the cultural and civilizational essence of India, literally meaning 'Hinduness'. This perspective views Hindutva as inclusive of all Indic traditions. The focus on \"Hindu rights\" by groups like HAF is presented as a necessary response to the documented mischaracterization of Hinduism in academia and media, rising Hinduphobia, and systemic biases. This advocacy is aimed at achieving fair and accurate representation for the Hindu community within the multicultural framework of the United States. It is positioned as a legitimate effort to address grievances and ensure the community's voice is heard, rather than a disingenuous political rebranding.",
+      "rebuttal_source": "https://hindupost.in/dharma/dismantling-global-hindutva-co-sponsored-by-ivy-league-univ-of-penn-was-thinly-veiled-attack-on-hindu-dharma/",
       "red_flag": false,
       "slur": false,
-      "editor": "Flyingphoenixchips",
-      "editor_slug": "Flyingphoenixchips",
-      "editor_key": "Hindu_American_Foundation__Flyingphoenixchips"
-    },
-    {
-      "id": "3",
-      "text": "== Funding Controversies == (added) / == Take Back Yoga campaign == (removed)",
-      "source": "added",
-      "score": 4.0,
-      "score_max": 5,
-      "method_code": "P4a",
-      "method_name": "Section additions or removals",
-      "revision_dates": [
-        "2026-04-25"
-      ],
-      "edit_comment": "added new section on funds",
-      "reasoning": "Editor adds new sections focused on controversies while removing a section about one of the organization's own campaigns.",
-      "rebuttal": "In this edit, the editor replaced the section heading \"== Take Back Yoga campaign ==\" with \"== Funding Controversies ==\". While reorganizing content and adjusting headings is a normal editorial function, this change frames the section's content in a significantly more negative and contentious light. Such an action can be a subtle violation of the Neutral Point of View policy, which requires that article structure and headings be impartial. Unless the new heading is a more accurate and neutral summary of the section's expanded content, it may serve to give undue weight to controversy, rather than neutrally describing the subject matter for the reader.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
-      "red_flag": false,
-      "slur": false,
-      "editor": "Flyingphoenixchips",
-      "editor_slug": "Flyingphoenixchips",
-      "editor_key": "Hindu_American_Foundation__Flyingphoenixchips"
-    },
-    {
-      "id": "5",
-      "text": "N/A (Pattern observed from page activity metadata: +10,793 bytes in 10 revisions)",
-      "source": "added",
-      "score": 4.0,
-      "score_max": 5,
-      "method_code": "P6d",
-      "method_name": "Low revision count but high byte impact (high-impact editor)",
-      "revision_dates": [
-        "2026-04-25"
-      ],
-      "edit_comment": "expanding with sourced content about coerced conversion works",
-      "reasoning": "The editor added a very large amount of text in a small number of edits, fundamentally altering the article's content and length.",
-      "rebuttal": "The editor added a very large amount of material—over 10,000 bytes—to the article in a rapid sequence of ten revisions. This method of making large, bold changes to a potentially contentious article without prior discussion is highly disruptive and can provoke conflict. It bypasses the standard collaborative process of building consensus for significant changes on the article's talk page. This behaviour can be a form of edit warring, as it attempts to overwhelm other editors and impose a preferred version of the article. Such substantial, undiscussed additions are often reverted to encourage a more cooperative and consensus-based approach to editing.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Edit_warring",
-      "red_flag": false,
-      "slur": false,
-      "editor": "Flyingphoenixchips",
-      "editor_slug": "Flyingphoenixchips",
-      "editor_key": "Hindu_American_Foundation__Flyingphoenixchips"
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "editor_key": "Hindu_American_Foundation__EarthDude"
     },
     {
       "id": "1",
-      "text": "Hindu rights activist organization",
+      "text": "The HAF's activism aligns with the Hindu nationalist ideology of Hindutva, alongside impinging on academic freedom.",
       "source": "added",
       "score": 4.0,
-      "score_max": 5,
-      "method_code": "P3b",
-      "method_name": "Replaces charged language with neutral terms (detoxification)",
-      "revision_dates": [
-        "2026-06-08"
+      "score_max": 8,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "section_title": "Lead / Introduction",
+      "topic_name": "Accusation of Malicious Intent",
+      "categories": [
+        1
       ],
-      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
-      "reasoning": "Replaced the description 'Hindutva organization' with the more neutral-to-positive 'Hindu rights activist organization'.",
-      "rebuttal": "The editor modified the article to describe the Hindu American Foundation as a \"Hindu rights activist organization.\" While this may be how the group self-identifies or is seen by some, applying such a label without attribution to a reliable, independent source is problematic. The term \"rights activist\" can carry a positive connotation, and its uncritical use may constitute a non-neutral presentation. Per Wikipedia's Neutral Point of View policy, descriptive labels should reflect what is verifiable from sources, avoiding original phrasing or framing that could introduce editorial bias. This edit favors a particular viewpoint without establishing its basis in independent reporting, which is contrary to encyclopedic standards.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Ce",
+      "reasoning": "The article, in its own voice, makes the direct and unsubstantiated accusation that the organization's activism impinges on academic freedom.",
+      "rebuttal": "This claim misrepresents the Hindu American Foundation's (HAF) position on academic freedom. HAF's opposition to events like the 'Dismantling Global Hindutva' (DGH) conference was not an attempt to stifle academic inquiry but a challenge to what it considered a partisan political event promoting Hinduphobia under the guise of academia. HAF explicitly stated it was not trying to stop the conference or its speakers, but objected to university logos and sponsorship being used, which lent institutional credibility to a one-sided and hostile portrayal of Hinduism. The organization maintains that free speech and academic freedom are intrinsic Hindu precepts, but these must be balanced with the university's duty to ensure the safety and wellbeing of Hindu students and faculty who feel targeted by such events. Its advocacy, therefore, is framed as a defense against anti-Hindu hatred and the misuse of academic platforms, not an attack on academic freedom itself.",
+      "rebuttal_source": "https://www.hinduamerican.org/press/haf-reiterates-threats-for-hindus-on-campus-dgh",
       "red_flag": false,
       "slur": false,
-      "editor": "~2026-33953-78",
-      "editor_slug": "2026-33953-78",
-      "editor_key": "Hindu_American_Foundation__2026-33953-78"
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "editor_key": "Hindu_American_Foundation__EarthDude"
     },
     {
-      "id": "2",
-      "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multicultu",
+      "id": "4",
+      "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multiculturalism in the United States.",
       "source": "added",
       "score": 4.0,
-      "score_max": 5,
-      "method_code": "P2b",
-      "method_name": "Removes counter-arguments or alternative viewpoints",
-      "revision_dates": [
-        "2026-06-08"
+      "score_max": 8,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "section_title": "[Talk:Hindu_American_Foundation] NPOV",
+      "topic_name": "Accusation of Deceptive Rebranding",
+      "categories": [
+        1
       ],
-      "edit_comment": "Added information about why Hindus despite being a majority face severe threats",
-      "reasoning": "Removed a sentence providing a critical interpretation of the organization's motives and activism.",
-      "rebuttal": "The editor removed a critical sentence that characterized the organization's activities as an attempt to rebrand 'Hindutva' as 'Hindu rights'. Deleting properly sourced critical commentary is a violation of the Neutral Point of View (NPOV) policy. NPOV requires articles to represent all significant viewpoints that have been published by reliable sources, in proportion to their prominence. By removing this perspective, the editor skewed the article in favor of the subject, creating a more sanitized and less comprehensive overview. This action undermines the encyclopedic goal of providing a balanced account, which must include relevant criticisms and alternative analyses found in reputable sources, not just positive or self-promotional information.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "Ce",
+      "reasoning": "The statement, in the article's voice, accuses the organization of malicious and deceptive intent (rebranding) without attribution.",
+      "rebuttal": "The assertion that advocating for \"Hindu rights\" is merely a rebranding of Hindutva is a reductive interpretation. Proponents define Hindutva not as a supremacist political ideology but as the cultural and civilizational essence of India, literally meaning 'Hinduness'. This perspective views Hindutva as inclusive of all Indic traditions. The focus on \"Hindu rights\" by groups like HAF is presented as a necessary response to the documented mischaracterization of Hinduism in academia and media, rising Hinduphobia, and systemic biases. This advocacy is aimed at achieving fair and accurate representation for the Hindu community within the multicultural framework of the United States. It is positioned as a legitimate effort to address grievances and ensure the community's voice is heard, rather than a disingenuous political rebranding.",
+      "rebuttal_source": "https://hindupost.in/dharma/dismantling-global-hindutva-co-sponsored-by-ivy-league-univ-of-penn-was-thinly-veiled-attack-on-hindu-dharma/",
       "red_flag": false,
       "slur": false,
-      "editor": "~2026-33953-78",
-      "editor_slug": "2026-33953-78",
-      "editor_key": "Hindu_American_Foundation__2026-33953-78"
+      "editor": "EarthDude",
+      "editor_slug": "EarthDude",
+      "editor_key": "Hindu_American_Foundation__EarthDude"
     },
     {
       "id": "1",
-      "text": "The Hindu American Foundation ( ) is an American non-profit Hindutva advocacy organization founded in 2003.",
+      "text": "Truschke's view is widely supported by scholars and academics.",
       "source": "added",
       "score": 4.0,
-      "score_max": 5,
-      "method_code": "P3a",
-      "method_name": "Replaces neutral language with charged/loaded terms",
-      "revision_dates": [
-        "2024-10-09",
-        "2024-10-23",
-        "2026-06-03"
+      "score_max": 8,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Consensus",
+      "section_title": "[Talk:Hindu_American_Foundation] NPOV",
+      "topic_name": "Appeal to Undefined Consensus",
+      "categories": [
+        7
       ],
-      "edit_comment": "Undid revision [[Special:Diff/1252991097|1252991097]] by [[Special:Contributions",
-      "reasoning": "Editor repeatedly reverts to a version that describes the subject as a 'Hindutva' organization, rather than 'Hindu'.",
-      "rebuttal": "The editor removed the descriptor \"Hindutva\" from the lead sentence, changing the article's characterization of the Hindu American Foundation from a \"Hindutva advocacy organization\" to simply an \"advocacy organization.\" This edit significantly alters the initial definition presented to the reader. If the term \"Hindutva\" is used by multiple reliable, secondary sources to describe the organization, its removal may constitute a violation of Wikipedia's Neutral Point of View policy. This policy requires that articles represent significant viewpoints from reliable sources fairly and in proportion to their prominence. Removing a well-sourced, critical descriptor without consensus or a strong policy-based rationale can unduly favor the subject's preferred portrayal.",
-      "rebuttal_source": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "revision_dates": [
+        "2026-06-11"
+      ],
+      "edit_comment": "/* Activism */ Added a section on alliances with Christian nationalists",
+      "reasoning": "The statement asserts a wide, undefined consensus among 'scholars and academics' as fact to validate a specific viewpoint.",
+      "rebuttal": "The assertion that Audrey Truschke's views are 'widely supported by scholars' is contested. Significant academic criticism exists regarding her interpretations and methodology. For instance, her controversial translation of a Ramayana verse, where she claimed Sita called Rama a 'misogynistic pig,' was publicly refuted by Professor Robert Goldman, the very scholar whose translation she cited. Goldman called her language 'shocking' and 'wildly inappropriate.' Other academics, such as Girish Shahane, have critiqued her work on Emperor Aurangzeb, arguing it contains 'elisions and omissions' and undercuts the actions of more liberal Mughal rulers, suggesting her conclusions are not just debated by modern standards but also by those of the historical period in question. These instances demonstrate a notable lack of consensus within the academic community regarding her scholarship, indicating a more complex and critical reception than the claim of wide support suggests.",
+      "rebuttal_source": "https://swarajyamag.com/insta/the-scholar-whom-audrey-truschke-cites-finds-her-tweet-shocking",
       "red_flag": false,
       "slur": false,
-      "editor": "Bluethricecreamman",
-      "editor_slug": "Bluethricecreamman",
-      "editor_key": "Hindu_American_Foundation__Bluethricecreamman"
+      "editor": "Ftrhi",
+      "editor_slug": "Ftrhi",
+      "editor_key": "Hindu_American_Foundation__Ftrhi"
+    },
+    {
+      "id": "1",
+      "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 8,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Consensus",
+      "section_title": "Reception",
+      "topic_name": "Asserting Hindutva Link via Consensus",
+      "categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Response */",
+      "reasoning": "The article asserts a contested political label as a settled \"scholarly consensus\" in its own voice, using academic authority as a substitute for direct evidence.",
+      "rebuttal": "This claim mischaracterizes the Hindu American Foundation (HAF) by conflating its civil rights advocacy with a political ideology. HAF's stated mission is to be a non-profit, non-partisan advocacy organization for the Hindu American community, focusing on issues such as the accurate portrayal of Hinduism in schools and protecting the civil rights of Hindu Americans. HAF itself explicitly states that \"'Hindutva' is not a word we use at the Hindu American Foundation to describe our work, nor one we engage with politically or ideologically.\" The organization's work is grounded in addressing issues within the American legal and civil rights framework, such as providing cultural competency training and advocating against discrimination. This is distinct from Hindutva, which is a political ideology originating in India. Equating HAF's advocacy for the Hindu community with a political movement is an attempt to delegitimize its efforts to secure the rights and dignity of Hindu Americans.",
+      "rebuttal_source": "https://www.hinduamerican.org/blog/what-does-hindutva-really-mean",
+      "red_flag": false,
+      "slur": false,
+      "editor": "Gråbergs Gråa Sång",
+      "editor_slug": "Gråbergs_Gråa_Sång",
+      "editor_key": "Hindu_American_Foundation__Gråbergs_Gråa_Sång"
     }
   ]
 }

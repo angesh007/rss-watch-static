@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article Report — RSS Watch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="app-navbar"></header>
+
+  <div class="page-wrapper">
+    <div class="container">
+
+      <div class="empty-state" id="loading-state">
+        <div class="loading-spinner"></div><p>Loading report…</p>
+      </div>
+
+      <div class="empty-state" id="error-state" style="display:none">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <path d="M24 4L44 40H4L24 4Z" stroke="#cbd5e1" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M24 18V26M24 32V32.5" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <p id="error-text">Report not found.</p>
+        <a href="index.html" class="back-link" style="margin-top:8px;">Return to All Pages</a>
+      </div>
+
+      <div id="report-content" style="display:none">
+
+        <!-- DARK HEADER (report.vue style) -->
+        <div class="report-hero">
+          <a href="index.html" class="back-link back-link--light">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            All Pages
+          </a>
+
+          <h1 id="report-title">Article Analysis Report</h1>
+
+          <div class="report-hero-meta">
+            <div class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <rect x="2" y="3" width="12" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 6H14" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              Generated: <strong id="generated-at">—</strong>
+            </div>
+            <div class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M2 8h4M8 8h4M8 2v4M8 10v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              Branches analysed: <strong id="branch-count">—</strong>
+            </div>
+          </div>
+
+          <a id="report-url-link" href="#" target="_blank" rel="noopener noreferrer" class="report-source-link" style="display:none">
+            <span id="report-url-text"></span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+
+        <!-- EXEC SUMMARY -->
+        <section class="card executive">
+          <div class="card-header">
+            <h2>Executive Summary</h2>
+          </div>
+          <p class="summary-text" id="exec-summary-text">—</p>
+        </section>
+
+        <!-- SCORING BREAKDOWN (report.vue style) -->
+        <section class="card scoring-card" id="score-section">
+          <div class="card-header">
+            <h2>Scoring Breakdown</h2>
+            <div class="formula-pill">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M6 1L7.16 3.36L9.76 3.73L7.88 5.56L8.35 8.15L6 6.9L3.65 8.15L4.12 5.56L2.24 3.73L4.84 3.36L6 1Z" fill="currentColor"/>
+              </svg>
+              max + 0.25 × (hits − 1), capped at 8
+            </div>
+          </div>
+          <div id="score-visual"></div>
+          <div class="cat-rows" id="cat-rows"></div>
+        </section>
+
+        <!-- TAXONOMY BREAKDOWN (profile.vue breakdown style) -->
+        <section class="card" id="breakdown-section" style="display:none">
+          <div class="card-header">
+            <div class="section-header__title-group">
+              <h2>Phobia Category Breakdown</h2>
+              <p class="section-subtitle">All detections mapped to 8 main bias categories</p>
+            </div>
+            <span class="item-count" id="breakdown-count">0 Categories</span>
+          </div>
+          <div id="breakdown-grid"></div>
+        </section>
+
+        <!-- APPENDIX / DETECTIONS -->
+        <section class="card appendix-section">
+          <div class="card-header">
+            <h2>Detection Appendix</h2>
+            <span class="item-count" id="hits-count">0 / 0 Detections</span>
+          </div>
+
+          <div class="cat-filter-bar" id="cat-filter-bar"></div>
+
+          <div class="appendix-grid" id="hits-grid"></div>
+
+          <div class="empty-state" id="hits-empty" style="display:none">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <path d="M12 18H36M12 24H28M34 42H14C11.79 42 10 40.21 10 38V10C10 7.79 11.79 6 14 6H28.34C29.4 6 30.42 6.42 31.18 7.17L39.83 15.82C40.58 16.58 41 17.6 41 18.66V38C41 40.21 39.21 42 38 42Z" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+            <p>No phobic content detected in this article.</p>
+          </div>
+        </section>
+
+      </div><!-- /#report-content -->
+    </div>
+  </div>
+
+  <footer class="footer" id="app-footer"></footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/report.js"></script>
+</body>
+</html>

@@ -1,107 +1,130 @@
-/* ═══════════════════════════════════════════════════════════════
-   page.js — Per-page editor overview
-   Reads ?page=<page_slug> from the URL and renders
-   data/pages/<page_slug>/index.json
-   ═══════════════════════════════════════════════════════════════ */
-
+/* page.js v4 — 3-col editors, view-more, page breakdown, all-hits section */
 (async function () {
-  const els = {
-    loading:        document.getElementById("loading-state"),
-    error:          document.getElementById("error-state"),
-    errorText:      document.getElementById("error-text"),
-    content:        document.getElementById("page-content"),
-
-    pageTitle:      document.getElementById("page-title"),
-    pageUrlLink:    document.getElementById("page-url-link"),
-    pageUrlText:    document.getElementById("page-url-text"),
-    statEditors:    document.getElementById("stat-editors"),
-    statHits:       document.getElementById("stat-hits"),
-    statAvgScore:   document.getElementById("stat-avg-score"),
-    statSynced:     document.getElementById("stat-synced"),
-    editorsSection: document.getElementById("editors-section"),
-    editorsGrid:    document.getElementById("editors-grid"),
-    editorsCount:   document.getElementById("editors-count"),
-    emptyState:     document.getElementById("empty-state"),
-    topHitsSection: document.getElementById("top-hits-section"),
-    topHitsGrid:    document.getElementById("top-hits-grid"),
-    topHitsCount:   document.getElementById("top-hits-count"),
-  };
-
-  // ── Resolve page slug from query string ────────────────────────
-  const params = new URLSearchParams(window.location.search);
+  const params   = new URLSearchParams(window.location.search);
   const pageSlug = params.get("page");
+  const $        = id => document.getElementById(id);
 
-  if (!pageSlug) {
-    showError("No page specified.");
-    injectChrome();
-    return;
+  function showError(msg) {
+    $("loading-state").style.display = "none";
+    $("error-state").style.display   = "flex";
+    const et = $("error-text"); if (et) et.textContent = msg;
   }
 
+  if (!pageSlug) { showError("No page specified."); injectChrome(); return; }
+
   let index;
-  try {
-    index = await fetchPageIndex(pageSlug);
-  } catch (err) {
+  try { index = await fetchPageIndex(pageSlug); }
+  catch (err) {
     console.error(err);
-    showError(`Could not load report data for "${pageSlug}".`);
+    showError(`Could not load data for "${pageSlug}".`);
     injectChrome({ pageSlug });
     return;
   }
 
   injectChrome({ pageUrl: index.page_url, pageSlug, pageTitle: index.page_title });
+  document.title = `${(index.page_title || pageSlug).replace(/_/g, " ")} — Editor Analysis · RSS Watch`;
 
-  // ── Page header ────────────────────────────────────────────────
-  const niceTitle = (index.page_title || "Unknown Page").replace(/_/g, " ");
-  els.pageTitle.textContent = niceTitle;
-  document.title = `${niceTitle} — Editor Analysis · RSS Watch`;
+  $("page-title").textContent = (index.page_title || "Unknown Page").replace(/_/g, " ");
 
-  if (index.page_url) {
-    els.pageUrlLink.href = index.page_url;
-    els.pageUrlText.textContent = index.page_url;
-    els.pageUrlLink.style.display = "inline-flex";
+  const urlLink = $("page-url-link");
+  if (urlLink && index.page_url) {
+    urlLink.href = index.page_url;
+    $("page-url-text").textContent = index.page_url;
+    urlLink.style.display = "inline-flex";
   }
 
-  // ── Aggregate stats ────────────────────────────────────────────
-  els.statEditors.textContent = index.total_editors ?? 0;
-  els.statHits.textContent    = index.total_hits ?? 0;
-  els.statAvgScore.textContent = index.avg_score ?? 0;
-  els.statSynced.textContent  = fmtDate(index.generated_at);
+  const rpBtn = $("article-report-btn");
+  if (rpBtn) { rpBtn.href = reportHref(pageSlug); rpBtn.style.display = "inline-flex"; }
 
-  // ── Editors grid ───────────────────────────────────────────────
-  const editors = index.editors || [];
+  // Page score — /100
+  // Compute client-side if not in index (top-10 editors × hits factor)
+  let pageScore = index.page_score;
+  if (pageScore == null) {
+    const eds     = index.editors || [];
+    const top10   = [...eds].sort((a, b) => b.final_score - a.final_score).slice(0, 10);
+    const totalH  = index.total_hits || 0;
+    if (top10.length) {
+      const avg        = top10.reduce((s, e) => s + e.final_score, 0) / top10.length;
+      const hitsFactor = Math.min(1.0, totalH / Math.max(top10.length * 3, 1));
+      pageScore = Math.round((avg / 8) * 100 * (0.7 + 0.3 * hitsFactor) * 10) / 10;
+    } else {
+      pageScore = 0;
+    }
+  }
+  $("stat-editors").textContent   = index.total_editors ?? 0;
+  $("stat-hits").textContent      = index.total_hits ?? 0;
+  $("stat-page-score").textContent = pageScore;
+  $("stat-synced").textContent    = fmtDate(index.generated_at);
+
+  // ── Phobia Breakdown ──────────────────────────────────────
+  const pageBkdSection = $("page-breakdown-section");
+  if (pageBkdSection && index.page_breakdown) {
+    const active = Object.values(index.page_breakdown).filter(v => v.count > 0);
+    if (active.length && index.total_hits > 0) {
+      pageBkdSection.style.display = "";
+      const pbc  = $("page-breakdown-count");    if (pbc) pbc.textContent   = `${active.length} Categories`;
+      const pbsub = $("page-breakdown-subtitle"); if (pbsub) pbsub.textContent = `${index.total_hits} detections across ${active.length} phobia categories`;
+      const pbg  = $("page-breakdown-grid");     if (pbg) pbg.innerHTML = renderBreakdownGrid(index.page_breakdown, index.total_hits);
+    }
+  }
+
+  // ── Editors grid: 3-col, show 3, view-more ────────────────
+  const editors  = index.editors || [];
+  const edSection = $("editors-section");
 
   if (editors.length) {
-    els.editorsSection.style.display = "";
-    els.editorsCount.textContent = `${editors.length} Editor${editors.length === 1 ? "" : "s"}`;
-    els.editorsGrid.innerHTML = editors.map(ed => renderEditorCard(ed, pageSlug)).join("");
+    edSection.style.display = "";
+    const ec = $("editors-count"); if (ec) ec.textContent = `${editors.length} Editor${editors.length === 1 ? "" : "s"}`;
+    const grid    = $("editors-grid");
+    const INITIAL = 3;
+
+    function renderEditors(n) {
+      if (grid) grid.innerHTML = editors.slice(0, n).map(ed => renderEditorCard(ed, pageSlug)).join("");
+    }
+
+    renderEditors(Math.min(INITIAL, editors.length));
+
+    if (editors.length > INITIAL) {
+      const vmWrap = $("view-more-wrap");
+      const vmBtn  = $("view-more-btn");
+      if (vmWrap) vmWrap.style.display = "flex";
+      let showing = INITIAL;
+      if (vmBtn) {
+        vmBtn.textContent = `View all ${editors.length} editors`;
+        vmBtn.addEventListener("click", () => {
+          showing = showing >= editors.length ? INITIAL : editors.length;
+          renderEditors(showing);
+          vmBtn.textContent = showing >= editors.length
+            ? "Show fewer"
+            : `View all ${editors.length} editors`;
+        });
+      }
+    }
   } else {
-    els.emptyState.style.display = "flex";
+    const es = $("empty-state"); if (es) es.style.display = "flex";
   }
 
-  // ── Top hits ───────────────────────────────────────────────────
-  const topHits = index.top_hits || [];
-  if (topHits.length) {
-    els.topHitsSection.style.display = "";
-    els.topHitsCount.textContent = `Top ${topHits.length}`;
-    els.topHitsGrid.innerHTML = topHits.map(hit => `
-      <div class="hit-wrap">
-        <a href="${editorHref(pageSlug, hit.editor_slug)}" class="hit-editor-link">
-          ${ICONS.user}
-          ${escapeHtml(hit.editor)}
-          ${ICONS.chevronRight}
-        </a>
-        ${renderHitCard(hit, { showId: false })}
-      </div>
-    `).join("");
+  // ── All Hits Across Editors ──────────────────────────────
+  // (renamed from "Highest-Scoring Hits" — shows ALL top_hits with editor attribution)
+  const allHitsSection = $("all-hits-section");
+  const topHits        = index.top_hits || [];
+
+  if (allHitsSection && topHits.length) {
+    allHitsSection.style.display = "";
+    const ahc = $("all-hits-count"); if (ahc) ahc.textContent = `Top ${topHits.length}`;
+    const ahg = $("all-hits-grid");
+    if (ahg) {
+      ahg.innerHTML = topHits.map(hit => {
+        const editorLink = hit.editor_slug
+          ? `<a href="${editorHref(pageSlug, hit.editor_slug)}" class="hit-editor-link">
+               ${ICONS.user} ${escapeHtml(hit.editor || hit.editor_slug)} ${ICONS.chevron}
+             </a>`
+          : "";
+        return `<div class="hit-wrap">${editorLink}${renderHitCard(hit, { showId: false, showEditor: true })}</div>`;
+      }).join("");
+    }
   }
 
-  els.loading.style.display = "none";
-  els.content.style.display = "";
-
-  /* ── Helpers ─────────────────────────────────────────────────── */
-
-  function showError(msg) {
-    els.loading.style.display = "none";
-    els.error.style.display = "flex";
-    els.errorText.textContent = msg;
-  }
+  $("loading-state").style.display = "none";
+  $("page-content").style.display  = "";
 })();

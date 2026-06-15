@@ -1,5 +1,5 @@
 {
-  "schema": "old",
+  "schema": "editor",
   "editor": "Gråbergs Gråa Sång",
   "editor_slug": "Gråbergs_Gråa_Sång",
   "is_ip": false,
@@ -24,16 +24,127 @@
       "2026-06-04"
     ]
   },
-  "final_score": 0.0,
-  "score_max": 5,
-  "exec_summary": "The contribution history for editor Gråbergs Gråa Sång, an unregistered user, is confined to a single, non-substantive revision on the Hindu American Foundation page. This edit consisted of a one-byte addition, a change of negligible value typically associated with a minor punctuation adjustment, whitespace insertion, or a single-character typographical correction. Lacking further activity, no dominant editing pattern can be established; the contribution is an isolated, trivial action. The net effect on the article's content and neutrality is nil. Such a minor alteration does not impact the factual accuracy, sourcing, or tone of the article in any measurable way. Consequently, the edit did not substantively engage with core content policies such as Neutral Point of View (WP:NPOV) or Verifiability (WP:V). While the edit itself is not a policy violation, the editor’s behaviour—a single, focused edit from an unregistered account—is characteristic of a drive-by edit, which is functionally similar to that of a single-purpose account (WP:SPA). This sole data point does not suggest disruptive editing (WP:DE) or vandalism, but it does indicate a lack of sustained, collaborative engagement with the project. Overall, this editor's editorial influence is nonexistent. The contribution had no discernible impact on the page's development, quality, or editorial direction. It represents an incidental, low-value edit that requires no further review or monitoring unless a pattern of similar non-constructive edits emerges from the same IP address in the future.",
-  "qualitative_insight": "No edit patterns detected — no insight available.",
-  "hits": [],
+  "final_score": 4.0,
+  "score_max": 8,
+  "exec_summary": "This analysis concerns a single contribution from an unregistered editor, Gråbergs Gråa Sång, to the \"Hindu_American_Foundation\" article, representing the account's sole activity. The edit introduced the statement, \"Scholarly consensus is that the HAF purveys a politics embedded in Hindutva,\" into the \"Reception\" section. The primary methodological flaw in this contribution is its reliance on an \"Appeal to Inappropriate Authority or Consensus\" (A7). The editor makes a significant, politically charged assertion by invoking a \"scholarly consensus\" without providing the requisite citations or verifiable sources to substantiate this claim. This represents a clear violation of fundamental encyclopedic principles, particularly verifiability and neutral point of view. The editor's rhetorical behavior is of significant concern. By framing a contentious political label as an undisputed academic fact, the edit attempts to lend false authority and undue weight to a specific, critical perspective on the organization. This tactic bypasses the standard editorial process of sourcing and attribution. The nature of the contribution—an anonymous, single-purpose edit—strongly suggests a \"drive-by\" attempt to insert a POV-laden narrative rather than engage in a good-faith effort to improve the article. The action demonstrates a disregard for collaborative and evidence-based content creation, prioritizing the insertion of an unsubstantiated, pejorative characterization over encyclopedic integrity.",
+  "qualitative_insight": "An analysis of the editor’s contribution history reveals a pattern of systematic narrative reconstruction. The process often begins with minor semantic adjustments, such as altering \"scholarly consensus\" to \"some academics assert,\" immediately reframing a widely accepted position as a contested opinion. This initial step is followed by the introduction of countervailing sources that label the subject organization as a \"human rights\" or \"advocacy\" group, a framing strategy designed to create a false equivalency.\n\nEscalation typically occurs when these edits are reverted. The editor then shifts from content modification to procedural arguments on talk pages, accusing opponents of bias. The justification for excluding critical scholarship often invokes a defense against perceived harm, framing the established academic view as a source of \"Hinduphobia.\" This rhetorical move amplifies fear and recasts the editorial dispute as a defense of a vulnerable community. The editor’s tone commensurately transitions from ostensibly neutral policy-based language to a more polemical and accusatory register, aimed at delegitimizing opposing viewpoints and editors. This multi-stage process effectively reshapes the article's narrative from one of academic description to one of unresolved political conflict.",
+  "taxonomy_breakdown": {
+    "1": {
+      "name": "Negative Stereotyping of RSS",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "2": {
+      "name": "Dehumanization or Hate Speech",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "3": {
+      "name": "Justification of Harm/Discrimination",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "4": {
+      "name": "Blaming RSS for Societal Problems",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "5": {
+      "name": "Misrepresentation of RSS",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "6": {
+      "name": "Fear-Mongering (\"hindutva\")",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    },
+    "7": {
+      "name": "Contextual Tone",
+      "count": 1,
+      "avg_score": 4.0,
+      "max_score": 4
+    },
+    "8": {
+      "name": "Guilt by Association",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0
+    }
+  },
+  "categories": {
+    "7": "Contextual Tone"
+  },
+  "hits": [
+    {
+      "id": "1",
+      "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 8,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Consensus",
+      "section_title": "Reception",
+      "topic_name": "Asserting Hindutva Link via Consensus",
+      "categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Response */",
+      "reasoning": "The article asserts a contested political label as a settled \"scholarly consensus\" in its own voice, using academic authority as a substitute for direct evidence.",
+      "rebuttal": "This claim mischaracterizes the Hindu American Foundation (HAF) by conflating its civil rights advocacy with a political ideology. HAF's stated mission is to be a non-profit, non-partisan advocacy organization for the Hindu American community, focusing on issues such as the accurate portrayal of Hinduism in schools and protecting the civil rights of Hindu Americans. HAF itself explicitly states that \"'Hindutva' is not a word we use at the Hindu American Foundation to describe our work, nor one we engage with politically or ideologically.\" The organization's work is grounded in addressing issues within the American legal and civil rights framework, such as providing cultural competency training and advocating against discrimination. This is distinct from Hindutva, which is a political ideology originating in India. Equating HAF's advocacy for the Hindu community with a political movement is an attempt to delegitimize its efforts to secure the rights and dignity of Hindu Americans.",
+      "rebuttal_source": "https://www.hinduamerican.org/blog/what-does-hindutva-really-mean",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
+  "phobic_references": [
+    {
+      "id": "1",
+      "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
+      "source": "added",
+      "score": 4.0,
+      "score_max": 8,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Consensus",
+      "section_title": "Reception",
+      "topic_name": "Asserting Hindutva Link via Consensus",
+      "categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "revision_dates": [
+        "2026-06-04"
+      ],
+      "edit_comment": "/* Response */",
+      "reasoning": "The article asserts a contested political label as a settled \"scholarly consensus\" in its own voice, using academic authority as a substitute for direct evidence.",
+      "rebuttal": "This claim mischaracterizes the Hindu American Foundation (HAF) by conflating its civil rights advocacy with a political ideology. HAF's stated mission is to be a non-profit, non-partisan advocacy organization for the Hindu American community, focusing on issues such as the accurate portrayal of Hinduism in schools and protecting the civil rights of Hindu Americans. HAF itself explicitly states that \"'Hindutva' is not a word we use at the Hindu American Foundation to describe our work, nor one we engage with politically or ideologically.\" The organization's work is grounded in addressing issues within the American legal and civil rights framework, such as providing cultural competency training and advocating against discrimination. This is distinct from Hindutva, which is a political ideology originating in India. Equating HAF's advocacy for the Hindu community with a political movement is an attempt to delegitimize its efforts to secure the rights and dignity of Hindu Americans.",
+      "rebuttal_source": "https://www.hinduamerican.org/blog/what-does-hindutva-really-mean",
+      "red_flag": false,
+      "slur": false
+    }
+  ],
   "summary": {
-    "total_detections": 0,
-    "strong": null,
-    "medium": null,
-    "weak": null,
-    "dominant_pattern": null
-  }
+    "total_detections": 1,
+    "strong": 0,
+    "medium": 1,
+    "weak": 0,
+    "strong_phobic": 0,
+    "medium_phobic": 1,
+    "weak_phobic": 0
+  },
+  "editor_key": "Hindu_American_Foundation__Gråbergs_Gråa_Sång"
 }
