@@ -36,17 +36,18 @@
   const rpBtn = $("article-report-btn");
   if (rpBtn) { rpBtn.href = reportHref(pageSlug); rpBtn.style.display = "inline-flex"; }
 
-  // Page score — /100
-  // Compute client-side if not in index (top-10 editors × hits factor)
-  let pageScore = index.page_score;
+  // Page score — SAME formula and SAME scale as report.html's
+  // "Scoring Breakdown": pool every hit across the whole article
+  // (not a top-10 editor average, not rescaled to /100).
+  //   page_score = min(highest_hit + 0.25 × remaining_hits, 10)
+  let pageScore    = index.page_score;
+  let pageScoreMax = index.page_score_max ?? 10;
   if (pageScore == null) {
-    const eds     = index.editors || [];
-    const top10   = [...eds].sort((a, b) => b.final_score - a.final_score).slice(0, 10);
-    const totalH  = index.total_hits || 0;
-    if (top10.length) {
-      const avg        = top10.reduce((s, e) => s + e.final_score, 0) / top10.length;
-      const hitsFactor = Math.min(1.0, totalH / Math.max(top10.length * 3, 1));
-      pageScore = Math.round((avg / 8) * 100 * (0.7 + 0.3 * hitsFactor) * 10) / 10;
+    const allHits = (index.top_hits || []).map(h => Number(h.score || 0)).filter(s => s > 0);
+    if (allHits.length) {
+      const maxHit   = Math.max(...allHits);
+      const addl     = Math.max(0, allHits.length - 1);
+      pageScore = Math.round(Math.min(maxHit + addl * 0.25, 10) * 100) / 100;
     } else {
       pageScore = 0;
     }
@@ -54,6 +55,8 @@
   $("stat-editors").textContent   = index.total_editors ?? 0;
   $("stat-hits").textContent      = index.total_hits ?? 0;
   $("stat-page-score").textContent = pageScore;
+  const pageScoreDenom = $("stat-page-score-max");
+  if (pageScoreDenom) pageScoreDenom.textContent = `/${pageScoreMax}`;
   $("stat-synced").textContent    = fmtDate(index.generated_at);
 
   // ── Phobia Breakdown ──────────────────────────────────────

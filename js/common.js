@@ -121,7 +121,7 @@ const ICONS = {
 
 /* ── Hit card renderer ──────────────────────────────────── */
 function renderHitCard(hit, opts={}) {
-  const scoreMax = hit.score_max||8;
+  const scoreMax = hit.score_max||10;
   const txt      = hit.text||hit.sentence||"";
   const cats     = hit.main_category_names||(hit.method_name?[hit.method_name]:[]);
   const sev      = severityClass(hit.score, scoreMax);
@@ -174,13 +174,13 @@ function renderBreakdownGrid(breakdown, total) {
         </div>
         <div class="card-stats-row">
           <span class="offense-count">${ICONS.star}${cat.count} of ${total} refs</span>
-          <span class="avg-lbl">Avg: ${cat.avg_score} · Max: ${cat.max_score}/8</span>
+          <span class="avg-lbl">Avg: ${cat.avg_score} · Max: ${cat.max_score}/10</span>
         </div>
         <div class="progress-bar-wrap">
           <div class="progress-bar"><div class="progress-fill ${sev}" style="width:${pct}%"></div></div>
           <div class="progress-labels">
             <span class="progress-pct ${sev}">${pct}% of refs flagged</span>
-            <span class="progress-track-label">Max score: ${cat.max_score}/8</span>
+            <span class="progress-track-label">Max score: ${cat.max_score}/10</span>
           </div>
         </div>
       </div>
@@ -195,23 +195,23 @@ function renderScoringBreakdown(summary, detections) {
   const scores   = detections.map(d=>Number(d.score||0)).filter(s=>s>0);
   const maxScore = scores.length?Math.max(...scores):0;
   const addl     = Math.max(0,scores.length-1);
-  const finalS   = Math.min(maxScore+addl*0.25,8).toFixed(2);
+  const finalS   = Math.min(maxScore+addl*0.25,10).toFixed(2);
   const sev      = Number(finalS)>=5.5?"score-plain--danger":Number(finalS)>=3.5?"score-plain--med":"score-plain--low";
   const topDet   = detections.reduce((b,d)=>Number(d.score||0)>Number(b?.score||0)?d:b,detections[0]);
 
   return `<div class="score-visual-row">
-    <div class="score-plain-block"><span class="score-plain-num ${sev}">${finalS}</span><span class="score-plain-denom">/8</span></div>
+    <div class="score-plain-block"><span class="score-plain-num ${sev}">${finalS}</span><span class="score-plain-denom">/10</span></div>
     <div class="calc-row">
       <div class="calc-step"><div class="step-icon step-icon--max">${ICONS.star}</div><div class="step-body"><span class="step-label">Highest hit</span><span class="step-val">${maxScore}</span></div></div>
       <span class="calc-op">+</span>
       <div class="calc-step"><div class="step-icon step-icon--add"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div class="step-body"><span class="step-label">${addl} remaining × 0.25</span><span class="step-val">+${(addl*0.25).toFixed(2)}</span></div></div>
       <span class="calc-op">=</span>
-      <div class="calc-step calc-step--result"><div class="step-icon step-icon--result"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7L5.5 10.5L12 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="step-body"><span class="step-label">Final (cap 8)</span><span class="step-val step-val--final">${finalS}</span></div></div>
+      <div class="calc-step calc-step--result"><div class="step-icon step-icon--result"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7L5.5 10.5L12 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="step-body"><span class="step-label">Final (cap 10)</span><span class="step-val step-val--final">${finalS}</span></div></div>
     </div>
   </div>
-  ${topDet?`<div class="top-hit-card"><div class="top-hit-header"><div class="top-hit-badge">${ICONS.star}Highest Hit</div><span class="top-hit-score-pill">Score: ${topDet.score}/8</span><span class="top-hit-cats">${escapeHtml((topDet.main_category_names||[]).join(", "))}</span></div><blockquote class="top-hit-quote"><span class="qmark">"</span>${escapeHtml(topDet.text||topDet.sentence||"")}<span class="qmark">"</span></blockquote></div>`:""}
+  ${topDet?`<div class="top-hit-card"><div class="top-hit-header"><div class="top-hit-badge">${ICONS.star}Highest Hit</div><span class="top-hit-score-pill">Score: ${topDet.score}/10</span><span class="top-hit-cats">${escapeHtml((topDet.main_category_names||[]).join(", "))}</span></div><blockquote class="top-hit-quote"><span class="qmark">"</span>${escapeHtml(topDet.text||topDet.sentence||"")}<span class="qmark">"</span></blockquote></div>`:""}
   <div class="score-bucket-row">
-    <div class="score-bucket score-bucket--high"><span class="bucket-num">${summary.strong_phobic||0}</span><span class="bucket-label">Strong (7–8)</span></div>
+    <div class="score-bucket score-bucket--high"><span class="bucket-num">${summary.strong_phobic||0}</span><span class="bucket-label">Strong (7–10)</span></div>
     <div class="score-bucket score-bucket--med"><span class="bucket-num">${summary.medium_phobic||0}</span><span class="bucket-label">Medium (4–6)</span></div>
     <div class="score-bucket score-bucket--low"><span class="bucket-num">${summary.weak_phobic||0}</span><span class="bucket-label">Weak (1–3)</span></div>
   </div>`;
@@ -219,14 +219,14 @@ function renderScoringBreakdown(summary, detections) {
 
 /* ── Editor card for page.html ──────────────────────────── */
 function renderEditorCard(editor, pageSlug) {
-  const scoreCls = severityClass(editor.final_score, editor.score_max||8);
+  const scoreCls = severityClass(editor.final_score, editor.score_max||10);
   const topHit   = editor.top_hit;
   const act      = editor.page_activity||{};
   return `<a href="${editorHref(pageSlug, editor.editor_slug)}" class="editor-card">
     <div class="editor-card__top">
       <div class="editor-avatar${editor.is_ip?" editor-avatar--ip":""}">${editor.is_ip?ICONS.ip:ICONS.user}</div>
       <div class="editor-name-block"><h3 class="editor-name">${escapeHtml(editor.editor)}</h3></div>
-      <div class="editor-score ${scoreCls}"><span class="editor-score__num">${editor.final_score}</span><span class="editor-score__max">/${editor.score_max||8}</span></div>
+      <div class="editor-score ${scoreCls}"><span class="editor-score__num">${editor.final_score}</span><span class="editor-score__max">/${editor.score_max||10}</span></div>
     </div>
     ${topHit?`<p class="editor-top-hit"><span class="qm">"</span>${escapeHtml(topHit.text||"")}<span class="qm">"</span></p>`:`<p class="editor-top-hit editor-top-hit--empty">No flagged content detected.</p>`}
     <div class="editor-card__stats">
@@ -239,13 +239,14 @@ function renderEditorCard(editor, pageSlug) {
 }
 
 function renderPageCard(page) {
-  const scoreCls = severityClass(page.top_score, 100);
+  const scoreMax = page.page_score_max ?? page.score_max ?? 10;
+  const scoreCls = severityClass(page.page_score??page.top_score, scoreMax);
   const niceTitle= (page.page_title||page.page_slug).replace(/_/g," ");
   return `<a href="${pageHref(page.page_slug)}" class="page-card">
     <div class="page-card__top">
       <div class="page-card__icon">${ICONS.doc}</div>
       <div class="page-card__title-block"><h3 class="page-card__title">${escapeHtml(niceTitle)}</h3>${page.page_url?`<span class="page-card__url">${escapeHtml(page.page_url.replace(/^https?:\/\//,""))}</span>`:""}</div>
-      <div class="editor-score ${scoreCls}"><span class="editor-score__num">${page.page_score??page.top_score}</span><span class="editor-score__max">/100</span></div>
+      <div class="editor-score ${scoreCls}"><span class="editor-score__num">${page.page_score??page.top_score}</span><span class="editor-score__max">/${scoreMax}</span></div>
     </div>
     <div class="page-card__stats">
       <div class="ec-stat"><span class="ec-stat__num">${page.total_editors}</span><span class="ec-stat__label">Editors</span></div>

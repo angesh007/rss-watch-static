@@ -2,11 +2,12 @@
   "page_title": "Hindu_American_Foundation",
   "page_slug": "Hindu_American_Foundation",
   "page_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
-  "generated_at": "2026-06-15T16:55:54.739811+00:00",
+  "generated_at": "2026-06-16T07:33:05.939889+00:00",
   "total_editors": 4,
   "total_hits": 7,
   "avg_score": 5.19,
-  "page_score": 56.7,
+  "page_score": 7.5,
+  "page_score_max": 10,
   "page_breakdown": {
     "1": {
       "name": "Negative Stereotyping of RSS",
@@ -93,7 +94,7 @@
         ]
       },
       "final_score": 6.75,
-      "score_max": 8,
+      "score_max": 10,
       "total_hits": 4,
       "summary": {
         "total_detections": 4,
@@ -140,7 +141,7 @@
         ]
       },
       "final_score": 6.0,
-      "score_max": 8,
+      "score_max": 10,
       "total_hits": 1,
       "summary": {
         "total_detections": 1,
@@ -185,7 +186,7 @@
         ]
       },
       "final_score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "total_hits": 1,
       "summary": {
         "total_detections": 1,
@@ -226,7 +227,7 @@
         ]
       },
       "final_score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "total_hits": 1,
       "summary": {
         "total_detections": 1,
@@ -250,7 +251,7 @@
       "text": "Investigations into the HAF's role within the broader U.S.-based Hindutva network have characterized the organization as part of a movement that seeks to relegate Christians, Muslims, Sikhs, Dalits, and Adivasis to a subordinate status in India.",
       "source": "added",
       "score": 6.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "Anti-conversion laws and Hinduization",
@@ -279,7 +280,7 @@
       "text": "Category:Hindutva harassment of scholars",
       "source": "added",
       "score": 6.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "External links",
@@ -308,7 +309,7 @@
       "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multiculturalism in the United States.",
       "source": "added",
       "score": 5.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "C19",
       "method_name": "Rejection of Any Possibility of Good Intent",
       "section_title": "Lead / Introduction",
@@ -337,7 +338,7 @@
       "text": "The HAF's activism aligns with the Hindu nationalist ideology of Hindutva, alongside impinging on academic freedom.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "Lead / Introduction",
@@ -366,7 +367,7 @@
       "text": "However, these efforts largely function as an attempt to rebrand Hindutva as \"Hindu rights\" in order to better suit the mainstream politics of multiculturalism in the United States.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "[Talk:Hindu_American_Foundation] NPOV",
@@ -395,7 +396,7 @@
       "text": "Truschke's view is widely supported by scholars and academics.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "[Talk:Hindu_American_Foundation] NPOV",
@@ -424,7 +425,7 @@
       "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "Reception",

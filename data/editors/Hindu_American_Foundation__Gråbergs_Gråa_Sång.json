@@ -25,7 +25,7 @@
     ]
   },
   "final_score": 4.0,
-  "score_max": 8,
+  "score_max": 10,
   "exec_summary": "This analysis concerns a single contribution from an unregistered editor, Gråbergs Gråa Sång, to the \"Hindu_American_Foundation\" article, representing the account's sole activity. The edit introduced the statement, \"Scholarly consensus is that the HAF purveys a politics embedded in Hindutva,\" into the \"Reception\" section. The primary methodological flaw in this contribution is its reliance on an \"Appeal to Inappropriate Authority or Consensus\" (A7). The editor makes a significant, politically charged assertion by invoking a \"scholarly consensus\" without providing the requisite citations or verifiable sources to substantiate this claim. This represents a clear violation of fundamental encyclopedic principles, particularly verifiability and neutral point of view. The editor's rhetorical behavior is of significant concern. By framing a contentious political label as an undisputed academic fact, the edit attempts to lend false authority and undue weight to a specific, critical perspective on the organization. This tactic bypasses the standard editorial process of sourcing and attribution. The nature of the contribution—an anonymous, single-purpose edit—strongly suggests a \"drive-by\" attempt to insert a POV-laden narrative rather than engage in a good-faith effort to improve the article. The action demonstrates a disregard for collaborative and evidence-based content creation, prioritizing the insertion of an unsubstantiated, pejorative characterization over encyclopedic integrity.",
   "qualitative_insight": "An analysis of the editor’s contribution history reveals a pattern of systematic narrative reconstruction. The process often begins with minor semantic adjustments, such as altering \"scholarly consensus\" to \"some academics assert,\" immediately reframing a widely accepted position as a contested opinion. This initial step is followed by the introduction of countervailing sources that label the subject organization as a \"human rights\" or \"advocacy\" group, a framing strategy designed to create a false equivalency.\n\nEscalation typically occurs when these edits are reverted. The editor then shifts from content modification to procedural arguments on talk pages, accusing opponents of bias. The justification for excluding critical scholarship often invokes a defense against perceived harm, framing the established academic view as a source of \"Hinduphobia.\" This rhetorical move amplifies fear and recasts the editorial dispute as a defense of a vulnerable community. The editor’s tone commensurately transitions from ostensibly neutral policy-based language to a more polemical and accusatory register, aimed at delegitimizing opposing viewpoints and editors. This multi-stage process effectively reshapes the article's narrative from one of academic description to one of unresolved political conflict.",
   "taxonomy_breakdown": {
@@ -87,7 +87,7 @@
       "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "Reception",
@@ -115,7 +115,7 @@
       "text": "Scholarly consensus is that the HAF purveys a politics embedded in Hindutva.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "Reception",

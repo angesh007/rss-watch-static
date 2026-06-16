@@ -29,7 +29,7 @@
     ]
   },
   "final_score": 4.0,
-  "score_max": 8,
+  "score_max": 10,
   "exec_summary": "An objective content analysis of editor Ftrhi’s contributions to the \"Hindu American Foundation\" article reveals no evidence of RSS-phobic references, as indicated by a final phobia score of 0/8. The provided data does not support the premise of RSS-phobic editing by this user on this page. However, the analysis highlights problematic editorial behavior. A single reference was flagged from a discussion on the article's Talk page concerning its neutral point of view (NPOV). In this context, the editor asserted that a particular scholar's view is \"widely supported by scholars and academics.\" This statement was correctly identified as a rhetorical fallacy, specifically an \"Appeal to Inappropriate Authority or Consensus.\"\n\nThis rhetorical tactic is contrary to Wikipedia's core content policies, which require viewpoints to be supported by specific, verifiable citations rather than vague appeals to an undefined consensus. By employing this fallacy in a meta-discussion about the article's neutrality, the editor attempts to lend undue weight to a specific perspective without providing the requisite evidence. This behavior, combined with an editing pattern on this page that is exclusively additive, suggests a potential for tendentious editing and advocacy. The primary issue identified is not phobic content but a failure to adhere to the principles of source-based, collaborative discourse, instead relying on fallacious argumentation to advance a point of view.",
   "qualitative_insight": "This contribution demonstrates a foundational step in narrative construction through an appeal to authority. The editor employs a specific framing strategy, positioning \"Truschke's view\" not as one perspective among many, but as the normative scholarly consensus. The labeling of supporters as \"scholars and academics\" creates a powerful in-group/out-group dynamic, implicitly categorizing any dissenting opinion as unscholarly or fringe. This preemptive disqualification serves as a justification for the exclusion of alternative viewpoints, framing their removal as an act of maintaining academic rigor rather than ideological gatekeeping. The tone is declarative and encyclopedic, masking its strategic function. While not an overt escalation, this edit establishes an authoritative baseline from which subsequent challenges to the dominant narrative can be dismissed. It reshapes the discursive field by defining what constitutes a legitimate contribution, thereby controlling the article’s ideological direction without employing aggressive language or directly amplifying fear.",
   "taxonomy_breakdown": {
@@ -91,7 +91,7 @@
       "text": "Truschke's view is widely supported by scholars and academics.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "[Talk:Hindu_American_Foundation] NPOV",
@@ -119,7 +119,7 @@
       "text": "Truschke's view is widely supported by scholars and academics.",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7",
       "method_name": "Appeal to Inappropriate Authority or Consensus",
       "section_title": "[Talk:Hindu_American_Foundation] NPOV",

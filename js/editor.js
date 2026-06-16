@@ -45,8 +45,8 @@
   // Compute final_score live from refs (never trust stored 0)
   const scores     = hits.map(r => Number(r.score || 0)).filter(s => s > 0);
   const maxS       = scores.length ? Math.max(...scores) : 0;
-  const finalScore = Math.min(maxS + Math.max(0, scores.length - 1) * 0.25, 8).toFixed(2);
-  const scoreMax   = editor.score_max || 8;
+  const finalScore = Math.min(maxS + Math.max(0, scores.length - 1) * 0.25, 10).toFixed(2);
+  const scoreMax   = editor.score_max || 10;
 
   // Summary — merge old and new field names
   const summary = editor.summary || {};
@@ -243,7 +243,7 @@
           `<span class="chip-dot chip-dot--all"></span>All<span class="chip-count">${hits.length}</span>` +
         `</button>` +
         gList.map(g => {
-          const sev = severityClass(g.maxScore, 8);
+          const sev = severityClass(g.maxScore, 10);
           return `<button class="cat-chip${activeFilter === g.id ? " cat-chip--active" : ""}" data-cat="${escapeAttr(g.id)}">` +
             `<span class="chip-dot chip-dot--${sev}"></span>${escapeHtml(g.name)}<span class="chip-count">${g.count}</span>` +
           `</button>`;

@@ -32,7 +32,7 @@
     ]
   },
   "final_score": 4.0,
-  "score_max": 8,
+  "score_max": 10,
   "exec_summary": "An audit of contributions by editor ZDRX to the Rajiv Malhotra article reveals a problematic revision within the \"Infinity Foundation\" section. Despite a high overall edit count, this specific contribution demonstrates a departure from the encyclopedic standard of a neutral point of view. The editor introduced a statement portraying the foundation as an organization committed to the \"surveillance of the Academy.\" This edit was identified for its use of \"Ominous Innuendo and Suggestive Language.\"\n\nThe core issue is rhetorical and editorial. By employing the loaded term \"surveillance,\" the editor frames the subject in a negative, conspiratorial light without direct, verifiable evidence. This method bypasses the need for substantiated claims, instead relying on suggestion to create a specific perception in the reader's mind. Such behavior is inconsistent with the principles of factual reporting and neutrality expected in an academic context. While the provided analysis framework flagged this entry as relevant to RSS-phobia, the textual evidence itself makes no direct mention of the RSS, focusing exclusively on the Infinity Foundation. Additionally, a notable discrepancy exists in the provided metrics: the specific edit received a moderate score (4) for its rhetorical method, yet the editor's final phobia score and breadth for this category are recorded as zero. The editor's action, in this isolated instance, prioritizes a suggestive narrative over objective content, undermining the article's integrity.",
   "qualitative_insight": "This contribution constructs a narrative of institutional threat through strategic framing and attribution. The editor immediately establishes legitimacy by appealing to the authority of “scholars of Hinduism and South Asia,” framing the subsequent claim as an expert consensus. The core narrative is shaped by the loaded label “surveillance,” a term that reframes the organization’s activities from observation or critique to intrusive and potentially hostile monitoring. This represents a significant rhetorical escalation, shifting the narrative toward one of academic victimhood.\n\nThis framing implicitly justifies harm or exclusion by portraying the organization as a threat to academic freedom, making countermeasures appear defensive rather than aggressive. The term “surveillance” functions to amplify fear, evoking a chilling effect on intellectual inquiry. The parenthetical clarification “(academia)” broadens the target, extending the perceived threat beyond a specific discipline to the entire academic institution. The overall tone is declarative and seemingly neutral due to the attribution, yet the specific lexical choice strategically establishes a deeply antagonistic and menacing relationship between the organization and the academy.",
   "taxonomy_breakdown": {
@@ -95,7 +95,7 @@
       "text": "scholars of Hinduism and South Asia see it largely as an organization committed to the \"surveillance of the Academy (academia)\"",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A5",
       "method_name": "Ominous Innuendo and Suggestive Language",
       "section_title": "Infinity Foundation",
@@ -125,7 +125,7 @@
       "text": "scholars of Hinduism and South Asia see it largely as an organization committed to the \"surveillance of the Academy (academia)\"",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A5",
       "method_name": "Ominous Innuendo and Suggestive Language",
       "section_title": "Infinity Foundation",

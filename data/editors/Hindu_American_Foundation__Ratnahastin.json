@@ -31,7 +31,7 @@
     ]
   },
   "final_score": 6.0,
-  "score_max": 8,
+  "score_max": 10,
   "exec_summary": "This assessment concerns editor Ratnahastin, a highly experienced user with nearly 20,000 edits, and their contributions to the \"Hindu_American_Foundation\" page. The analysis identified a single but significant instance of problematic editorial conduct. The editor added the \"Category:Hindutva harassment of scholars\" to the article, an action classified under methodology A7.1 as an \"Unsubstantiated Accusation of Malice, Bigotry, or Criminality.\"\n\nThe primary issue is the misuse of a structural Wikipedia tool for rhetorical purposes. Applying a category is a powerful editorial act that frames the entire subject of an article, in this case associating the Hindu American Foundation with systemic, malicious, and potentially criminal behavior. This tactic bypasses the encyclopedic standard of attributing such serious claims to reliable sources within the article's body. The editor's behavior demonstrates a non-neutral, \"battleground\" approach, using a classificatory label to assert a highly contentious and negative viewpoint as fact. Given the user's extensive editing history, this action cannot be attributed to a misunderstanding of policy but rather appears to be a deliberate attempt to editorially brand the article's subject. Despite the severity of this specific action, the overall analysis concluded with a final score of 0/8, indicating the behavior did not meet the specific threshold for the phobia under review in this audit.",
   "qualitative_insight": "The creation of the category \"Hindutva harassment of scholars\" exemplifies a deliberate rhetorical construction of narrative. This single editorial action moves beyond describing isolated incidents to framing them as a cohesive, systematic phenomenon. The specific label is a powerful framing strategy, assigning clear roles: an ideological aggressor (\"Hindutva\"), a harmful and illegitimate action (\"harassment\"), and a victim class defined by their professional status (\"scholars\"). This reframes potential academic or political disputes as an attack on knowledge itself.\n\nThis act of categorization represents an escalation, elevating the issue from talk-page debates to a formal structural element of the encyclopedia. By defining the behavior as \"harassment,\" the framework inherently justifies the exclusion of the aggressors' viewpoints as outside the bounds of legitimate criticism, thus rationalizing harm to their reputation. The aggregation of incidents under such a heading can also function to amplify fear, suggesting a widespread and coordinated threat to academic freedom. The overall tone established by this structural edit is definitive and categorical, lending an air of established fact to a politically charged subject through the platform's organizational architecture.",
   "taxonomy_breakdown": {
@@ -93,7 +93,7 @@
       "text": "Category:Hindutva harassment of scholars",
       "source": "added",
       "score": 6.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "External links",
@@ -121,7 +121,7 @@
       "text": "Category:Hindutva harassment of scholars",
       "source": "added",
       "score": 6.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A7.1",
       "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
       "section_title": "External links",

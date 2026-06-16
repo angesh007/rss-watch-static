@@ -160,7 +160,7 @@
           return `<div class="cat-row ${sev}">
             <span class="cat-row-name"><span class="cat-row-dot"></span>${escapeHtml(cat.name)}</span>
             <span class="cat-row-count">${cat.count}</span>
-            <span class="cat-row-score">${cat.max_score}/8</span>
+            <span class="cat-row-score">${cat.max_score}/10</span>
             <div class="cat-row-bar-wrap"><div class="cat-row-bar" style="width:${Math.min(pct, 100)}%"></div><span class="cat-row-pct">${pct}%</span></div>
           </div>`;
         }).join("");
@@ -200,7 +200,7 @@
           `<span class="chip-count">${detections.length}</span>` +
         `</button>` +
         gList.map(g => {
-          const sev = severityClass(g.maxScore, 8);
+          const sev = severityClass(g.maxScore, 10);
           return `<button class="cat-chip${af === g.id ? " cat-chip--active" : ""}" data-f="${escapeAttr(g.id)}">` +
             `<span class="chip-dot chip-dot--${sev}"></span>${escapeHtml(g.name)}` +
             `<span class="chip-count">${g.count}</span>` +

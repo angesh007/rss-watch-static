@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T16:55:54.743133+00:00",
+  "generated_at": "2026-06-16T07:33:05.941398+00:00",
   "total_pages": 2,
   "total_editors": 5,
   "total_hits": 8,
@@ -11,10 +11,11 @@
       "total_editors": 4,
       "total_hits": 7,
       "avg_score": 5.19,
-      "page_score": 56.7,
+      "page_score": 7.5,
+      "page_score_max": 10,
       "top_editor": "EarthDude",
       "top_score": 6.75,
-      "score_max": 8
+      "score_max": 10
     },
     {
       "page_title": "Rajiv_Malhotra",
@@ -23,10 +24,11 @@
       "total_editors": 1,
       "total_hits": 1,
       "avg_score": 4.0,
-      "page_score": 40.0,
+      "page_score": 4.0,
+      "page_score_max": 10,
       "top_editor": "ZDRX",
       "top_score": 4.0,
-      "score_max": 8
+      "score_max": 10
     }
   ]
 }

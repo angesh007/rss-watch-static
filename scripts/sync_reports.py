@@ -110,8 +110,8 @@ def normalize_detection(det: dict) -> dict:
         "id":               str(det.get("id", "")),
         "text":             det.get("text", det.get("sentence", "")),
         "source":           "article",
-        "score":            clamp_score(det.get("score", 0), 8),
-        "score_max":        8,
+        "score":            clamp_score(det.get("score", 0), 10),
+        "score_max":        10,
         "method_code":      det.get("method_code", ""),
         "method_name":      det.get("method_name", ""),
         "section_title":    det.get("section_title", ""),
@@ -138,8 +138,8 @@ def normalize_hit(raw: dict, schema: str) -> dict:
             "id":             str(raw.get("id", "")),
             "text":           raw.get("text", raw.get("sentence", "")),
             "source":         raw.get("source") or "added",
-            "score":          clamp_score(raw.get("score", 0), 8),
-            "score_max":      8,
+            "score":          clamp_score(raw.get("score", 0), 10),
+            "score_max":      10,
             "method_code":    raw.get("method_code", ""),
             "method_name":    raw.get("method_name", ""),
             "section_title":  raw.get("section_title", ""),
@@ -212,7 +212,7 @@ def process_article_schema(raw: dict, fname: str) -> list:
         scores = [d["score"] for d in dets_sorted if d["score"] > 0]
         max_s  = max(scores) if scores else 0
         addl   = max(0, len(scores) - 1)
-        final  = round(min(max_s + addl * 0.25, 8), 2)
+        final  = round(min(max_s + addl * 0.25, 10), 2)
 
         strong = sum(1 for d in dets_sorted if d["score"] >= 7)
         med    = sum(1 for d in dets_sorted if 4 <= d["score"] <= 6)
@@ -241,7 +241,7 @@ def process_article_schema(raw: dict, fname: str) -> list:
             "account":      {},
             "page_activity":{},
             "final_score":  final,
-            "score_max":    8,
+            "score_max":    10,
             "exec_summary": "",
             "qualitative_insight": "",
             "taxonomy_breakdown": taxonomy,
@@ -277,7 +277,7 @@ def normalize_editor_schema(raw: dict, fallback_name: str) -> dict:
     scores = [h["score"] for h in hits if h["score"] > 0]
     if final == 0 and scores:
         max_s  = max(scores)
-        final  = round(min(max_s + max(0, len(scores) - 1) * 0.25, 8), 2)
+        final  = round(min(max_s + max(0, len(scores) - 1) * 0.25, 10), 2)
 
     summary = raw.get("summary", {})
     editor_name = meta.get("editor") or raw.get("editor") or fallback_name
@@ -297,7 +297,7 @@ def normalize_editor_schema(raw: dict, fallback_name: str) -> dict:
         "account":      meta.get("account") or raw.get("account") or {},
         "page_activity":raw.get("page_activity", {}),
         "final_score":  round(final, 2),
-        "score_max":    8,
+        "score_max":    10,
         "exec_summary": exec_summary.get("text", ""),
         "qualitative_insight": raw.get("qualitative_insight", ""),
         "taxonomy_breakdown":  raw.get("taxonomy_breakdown", {}),
@@ -483,14 +483,19 @@ def main():
         total_hits = sum(e["total_hits"] for e in editors)
         avg_score  = round(sum(e["final_score"] for e in editors) / len(editors), 2) if editors else 0
 
-        # Page score: top-10 editors by final_score, average × (hits_factor), scale to 100
-        top10 = sorted(editors, key=lambda e: e["final_score"], reverse=True)[:10]
-        if top10:
-            top10_avg   = sum(e["final_score"] for e in top10) / len(top10)
-            hits_factor = min(1.0, total_hits / max(len(top10) * 3, 1))
-            page_score  = round((top10_avg / 8) * 100 * (0.7 + 0.3 * hits_factor), 1)
+        # Page score: SAME formula and SAME scale as report.html's
+        # "Scoring Breakdown" (renderScoringBreakdown in report.js) —
+        # pool every hit across the whole article (all editors combined),
+        # not per-editor averages, not rescaled to /100:
+        #   page_score = min(highest_hit + 0.25 × (remaining_hits), 10)
+        all_scores = [h["score"] for h in all_hits if h.get("score", 0) > 0]
+        if all_scores:
+            max_hit_score  = max(all_scores)
+            remaining_hits = max(0, len(all_scores) - 1)
+            page_score     = round(min(max_hit_score + remaining_hits * 0.25, 10), 2)
         else:
             page_score = 0.0
+        page_score_max = 10
 
         # Page-level taxonomy breakdown: merge across all editors
         page_breakdown: dict = {}
@@ -518,6 +523,7 @@ def main():
             "total_hits":      total_hits,
             "avg_score":       avg_score,
             "page_score":      page_score,
+            "page_score_max":  page_score_max,
             "page_breakdown":  page_breakdown,
             "editors":         editors,
             "top_hits":        all_hits[:10],
@@ -530,16 +536,17 @@ def main():
             json.dump(page_index, f, indent=2, ensure_ascii=False)
 
         pages_summary.append({
-            "page_title":    page_index["page_title"],
-            "page_slug":     page_slug,
-            "page_url":      page_index["page_url"],
-            "total_editors": len(editors),
-            "total_hits":    total_hits,
-            "avg_score":     avg_score,
-            "page_score":    page_score,
-            "top_editor":    editors[0]["editor"]      if editors else None,
-            "top_score":     editors[0]["final_score"] if editors else 0,
-            "score_max":     editors[0]["score_max"]   if editors else 8,
+            "page_title":     page_index["page_title"],
+            "page_slug":      page_slug,
+            "page_url":       page_index["page_url"],
+            "total_editors":  len(editors),
+            "total_hits":     total_hits,
+            "avg_score":      avg_score,
+            "page_score":     page_score,
+            "page_score_max": page_score_max,
+            "top_editor":     editors[0]["editor"]      if editors else None,
+            "top_score":      editors[0]["final_score"] if editors else 0,
+            "score_max":      editors[0]["score_max"]   if editors else 10,
         })
 
         rel = os.path.relpath(page_index_path, ROOT_DIR)

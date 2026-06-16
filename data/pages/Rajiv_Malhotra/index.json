@@ -2,11 +2,12 @@
   "page_title": "Rajiv_Malhotra",
   "page_slug": "Rajiv_Malhotra",
   "page_url": "https://en.wikipedia.org/wiki/Rajiv_Malhotra",
-  "generated_at": "2026-06-15T16:55:54.742346+00:00",
+  "generated_at": "2026-06-16T07:33:05.940890+00:00",
   "total_editors": 1,
   "total_hits": 1,
   "avg_score": 4.0,
-  "page_score": 40.0,
+  "page_score": 4.0,
+  "page_score_max": 10,
   "page_breakdown": {
     "1": {
       "name": "Negative Stereotyping of RSS",
@@ -89,7 +90,7 @@
         ]
       },
       "final_score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "total_hits": 1,
       "summary": {
         "total_detections": 1,
@@ -113,7 +114,7 @@
       "text": "scholars of Hinduism and South Asia see it largely as an organization committed to the \"surveillance of the Academy (academia)\"",
       "source": "added",
       "score": 4.0,
-      "score_max": 8,
+      "score_max": 10,
       "method_code": "A5",
       "method_name": "Ominous Innuendo and Suggestive Language",
       "section_title": "Infinity Foundation",
