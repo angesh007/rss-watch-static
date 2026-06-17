@@ -1,0 +1,675 @@
+{
+  "article": {
+    "source_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+    "language": "en",
+    "requested_title": "Hindu American Foundation",
+    "resolved_title": "Hindu American Foundation",
+    "page_id": 2484613,
+    "latest_rev_id": 1359696078,
+    "latest_rev_timestamp": "2026-06-16T17:54:46Z"
+  },
+  "summary": {
+    "total_detections": 13,
+    "severe_count": 12,
+    "moderate_count": 1,
+    "minor_count": 0,
+    "unfavorable_to_subject_count": 0,
+    "favorable_to_subject_count": 0,
+    "neutral_structural_count": 0
+  },
+  "category_summary": {
+    "1": {
+      "name": "Negative Stereotyping of RSS",
+      "count": 4,
+      "avg_score": 6.75,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+          "text": "impinging on academic freedom",
+          "score": 7,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "6.1",
+          "Topic_name": "Against individual freedom and intellectualism",
+          "reasoning": "Makes a direct, unsubstantiated accusation of malicious behavior (impinging on academic freedom) as a factual statement.",
+          "sentence_index": 2,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "Claims of organizations \"impinging on academic freedom\" are serious and often part of broader debates about ideological influence in education. When such an accusation is made, it typically refers to efforts by external groups to influence curriculum content, hiring decisions, or research topics, sometimes through advocacy, protests, or lobbying, which critics argue can create a chilling effect or lead to self-censorship among academics. However, whether these actions constitute a direct impingement or are legitimate forms of engagement within democratic societies is often highly contentious. Accusations of this nature require specific evidence to substantiate the impact on academic autonomy, and without such evidence, presenting it as an established fact rather than an allegation reflects a particular viewpoint.",
+          "rebuttal_source_url": "https://www.aaup.org/report/academic-freedom-and-governance-higher-education",
+          "rebuttal_source_title": "Academic Freedom and Governance in Higher Education"
+        },
+        {
+          "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+          "text": "a movement that seeks to relegate christians, muslims, sikhs, dalits, and adivasis to a subordinate status in india.",
+          "score": 7,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "9.2",
+          "Topic_name": "Extremism and bigotry",
+          "reasoning": "Accuses the organization of seeking to subordinate minorities, presenting this as a factual characterization from unspecified 'investigations'.",
+          "sentence_index": 44,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "The characterization of a movement as seeking to relegate specific religious and social groups to subordinate status is a common critique leveled against Hindutva by various scholars, activists, and minority rights organizations. They often cite rhetoric, policies, and historical actions as evidence of an exclusionary ideology. However, proponents of such movements often reject this interpretation, asserting their aim is cultural preservation, national unity, or the promotion of a specific national identity, rather than the subjugation of minorities. They frequently argue that their actions are misunderstood or misrepresented by critics.",
+          "rebuttal_source_url": "https://www.jstor.org/stable/26456094",
+          "rebuttal_source_title": "Understanding Hindutva and Indian Politics"
+        },
+        {
+          "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+          "text": "alliances with christian nationalists... despite hindu americans being \" significantly affected \" by such elements.",
+          "score": 6,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "13.5",
+          "Topic_name": "Guilt by association",
+          "reasoning": "Presents HAF's alliances as problematic and hypocritical, implying malicious intent or disregard for Hindu American interests, based on unspecified 'investigations'.",
+          "sentence_index": 67,
+          "editor_id": "20283540",
+          "editor_name": "Ftrhi",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "Organizations like the Hindu American Foundation (HAF) often engage in political alliances based on shared interests in specific policy areas, such as religious freedom or opposition to certain legislative proposals, rather than full alignment on all ideological fronts. While some Christian nationalist elements may hold views potentially affecting Hindu Americans, HAF might form alliances with specific groups or individuals on issues where their advocacy goals converge. Critics often highlight potential contradictions in such alliances, while HAF typically frames these partnerships as strategic for advancing the interests of Hindu Americans in the public square.",
+          "rebuttal_source_url": "https://www.pewresearch.org/religion/2012/03/13/asian-americans-views-on-religion/",
+          "rebuttal_source_title": "Asian Americans: A Mosaic of Faiths - Pew Research Center"
+        },
+        {
+          "id": "1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
+          "text": "entities described in the article as having documented links to organizations that have been associated in india with violence against christian, muslim and dalit communities.",
+          "score": 7,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "13.5",
+          "Topic_name": "Guilt by association",
+          "reasoning": "Links HAF to other organizations 'associated with violence against Christian, Muslim and Dalit communities,' presenting this as a documented fact from a report, creating guilt by association.",
+          "sentence_index": 95,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "Reports from various organizations have indeed described the Hindu American Foundation (HAF) as having links to groups associated with violence against Christian, Muslim, and Dalit communities in India, though HAF denies these characterizations. For example, a 2013 report by the Coalition Against Genocide labeled HAF as part of a network of U.S. front organizations for ideologies linked to persecution in India. While HAF sued to retract this language, a U.S. District Judge dismissed the action, ruling the statements were opinions not \"verifiably false.\" Critics further point to HAF's lobbying efforts against U.S. legislative measures that drew attention to anti-Christian violence in India and their defense of actors associated with such mobilizations. HAF, however, rejects these accusations, stating it is an independent organization that stands against violence from any extremist group.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m5GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        }
+      ]
+    },
+    "2": {
+      "name": "Dehumanization or Hate Speech",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "detections": []
+    },
+    "3": {
+      "name": "Justification of Harm/Discrimination",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "detections": []
+    },
+    "4": {
+      "name": "Blaming RSS for Societal Problems",
+      "count": 3,
+      "avg_score": 6.67,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+          "text": "paramilitary rashtriya swayamsevak sangh",
+          "score": 7,
+          "method_code": "F49",
+          "method_name": "Portraying Ubiquitous, Inescapable, and Ominous Institutional Omnipresence",
+          "Topic_id": "4.1",
+          "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+          "reasoning": "Uses the loaded term 'paramilitary' to describe RSS, creating an ominous and fear-inducing association.",
+          "sentence_index": 1,
+          "editor_id": "34505442",
+          "editor_name": "Shahinshah121",
+          "main_categories": [
+            4
+          ],
+          "main_category_names": [
+            "Blaming RSS for Societal Problems"
+          ],
+          "rebuttal": "The Rashtriya Swayamsevak Sangh (RSS) is often described by critics and some media outlets as \"paramilitary\" due to its disciplined drills, uniform, and hierarchical structure, which are reminiscent of military organizations. However, the RSS itself and its supporters define it primarily as a socio-cultural organization focused on character building, national rejuvenation, and community service through its network of shakhas (branches). While it does maintain a strong organizational discipline and physical training, its stated objectives do not involve military functions, and it is not an armed force. Framing it solely as a \"paramilitary\" group emphasizes one aspect of its structure without fully capturing its multifaceted socio-cultural and educational activities, which also include disaster relief and social reform initiatives.",
+          "rebuttal_source_url": "https://books.google.com/books?id=P1iIDAAAQBAJ&pg=PT19",
+          "rebuttal_source_title": "The RSS: A View to the Inside"
+        },
+        {
+          "id": "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+          "text": "rss, a hindutva paramilitary organization",
+          "score": 7,
+          "method_code": "F49",
+          "method_name": "Portraying Ubiquitous, Inescapable, and Ominous Institutional Omnipresence",
+          "Topic_id": "4.1",
+          "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+          "reasoning": "Repeats the loaded term 'paramilitary' to describe RSS, reinforcing an ominous and fear-inducing association.",
+          "sentence_index": 73,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            4
+          ],
+          "main_category_names": [
+            "Blaming RSS for Societal Problems"
+          ],
+          "rebuttal": "The Rashtriya Swayamsevak Sangh (RSS) is frequently described by critics and some media as a paramilitary organization due to its hierarchical structure, emphasis on discipline, physical training, and the wearing of uniforms by its cadres. However, the RSS itself asserts that it is a cultural and social organization dedicated to character building and national rejuvenation, engaging primarily in community service, education, and cultural propagation. This discrepancy reflects differing interpretations of its organizational structure and activities, with its supporters emphasizing its social and voluntary aspects.",
+          "rebuttal_source_url": "https://www.jstor.org/stable/26456094",
+          "rebuttal_source_title": "Understanding Hindutva and Indian Politics"
+        },
+        {
+          "id": "3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
+          "text": "investigated money trails linking the haf to other sangh parivar groups via their donors.",
+          "score": 6,
+          "method_code": "C20",
+          "method_name": "Promotion of Grand Transnational Conspiracy Theories",
+          "Topic_id": "2.4",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "Implies a hidden, potentially illicit, financial network ('money trails') linking HAF to other Sangh Parivar groups, suggesting a transnational conspiracy.",
+          "sentence_index": 109,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            4,
+            6
+          ],
+          "main_category_names": [
+            "Blaming RSS for Societal Problems",
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "Investigations into financial links between the Hindu American Foundation (HAF) and other Sangh Parivar groups via their donors have been reported by various outlets and academic initiatives. Tax filings reviewed by Frontline and other sources indicate significant donor overlap between HAF and U.S. foundations that fund Sangh-affiliated organizations in India. For example, the Bhutada Family Foundation, whose principal was a national vice-president of the Hindu Swayamsevak Sangh, donated substantially to both HAF and other Sangh-affiliated groups. Georgetown University's Bridge Initiative and several journalists have also documented these financial connections. While HAF denies receiving money or direction from any foreign government and asserts its funding comes from individual U.S. donors, these reports suggest a documented pattern of shared financial support with organizations identified as part of the broader Sangh Parivar network.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m6GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        }
+      ]
+    },
+    "5": {
+      "name": "Misrepresentation of RSS",
+      "count": 3,
+      "avg_score": 6.0,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+          "text": "the organization alleges that its advocacy focuses on protecting the rights of hindus",
+          "score": 5,
+          "method_code": "B15.1",
+          "method_name": "Propaganda Mandate Framing",
+          "Topic_id": "2.2",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "Uses 'alleges' to subtly cast doubt on the organization's stated mission of protecting Hindu rights, implying deception.",
+          "sentence_index": 3,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "Using the word \"alleges\" to describe an organization's stated mission can subtly cast doubt on the sincerity or legitimacy of its claims, implying that the organization's professed goals might be disingenuous or unsubstantiated. Many organizations, particularly those focused on identity or community interests, articulate their advocacy as protecting the rights of their constituents. For groups identifying as Hindu, this often involves advocating for issues such as fair representation, religious freedom, preservation of cultural heritage, and protection against discrimination. From their perspective, these efforts are a direct and genuine response to perceived challenges or inequalities faced by their community, and they view their work as a legitimate pursuit of civil and religious rights, similar to other identity-based advocacy groups.",
+          "rebuttal_source_url": "https://www.pewresearch.org/religion/2021/06/29/religion-in-india-tolerance-segregation-and-a-lack-of-contact/",
+          "rebuttal_source_title": "Religion in India: Tolerance and Segregation"
+        },
+        {
+          "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+          "text": "these efforts largely function as an attempt to rebrand hindutva as \" hindu rights \"",
+          "score": 7,
+          "method_code": "H55",
+          "method_name": "Dismissing Religious Freedom Claims as Strategic Deception",
+          "Topic_id": "2.2",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "Accuses the organization of cynically rebranding a negative ideology ('Hindutva') as legitimate 'Hindu rights' for political gain, dismissing genuine advocacy.",
+          "sentence_index": 4,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The assertion that efforts to protect \"Hindu rights\" are merely an attempt to \"rebrand Hindutva\" reflects a critical perspective common among those who view Hindutva primarily as a political and exclusivist ideology. From this viewpoint, advocating for \"Hindu rights\" is seen as a tactical move to legitimize and popularize Hindutva by associating it with universally accepted concepts of rights and religious freedom, thereby downplaying its more controversial aspects. However, proponents of these efforts often genuinely believe they are addressing legitimate concerns and protecting the interests of the Hindu community, arguing that Hindus, like any other group, have a right to advocate for their cultural and religious freedoms. The interpretation depends heavily on one's existing understanding and critique of the term Hindutva itself.",
+          "rebuttal_source_url": "https://carnegieendowment.org/2022/10/26/roots-of-hindu-nationalism-pub-88220",
+          "rebuttal_source_title": "The Roots of Hindu Nationalism"
+        },
+        {
+          "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+          "text": "the incumbent government has been widely blamed for active complicity.",
+          "score": 6,
+          "method_code": "B10",
+          "method_name": "Historical Falsification, Erasure of Persecution, and Myth-Making",
+          "Topic_id": "16.13",
+          "Topic_name": "Hindutva as architect of systemic democratic breakdown and institutional capture",
+          "reasoning": "Presents a contested claim of government complicity in violence as a widely accepted fact without immediate nuance or attribution to specific legal findings.",
+          "sentence_index": 25,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "Claims of government complicity in violence are serious and frequently arise during periods of civil unrest or communal conflict. While various human rights organizations, political opponents, and some media outlets may attribute blame to incumbent governments for inaction or active involvement, such accusations are often highly contested. Judicial inquiries and investigations into these events can be prolonged, and their findings may not always lead to universal agreement on culpability, reflecting the complex nature of state responsibility in maintaining order and protecting citizens during crises.",
+          "rebuttal_source_url": "https://www.jstor.org/stable/j.ctt1xxz1x.10",
+          "rebuttal_source_title": "State Responsibility for Human Rights in India"
+        }
+      ]
+    },
+    "6": {
+      "name": "Fear-Mongering (\"hindutva\")",
+      "count": 1,
+      "avg_score": 6.0,
+      "max_score": 6,
+      "detections": [
+        {
+          "id": "3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
+          "text": "investigated money trails linking the haf to other sangh parivar groups via their donors.",
+          "score": 6,
+          "method_code": "C20",
+          "method_name": "Promotion of Grand Transnational Conspiracy Theories",
+          "Topic_id": "2.4",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "Implies a hidden, potentially illicit, financial network ('money trails') linking HAF to other Sangh Parivar groups, suggesting a transnational conspiracy.",
+          "sentence_index": 109,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            4,
+            6
+          ],
+          "main_category_names": [
+            "Blaming RSS for Societal Problems",
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "Investigations into financial links between the Hindu American Foundation (HAF) and other Sangh Parivar groups via their donors have been reported by various outlets and academic initiatives. Tax filings reviewed by Frontline and other sources indicate significant donor overlap between HAF and U.S. foundations that fund Sangh-affiliated organizations in India. For example, the Bhutada Family Foundation, whose principal was a national vice-president of the Hindu Swayamsevak Sangh, donated substantially to both HAF and other Sangh-affiliated groups. Georgetown University's Bridge Initiative and several journalists have also documented these financial connections. While HAF denies receiving money or direction from any foreign government and asserts its funding comes from individual U.S. donors, these reports suggest a documented pattern of shared financial support with organizations identified as part of the broader Sangh Parivar network.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m6GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        }
+      ]
+    },
+    "7": {
+      "name": "Contextual Tone",
+      "count": 2,
+      "avg_score": 6.0,
+      "max_score": 6,
+      "detections": [
+        {
+          "id": "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+          "text": "widely supported by scholars and academics.",
+          "score": 6,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "18.11",
+          "Topic_name": "Academic Reframing & Normalization of Anti-Hindutva Bias",
+          "reasoning": "Uses an appeal to 'widely supported by scholars and academics' to validate a negative view (Truschke's criticism of HAF) as a synthetic consensus.",
+          "sentence_index": 72,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "While some academic interpretations, such as those by Audrey Truschke, may indeed garner significant support from certain scholars and academics, academic consensus on complex historical and political issues is rarely absolute. The field of South Asian studies, particularly regarding colonial history and contemporary political movements, is characterized by diverse viewpoints and vigorous debate. Other scholars may offer alternative readings, critique specific methodologies, or present different conclusions based on their own research and interpretations of historical evidence, indicating a pluralistic academic discourse rather than a monolithic consensus.",
+          "rebuttal_source_url": "https://www.jstor.org/stable/10.2979/jsacredtexts.19.2.04",
+          "rebuttal_source_title": "JSTOR: Scholarly Engagement with Hindu Tradition: Issues and Debates"
+        },
+        {
+          "id": "2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c",
+          "text": "scholarly consensus is that the haf purveys a politics embedded in hindutva.",
+          "score": 6,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "4.1",
+          "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+          "reasoning": "Uses 'scholarly consensus' to present a negative characterization ('politics embedded in Hindutva') as an established, uncontested fact.",
+          "sentence_index": 97,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "The claim that there is scholarly consensus regarding the Hindu American Foundation's (HAF) politics being embedded in Hindutva is largely supported by academic and journalistic sources. Multiple scholars characterize HAF as a conservative group aligned with Hindu nationalist politics, with some describing it as a \"deeply conservative\" outfit. A U.S. District Judge, in a defamation suit brought by HAF, also ruled that statements associating HAF with Hindutva were opinions and not verifiably false. While HAF identifies as an advocate for Hindu Americans' civil rights and religious freedom, and asserts that Hindutva is a complex term often weaponized to negatively stereotype Hindus, many analyses consistently link the organization to the broader Hindutva movement, often presenting it as a key node in a global Hindu supremacist network.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m6GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        }
+      ]
+    },
+    "8": {
+      "name": "Guilt by Association",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "detections": []
+    }
+  },
+  "composite_score": {
+    "phobia_intensity": 6.38,
+    "phobia_breadth": 0.625,
+    "final_score": 5.97,
+    "strong_phobic": 6,
+    "medium_phobic": 7,
+    "weak_phobic": 0,
+    "total_detections": 13,
+    "report_score": 10.0
+  },
+  "executive_summary": {
+    "text": "The analyzed paper demonstrates a consistent rhetorical pattern that negatively frames Hindu and RSS-affiliated organizations, often relying on unsubstantiated assertions and loaded terminology. A central issue is the author's propensity to present highly contested terms, such as \"Hindutva organization\" and \"paramilitary Rashtriya Swayamsevak Sangh,\" as unqualified facts. This approach normalizes a critical, often negative, viewpoint and instills an ominous association with the described entities. The author frequently employs direct, unsubstantiated accusations, including claims of organizations \"impinging on academic freedom\" and pursuing a \"movement that seeks to relegate Christians, Muslims, Sikhs, Dalits, and Adivasis to a subordinate status,\" presenting these serious allegations as established truths without the necessary substantiation or attribution.\n\nFurther problematic rhetorical behaviors include subtly undermining an organization's stated mission by employing words like \"alleges\" when discussing their advocacy for Hindu rights. This is exacerbated by dismissing such efforts as a cynical \"attempt to rebrand Hindutva,\" thereby discrediting what may be genuine advocacy as strategic deception. The paper also leverages appeals to synthetic consensus, asserting claims are \"widely supported by scholars and academics\" or represent \"scholarly consensus,\" to validate negative interpretations and suppress alternative perspectives. Additionally, the author engages in guilt by association, linking organizations to entities \"associated... with violence,\" and implies illicit transnational conspiracies through references to \"investigated money trails,\" without explicit substantiation of these links within the provided text. This cumulative rhetorical strategy results in an overwhelmingly negative and biased portrayal of the subjects."
+  },
+  "qualitative_insight": {
+    "text": "The critical narrative constructs a progressively negative portrayal, initiating with the definitive labeling of an entity as a \"hindutva organization\" and the Rashtriya Swayamsevak Sangh as \"paramilitary,\" establishing an immediate politicized and ominous framing. This foundational framing is quickly followed by direct accusations of malicious intent, such as \"impinging on academic freedom\" and seeking to \"relegate Christians, Muslims, Sikhs, Dalits, and Adivasis to a subordinate status in India,\" which implicitly justifies critical scrutiny through allegations of systemic harm and bigotry.\n\nThe narrative escalates by actively undermining stated objectives, employing terms like \"alleges\" and characterizing efforts as an attempt to \"rebrand hindutva as 'hindu rights',\" suggesting calculated deception. Fear amplification is achieved through consistent linkage to \"violence against Christian, Muslim and Dalit communities\" and broad claims of \"incumbent government... active complicity.\" Further escalation involves suggesting hidden financial networks via \"investigated money trails linking the HAF to other Sangh Parivar groups,\" hinting at a transnational conspiracy. The narrative maintains an authoritative, accusatory tone, reinforced by appeals to \"scholarly consensus\" and statements being \"widely supported by scholars and academics,\" thereby presenting a unified, ostensibly objective, and critically informed perspective."
+  },
+  "detections": [
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "text": "hindutva organization",
+      "score": 6,
+      "method_code": "18.1",
+      "method_name": "Academic Reframing & Normalization of Anti-Hindutva Bias",
+      "Topic_id": "4.1",
+      "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+      "reasoning": "Labels the organization with a contested, often negative term ('Hindutva') as an uncontested fact in the lead.",
+      "sentence_index": 0,
+      "editor_id": "17956451",
+      "editor_name": "Vanamonde93",
+      "main_categories": [],
+      "main_category_names": [],
+      "rebuttal": "The term Hindutva refers to a political ideology advocating for Hindu cultural nationalism in India, distinct from Hinduism as a religion. While often used critically by some academics and media to describe certain organizations, adherents and scholars like Vinayak Damodar Savarkar, who coined the term, present it as a movement focused on cultural identity and national unity rather than a religious doctrine. Its interpretation as inherently negative is a contested viewpoint, as many who identify with Hindutva perceive it as a legitimate framework for protecting and promoting Hindu heritage and interests within India. Therefore, labeling an organization simply as a \"Hindutva organization\" without further context can be seen as reflecting a particular political interpretation rather than a neutral description.",
+      "rebuttal_source_url": "https://www.jstor.org/stable/48590623",
+      "rebuttal_source_title": "Understanding Hindutva: The Ideology, the Movement, and the Future of India"
+    },
+    {
+      "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+      "text": "paramilitary rashtriya swayamsevak sangh",
+      "score": 7,
+      "method_code": "F49",
+      "method_name": "Portraying Ubiquitous, Inescapable, and Ominous Institutional Omnipresence",
+      "Topic_id": "4.1",
+      "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+      "reasoning": "Uses the loaded term 'paramilitary' to describe RSS, creating an ominous and fear-inducing association.",
+      "sentence_index": 1,
+      "editor_id": "34505442",
+      "editor_name": "Shahinshah121",
+      "main_categories": [
+        4
+      ],
+      "main_category_names": [
+        "Blaming RSS for Societal Problems"
+      ],
+      "rebuttal": "The Rashtriya Swayamsevak Sangh (RSS) is often described by critics and some media outlets as \"paramilitary\" due to its disciplined drills, uniform, and hierarchical structure, which are reminiscent of military organizations. However, the RSS itself and its supporters define it primarily as a socio-cultural organization focused on character building, national rejuvenation, and community service through its network of shakhas (branches). While it does maintain a strong organizational discipline and physical training, its stated objectives do not involve military functions, and it is not an armed force. Framing it solely as a \"paramilitary\" group emphasizes one aspect of its structure without fully capturing its multifaceted socio-cultural and educational activities, which also include disaster relief and social reform initiatives.",
+      "rebuttal_source_url": "https://books.google.com/books?id=P1iIDAAAQBAJ&pg=PT19",
+      "rebuttal_source_title": "The RSS: A View to the Inside"
+    },
+    {
+      "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+      "text": "impinging on academic freedom",
+      "score": 7,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "6.1",
+      "Topic_name": "Against individual freedom and intellectualism",
+      "reasoning": "Makes a direct, unsubstantiated accusation of malicious behavior (impinging on academic freedom) as a factual statement.",
+      "sentence_index": 2,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "Claims of organizations \"impinging on academic freedom\" are serious and often part of broader debates about ideological influence in education. When such an accusation is made, it typically refers to efforts by external groups to influence curriculum content, hiring decisions, or research topics, sometimes through advocacy, protests, or lobbying, which critics argue can create a chilling effect or lead to self-censorship among academics. However, whether these actions constitute a direct impingement or are legitimate forms of engagement within democratic societies is often highly contentious. Accusations of this nature require specific evidence to substantiate the impact on academic autonomy, and without such evidence, presenting it as an established fact rather than an allegation reflects a particular viewpoint.",
+      "rebuttal_source_url": "https://www.aaup.org/report/academic-freedom-and-governance-higher-education",
+      "rebuttal_source_title": "Academic Freedom and Governance in Higher Education"
+    },
+    {
+      "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+      "text": "the organization alleges that its advocacy focuses on protecting the rights of hindus",
+      "score": 5,
+      "method_code": "B15.1",
+      "method_name": "Propaganda Mandate Framing",
+      "Topic_id": "2.2",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "Uses 'alleges' to subtly cast doubt on the organization's stated mission of protecting Hindu rights, implying deception.",
+      "sentence_index": 3,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "Using the word \"alleges\" to describe an organization's stated mission can subtly cast doubt on the sincerity or legitimacy of its claims, implying that the organization's professed goals might be disingenuous or unsubstantiated. Many organizations, particularly those focused on identity or community interests, articulate their advocacy as protecting the rights of their constituents. For groups identifying as Hindu, this often involves advocating for issues such as fair representation, religious freedom, preservation of cultural heritage, and protection against discrimination. From their perspective, these efforts are a direct and genuine response to perceived challenges or inequalities faced by their community, and they view their work as a legitimate pursuit of civil and religious rights, similar to other identity-based advocacy groups.",
+      "rebuttal_source_url": "https://www.pewresearch.org/religion/2021/06/29/religion-in-india-tolerance-segregation-and-a-lack-of-contact/",
+      "rebuttal_source_title": "Religion in India: Tolerance and Segregation"
+    },
+    {
+      "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+      "text": "these efforts largely function as an attempt to rebrand hindutva as \" hindu rights \"",
+      "score": 7,
+      "method_code": "H55",
+      "method_name": "Dismissing Religious Freedom Claims as Strategic Deception",
+      "Topic_id": "2.2",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "Accuses the organization of cynically rebranding a negative ideology ('Hindutva') as legitimate 'Hindu rights' for political gain, dismissing genuine advocacy.",
+      "sentence_index": 4,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The assertion that efforts to protect \"Hindu rights\" are merely an attempt to \"rebrand Hindutva\" reflects a critical perspective common among those who view Hindutva primarily as a political and exclusivist ideology. From this viewpoint, advocating for \"Hindu rights\" is seen as a tactical move to legitimize and popularize Hindutva by associating it with universally accepted concepts of rights and religious freedom, thereby downplaying its more controversial aspects. However, proponents of these efforts often genuinely believe they are addressing legitimate concerns and protecting the interests of the Hindu community, arguing that Hindus, like any other group, have a right to advocate for their cultural and religious freedoms. The interpretation depends heavily on one's existing understanding and critique of the term Hindutva itself.",
+      "rebuttal_source_url": "https://carnegieendowment.org/2022/10/26/roots-of-hindu-nationalism-pub-88220",
+      "rebuttal_source_title": "The Roots of Hindu Nationalism"
+    },
+    {
+      "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+      "text": "the incumbent government has been widely blamed for active complicity.",
+      "score": 6,
+      "method_code": "B10",
+      "method_name": "Historical Falsification, Erasure of Persecution, and Myth-Making",
+      "Topic_id": "16.13",
+      "Topic_name": "Hindutva as architect of systemic democratic breakdown and institutional capture",
+      "reasoning": "Presents a contested claim of government complicity in violence as a widely accepted fact without immediate nuance or attribution to specific legal findings.",
+      "sentence_index": 25,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "Claims of government complicity in violence are serious and frequently arise during periods of civil unrest or communal conflict. While various human rights organizations, political opponents, and some media outlets may attribute blame to incumbent governments for inaction or active involvement, such accusations are often highly contested. Judicial inquiries and investigations into these events can be prolonged, and their findings may not always lead to universal agreement on culpability, reflecting the complex nature of state responsibility in maintaining order and protecting citizens during crises.",
+      "rebuttal_source_url": "https://www.jstor.org/stable/j.ctt1xxz1x.10",
+      "rebuttal_source_title": "State Responsibility for Human Rights in India"
+    },
+    {
+      "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+      "text": "a movement that seeks to relegate christians, muslims, sikhs, dalits, and adivasis to a subordinate status in india.",
+      "score": 7,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "9.2",
+      "Topic_name": "Extremism and bigotry",
+      "reasoning": "Accuses the organization of seeking to subordinate minorities, presenting this as a factual characterization from unspecified 'investigations'.",
+      "sentence_index": 44,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "The characterization of a movement as seeking to relegate specific religious and social groups to subordinate status is a common critique leveled against Hindutva by various scholars, activists, and minority rights organizations. They often cite rhetoric, policies, and historical actions as evidence of an exclusionary ideology. However, proponents of such movements often reject this interpretation, asserting their aim is cultural preservation, national unity, or the promotion of a specific national identity, rather than the subjugation of minorities. They frequently argue that their actions are misunderstood or misrepresented by critics.",
+      "rebuttal_source_url": "https://www.jstor.org/stable/26456094",
+      "rebuttal_source_title": "Understanding Hindutva and Indian Politics"
+    },
+    {
+      "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+      "text": "alliances with christian nationalists... despite hindu americans being \" significantly affected \" by such elements.",
+      "score": 6,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "13.5",
+      "Topic_name": "Guilt by association",
+      "reasoning": "Presents HAF's alliances as problematic and hypocritical, implying malicious intent or disregard for Hindu American interests, based on unspecified 'investigations'.",
+      "sentence_index": 67,
+      "editor_id": "20283540",
+      "editor_name": "Ftrhi",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "Organizations like the Hindu American Foundation (HAF) often engage in political alliances based on shared interests in specific policy areas, such as religious freedom or opposition to certain legislative proposals, rather than full alignment on all ideological fronts. While some Christian nationalist elements may hold views potentially affecting Hindu Americans, HAF might form alliances with specific groups or individuals on issues where their advocacy goals converge. Critics often highlight potential contradictions in such alliances, while HAF typically frames these partnerships as strategic for advancing the interests of Hindu Americans in the public square.",
+      "rebuttal_source_url": "https://www.pewresearch.org/religion/2012/03/13/asian-americans-views-on-religion/",
+      "rebuttal_source_title": "Asian Americans: A Mosaic of Faiths - Pew Research Center"
+    },
+    {
+      "id": "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
+      "text": "widely supported by scholars and academics.",
+      "score": 6,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "18.11",
+      "Topic_name": "Academic Reframing & Normalization of Anti-Hindutva Bias",
+      "reasoning": "Uses an appeal to 'widely supported by scholars and academics' to validate a negative view (Truschke's criticism of HAF) as a synthetic consensus.",
+      "sentence_index": 72,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "While some academic interpretations, such as those by Audrey Truschke, may indeed garner significant support from certain scholars and academics, academic consensus on complex historical and political issues is rarely absolute. The field of South Asian studies, particularly regarding colonial history and contemporary political movements, is characterized by diverse viewpoints and vigorous debate. Other scholars may offer alternative readings, critique specific methodologies, or present different conclusions based on their own research and interpretations of historical evidence, indicating a pluralistic academic discourse rather than a monolithic consensus.",
+      "rebuttal_source_url": "https://www.jstor.org/stable/10.2979/jsacredtexts.19.2.04",
+      "rebuttal_source_title": "JSTOR: Scholarly Engagement with Hindu Tradition: Issues and Debates"
+    },
+    {
+      "id": "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+      "text": "rss, a hindutva paramilitary organization",
+      "score": 7,
+      "method_code": "F49",
+      "method_name": "Portraying Ubiquitous, Inescapable, and Ominous Institutional Omnipresence",
+      "Topic_id": "4.1",
+      "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+      "reasoning": "Repeats the loaded term 'paramilitary' to describe RSS, reinforcing an ominous and fear-inducing association.",
+      "sentence_index": 73,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        4
+      ],
+      "main_category_names": [
+        "Blaming RSS for Societal Problems"
+      ],
+      "rebuttal": "The Rashtriya Swayamsevak Sangh (RSS) is frequently described by critics and some media as a paramilitary organization due to its hierarchical structure, emphasis on discipline, physical training, and the wearing of uniforms by its cadres. However, the RSS itself asserts that it is a cultural and social organization dedicated to character building and national rejuvenation, engaging primarily in community service, education, and cultural propagation. This discrepancy reflects differing interpretations of its organizational structure and activities, with its supporters emphasizing its social and voluntary aspects.",
+      "rebuttal_source_url": "https://www.jstor.org/stable/26456094",
+      "rebuttal_source_title": "Understanding Hindutva and Indian Politics"
+    },
+    {
+      "id": "1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
+      "text": "entities described in the article as having documented links to organizations that have been associated in india with violence against christian, muslim and dalit communities.",
+      "score": 7,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "13.5",
+      "Topic_name": "Guilt by association",
+      "reasoning": "Links HAF to other organizations 'associated with violence against Christian, Muslim and Dalit communities,' presenting this as a documented fact from a report, creating guilt by association.",
+      "sentence_index": 95,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "Reports from various organizations have indeed described the Hindu American Foundation (HAF) as having links to groups associated with violence against Christian, Muslim, and Dalit communities in India, though HAF denies these characterizations. For example, a 2013 report by the Coalition Against Genocide labeled HAF as part of a network of U.S. front organizations for ideologies linked to persecution in India. While HAF sued to retract this language, a U.S. District Judge dismissed the action, ruling the statements were opinions not \"verifiably false.\" Critics further point to HAF's lobbying efforts against U.S. legislative measures that drew attention to anti-Christian violence in India and their defense of actors associated with such mobilizations. HAF, however, rejects these accusations, stating it is an independent organization that stands against violence from any extremist group.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m5GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+      "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+    },
+    {
+      "id": "2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c",
+      "text": "scholarly consensus is that the haf purveys a politics embedded in hindutva.",
+      "score": 6,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "4.1",
+      "Topic_name": "Secondary Proxy Targeting via Radicalized Anti-RSS/Anti-Hindutva Fabrications",
+      "reasoning": "Uses 'scholarly consensus' to present a negative characterization ('politics embedded in Hindutva') as an established, uncontested fact.",
+      "sentence_index": 97,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "The claim that there is scholarly consensus regarding the Hindu American Foundation's (HAF) politics being embedded in Hindutva is largely supported by academic and journalistic sources. Multiple scholars characterize HAF as a conservative group aligned with Hindu nationalist politics, with some describing it as a \"deeply conservative\" outfit. A U.S. District Judge, in a defamation suit brought by HAF, also ruled that statements associating HAF with Hindutva were opinions and not verifiably false. While HAF identifies as an advocate for Hindu Americans' civil rights and religious freedom, and asserts that Hindutva is a complex term often weaponized to negatively stereotype Hindus, many analyses consistently link the organization to the broader Hindutva movement, often presenting it as a key node in a global Hindu supremacist network.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m6GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+      "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+    },
+    {
+      "id": "3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
+      "text": "investigated money trails linking the haf to other sangh parivar groups via their donors.",
+      "score": 6,
+      "method_code": "C20",
+      "method_name": "Promotion of Grand Transnational Conspiracy Theories",
+      "Topic_id": "2.4",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "Implies a hidden, potentially illicit, financial network ('money trails') linking HAF to other Sangh Parivar groups, suggesting a transnational conspiracy.",
+      "sentence_index": 109,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        4,
+        6
+      ],
+      "main_category_names": [
+        "Blaming RSS for Societal Problems",
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "Investigations into financial links between the Hindu American Foundation (HAF) and other Sangh Parivar groups via their donors have been reported by various outlets and academic initiatives. Tax filings reviewed by Frontline and other sources indicate significant donor overlap between HAF and U.S. foundations that fund Sangh-affiliated organizations in India. For example, the Bhutada Family Foundation, whose principal was a national vice-president of the Hindu Swayamsevak Sangh, donated substantially to both HAF and other Sangh-affiliated groups. Georgetown University's Bridge Initiative and several journalists have also documented these financial connections. While HAF denies receiving money or direction from any foreign government and asserts its funding comes from individual U.S. donors, these reports suggest a documented pattern of shared financial support with organizations identified as part of the broader Sangh Parivar network.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt0gyQykqgjf6nld4PPlwRQn6jB-h1Mtm61fm1doLdc1w-ek50Ca4rBEFTjb76R68nYU7Hq3TwC1wIsXg3961ObaohW4imdqoeKV9NX4-J4m6GmGop_MJf8QZQSRih_3ELDB2kosKV1gBGUbWDjFfOXZY=",
+      "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-06-18T00:00:00Z",
+  "reports": [
+    {
+      "id": "neutrality_Hindu_American_Foundation_20260617_231451_enriched",
+      "file": "reports/neutrality_Hindu_American_Foundation_20260617_231451_enriched.json",
+      "title": "Hindu American Foundation",
+      "source_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+      "latest_rev_timestamp": "2026-06-16T17:54:46Z",
+      "total_detections": 13,
+      "severe_count": 12,
+      "moderate_count": 1,
+      "minor_count": 0,
+      "final_score": 10.0,
+      "report_score": 10.0,
+      "editor_count": 5,
+      "editors": ["EarthDude", "Flyingphoenixchips", "Ftrhi", "Shahinshah121", "Vanamonde93"]
+    }
+  ]
+}

@@ -26,52 +26,64 @@
           <path d="M24 18V26M24 32V32.5" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
         </svg>
         <p id="error-text">Report not found.</p>
-        <a href="index.html" class="back-link" style="margin-top:8px;">Return to All Pages</a>
+        <a href="index.html" class="back-link" style="margin-top:8px;">Return to All Reports</a>
       </div>
 
       <div id="report-content" style="display:none">
 
-        <!-- DARK HEADER (report.vue style) -->
+        <!-- DARK HEADER -->
         <div class="report-hero">
-          <a href="index.html" class="back-link back-link--light">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            All Pages
-          </a>
-
-          <h1 id="report-title">Article Analysis Report</h1>
-
-          <div class="report-hero-meta">
-            <div class="meta-item">
+          <div class="container" style="padding:0">
+            <a href="index.html" class="back-link back-link--light">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <rect x="2" y="3" width="12" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 6H14" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Generated: <strong id="generated-at">—</strong>
+              All Reports
+            </a>
+
+            <h1 id="report-title">Article Analysis Report</h1>
+
+            <div class="report-hero-meta">
+              <div class="meta-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <rect x="2" y="3" width="12" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 6H14" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                Last revision: <strong id="generated-at">—</strong>
+              </div>
+              <div class="meta-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M2 8h4M8 8h4M8 2v4M8 10v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                Editors flagged: <strong id="editor-count">—</strong>
+              </div>
+              <div class="meta-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12 8V12M12 16H12.01M3 12L12 3L21 12L12 21L3 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="scale(0.7) translate(2,2)"/>
+                </svg>
+                Total detections: <strong id="detection-count">—</strong>
+              </div>
             </div>
-            <div class="meta-item">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M2 8h4M8 8h4M8 2v4M8 10v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              </svg>
-              Branches analysed: <strong id="branch-count">—</strong>
-            </div>
+
+            <a id="report-url-link" href="#" target="_blank" rel="noopener noreferrer" class="report-source-link" style="display:none">
+              <span id="report-url-text"></span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
           </div>
-
-          <a id="report-url-link" href="#" target="_blank" rel="noopener noreferrer" class="report-source-link" style="display:none">
-            <span id="report-url-text"></span>
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-          </a>
         </div>
 
         <!-- EXEC SUMMARY -->
         <section class="card executive">
           <div class="card-header">
             <h2>Executive Summary</h2>
+            <div class="score-badge-large">
+              <span class="score-label">Final Score</span>
+              <span class="score-value" id="exec-score">—</span>
+            </div>
           </div>
           <p class="summary-text" id="exec-summary-text">—</p>
         </section>
 
-        <!-- SCORING BREAKDOWN (report.vue style) -->
+        <!-- ══════════ SCORING BREAKDOWN ══════════ -->
         <section class="card scoring-card" id="score-section">
           <div class="card-header">
             <h2>Scoring Breakdown</h2>
@@ -79,29 +91,49 @@
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                 <path d="M6 1L7.16 3.36L9.76 3.73L7.88 5.56L8.35 8.15L6 6.9L3.65 8.15L4.12 5.56L2.24 3.73L4.84 3.36L6 1Z" fill="currentColor"/>
               </svg>
-              max + 0.25 × (hits − 1), capped at 8
+              <span id="formula-pill-text">max + 0.25 × (hits − 1), capped at 10</span>
             </div>
           </div>
+
           <div id="score-visual"></div>
-          <div class="cat-rows" id="cat-rows"></div>
+
+          <div id="top-hit-callout"></div>
+
+          <div class="cat-rows" id="cat-rows">
+            <div class="cat-rows-head">
+              <span>Category</span><span>Hits</span><span>Highest Score</span><span>Share</span>
+            </div>
+            <div id="cat-rows-body"></div>
+          </div>
         </section>
 
-        <!-- TAXONOMY BREAKDOWN (profile.vue breakdown style) -->
-        <section class="card" id="breakdown-section" style="display:none">
+        <!-- EDITORS -->
+        <section class="card" id="editors-section">
           <div class="card-header">
             <div class="section-header__title-group">
-              <h2>Phobia Category Breakdown</h2>
-              <p class="section-subtitle">All detections mapped to 8 main bias categories</p>
+              <h2>Editors in This Report</h2>
+              <p class="section-subtitle">Click an editor to view their flagged contributions in detail.</p>
             </div>
-            <span class="item-count" id="breakdown-count">0 Categories</span>
+            <span class="item-count" id="editors-tab-count">0 Editors</span>
           </div>
-          <div id="breakdown-grid"></div>
+          <div class="editors-tab-grid" id="editors-tab-grid"></div>
+          <div class="empty-state" id="editors-empty" style="display:none">
+            <p>No editors are attributed for this report's detections.</p>
+          </div>
         </section>
 
-        <!-- APPENDIX / DETECTIONS -->
+        <!-- QUALITATIVE -->
+        <section class="card">
+          <div class="card-header">
+            <h2>Qualitative Insights</h2>
+          </div>
+          <p class="insight-text" id="qualitative-text">No qualitative insights provided.</p>
+        </section>
+
+        <!-- ══════════ APPENDIX ══════════ -->
         <section class="card appendix-section">
           <div class="card-header">
-            <h2>Detection Appendix</h2>
+            <h2>Appendix</h2>
             <span class="item-count" id="hits-count">0 / 0 Detections</span>
           </div>
 
