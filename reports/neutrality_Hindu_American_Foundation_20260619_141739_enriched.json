@@ -1,0 +1,1956 @@
+{
+  "article": {
+    "source_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
+    "language": "en",
+    "requested_title": "Hindu American Foundation",
+    "resolved_title": "Hindu American Foundation",
+    "page_id": 2484613,
+    "latest_rev_id": 1360021433,
+    "latest_rev_timestamp": "2026-06-18T19:11:13Z"
+  },
+  "summary": {
+    "total_detections": 42,
+    "severe_count": 24,
+    "moderate_count": 16,
+    "minor_count": 2,
+    "unfavorable_to_subject_count": 0,
+    "favorable_to_subject_count": 0,
+    "neutral_structural_count": 0
+  },
+  "category_summary": {
+    "1": {
+      "name": "Negative Stereotyping of RSS",
+      "count": 9,
+      "avg_score": 5.89,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "1a8b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+          "text": "the''' hindu american foundation''' () is an american non - profit hindutva organization founded in 2003.",
+          "score": 4,
+          "method_code": "B11",
+          "method_name": "Overbroad Conflation of Religious Identity with State Policy or Political Groups",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "The lead sentence labels the group as a \"Hindutva organization\" without attribution, a loaded term used for negative framing.",
+          "sentence_index": 0,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            5,
+            1
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS",
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "The characterization of the Hindu American Foundation (HAF) as a \"Hindutva organization\" is a point of contention among scholars and observers. While some critics link HAF to the Hindutva ideology due to perceived historical associations or philosophical alignments, particularly regarding its approach to Indian history and Hindu identity, HAF itself primarily defines its mission as advocating for the rights and interests of Hindu Americans. The organization states its commitment to promoting religious freedom, civil rights, and interfaith understanding, asserting it works within the American civic framework to represent the Hindu community. The term \"Hindutva\" carries diverse interpretations, ranging from a cultural identity to a political ideology, making its application to a specific organization subject to debate and varying perspectives.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "2b9c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+          "text": "the organization has its roots in the sangh parivar, a collection of hindutva organizations led by the paramilitary rashtriya swayamsevak sangh, and more specifically in the vishwa hindu parishad america and its student wing hindu students council.",
+          "score": 5,
+          "method_code": "A1",
+          "method_name": "Use of Dehumanizing, Vituperative, or Civilizational Pathologizing Language",
+          "Topic_id": "9.7",
+          "Topic_name": "RSS is associated with fascism, Nazism, Proud boys, and other extremists.",
+          "reasoning": "The text uses the loaded, non-neutral term \"paramilitary\" to describe an associated organization, implying extremism.",
+          "sentence_index": 1,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1,
+            2
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS",
+            "Dehumanization or Hate Speech"
+          ],
+          "rebuttal": "Describing the Rashtriya Swayamsevak Sangh (RSS) as \"paramilitary\" is a contested characterization. While the RSS is known for its disciplined organizational structure, uniforms, and daily drills, which some interpret as paramilitary in nature, the organization itself defines its primary purpose as cultural and social. It aims to instill patriotism and Hindu values, focusing on community service, education, and character building, rather than military objectives. Critics often highlight the disciplined nature and historical political involvement of the RSS to support the \"paramilitary\" label, suggesting an implicit threat or political agenda. However, supporters emphasize its voluntary, non-military, and cultural roles, asserting that the term misrepresents its true intent and activities.",
+          "rebuttal_source_url": "https://www.rss.org/about-us",
+          "rebuttal_source_title": "About Us - Rashtriya Swayamsevak Sangh"
+        },
+        {
+          "id": "3c0d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
+          "text": "the haf' s activism aligns with the hindu nationalist ideology of hindutva, alongside impinging on academic freedom.",
+          "score": 6,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "6.3",
+          "Topic_name": "Harassment of scholars and fight against academic freedom including through legal actions, doxxing of academics.",
+          "reasoning": "The text presents the serious accusation of \"impinging on academic freedom\" as an established fact without evidence or attribution.",
+          "sentence_index": 2,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "The assertion that the Hindu American Foundation (HAF) impinges on academic freedom is a serious accusation made by some academics and advocacy groups, often in the context of curriculum reform efforts or criticisms of certain scholarly works on Hinduism. However, HAF views its engagement with academic institutions as legitimate advocacy to ensure what it considers accurate and fair representations of Hinduism and Hindu culture. The organization asserts its right to voice concerns and participate in public discourse on educational content, which it frames as defending Hindu American civil rights and religious literacy. This is often a clash between academic autonomy and community advocacy, where HAF argues it is challenging perceived biases, while critics contend such actions can create a chilling effect on scholarship.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/academic-advocacy/",
+          "rebuttal_source_title": "Academic Advocacy - Hindu American Foundation"
+        },
+        {
+          "id": "184b9e2c-1f6b-4c7b-8b2d-9a3e4f5c6d7e",
+          "text": "a congressional staffer, speaking to'' al jazeera'' in 2022, stated that it had \" become clear \" to them that the haf \" was acting on behalf of the indian government \".",
+          "score": 6,
+          "method_code": "A2",
+          "method_name": "Unsubstantiated Accusations of Dual Loyalty or Transnational Subversion",
+          "Topic_id": "2.1",
+          "Topic_name": "Framing peaceful, contributing Hindu diaspora communities as a hostile, fifth-column infiltration operating to subvert Western democratic values.",
+          "reasoning": "Accuses a Hindu advocacy group of acting on behalf of a foreign government, a classic dual-loyalty trope.",
+          "sentence_index": 34,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "Claims that the Hindu American Foundation (HAF) acts on behalf of the Indian government are primarily made by critics and activist groups, who sometimes allege ideological alignment or indirect influence. However, HAF maintains that it is an independent, non-partisan American advocacy organization representing the interests of Hindu Americans in the United States. The organization has not been registered with the US Department of Justice as a foreign agent under the Foreign Agents Registration Act (FARA), which would be required if it were acting at the direction or control of a foreign principal.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about/faq",
+          "rebuttal_source_title": "About HAF: Frequently Asked Questions - Hindu American Foundation"
+        },
+        {
+          "id": "b5c6d7e8-f9a0-4b1c-8d2e-3f4a5b6c7d8e",
+          "text": "s. - based hindutva network have characterized the organization as part of a movement that seeks to relegate christians, muslims, sikhs, dalits, and adivasis to a subordinate status in india.",
+          "score": 6,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "Accuses a Hindu organization of being part of a movement seeking to create a system of subordination, presented as fact.",
+          "sentence_index": 44,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "Critics often link US-based Hindu organizations to the broader Hindutva movement, alleging an agenda to subordinate minorities in India. However, organizations like the Hindu American Foundation (HAF) explicitly state their mission is to advocate for Hindu Americans, promote religious freedom, and educate the public about Hinduism. HAF’s stated goals include combating anti-Hindu bigotry and fostering positive understanding of Hindu traditions, while publicly asserting commitment to pluralism and democratic values. They explicitly state their focus is on policy and advocacy for Hindus within the American context.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about/our-mission",
+          "rebuttal_source_title": "Our Mission - Hindu American Foundation"
+        },
+        {
+          "id": "c7d8e9f0-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+          "text": "s. front organizations for the ideology behind the persecution of christians, muslims, dalits, and other minorities in india, language that the haf later sued to retract.",
+          "score": 7,
+          "method_code": "A2",
+          "method_name": "Unsubstantiated Accusations of Dual Loyalty or Transnational Subversion",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "Labels a Hindu advocacy group a 'front organization' for an ideology of persecution, implying a hidden, malicious agenda.",
+          "sentence_index": 46,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "The claim that the Hindu American Foundation (HAF) is a \"front organization\" was a contentious assertion that HAF itself actively challenged, including through legal means to seek retraction of such language. HAF states its mission is to advocate for the Hindu American community and educate the public about Hinduism, working on issues like civil rights, religious freedom, and combating anti-Hindu bigotry. They assert their independence and focus on representing Hindu American interests in the US policy space.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us",
+          "rebuttal_source_title": "About Us — Hindu American Foundation"
+        },
+        {
+          "id": "f519343f-850d-452f-897c-389366408269",
+          "text": "audrey truschke, a historian at rutgers university, has argued that this pattern reflects the haf' s broader function as an apologist for hindu majoritarianism rather than a defender of pluralism.",
+          "score": 6,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "The text presents an unchallenged, hostile academic opinion labeling the Hindu organization as an \"apologist for hindu majoritarianism,\" a direct accusation of bigotry.",
+          "sentence_index": 50,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "While some academics like Audrey Truschke characterize HAF's actions as apologism for Hindu majoritarianism, HAF explicitly states its commitment to pluralism and defending the rights of all minorities. HAF asserts that its advocacy for Hindu rights, religious freedom, and accurate representation of Hinduism is not aimed at majoritarian dominance but at ensuring equitable treatment and understanding for the Hindu community within a pluralistic society.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us",
+          "rebuttal_source_title": "About Us — Hindu American Foundation"
+        },
+        {
+          "id": "b8d8051e-848e-492c-982d-4505f56050b1",
+          "text": "the report further documented that such organisations target scholars critical of hindutva with harassment tactics including doxxing, lawsuits, and threats, seeking to intimidate and silence academic voices.",
+          "score": 7,
+          "method_code": "A7.1",
+          "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+          "Topic_id": "6.3",
+          "Topic_name": "Harassment of scholars and fight against academic freedom including through legal actions, doxxing of academics.",
+          "reasoning": "Directly accuses Hindu organizations of criminal harassment tactics like doxxing and making threats to silence critics.",
+          "sentence_index": 74,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            1
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "While reports of harassment against scholars critical of Hindutva are serious and must be addressed, directly attributing systematic 'doxxing, lawsuits, and threats' to specific 'Hindu nationalist organizations' requires clear, verifiable evidence linking these actions to the organizations' official policies or direct conduct. While individuals who identify with such movements may engage in these behaviors, it is crucial to differentiate between individual actions and the organized, sanctioned tactics of a specific entity. Lawsuits, when filed, are a legal recourse, and their legitimacy is determined through due process rather than automatically being categorized as harassment unless proven frivolous.",
+          "rebuttal_source_url": "https://www.sahf.org/news/letter-to-the-hindu-american-foundation-haf",
+          "rebuttal_source_title": "Letter to the Hindu American Foundation (HAF)"
+        },
+        {
+          "id": "9a38023c-834c-4734-9333-66258079815e",
+          "text": "academics and journalists have also investigated money trails linking the haf to other sangh parivar groups via their donors.",
+          "score": 6,
+          "method_code": "A5",
+          "method_name": "Ominous Innuendo, Suggestive Profiling, and Secret Plot Narratives",
+          "Topic_id": "2.4",
+          "Topic_name": "Presenting global Hindu cultural gatherings, multi-million dollar temple constructions, or charitable relief operations (Seva) as money-laundering operations for extremism.",
+          "reasoning": "Uses ominous innuendo ('money trails') to suggest a covert, sinister financial conspiracy without providing specific, verifiable evidence.",
+          "sentence_index": 114,
+          "editor_id": "34505442",
+          "editor_name": "Shahinshah121",
+          "main_categories": [
+            1,
+            6
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS",
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "Claims of 'money trails' linking the HAF to other 'Sangh Parivar' groups via donors suggest a covert conspiracy, but the HAF maintains transparency regarding its financials. The organization is a 501(c)(3) non-profit, run by US citizens, funded by US donors, and subject to US law. HAF has consistently earned a Platinum Seal of Transparency from GuideStar, the highest level of recognition, and states that all corporate and tax filings are publicly available. While some critical reports allege donor overlap with organizations that critics associate with the Sangh Parivar, HAF denies affiliations with any foreign political groups and asserts its financial independence, emphasizing that shared donors do not inherently imply illicit ties or foreign control.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/financials",
+          "rebuttal_source_title": "Financials - Hindu American Foundation"
+        }
+      ]
+    },
+    "2": {
+      "name": "Dehumanization or Hate Speech",
+      "count": 3,
+      "avg_score": 5.67,
+      "max_score": 6,
+      "detections": [
+        {
+          "id": "2b9c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+          "text": "the organization has its roots in the sangh parivar, a collection of hindutva organizations led by the paramilitary rashtriya swayamsevak sangh, and more specifically in the vishwa hindu parishad america and its student wing hindu students council.",
+          "score": 5,
+          "method_code": "A1",
+          "method_name": "Use of Dehumanizing, Vituperative, or Civilizational Pathologizing Language",
+          "Topic_id": "9.7",
+          "Topic_name": "RSS is associated with fascism, Nazism, Proud boys, and other extremists.",
+          "reasoning": "The text uses the loaded, non-neutral term \"paramilitary\" to describe an associated organization, implying extremism.",
+          "sentence_index": 1,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            1,
+            2
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS",
+            "Dehumanization or Hate Speech"
+          ],
+          "rebuttal": "Describing the Rashtriya Swayamsevak Sangh (RSS) as \"paramilitary\" is a contested characterization. While the RSS is known for its disciplined organizational structure, uniforms, and daily drills, which some interpret as paramilitary in nature, the organization itself defines its primary purpose as cultural and social. It aims to instill patriotism and Hindu values, focusing on community service, education, and character building, rather than military objectives. Critics often highlight the disciplined nature and historical political involvement of the RSS to support the \"paramilitary\" label, suggesting an implicit threat or political agenda. However, supporters emphasize its voluntary, non-military, and cultural roles, asserting that the term misrepresents its true intent and activities.",
+          "rebuttal_source_url": "https://www.rss.org/about-us",
+          "rebuttal_source_title": "About Us - Rashtriya Swayamsevak Sangh"
+        },
+        {
+          "id": "a102435c-7553-4315-9964-67252277864f",
+          "text": "andrea jain, a professor of religious studies at indiana university, located the haf' s claims within a polemical discourse of religious fundamentalism that unwittingly borrowed from and mirrored the west;",
+          "score": 6,
+          "method_code": "C22",
+          "method_name": "Pathologizing Adherents and Psychological Stereotyping",
+          "Topic_id": "2.5",
+          "Topic_name": "Utilizing specialized academic jargon (\"cruel optimism,\" \"confined universalism\") to pathologize the spiritual practices, rituals, and community devotions of ordinary immigrants.",
+          "reasoning": "The text uses academic language to pathologize the Hindu group's claims by labeling them as part of a \"polemical discourse of religious fundamentalism.\"",
+          "sentence_index": 52,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            2
+          ],
+          "main_category_names": [
+            "Dehumanization or Hate Speech"
+          ],
+          "rebuttal": "Andrea Jain's academic perspective places HAF's claims within a discourse of religious fundamentalism, suggesting Western influences. However, HAF views its advocacy as a necessary effort to counter what it perceives as misrepresentations of Hinduism and to assert the civil and religious rights of Hindus. Its discourse often focuses on contemporary policy, religious literacy, and human rights from a Hindu perspective, aiming to engage with mainstream discussions rather than being solely rooted in a fundamentalist framework.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/what-we-do",
+          "rebuttal_source_title": "What We Do — Hindu American Foundation"
+        },
+        {
+          "id": "bcde0123-4567-489a-bcde-f01234567890",
+          "text": "these efforts were protested by south asian academics and activists belonging to india' s minority groups, who said that those on the side of the haf sought to whitewash california' s history textbooks to present a nativist, blemish - free view of how the hindu caste system was enforced in india.",
+          "score": 6,
+          "method_code": "C17",
+          "method_name": "Strategic Mislabeling to Invert Victimhood and Enforce Aggressor Stigma",
+          "Topic_id": "10.2",
+          "Topic_name": "Textbook edits and “saffronisation” of education – marginalize Mughal history, Removal of RSS links to Gandhi assassination",
+          "reasoning": "Frames the organization's advocacy as an attempt to 'whitewash' history with a 'nativist' view, inverting their position into an aggressive act.",
+          "sentence_index": 82,
+          "editor_id": "34478357",
+          "editor_name": "MroWikipedian",
+          "main_categories": [
+            2
+          ],
+          "main_category_names": [
+            "Dehumanization or Hate Speech"
+          ],
+          "rebuttal": "Critics framed the Hindu American Foundation's (HAF) advocacy as an attempt to 'whitewash' history or promote a 'nativist' view, but HAF and its supporters maintained their efforts were aimed at ensuring accuracy, cultural sensitivity, and a balanced representation of Hinduism in textbooks. They argued that existing materials often presented a one-sided or outdated view, particularly regarding caste and the status of women, which could lead to negative stereotypes and bullying for Hindu students. Their intention, they asserted, was to reflect a more nuanced and inclusive understanding of Hindu civilization, not to erase inconvenient historical facts.",
+          "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+          "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+        }
+      ]
+    },
+    "3": {
+      "name": "Justification of Harm/Discrimination",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "detections": []
+    },
+    "4": {
+      "name": "Blaming RSS for Societal Problems",
+      "count": 0,
+      "avg_score": 0.0,
+      "max_score": 0,
+      "detections": []
+    },
+    "5": {
+      "name": "Misrepresentation of RSS",
+      "count": 18,
+      "avg_score": 5.22,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "1a8b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+          "text": "the''' hindu american foundation''' () is an american non - profit hindutva organization founded in 2003.",
+          "score": 4,
+          "method_code": "B11",
+          "method_name": "Overbroad Conflation of Religious Identity with State Policy or Political Groups",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "The lead sentence labels the group as a \"Hindutva organization\" without attribution, a loaded term used for negative framing.",
+          "sentence_index": 0,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            5,
+            1
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS",
+            "Negative Stereotyping of RSS"
+          ],
+          "rebuttal": "The characterization of the Hindu American Foundation (HAF) as a \"Hindutva organization\" is a point of contention among scholars and observers. While some critics link HAF to the Hindutva ideology due to perceived historical associations or philosophical alignments, particularly regarding its approach to Indian history and Hindu identity, HAF itself primarily defines its mission as advocating for the rights and interests of Hindu Americans. The organization states its commitment to promoting religious freedom, civil rights, and interfaith understanding, asserting it works within the American civic framework to represent the Hindu community. The term \"Hindutva\" carries diverse interpretations, ranging from a cultural identity to a political ideology, making its application to a specific organization subject to debate and varying perspectives.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "4d1e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8g",
+          "text": "opposing laws prohibiting caste - based discrimination.",
+          "score": 6,
+          "method_code": "B12",
+          "method_name": "Selective, Out-of-Context, and Biased Framing",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "The text frames a specific policy stance as a general opposition to laws against caste discrimination, which is a biased misrepresentation.",
+          "sentence_index": 3,
+          "editor_id": "17956451",
+          "editor_name": "Vanamonde93",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The statement that HAF opposes laws prohibiting caste-based discrimination requires clarification regarding the organization's nuanced stance. The Hindu American Foundation has publicly stated its condemnation of caste discrimination, asserting that it is morally reprehensible and illegal under existing anti-discrimination laws. However, HAF has expressed concerns about the creation of specific caste-based categories in legislation, particularly in the United States. Their opposition often stems from a belief that such laws could inadvertently target or stigmatize Hindu Americans by associating caste solely with their religion, rather than recognizing it as a social phenomenon. They argue that existing civil rights protections are sufficient to address all forms of discrimination, including caste, without needing new, potentially religion-specific, legislation.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/caste/",
+          "rebuttal_source_title": "Caste - Hindu American Foundation"
+        },
+        {
+          "id": "6f3a8b9c-0d1e-4f2a-3b4c-5d6e7f8g9h0i",
+          "text": "whose bottled - up anger, for over a millennium, allegedly found a channel of outburst in the rise of the bharatiya janata party and the demolition of the babri masjid.",
+          "score": 2,
+          "method_code": "B12",
+          "method_name": "Selective, Out-of-Context, and Biased Framing",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "The text uses the weasel word \"allegedly\" to editorially cast doubt on the summarized viewpoint of the organization's founder.",
+          "sentence_index": 9,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The text's use of \"allegedly\" to describe the long-held anger driving the rise of the Bharatiya Janata Party (BJP) and the demolition of the Babri Masjid reflects a critical perspective common in academic and journalistic discussions of the Ayodhya dispute. While some narratives highlight the spontaneous outpouring of Hindu sentiment, others emphasize the organized political mobilization by the BJP and its affiliates, which strategically channeled historical grievances and religious fervor into a political movement. The term itself allows for reporting on a claim without explicit endorsement, acknowledging that the motivations and causal links behind such complex historical events are often subject to diverse interpretations and scholarly debate.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRzBk0pObkZYjOVnCuOab_jM5XI8e-92SiRHEqesdKgOwaT-j8ESPqEe9UdBeLpf5679qmttH8j644HX4ZJwGH2w2l753IPVk9ruzHXXpgqwYa-Us5Ycd3l6Em4JYx2ykINo2g1MO3jKv-BDg9mB-AHmpPbKwFHD-_Kd4l076Ei1Lr5mpU5b5wd0KqczxZKWtJ7WVp25AC8dNnqMx8DnxRsTOo3lAaVl5eS_YDIXkgz7XZRRq3KUlkDyq6WPGi6g==",
+          "rebuttal_source_title": "25 years of Babri Mosque demolition: Decoding the rise of Hindutva and the way to stop it"
+        },
+        {
+          "id": "2d94895a-605a-4710-917c-255974751717",
+          "text": "an effort to rebrand the hindutva agenda as \" hindu rights \" to suit mainstream american politics.",
+          "score": 6,
+          "method_code": "E44",
+          "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "This text frames the advocacy for \"Hindu rights\" not as a legitimate civil rights concern but as a deceptive rebranding of a sinister political agenda, thereby criminalizing it as a disinformation campaign.",
+          "sentence_index": 10,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "Framing the \"Hindutva agenda as Hindu rights\" can be understood in different ways. Advocacy groups, like the Hindu American Foundation (HAF), often present their work as protecting the civil rights and religious freedom of Hindus, addressing issues like hate crimes, discrimination, and misrepresentation. They assert their mission is to educate the public about Hinduism and advocate for Hindu Americans globally. Conversely, critics argue that this framing is a strategic effort to normalize Hindutva, an ethno-nationalist ideology, within mainstream American politics, drawing parallels to how other identity groups advocate for their concerns while maintaining that the underlying ideology may be exclusionary.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZC7udWO9UPixyV0Y56YZYxWNeHgobRThIXSe3QsI4ga7s5ADjmgSt98KL56KATy4f0MFhF-e6L6xbzMxQEMAqbl3pY6FKpWVztouQMXfE9K-k1DlRIlvcySVx75RmtaCEHXs1ftOSjrf7XPC5arUnjcBJdsEp3zXSFjX6pMfAmUSUV8x8vZp8RcKgpjKW734EroH7Fs8R_ip-Xn-3sxmY6qbyiAMB",
+          "rebuttal_source_title": "Executive Summary | Hindu American Foundation"
+        },
+        {
+          "id": "2d1e8a3f-5b6c-4f9a-8e7d-1a0c3b4f5d6e",
+          "text": "however, scholar azad essa has stated that the haf has exaggerated the hate crimes faced by hindus in america.",
+          "score": 5,
+          "method_code": "C16",
+          "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+          "Topic_id": "2.3",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "The statement, presented as a scholarly claim, invalidates and minimizes the reported experiences of hate crimes against Hindus by labeling them as 'exaggerated'.",
+          "sentence_index": 22,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The statement referencing scholar Azad Essa's view that the Hindu American Foundation (HAF) has exaggerated Hindu hate crimes in America reflects an ongoing debate about the prevalence and interpretation of such incidents. While HAF and similar organizations cite specific events and community reports to highlight what they perceive as rising Hinduphobia, scholars like Essa analyze official data and other metrics, suggesting that the reported numbers may not always align with broader reality or may include incidents not solely motivated by anti-Hindu bias. This divergence underscores differing methodologies and perspectives in assessing hate crime trends.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv8ZweJepQxt9lTlRx92iVuDyjGSikR3jXGDrJo5QrvvK6C2HOmRWet3xwpxD7Apzml828Jg-7oqDCnspttXSlqDP1dv59mOrqJ5uB2Dz-0auLRGHp6BdVcrM8FFxJWiPwSCiW8W8nc5488PUJYZ_Gzw==",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        },
+        {
+          "id": "8c9f0b1a-2d3e-4c5f-9a8b-7d6e5f4d3c2b",
+          "text": "essa found the haf' s alarmist statements about a \" rise \" in hinduphobic hate crimes in 2019 to not correspond with reality",
+          "score": 6,
+          "method_code": "C16",
+          "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+          "Topic_id": "2.3",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "Uses loaded language ('alarmist') and scare quotes ('rise') to dismiss and invalidate claims of increasing hate crimes against Hindus.",
+          "sentence_index": 23,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The characterization of the Hindu American Foundation's (HAF) statements as \"alarmist\" and the use of scare quotes around \"rise\" in Hinduphobic hate crimes by scholar Azad Essa represents a critical viewpoint within discussions on hate crime reporting. While HAF emphasizes an increase in incidents and calls for greater recognition of Hinduphobia, Essa's research suggests a discrepancy between these claims and empirical data, arguing that some incidents may be misclassified or that the overall trend does not support an \"alarmist\" narrative. This highlights a contention over the interpretation and severity of reported hate crimes against Hindus.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv8ZweJepQxt9lTlRx92iVuDyjGSikR3jXGDrJo5QrvvK6C2HOmRWet3xwpxD7Apzml828Jg-7oqDCnspttXSlcDP1dv59mOrqJ5uB2Dz-0auLRGHp6BdVcrM8FFxJWiPwSCiW8W8nc5488PUJYZ_Gzw==",
+          "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+        },
+        {
+          "id": "f1a2b3c4-d5e6-4f7g-8h9i-0j1k2l3m4n5o",
+          "text": "out of the 7, 120 hate crimes which were reported to the fbi in 2018, only fourteen concerned hindus; the years before, this count was stable at eleven and ten.",
+          "score": 5,
+          "method_code": "B13",
+          "method_name": "Misleading Use of Decontextualized or Fabricated Demographic/Crime Data",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "Presents raw numbers without comparative data or context to create a false impression that the number is insignificant and the concern is invalid.",
+          "sentence_index": 23,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "While FBI data indicates 14 hate crime offenses against Hindus in 2018, out of 7,120 total, and similar numbers in preceding years, these raw figures do not fully capture the complexity of hate crime reporting. Many hate crimes are significantly underreported due to various factors, including victims' reluctance to contact police, lack of awareness that an incident constitutes a hate crime, or mistrust in law enforcement. Therefore, the official numbers might not reflect the full scope of hate crimes experienced by the Hindu American community or other minority groups.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFf70EWOTre7ux-bD4Hy1qq3HOLfDJVPrShF3OEy3LJ-ImSeCNCWPDVlzS8rWN1vgNLhhrrlqO70gz2lhO-4wup7mQaWsC6vFOVUJrIapMkhhJ8vQfNQFpjmqEY9RvdT5gM40OMcXbATEAb66OrEcDSUTgo2k6Mw4N25VXQETTVPx_xLgC",
+          "rebuttal_source_title": "2018 Hate Crime Statistics Released - FBI"
+        },
+        {
+          "id": "a9b8c7d6-e5f4-4g3h-2i1j-0k9l8m7n6o5p",
+          "text": "the haf opposed this resolution, deeming it \" hinduphobic \"",
+          "score": 4,
+          "method_code": "C16.1",
+          "method_name": "Scare-Quote Hinduphobia Dismissal",
+          "Topic_id": "2.3",
+          "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+          "reasoning": "The use of scare quotes around 'hinduphobic' serves to dismiss or question the legitimacy of HAF's claim of bias.",
+          "sentence_index": 27,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The Hindu American Foundation (HAF) has consistently defined Hinduphobia as anti-Hindu bigotry, prejudice, or discrimination. They assert that it manifests in various forms, including hate speech, vandalism of Hindu temples, and misrepresentation of Hindu traditions, citing specific instances and advocating for its recognition and redress alongside other forms of religious bigotry. HAF contends that recognizing and addressing Hinduphobia is crucial for ensuring the safety and dignity of Hindus in the United States and globally.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/media-kit/faq-hinduphobia",
+          "rebuttal_source_title": "Hinduphobia: Frequently Asked Questions - Hindu American Foundation"
+        },
+        {
+          "id": "f9d8c7b6-a5e4-4f3d-9c1b-8e7a6f5d4c3b",
+          "text": "angana chatterji, a scholar at the university of california, berkeley, has argued that the hindutva movement has \" manufactured imaginary grievances of hindus throughout its history to advance the persecution of muslims \"",
+          "score": 7,
+          "method_code": "C16",
+          "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+          "Topic_id": "1.6",
+          "Topic_name": "Erasing or systematically justifying historical iconoclasm, massacres, and systemic persecution faced by Hindus under various colonial and invading regimes.",
+          "reasoning": "Presents a view that dismisses Hindu grievances as 'imaginary' and fabricated for malicious purposes.",
+          "sentence_index": 36,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "While some scholars argue that certain narratives of Hindu grievances are manufactured or exaggerated for political ends, many Hindus and Hindu organizations hold deeply felt historical grievances rooted in perceived periods of persecution and discrimination during various historical eras in India. These grievances often involve narratives of temple destruction, forced conversions, and historical injustices, which form a significant part of their communal memory and identity. These perspectives are articulated in various Hindu nationalist texts and are central to the Hindutva ideology, viewed by proponents as legitimate historical experiences rather than fabrications.",
+          "rebuttal_source_url": "https://carnegieendowment.org/2021/04/01/fault-lines-in-india-s-democracy-public-84227",
+          "rebuttal_source_title": "Fault Lines in India’s Democracy - Carnegie Endowment for International Peace"
+        },
+        {
+          "id": "a3b4c5d6-e7f8-4a9b-8c1d-2e3f4a5b6c7d",
+          "text": "and that the haf' s claims of \" hinduphobia \" in the united states seek to bolster the hindutva movement in india.",
+          "score": 7,
+          "method_code": "C16.1",
+          "method_name": "Scare-Quote Hinduphobia Dismissal",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "Uses scare quotes around 'hinduphobia' to dismiss the concept and frames its usage as a cynical political ploy.",
+          "sentence_index": 36,
+          "editor_id": "20283540",
+          "editor_name": "Ftrhi",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The Hindu American Foundation (HAF) uses the term \"Hinduphobia\" to describe prejudice, discrimination, or hate against Hindus, specifically documenting instances of anti-Hindu bias in the United States, such as temple desecrations, discriminatory remarks, and misrepresentations in media or academia. HAF states its aim is to address and combat these forms of bias, advocating for the protection of religious freedom and civil rights for Hindu Americans. The organization asserts that their focus is on American policy and social issues affecting Hindus in the US, separate from the political dynamics of India.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/media-kit/faq-hinduphobia",
+          "rebuttal_source_title": "Hinduphobia: Frequently Asked Questions - Hindu American Foundation"
+        },
+        {
+          "id": "2701f56a-1135-4228-8980-04020c025816",
+          "text": "s. - based hindu nationalist organisations, including the haf, push politicised classroom materials into k - 12 settings, exploiting educators' unfamiliarity with south asian religions and politics to advance hindutva ideology.",
+          "score": 6,
+          "method_code": "E44",
+          "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "Frames standard civic advocacy on textbooks as a malicious campaign of 'exploiting educators' to 'advance hindutva ideology'.",
+          "sentence_index": 73,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "Engaging in textbook review and advocacy for curriculum changes is a common and legally protected form of civic participation by various religious, ethnic, and cultural groups in the U.S. Organizations like the Hindu American Foundation (HAF) have participated in official state-level textbook adoption processes, such as those in California, to advocate for what they view as more accurate or inclusive representations of Hinduism and Indian history. While their perspectives on curriculum content may differ from others, describing this participation as 'exploiting educators' unfamiliarity to advance an ideology frames legitimate civic advocacy as a malicious campaign, overlooking the standard processes through which such advocacy occurs.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/press/2016-05-20-haf-statement-california-history-social-science-framework-curriculum-adoption-process",
+          "rebuttal_source_title": "HAF Statement on California History-Social Science Framework Curriculum Adoption Process - Hindu American Foundation"
+        },
+        {
+          "id": "c1a0112c-4444-484c-9226-787884279549",
+          "text": "writing in'' harper' s magazine'', andrew cockburn reported that audrey truschke, a specialist in premodern sanskrit texts at rutgers university, has required armed police protection during lectures and public appearances owing to threats connected to her critiques of hindu nationalism.",
+          "score": 5,
+          "method_code": "B14",
+          "method_name": "Misattribution of Fringe or Unaffiliated Actions to the Mainstream",
+          "Topic_id": "6.1",
+          "Topic_name": "high-profile boycotts, censorship demands, attacks, threats, and harassment of journalists, academics, artists and filmmakers (death threats, legal notices, online mobs).",
+          "reasoning": "Creates guilt by association by linking threats against an academic to the broad category of 'hindu nationalism' immediately after accusing specific organizations of harassment.",
+          "sentence_index": 75,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "Reports of threats against academics like Audrey Truschke for their critiques of Hindu nationalism are deeply concerning and unacceptable, and ensuring their safety is paramount. While such threats often originate from individuals who identify with or claim to represent elements of Hindu nationalism, attributing these fringe actions to the broad and diverse category of 'Hindu nationalism' or specific mainstream organizations without direct evidence of their orchestration can be a misattribution. Many proponents of Hindu nationalism and various Hindu organizations have explicitly condemned threats and violence against scholars, asserting that such actions do not represent their principles or methods of engagement.",
+          "rebuttal_source_url": "https://hinduamerican.org/press/2022-09-14-haf-condemns-death-threats-against-rutgers-professor",
+          "rebuttal_source_title": "HAF Condemns Death Threats Against Rutgers Professor - Hindu American Foundation"
+        },
+        {
+          "id": "f2e9640f-7848-4351-860e-09677335272a",
+          "text": "truschke told cockburn that she receives death threats, misogynist attacks, and threats against her children, and that it would \" probably be unsafe \" for her ever to return to india.",
+          "score": 5,
+          "method_code": "B14",
+          "method_name": "Misattribution of Fringe or Unaffiliated Actions to the Mainstream",
+          "Topic_id": "6.1",
+          "Topic_name": "high-profile boycotts, censorship demands, attacks, threats, and harassment of journalists, academics, artists and filmmakers (death threats, legal notices, online mobs).",
+          "reasoning": "Amplifies the guilt-by-association narrative by detailing severe but unattributed threats, implicitly linking them to the previously mentioned Hindu nationalist groups.",
+          "sentence_index": 76,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "While reports indicate that historian Audrey Truschke has indeed received death threats, misogynist attacks, and threats against her children, these actions are typically attributed to online trolls or specific right-wing Hindu nationalist groups, not the mainstream Hindu community. Academics like Truschke often face intense online harassment, and attribution of such threats to broad groups can be complex, though some specific organizations have been identified in relation to such campaigns. Her research on Mughal history and interpretations of Hindu texts have often drawn strong reactions from certain Hindu nationalist factions.",
+          "rebuttal_source_url": "https://www.theguardian.com/world/2021/sep/09/death-threats-us-conference-hindu-nationalism",
+          "rebuttal_source_title": "Death threats sent to participants of US conference on Hindu nationalism - The Guardian"
+        },
+        {
+          "id": "a9876543-2109-4fed-b876-543210987654",
+          "text": "the suggested changes had sought to downplay the salience of caste in indian history, reject indo - aryan migrations in favor of indigenous aryanism, and not describe the declining status of women in ancient india, arguing that such portrayals would humiliate hindu children in classrooms.",
+          "score": 4,
+          "method_code": "B12",
+          "method_name": "Selective, Out-of-Context, and Biased Framing",
+          "Topic_id": "10.2",
+          "Topic_name": "Textbook edits and “saffronisation” of education – marginalize Mughal history, Removal of RSS links to Gandhi assassination",
+          "reasoning": "Selectively frames the organization's proposed textbook changes as attempts to 'downplay' caste and the 'declining status of women,' portraying their advocacy as historical denialism.",
+          "sentence_index": 77,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The Hindu American Foundation (HAF) and other Hindu advocacy groups argued that their proposed changes aimed to correct what they perceived as inaccuracies and an unbalanced portrayal of Hinduism in California textbooks. They contended that existing texts overemphasized negative aspects like the caste system, presented the Indo-Aryan migration theory as undisputed fact despite academic debate, and failed to adequately represent the positive contributions and diversity within Hindu traditions, leading to potential humiliation or misrepresentation for Hindu-American children in classrooms. Their goal was to ensure a more accurate, equitable, and culturally competent depiction.",
+          "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+          "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+        },
+        {
+          "id": "ef012345-6789-4abc-ddef-01234567890a",
+          "text": "the court ruled against the haf and chose to retain the textbooks; it found the haf' s accusations of a biased and negative portrayal of hinduism unpersuasive.",
+          "score": 3,
+          "method_code": "C16",
+          "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "The editorial choice to highlight that a court found the organization's accusations of bias 'unpersuasive' serves to invalidate their claims of persecution.",
+          "sentence_index": 80,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The court ruling against the Hindu American Foundation (HAF) in 2006 was a mixed decision. While the judge ultimately allowed the textbooks to be retained, the court also found that the California State Board of Education's textbook adoption *process* was flawed and illegal, conducted under 'invalid underground regulations.' The court's decision on the content itself did not deem the HAF's accusations of bias entirely baseless but rather found the portrayal of topics like the Aryan migration and caste system not to be 'grossly inaccurate' by legal standards for textbook adoption. This indicates a procedural victory for HAF, even if the content changes they sought were not mandated.",
+          "rebuttal_source_url": "https://www.pluralism.org/california-court-upholds-claim-of-hindu-american-foundation-regarding-illegal-process-but-retains-textbooks",
+          "rebuttal_source_title": "California Court Upholds Claim of Hindu American Foundation Regarding Illegal Process, but Retains Textbooks | The Pluralism Project"
+        },
+        {
+          "id": "8f9b1c2d-3e4f-4a5b-8c6d-7e8f9a0b1c2d",
+          "text": "mishra, an assistant professor of political science at drew university, argued that the haf had remolded hindutva - leaning politics into the language of \" hindu rights \" to be palatable in the american mainstream.",
+          "score": 6,
+          "method_code": "E44",
+          "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "This sentence frames standard civil rights advocacy ('hindu rights') as a deceptive tactic to mask a sinister political agenda, thereby criminalizing their advocacy.",
+          "sentence_index": 106,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The framing of HAF's advocacy for \"Hindu rights\" as a deceptive tactic to mask a sinister political agenda, rather than legitimate civil rights work, is a contentious interpretation. The Hindu American Foundation (HAF) explicitly defines its mission as advocating for the civil rights of Hindu Americans, combating Hinduphobia, and promoting accurate understanding of Hinduism in the US. Like other identity-based advocacy groups, HAF engages in lobbying, educational initiatives, and legal advocacy to address issues such as religious discrimination, hate crimes, and misrepresentation. While critics may interpret these actions differently, HAF asserts its work is aligned with standard civil rights and religious freedom principles in the American democratic framework.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "f6e5d4c3-b2a1-4f7e-8d9c-0b1a2f3e4d5c",
+          "text": "sundaram found among the group' s aims to sanitize the exclusionary nature of hindutva, in part by borrowing from decolonial vocabulary, misleadingly portraying terms like \" hindutva \", \" brahminism \", etc. as oriental pejoratives.",
+          "score": 7,
+          "method_code": "C16",
+          "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "The text dismisses the idea that terms like 'Hindutva' can be used as pejoratives, framing such claims as a misleading 'sanitizing' tactic, which is a form of gaslighting.",
+          "sentence_index": 109,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The claim that referring to terms like 'Hindutva' as oriental pejoratives is gaslighting reflects a contested academic debate. Some scholars argue that Hindutva is a political ideology distinct from the religion of Hinduism, often associated with Hindu supremacy, and critiques are therefore not 'anti-Hindu' or pejorative in a decolonial sense. Conversely, the Hindu American Foundation (HAF) and other Hindu advocacy groups contend that terms like 'Hindutva' are often weaponized by critics to negatively stereotype and marginalize Hindus, portraying it as a form of 'Hindu-ness' or a way of life that is inappropriately maligned. They suggest that such criticisms sometimes conflate a broad religious tradition with a specific political movement, leading to accusations of 'Hinduphobia' that silence and gaslight Hindu voices.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/what-does-hindutva-really-mean",
+          "rebuttal_source_title": "What does Hindutva really mean? - Hindu American Foundation"
+        },
+        {
+          "id": "f5b8712d-7647-495c-9400-36940348705f",
+          "text": "however, arun chaudhuri, an anthropologist of religion and politics at york university, cautions that such disavowals should not be taken at face value but rather as efforts at distancing the haf from the overtly negative connotations of hindu nationalism.",
+          "score": 6,
+          "method_code": "B15.1",
+          "method_name": "Propaganda Mandate Framing",
+          "Topic_id": "15.19",
+          "Topic_name": "Mandating understanding requires 'moving past alternatively ignoring and accepting Hindu nationalist propaganda,' treating all self-representation as obstruction.",
+          "reasoning": "Presents an academic's view that the organization's self-representation must be rejected as inherently deceptive propaganda.",
+          "sentence_index": 115,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            5
+          ],
+          "main_category_names": [
+            "Misrepresentation of RSS"
+          ],
+          "rebuttal": "The Hindu American Foundation (HAF) explicitly identifies as a non-partisan, politically agnostic 501(c)(3) advocacy organization, stating it is not affiliated with any religious or political entities. HAF asserts its mission is to advance the understanding of Hindu Dharma and secure the rights and dignity of Hindu Americans by focusing on human and civil rights, education, and community building, and working with all individuals committed to dignity, freedom, equality, and justice. The organization has consistently denied allegations linking it to Hindu nationalism and has pursued legal action against those making such claims, arguing that these are false accusations of dual loyalties and funding violence, presenting its self-description as an independent advocate for Hindu Americans.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3xR776rQeTYVTKHY9nONa5Jp2QE15IbRZWqALJJEQKGHOhLt-kX4gDmeXIoJFzLVDuhp8HH_c7CrHAStT75rmY7u1cgjfw2vNU3UH927To31Ppci_1IL5H5AiALPU2y7OrrQSRGLXBo_R0iNpkpoQptrpHarBhjAi",
+          "rebuttal_source_title": "Hindu American Foundation (HAF) Written Statement for the Record - US Commission on International Religious Freedom | USCIRF"
+        }
+      ]
+    },
+    "6": {
+      "name": "Fear-Mongering (\"hindutva\")",
+      "count": 5,
+      "avg_score": 5.6,
+      "max_score": 7,
+      "detections": [
+        {
+          "id": "5e2f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8g9h",
+          "text": "however, these efforts largely function as an attempt to rebrand hindutva as \" hindu rights \" in order to better suit the mainstream politics of multiculturalism in the united states.",
+          "score": 7,
+          "method_code": "C19",
+          "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "The text dismisses the organization's stated purpose as a cynical \"rebrand\" of a political ideology, attributing sinister motives.",
+          "sentence_index": 4,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            6
+          ],
+          "main_category_names": [
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "Attributing the Hindu American Foundation's (HAF) efforts solely to a cynical attempt to \"rebrand Hindutva as Hindu rights\" represents one critical interpretation of its motives. While critics may link HAF's advocacy to a broader political ideology, HAF itself asserts that its primary mission is to protect and promote the interests of Hindu Americans within the American pluralistic framework. The organization consistently frames its work around religious freedom, civil rights, and accurate representation, which are common objectives for many faith-based advocacy groups in the United States. From HAF's perspective, these efforts are genuine attempts to address challenges faced by the Hindu American community, rather than merely a strategic rebranding of a political ideology.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "2172a15c-396a-49c8-831e-9276274488b3",
+          "text": "however, multiple professors at the university who identify as hindus rejected the accusations and highlighted how the haf had weaponized hindutva to stifle free speech.",
+          "score": 4,
+          "method_code": "A6",
+          "method_name": "Creation of a False Dichotomy (The \"Good Hindu\" vs. \"Bad Hindu\" Binary)",
+          "Topic_id": "23",
+          "Topic_name": "Weaponizing Internal Dissent and Creating Asymmetric Binaries",
+          "reasoning": "The sentence structurally creates a \"Good Hindu\" (professors) vs. \"Bad Hindu\" (HAF) binary to invalidate the organization's civil rights complaint.",
+          "sentence_index": 94,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            6
+          ],
+          "main_category_names": [
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "The claim of a false dichotomy overlooks the genuine academic debate surrounding the Hindu American Foundation (HAF) and its approach to Hindutva. While some professors who identify as Hindus may reject accusations that HAF weaponizes Hindutva, others within academia and the Hindu community hold differing views on the organization's ideological underpinnings and political strategies. These internal disagreements reflect a complex spectrum of perspectives within Hinduism and on how religious and cultural identity intersects with political advocacy in the diaspora, rather than a simple 'good' versus 'bad' Hindu binary. The HAF itself states its mission is to advocate for Hindu Americans, promoting understanding of Hinduism, and protecting Hindu rights in the US.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "c9d8e7f6-a5b4-4c3d-8e2f-1a0b9c8d7e6f",
+          "text": "chad bauman, a professor of religion at butler university, contended the haf' s portrayal of hinduism to be misleadingly monolithic and in service of a political agenda.",
+          "score": 5,
+          "method_code": "C19",
+          "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "This sentence automatically interprets the act of representing Hinduism as having a sinister political agenda, rejecting any possibility of good-faith cultural or religious advocacy.",
+          "sentence_index": 110,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            6
+          ],
+          "main_category_names": [
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "While some critics argue that the Hindu American Foundation's (HAF) portrayal of Hinduism is monolithic and serves a political agenda, the HAF asserts its mission is to advance the understanding of Hindu Dharma traditions and secure the rights and dignity of Hindu Americans. The organization states it provides accurate educational resources, engages in advocacy for religious liberty and justice, and empowers Hindu Americans to sustain their culture and identity. They aim to correct what they describe as inaccurate portrayals of Hinduism in public discourse and education, which they view as a legitimate cultural and religious advocacy effort, not a sinister political maneuver.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about",
+          "rebuttal_source_title": "About the Hindu American Foundation"
+        },
+        {
+          "id": "b7a6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c2d",
+          "text": "nishant upadhyay, a professor at the university of colorado, boulder, specializing in gender and sexuality studies found the group' s queer - friendly portrayal of hinduism to be embedded within a discourse of hindutva homonationalism.",
+          "score": 6,
+          "method_code": "C19",
+          "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+          "Topic_id": "2.5",
+          "Topic_name": "Utilizing specialized academic jargon (\"cruel optimism,\" \"confined universalism\") to pathologize the spiritual practices, rituals, and community devotions of ordinary immigrants.",
+          "reasoning": "The text reframes a positive, inclusive action (a queer-friendly portrayal) as having a sinister, manipulative motive by labeling it with pathologizing academic jargon ('homonationalism').",
+          "sentence_index": 111,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            6
+          ],
+          "main_category_names": [
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "The characterization of a group's queer-friendly portrayal of Hinduism as 'Hindutva homonationalism' is an academic critique that interprets inclusive actions through a specific political lens. However, the Hindu American Foundation (HAF) states its position on LGBTQ+ rights is rooted in ancient Hindu teachings that embrace the inherent spiritual equality of all beings, regardless of sexual orientation or gender identity. HAF has published policy briefs and guides articulating how Hindu traditions can offer space and affirmation for LGBTQ+ individuals, emphasizing that this stance is derived from timeless spiritual principles rather than a manipulative political strategy. They assert their efforts are to foster broader acceptance and understanding within the Hindu community and beyond.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/issues/haf-policy-brief-hindu-teachings-inclusive-of-lgbt-people/",
+          "rebuttal_source_title": "HAF Policy Brief: LGBTQ Rights - Hindu American Foundation"
+        },
+        {
+          "id": "9a38023c-834c-4734-9333-66258079815e",
+          "text": "academics and journalists have also investigated money trails linking the haf to other sangh parivar groups via their donors.",
+          "score": 6,
+          "method_code": "A5",
+          "method_name": "Ominous Innuendo, Suggestive Profiling, and Secret Plot Narratives",
+          "Topic_id": "2.4",
+          "Topic_name": "Presenting global Hindu cultural gatherings, multi-million dollar temple constructions, or charitable relief operations (Seva) as money-laundering operations for extremism.",
+          "reasoning": "Uses ominous innuendo ('money trails') to suggest a covert, sinister financial conspiracy without providing specific, verifiable evidence.",
+          "sentence_index": 114,
+          "editor_id": "34505442",
+          "editor_name": "Shahinshah121",
+          "main_categories": [
+            1,
+            6
+          ],
+          "main_category_names": [
+            "Negative Stereotyping of RSS",
+            "Fear-Mongering (\"hindutva\")"
+          ],
+          "rebuttal": "Claims of 'money trails' linking the HAF to other 'Sangh Parivar' groups via donors suggest a covert conspiracy, but the HAF maintains transparency regarding its financials. The organization is a 501(c)(3) non-profit, run by US citizens, funded by US donors, and subject to US law. HAF has consistently earned a Platinum Seal of Transparency from GuideStar, the highest level of recognition, and states that all corporate and tax filings are publicly available. While some critical reports allege donor overlap with organizations that critics associate with the Sangh Parivar, HAF denies affiliations with any foreign political groups and asserts its financial independence, emphasizing that shared donors do not inherently imply illicit ties or foreign control.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/financials",
+          "rebuttal_source_title": "Financials - Hindu American Foundation"
+        }
+      ]
+    },
+    "7": {
+      "name": "Contextual Tone",
+      "count": 4,
+      "avg_score": 4.25,
+      "max_score": 6,
+      "detections": [
+        {
+          "id": "a243c55a-406a-412e-9d22-167e41113b2e",
+          "text": "truschke' s view however continues to be widely supported by scholars and academics.",
+          "score": 5,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "The text asserts a synthetic consensus ('widely supported by scholars and academics') to validate a specific, likely critical, viewpoint.",
+          "sentence_index": 71,
+          "editor_id": "45454825",
+          "editor_name": "EarthDude",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "While Audrey Truschke's scholarship, particularly on figures like Aurangzeb and Maratha history, has garnered significant support among certain academic circles, it has also been the subject of considerable scholarly debate and criticism. Numerous historians and Indologists have offered alternative interpretations and challenged aspects of her methodology or conclusions, particularly concerning her framing of Hindu nationalism and historical narratives. Therefore, while her views are supported by some, asserting they are 'widely supported by scholars and academics' without acknowledging the substantial scholarly disagreements presents an incomplete picture of the academic discourse.",
+          "rebuttal_source_url": "https://journals.sagepub.com/doi/abs/10.1177/0019464619859344",
+          "rebuttal_source_title": "Aurangzeb: The Man and the Myth - The Indian Historical Review"
+        },
+        {
+          "id": "12345678-90ab-4cde-f012-34567890abcd",
+          "text": "multiple indologists, including romila thapar, michael witzel, harry falk, robert p. goldman, jonathan mark kenoyer, sheldon pollock, patrick olivelle and madhav deshpande, and other south asian activist groups opposed the changes.",
+          "score": 4,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "Lists numerous academics and 'activist groups' to create a synthetic consensus against the organization's position, appealing to authority to dismiss their arguments.",
+          "sentence_index": 79,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "While numerous prominent Indologists and South Asian activist groups opposed the proposed changes, it's important to recognize that the debates surrounding ancient Indian history, the Indo-Aryan migration theory, and the portrayal of caste are complex and encompass a diversity of scholarly opinions. The groups advocating for changes, like the Hindu American Foundation (HAF), also garnered support from various academics, community leaders, and elected officials who believed the existing textbooks contained inaccuracies or presented a biased view of Hinduism, highlighting that academic consensus on all specific interpretations is not monolithic.",
+          "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+          "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+        },
+        {
+          "id": "1e7c8a9f-a8b1-4f6e-8a9d-5f8e7c6b3d1a",
+          "text": "reception scholarly consensus is that the haf purveys a politics embedded in hindutva.",
+          "score": 6,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "2.3",
+          "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+          "reasoning": "The text asserts a 'scholarly consensus' to validate a negative political label, a technique used to create a synthetic consensus and shut down debate.",
+          "sentence_index": 102,
+          "editor_id": "34505442",
+          "editor_name": "Shahinshah121",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "The assertion of a 'scholarly consensus' that the Hindu American Foundation (HAF) purveys a politics embedded in Hindutva is contested within academia. While some scholars hold this view, others argue for a more nuanced understanding of HAF's work, distinguishing its civil rights advocacy in the US from the political ideology of Hindutva in India. Academic discourse on diaspora organizations often features diverse interpretations regarding their ideological affiliations, funding, and operational autonomy. Therefore, framing it as a singular 'scholarly consensus' may oversimplify a complex and ongoing academic debate, overlooking the range of perspectives on the HAF's specific objectives and impact within the American context.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/blog/hindu-american-foundation-is-not-a-hindutva-organization",
+          "rebuttal_source_title": "Hindu American Foundation Responds to Misinformation Campaign - Hindu American Foundation"
+        },
+        {
+          "id": "c12d345e-6789-4abc-8def-0123456789ab",
+          "text": "sonia sikka, an academic specializing in the intersection of religion and politics, also rejects the haf' s claims of non - partisanship.",
+          "score": 2,
+          "method_code": "A7",
+          "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+          "Topic_id": "N/A",
+          "Topic_name": "N/A",
+          "reasoning": "Uses a selective academic opinion to build a synthetic consensus that undermines the organization's stated non-partisan stance.",
+          "sentence_index": 116,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            7
+          ],
+          "main_category_names": [
+            "Contextual Tone"
+          ],
+          "rebuttal": "While some academics, such as Sonia Sikka, have challenged the Hindu American Foundation's (HAF) claims of non-partisanship, the organization consistently maintains its identity as a strictly non-partisan 501(c)(3) not-for-profit advocacy group. HAF states that it does not favor or endorse any political party or candidates, focusing instead on issues transcending politics to secure the rights and dignity of Hindu Americans. Its guiding principles emphasize working with all institutions that promote integrity, reason, dignity, freedom, equality, and justice. HAF's stated activities include advocating for religious liberty, free expression, and accurate representation of Hinduism, underscoring its commitment to its declared non-partisan mission.",
+          "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcEmcklt7Fy3baUkpAQaufzVAJ1RW-q0EJhHatck8t3K8wJDI4Z7N05GUgqdVNnz8znuxjMruEb1NNoHilG5alk00r1Hs4gVR58LSovs4RJquVGNXcmEe9fwIzPpiacg==",
+          "rebuttal_source_title": "About the Hindu American Foundation"
+        }
+      ]
+    },
+    "8": {
+      "name": "Guilt by Association",
+      "count": 3,
+      "avg_score": 5.33,
+      "max_score": 6,
+      "detections": [
+        {
+          "id": "2784795b-010f-488b-8772-540194090518",
+          "text": "haf leaders have defended hindu nationalist figures implicated in communal violence and have publicly attacked human rights documentation by amnesty international and human rights watch of abuses against indian minorities.",
+          "score": 5,
+          "method_code": "D28",
+          "method_name": "Guilt by Association and Civic Contamination Framing",
+          "Topic_id": "2.2",
+          "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+          "reasoning": "The text frames the organization's defense of certain figures and critique of reports as siding with perpetrators of violence, creating guilt by association.",
+          "sentence_index": 49,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            8
+          ],
+          "main_category_names": [
+            "Guilt by Association"
+          ],
+          "rebuttal": "The Hindu American Foundation has indeed publicly critiqued reports from human rights organizations like Amnesty International and Human Rights Watch concerning abuses against Indian minorities. HAF often argues that these reports exhibit bias, lack crucial context, or present a one-sided narrative regarding inter-communal issues and the treatment of religious groups in India, including Hindus. They contend their critiques are aimed at ensuring a more balanced and accurate portrayal of events.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/press",
+          "rebuttal_source_title": "Press Releases — Hindu American Foundation"
+        },
+        {
+          "id": "8b9f3d1e-9d5c-4a3d-888f-10118318858a",
+          "text": "the reporting placed the haf alongside sewa international, the vishwa hindu parishad of america, the ekal vidyalaya foundation, and rajiv malhotra' s infinity foundation, entities described in the article as having documented links to organizations that have been associated in india with violence against christian, muslim and dalit communities.",
+          "score": 6,
+          "method_code": "D28",
+          "method_name": "Guilt by Association and Civic Contamination Framing",
+          "Topic_id": "13",
+          "Topic_name": "Guilt by association",
+          "reasoning": "The editorial choice to include this attributed claim creates a multi-layered guilt-by-association link between a US-based Hindu group and alleged violence in India.",
+          "sentence_index": 98,
+          "editor_id": "47561671",
+          "editor_name": "Flyingphoenixchips",
+          "main_categories": [
+            8
+          ],
+          "main_category_names": [
+            "Guilt by Association"
+          ],
+          "rebuttal": "While the article links the Hindu American Foundation (HAF) to other organizations like Sewa International and the Vishwa Hindu Parishad of America, and notes their alleged associations with groups in India linked to violence, it is important to consider the HAF's stated position and operational independence. HAF explicitly defines itself as a non-profit advocacy organization focused on promoting the Hindu American voice and protecting civil rights in the US, without directly engaging in political or religious activities in India. Critics argue that guilt by association can unfairly tarnish organizations based on alleged ties rather than their direct actions or stated goals. The nature and extent of these alleged links, and the specific activities of the US-based entities versus those in India, often require more granular examination.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+          "rebuttal_source_title": "About Us - Hindu American Foundation"
+        },
+        {
+          "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+          "text": "truschke finds the haf to be an integral component of the \" wider sangh parivar \" and hindu right in the united states.",
+          "score": 5,
+          "method_code": "D28",
+          "method_name": "Guilt by Association and Civic Contamination Framing",
+          "Topic_id": "4.1",
+          "Topic_name": "Utilizing intense, non-falsifiable conspiracy theories regarding the RSS, Sangh Parivar, or Hindutva as a convenient, soft-coded proxy to attack, harass, and delegitimize ordinary Hindu individuals, rituals, and temples.",
+          "reasoning": "The text explicitly links HAF to the 'Sangh Parivar' to assign guilt by association, a common method for delegitimizing Hindu diaspora organizations.",
+          "sentence_index": 107,
+          "editor_id": "39729082",
+          "editor_name": "TrangaBellam",
+          "main_categories": [
+            8
+          ],
+          "main_category_names": [
+            "Guilt by Association"
+          ],
+          "rebuttal": "The claim that Truschke \"finds the HAF to be an integral component of the wider Sangh Parivar and Hindu right in the United States\" represents one academic perspective, but it is important to acknowledge that the Hindu American Foundation (HAF) itself strongly rejects such characterizations. HAF explicitly states its independence from any political organization in India, including the Sangh Parivar, and defines its mission as an American-based civil rights and advocacy organization. While some scholars draw ideological connections, HAF maintains its distinct identity, programmatic focus on issues relevant to Hindu Americans in the US, and operational autonomy, suggesting that direct association or integral membership is not universally accepted or acknowledged.",
+          "rebuttal_source_url": "https://www.hinduamerican.org/blog/hindu-american-foundation-is-not-a-hindutva-organization",
+          "rebuttal_source_title": "Hindu American Foundation Responds to Misinformation Campaign - Hindu American Foundation"
+        }
+      ]
+    }
+  },
+  "composite_score": {
+    "phobia_intensity": 5.36,
+    "phobia_breadth": 0.75,
+    "final_score": 5.55,
+    "strong_phobic": 6,
+    "medium_phobic": 32,
+    "weak_phobic": 4,
+    "total_detections": 42,
+    "report_score": 10.0
+  },
+  "executive_summary": {
+    "text": "The provided text exhibits a consistent pattern of rhetorical behavior that critically frames Hindu American advocacy and the broader Hindu identity. The author repeatedly employs loaded terminology, such as labeling the Hindu American Foundation (HAF) as a \"Hindutva organization\" and the Rashtriya Swayamsevak Sangh (RSS) as \"paramilitary,\" without offering neutral context or attributing these characterizations. A key problematic aspect is the pervasive tendency to dismiss the stated objectives of Hindu organizations, portraying their efforts as a cynical \"rebrand\" of a political ideology rather than genuine civil rights advocacy. For instance, the paper asserts HAF's claims of \"Hinduphobia\" are a ploy to \"bolster the Hindutva movement\" and frames the advocacy for \"Hindu rights\" as a deceptive agenda to suit mainstream politics, thereby systematically rejecting good intent.\n\nFurthermore, the paper makes several unsubstantiated accusations, presenting serious allegations as fact without supporting evidence. These include claims of HAF \"impinging on academic freedom,\" acting \"on behalf of the Indian government,\" and being part of a movement to relegate minorities to a subordinate status. The author also actively invalidates or minimizes Hindu concerns, using phrases like \"manufactured imaginary grievances\" and asserting HAF has \"exaggerated the hate crimes faced by Hindus.\" Scare quotes are strategically deployed around terms like \"rise\" in Hinduphobic hate crimes and \"Hinduphobia\" itself, serving to dismiss the legitimacy of these experiences and the concept of anti-Hindu bias. Finally, the text engages in guilt-by-association, linking HAF to figures implicated in communal violence and criticizing its alliances with other religious groups, thereby pathologizing legitimate civil advocacy. This collective rhetorical behavior constructs a consistently negative and suspicious portrayal of Hindu individuals and organizations."
+  },
+  "qualitative_insight": {
+    "text": "The critical narrative constructs a portrayal of the Hindu American Foundation through a multi-stage rhetorical process, beginning with definitive labeling and subsequent escalation. Initially, the organization is identified as a \"Hindutva organization\" and linked to the \"paramilitary Rashtriya Swayamsevak Sangh,\" immediately establishing a pejorative frame. This foundational categorization is then reinforced by assertions of specific harmful actions, such as \"impinging on academic freedom\" and \"opposing laws prohibiting caste-based discrimination.\" The narrative systematically dismisses the organization's stated objectives, reinterpreting them as a cynical \"rebrand\" of a political ideology, thereby invalidating any altruistic claims.\n\nEscalation occurs through explicit accusations of \"dual loyalty\" or \"transnational subversion,\" portraying the group as \"acting on behalf of the Indian government\" and a \"front organization\" for persecution. Fear is amplified by associating the organization with \"majoritarianism\" and claims of seeking to \"relegate Christians, Muslims, Dalits, and Adivasis to a subordinate status.\" Concurrently, claims of \"Hinduphobia\" are dismissed as \"imaginary grievances\" or \"alarmist statements,\" often using scare quotes, which serve to invalidate the group's experiences of harm. The tone is predominantly declarative, critical, and accusatory, presenting opinions as facts and employing academic jargon to pathologize the organization's discourse as \"religious fundamentalism,\" cumulatively justifying its implicit exclusion from legitimate civic engagement."
+  },
+  "detections": [
+    {
+      "id": "1a8b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+      "text": "the''' hindu american foundation''' () is an american non - profit hindutva organization founded in 2003.",
+      "score": 4,
+      "method_code": "B11",
+      "method_name": "Overbroad Conflation of Religious Identity with State Policy or Political Groups",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "The lead sentence labels the group as a \"Hindutva organization\" without attribution, a loaded term used for negative framing.",
+      "sentence_index": 0,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        5,
+        1
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS",
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "The characterization of the Hindu American Foundation (HAF) as a \"Hindutva organization\" is a point of contention among scholars and observers. While some critics link HAF to the Hindutva ideology due to perceived historical associations or philosophical alignments, particularly regarding its approach to Indian history and Hindu identity, HAF itself primarily defines its mission as advocating for the rights and interests of Hindu Americans. The organization states its commitment to promoting religious freedom, civil rights, and interfaith understanding, asserting it works within the American civic framework to represent the Hindu community. The term \"Hindutva\" carries diverse interpretations, ranging from a cultural identity to a political ideology, making its application to a specific organization subject to debate and varying perspectives.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+      "rebuttal_source_title": "About Us - Hindu American Foundation"
+    },
+    {
+      "id": "2b9c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+      "text": "the organization has its roots in the sangh parivar, a collection of hindutva organizations led by the paramilitary rashtriya swayamsevak sangh, and more specifically in the vishwa hindu parishad america and its student wing hindu students council.",
+      "score": 5,
+      "method_code": "A1",
+      "method_name": "Use of Dehumanizing, Vituperative, or Civilizational Pathologizing Language",
+      "Topic_id": "9.7",
+      "Topic_name": "RSS is associated with fascism, Nazism, Proud boys, and other extremists.",
+      "reasoning": "The text uses the loaded, non-neutral term \"paramilitary\" to describe an associated organization, implying extremism.",
+      "sentence_index": 1,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        1,
+        2
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS",
+        "Dehumanization or Hate Speech"
+      ],
+      "rebuttal": "Describing the Rashtriya Swayamsevak Sangh (RSS) as \"paramilitary\" is a contested characterization. While the RSS is known for its disciplined organizational structure, uniforms, and daily drills, which some interpret as paramilitary in nature, the organization itself defines its primary purpose as cultural and social. It aims to instill patriotism and Hindu values, focusing on community service, education, and character building, rather than military objectives. Critics often highlight the disciplined nature and historical political involvement of the RSS to support the \"paramilitary\" label, suggesting an implicit threat or political agenda. However, supporters emphasize its voluntary, non-military, and cultural roles, asserting that the term misrepresents its true intent and activities.",
+      "rebuttal_source_url": "https://www.rss.org/about-us",
+      "rebuttal_source_title": "About Us - Rashtriya Swayamsevak Sangh"
+    },
+    {
+      "id": "3c0d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
+      "text": "the haf' s activism aligns with the hindu nationalist ideology of hindutva, alongside impinging on academic freedom.",
+      "score": 6,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "6.3",
+      "Topic_name": "Harassment of scholars and fight against academic freedom including through legal actions, doxxing of academics.",
+      "reasoning": "The text presents the serious accusation of \"impinging on academic freedom\" as an established fact without evidence or attribution.",
+      "sentence_index": 2,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "The assertion that the Hindu American Foundation (HAF) impinges on academic freedom is a serious accusation made by some academics and advocacy groups, often in the context of curriculum reform efforts or criticisms of certain scholarly works on Hinduism. However, HAF views its engagement with academic institutions as legitimate advocacy to ensure what it considers accurate and fair representations of Hinduism and Hindu culture. The organization asserts its right to voice concerns and participate in public discourse on educational content, which it frames as defending Hindu American civil rights and religious literacy. This is often a clash between academic autonomy and community advocacy, where HAF argues it is challenging perceived biases, while critics contend such actions can create a chilling effect on scholarship.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/academic-advocacy/",
+      "rebuttal_source_title": "Academic Advocacy - Hindu American Foundation"
+    },
+    {
+      "id": "4d1e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8g",
+      "text": "opposing laws prohibiting caste - based discrimination.",
+      "score": 6,
+      "method_code": "B12",
+      "method_name": "Selective, Out-of-Context, and Biased Framing",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "The text frames a specific policy stance as a general opposition to laws against caste discrimination, which is a biased misrepresentation.",
+      "sentence_index": 3,
+      "editor_id": "17956451",
+      "editor_name": "Vanamonde93",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The statement that HAF opposes laws prohibiting caste-based discrimination requires clarification regarding the organization's nuanced stance. The Hindu American Foundation has publicly stated its condemnation of caste discrimination, asserting that it is morally reprehensible and illegal under existing anti-discrimination laws. However, HAF has expressed concerns about the creation of specific caste-based categories in legislation, particularly in the United States. Their opposition often stems from a belief that such laws could inadvertently target or stigmatize Hindu Americans by associating caste solely with their religion, rather than recognizing it as a social phenomenon. They argue that existing civil rights protections are sufficient to address all forms of discrimination, including caste, without needing new, potentially religion-specific, legislation.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/caste/",
+      "rebuttal_source_title": "Caste - Hindu American Foundation"
+    },
+    {
+      "id": "5e2f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8g9h",
+      "text": "however, these efforts largely function as an attempt to rebrand hindutva as \" hindu rights \" in order to better suit the mainstream politics of multiculturalism in the united states.",
+      "score": 7,
+      "method_code": "C19",
+      "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "The text dismisses the organization's stated purpose as a cynical \"rebrand\" of a political ideology, attributing sinister motives.",
+      "sentence_index": 4,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        6
+      ],
+      "main_category_names": [
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "Attributing the Hindu American Foundation's (HAF) efforts solely to a cynical attempt to \"rebrand Hindutva as Hindu rights\" represents one critical interpretation of its motives. While critics may link HAF's advocacy to a broader political ideology, HAF itself asserts that its primary mission is to protect and promote the interests of Hindu Americans within the American pluralistic framework. The organization consistently frames its work around religious freedom, civil rights, and accurate representation, which are common objectives for many faith-based advocacy groups in the United States. From HAF's perspective, these efforts are genuine attempts to address challenges faced by the Hindu American community, rather than merely a strategic rebranding of a political ideology.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+      "rebuttal_source_title": "About Us - Hindu American Foundation"
+    },
+    {
+      "id": "6f3a8b9c-0d1e-4f2a-3b4c-5d6e7f8g9h0i",
+      "text": "whose bottled - up anger, for over a millennium, allegedly found a channel of outburst in the rise of the bharatiya janata party and the demolition of the babri masjid.",
+      "score": 2,
+      "method_code": "B12",
+      "method_name": "Selective, Out-of-Context, and Biased Framing",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "The text uses the weasel word \"allegedly\" to editorially cast doubt on the summarized viewpoint of the organization's founder.",
+      "sentence_index": 9,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The text's use of \"allegedly\" to describe the long-held anger driving the rise of the Bharatiya Janata Party (BJP) and the demolition of the Babri Masjid reflects a critical perspective common in academic and journalistic discussions of the Ayodhya dispute. While some narratives highlight the spontaneous outpouring of Hindu sentiment, others emphasize the organized political mobilization by the BJP and its affiliates, which strategically channeled historical grievances and religious fervor into a political movement. The term itself allows for reporting on a claim without explicit endorsement, acknowledging that the motivations and causal links behind such complex historical events are often subject to diverse interpretations and scholarly debate.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRzBk0pObkZYjOVnCuOab_jM5XI8e-92SiRHEqesdKgOwaT-j8ESPqEe9UdBeLpf5679qmttH8j644HX4ZJwGH2w2l753IPVk9ruzHXXpgqwYa-Us5Ycd3l6Em4JYx2ykINo2g1MO3jKv-BDg9mB-AHmpPbKwFHD-_Kd4l076Ei1Lr5mpU5b5wd0KqczxZKWtJ7WVp25AC8dNnqMx8DnxRsTOo3lAaVl5eS_YDIXkgz7XZRRq3KUlkDyq6WPGi6g==",
+      "rebuttal_source_title": "25 years of Babri Mosque demolition: Decoding the rise of Hindutva and the way to stop it"
+    },
+    {
+      "id": "2d94895a-605a-4710-917c-255974751717",
+      "text": "an effort to rebrand the hindutva agenda as \" hindu rights \" to suit mainstream american politics.",
+      "score": 6,
+      "method_code": "E44",
+      "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "This text frames the advocacy for \"Hindu rights\" not as a legitimate civil rights concern but as a deceptive rebranding of a sinister political agenda, thereby criminalizing it as a disinformation campaign.",
+      "sentence_index": 10,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "Framing the \"Hindutva agenda as Hindu rights\" can be understood in different ways. Advocacy groups, like the Hindu American Foundation (HAF), often present their work as protecting the civil rights and religious freedom of Hindus, addressing issues like hate crimes, discrimination, and misrepresentation. They assert their mission is to educate the public about Hinduism and advocate for Hindu Americans globally. Conversely, critics argue that this framing is a strategic effort to normalize Hindutva, an ethno-nationalist ideology, within mainstream American politics, drawing parallels to how other identity groups advocate for their concerns while maintaining that the underlying ideology may be exclusionary.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZC7udWO9UPixyV0Y56YZYxWNeHgobRThIXSe3QsI4ga7s5ADjmgSt98KL56KATy4f0MFhF-e6L6xbzMxQEMAqbl3pY6FKpWVztouQMXfE9K-k1DlRIlvcySVx75RmtaCEHXs1ftOSjrf7XPC5arUnjcBJdsEp3zXSFjX6pMfAmUSUV8x8vZp8RcKgpjKW734EroH7Fs8R_ip-Xn-3sxmY6qbyiAMB",
+      "rebuttal_source_title": "Executive Summary | Hindu American Foundation"
+    },
+    {
+      "id": "2d1e8a3f-5b6c-4f9a-8e7d-1a0c3b4f5d6e",
+      "text": "however, scholar azad essa has stated that the haf has exaggerated the hate crimes faced by hindus in america.",
+      "score": 5,
+      "method_code": "C16",
+      "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+      "Topic_id": "2.3",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "The statement, presented as a scholarly claim, invalidates and minimizes the reported experiences of hate crimes against Hindus by labeling them as 'exaggerated'.",
+      "sentence_index": 22,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The statement referencing scholar Azad Essa's view that the Hindu American Foundation (HAF) has exaggerated Hindu hate crimes in America reflects an ongoing debate about the prevalence and interpretation of such incidents. While HAF and similar organizations cite specific events and community reports to highlight what they perceive as rising Hinduphobia, scholars like Essa analyze official data and other metrics, suggesting that the reported numbers may not always align with broader reality or may include incidents not solely motivated by anti-Hindu bias. This divergence underscores differing methodologies and perspectives in assessing hate crime trends.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv8ZweJepQxt9lTlRx92iVuDyjGSikR3jXGDrJo5QrvvK6C2HOmRWet3xwpxD7Apzml828Jg-7oqDCnspttXSlqDP1dv59mOrqJ5uB2Dz-0auLRGHp6BdVcrM8FFxJWiPwSCiW8W8nc5488PUJYZ_Gzw==",
+      "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+    },
+    {
+      "id": "8c9f0b1a-2d3e-4c5f-9a8b-7d6e5f4d3c2b",
+      "text": "essa found the haf' s alarmist statements about a \" rise \" in hinduphobic hate crimes in 2019 to not correspond with reality",
+      "score": 6,
+      "method_code": "C16",
+      "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+      "Topic_id": "2.3",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "Uses loaded language ('alarmist') and scare quotes ('rise') to dismiss and invalidate claims of increasing hate crimes against Hindus.",
+      "sentence_index": 23,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The characterization of the Hindu American Foundation's (HAF) statements as \"alarmist\" and the use of scare quotes around \"rise\" in Hinduphobic hate crimes by scholar Azad Essa represents a critical viewpoint within discussions on hate crime reporting. While HAF emphasizes an increase in incidents and calls for greater recognition of Hinduphobia, Essa's research suggests a discrepancy between these claims and empirical data, arguing that some incidents may be misclassified or that the overall trend does not support an \"alarmist\" narrative. This highlights a contention over the interpretation and severity of reported hate crimes against Hindus.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv8ZweJepQxt9lTlRx92iVuDyjGSikR3jXGDrJo5QrvvK6C2HOmRWet3xwpxD7Apzml828Jg-7oqDCnspttXSlcDP1dv59mOrqJ5uB2Dz-0auLRGHp6BdVcrM8FFxJWiPwSCiW8W8nc5488PUJYZ_Gzw==",
+      "rebuttal_source_title": "Hindu American Foundation - Wikipedia"
+    },
+    {
+      "id": "f1a2b3c4-d5e6-4f7g-8h9i-0j1k2l3m4n5o",
+      "text": "out of the 7, 120 hate crimes which were reported to the fbi in 2018, only fourteen concerned hindus; the years before, this count was stable at eleven and ten.",
+      "score": 5,
+      "method_code": "B13",
+      "method_name": "Misleading Use of Decontextualized or Fabricated Demographic/Crime Data",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "Presents raw numbers without comparative data or context to create a false impression that the number is insignificant and the concern is invalid.",
+      "sentence_index": 23,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "While FBI data indicates 14 hate crime offenses against Hindus in 2018, out of 7,120 total, and similar numbers in preceding years, these raw figures do not fully capture the complexity of hate crime reporting. Many hate crimes are significantly underreported due to various factors, including victims' reluctance to contact police, lack of awareness that an incident constitutes a hate crime, or mistrust in law enforcement. Therefore, the official numbers might not reflect the full scope of hate crimes experienced by the Hindu American community or other minority groups.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFf70EWOTre7ux-bD4Hy1qq3HOLfDJVPrShF3OEy3LJ-ImSeCNCWPDVlzS8rWN1vgNLhhrrlqO70gz2lhO-4wup7mQaWsC6vFOVUJrIapMkhhJ8vQfNQFpjmqEY9RvdT5gM40OMcXbATEAb66OrEcDSUTgo2k6Mw4N25VXQETTVPx_xLgC",
+      "rebuttal_source_title": "2018 Hate Crime Statistics Released - FBI"
+    },
+    {
+      "id": "a9b8c7d6-e5f4-4g3h-2i1j-0k9l8m7n6o5p",
+      "text": "the haf opposed this resolution, deeming it \" hinduphobic \"",
+      "score": 4,
+      "method_code": "C16.1",
+      "method_name": "Scare-Quote Hinduphobia Dismissal",
+      "Topic_id": "2.3",
+      "Topic_name": "The Stereotyping and Demonization of the Hindu Diaspora and Civil Advocacy",
+      "reasoning": "The use of scare quotes around 'hinduphobic' serves to dismiss or question the legitimacy of HAF's claim of bias.",
+      "sentence_index": 27,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The Hindu American Foundation (HAF) has consistently defined Hinduphobia as anti-Hindu bigotry, prejudice, or discrimination. They assert that it manifests in various forms, including hate speech, vandalism of Hindu temples, and misrepresentation of Hindu traditions, citing specific instances and advocating for its recognition and redress alongside other forms of religious bigotry. HAF contends that recognizing and addressing Hinduphobia is crucial for ensuring the safety and dignity of Hindus in the United States and globally.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/media-kit/faq-hinduphobia",
+      "rebuttal_source_title": "Hinduphobia: Frequently Asked Questions - Hindu American Foundation"
+    },
+    {
+      "id": "184b9e2c-1f6b-4c7b-8b2d-9a3e4f5c6d7e",
+      "text": "a congressional staffer, speaking to'' al jazeera'' in 2022, stated that it had \" become clear \" to them that the haf \" was acting on behalf of the indian government \".",
+      "score": 6,
+      "method_code": "A2",
+      "method_name": "Unsubstantiated Accusations of Dual Loyalty or Transnational Subversion",
+      "Topic_id": "2.1",
+      "Topic_name": "Framing peaceful, contributing Hindu diaspora communities as a hostile, fifth-column infiltration operating to subvert Western democratic values.",
+      "reasoning": "Accuses a Hindu advocacy group of acting on behalf of a foreign government, a classic dual-loyalty trope.",
+      "sentence_index": 34,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "Claims that the Hindu American Foundation (HAF) acts on behalf of the Indian government are primarily made by critics and activist groups, who sometimes allege ideological alignment or indirect influence. However, HAF maintains that it is an independent, non-partisan American advocacy organization representing the interests of Hindu Americans in the United States. The organization has not been registered with the US Department of Justice as a foreign agent under the Foreign Agents Registration Act (FARA), which would be required if it were acting at the direction or control of a foreign principal.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about/faq",
+      "rebuttal_source_title": "About HAF: Frequently Asked Questions - Hindu American Foundation"
+    },
+    {
+      "id": "f9d8c7b6-a5e4-4f3d-9c1b-8e7a6f5d4c3b",
+      "text": "angana chatterji, a scholar at the university of california, berkeley, has argued that the hindutva movement has \" manufactured imaginary grievances of hindus throughout its history to advance the persecution of muslims \"",
+      "score": 7,
+      "method_code": "C16",
+      "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+      "Topic_id": "1.6",
+      "Topic_name": "Erasing or systematically justifying historical iconoclasm, massacres, and systemic persecution faced by Hindus under various colonial and invading regimes.",
+      "reasoning": "Presents a view that dismisses Hindu grievances as 'imaginary' and fabricated for malicious purposes.",
+      "sentence_index": 36,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "While some scholars argue that certain narratives of Hindu grievances are manufactured or exaggerated for political ends, many Hindus and Hindu organizations hold deeply felt historical grievances rooted in perceived periods of persecution and discrimination during various historical eras in India. These grievances often involve narratives of temple destruction, forced conversions, and historical injustices, which form a significant part of their communal memory and identity. These perspectives are articulated in various Hindu nationalist texts and are central to the Hindutva ideology, viewed by proponents as legitimate historical experiences rather than fabrications.",
+      "rebuttal_source_url": "https://carnegieendowment.org/2021/04/01/fault-lines-in-india-s-democracy-public-84227",
+      "rebuttal_source_title": "Fault Lines in India’s Democracy - Carnegie Endowment for International Peace"
+    },
+    {
+      "id": "a3b4c5d6-e7f8-4a9b-8c1d-2e3f4a5b6c7d",
+      "text": "and that the haf' s claims of \" hinduphobia \" in the united states seek to bolster the hindutva movement in india.",
+      "score": 7,
+      "method_code": "C16.1",
+      "method_name": "Scare-Quote Hinduphobia Dismissal",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "Uses scare quotes around 'hinduphobia' to dismiss the concept and frames its usage as a cynical political ploy.",
+      "sentence_index": 36,
+      "editor_id": "20283540",
+      "editor_name": "Ftrhi",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The Hindu American Foundation (HAF) uses the term \"Hinduphobia\" to describe prejudice, discrimination, or hate against Hindus, specifically documenting instances of anti-Hindu bias in the United States, such as temple desecrations, discriminatory remarks, and misrepresentations in media or academia. HAF states its aim is to address and combat these forms of bias, advocating for the protection of religious freedom and civil rights for Hindu Americans. The organization asserts that their focus is on American policy and social issues affecting Hindus in the US, separate from the political dynamics of India.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/media-kit/faq-hinduphobia",
+      "rebuttal_source_title": "Hinduphobia: Frequently Asked Questions - Hindu American Foundation"
+    },
+    {
+      "id": "b5c6d7e8-f9a0-4b1c-8d2e-3f4a5b6c7d8e",
+      "text": "s. - based hindutva network have characterized the organization as part of a movement that seeks to relegate christians, muslims, sikhs, dalits, and adivasis to a subordinate status in india.",
+      "score": 6,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "Accuses a Hindu organization of being part of a movement seeking to create a system of subordination, presented as fact.",
+      "sentence_index": 44,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "Critics often link US-based Hindu organizations to the broader Hindutva movement, alleging an agenda to subordinate minorities in India. However, organizations like the Hindu American Foundation (HAF) explicitly state their mission is to advocate for Hindu Americans, promote religious freedom, and educate the public about Hinduism. HAF’s stated goals include combating anti-Hindu bigotry and fostering positive understanding of Hindu traditions, while publicly asserting commitment to pluralism and democratic values. They explicitly state their focus is on policy and advocacy for Hindus within the American context.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about/our-mission",
+      "rebuttal_source_title": "Our Mission - Hindu American Foundation"
+    },
+    {
+      "id": "c7d8e9f0-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+      "text": "s. front organizations for the ideology behind the persecution of christians, muslims, dalits, and other minorities in india, language that the haf later sued to retract.",
+      "score": 7,
+      "method_code": "A2",
+      "method_name": "Unsubstantiated Accusations of Dual Loyalty or Transnational Subversion",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "Labels a Hindu advocacy group a 'front organization' for an ideology of persecution, implying a hidden, malicious agenda.",
+      "sentence_index": 46,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "The claim that the Hindu American Foundation (HAF) is a \"front organization\" was a contentious assertion that HAF itself actively challenged, including through legal means to seek retraction of such language. HAF states its mission is to advocate for the Hindu American community and educate the public about Hinduism, working on issues like civil rights, religious freedom, and combating anti-Hindu bigotry. They assert their independence and focus on representing Hindu American interests in the US policy space.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us",
+      "rebuttal_source_title": "About Us — Hindu American Foundation"
+    },
+    {
+      "id": "2784795b-010f-488b-8772-540194090518",
+      "text": "haf leaders have defended hindu nationalist figures implicated in communal violence and have publicly attacked human rights documentation by amnesty international and human rights watch of abuses against indian minorities.",
+      "score": 5,
+      "method_code": "D28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "The text frames the organization's defense of certain figures and critique of reports as siding with perpetrators of violence, creating guilt by association.",
+      "sentence_index": 49,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        8
+      ],
+      "main_category_names": [
+        "Guilt by Association"
+      ],
+      "rebuttal": "The Hindu American Foundation has indeed publicly critiqued reports from human rights organizations like Amnesty International and Human Rights Watch concerning abuses against Indian minorities. HAF often argues that these reports exhibit bias, lack crucial context, or present a one-sided narrative regarding inter-communal issues and the treatment of religious groups in India, including Hindus. They contend their critiques are aimed at ensuring a more balanced and accurate portrayal of events.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/press",
+      "rebuttal_source_title": "Press Releases — Hindu American Foundation"
+    },
+    {
+      "id": "f519343f-850d-452f-897c-389366408269",
+      "text": "audrey truschke, a historian at rutgers university, has argued that this pattern reflects the haf' s broader function as an apologist for hindu majoritarianism rather than a defender of pluralism.",
+      "score": 6,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "The text presents an unchallenged, hostile academic opinion labeling the Hindu organization as an \"apologist for hindu majoritarianism,\" a direct accusation of bigotry.",
+      "sentence_index": 50,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "While some academics like Audrey Truschke characterize HAF's actions as apologism for Hindu majoritarianism, HAF explicitly states its commitment to pluralism and defending the rights of all minorities. HAF asserts that its advocacy for Hindu rights, religious freedom, and accurate representation of Hinduism is not aimed at majoritarian dominance but at ensuring equitable treatment and understanding for the Hindu community within a pluralistic society.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us",
+      "rebuttal_source_title": "About Us — Hindu American Foundation"
+    },
+    {
+      "id": "a102435c-7553-4315-9964-67252277864f",
+      "text": "andrea jain, a professor of religious studies at indiana university, located the haf' s claims within a polemical discourse of religious fundamentalism that unwittingly borrowed from and mirrored the west;",
+      "score": 6,
+      "method_code": "C22",
+      "method_name": "Pathologizing Adherents and Psychological Stereotyping",
+      "Topic_id": "2.5",
+      "Topic_name": "Utilizing specialized academic jargon (\"cruel optimism,\" \"confined universalism\") to pathologize the spiritual practices, rituals, and community devotions of ordinary immigrants.",
+      "reasoning": "The text uses academic language to pathologize the Hindu group's claims by labeling them as part of a \"polemical discourse of religious fundamentalism.\"",
+      "sentence_index": 52,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        2
+      ],
+      "main_category_names": [
+        "Dehumanization or Hate Speech"
+      ],
+      "rebuttal": "Andrea Jain's academic perspective places HAF's claims within a discourse of religious fundamentalism, suggesting Western influences. However, HAF views its advocacy as a necessary effort to counter what it perceives as misrepresentations of Hinduism and to assert the civil and religious rights of Hindus. Its discourse often focuses on contemporary policy, religious literacy, and human rights from a Hindu perspective, aiming to engage with mainstream discussions rather than being solely rooted in a fundamentalist framework.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/what-we-do",
+      "rebuttal_source_title": "What We Do — Hindu American Foundation"
+    },
+    {
+      "id": "1d81144c-3580-4054-990a-269382276326",
+      "text": "alliances with christian nationalists investigations into the haf have revealed alliance - building with christian nationalists, despite hindu americans being \" significantly affected \" by such elements.",
+      "score": 6,
+      "method_code": "C28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "13.3",
+      "Topic_name": "Condemnation, blacklisting and cancelling of anyone associating with or cites work by Sangh parivar organizations (e.g., VHP, Seva Bharati, Vidya Bharati, Samskrit Bharati, Vanvasi Kalyan Ashram).Example – If you learn Sanskrit through Samskrita Bharati you are considered a Sanghi, since Samasrita Bharati is a Sangh Parivar organization. (Need a comprehensive list of Sangh Parivar organizations.)",
+      "reasoning": "The text condemns HAF by associating it with 'Christian nationalists,' framing this as a hypocritical alliance.",
+      "sentence_index": 67,
+      "editor_id": "20283540",
+      "editor_name": "Ftrhi",
+      "main_categories": [],
+      "main_category_names": [],
+      "rebuttal": "The Hindu American Foundation has engaged in coalitions with various religious and secular groups, including some Christian organizations, particularly on issues related to religious freedom, free speech, and education. These alliances are often issue-specific, focusing on shared policy objectives rather than endorsing the broader ideological platforms of partner organizations. HAF maintains that such collaborations are strategic for advancing mutual interests in religious liberty for all.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/what-we-do",
+      "rebuttal_source_title": "What We Do — Hindu American Foundation"
+    },
+    {
+      "id": "8b919d3f-117a-42d8-9896-731057470407",
+      "text": "the hindu american pac, an organization chaired by an haf co - founder along with other members of its senior leadership, donated $ 5000 to the 2022 congressional run of david brog, an associate of the christian fundamentalist preacher john hagee.",
+      "score": 6,
+      "method_code": "C28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "13.3",
+      "Topic_name": "Condemnation, blacklisting and cancelling of anyone associating with or cites work by Sangh parivar organizations (e.g., VHP, Seva Bharati, Vidya Bharati, Samskrit Bharati, Vanvasi Kalyan Ashram).Example – If you learn Sanskrit through Samskrita Bharati you are considered a Sanghi, since Samasrita Bharati is a Sangh Parivar organization. (Need a comprehensive list of Sangh Parivar organizations.)",
+      "reasoning": "The text creates a negative association by linking an HAF co-founder to a PAC, a politician, and then a 'Christian fundamentalist preacher.'",
+      "sentence_index": 69,
+      "editor_id": "20283540",
+      "editor_name": "Ftrhi",
+      "main_categories": [],
+      "main_category_names": [],
+      "rebuttal": "The text highlights a verifiable donation from the Hindu American PAC to David Brog's congressional campaign and notes Brog's association with John Hagee. While the PAC is indeed chaired by an HAF co-founder, the framing implies guilt by association. David Brog is a known conservative figure and former executive director of Christians United for Israel, an organization founded by John Hagee. Brog has his own public policy positions, including on issues like US-Israel relations, which may align with the PAC's interests independently of Hagee's broader theological views. The PAC's support for Brog could reflect shared political goals rather than an endorsement of all associated individuals or their specific religious doctrines.",
+      "rebuttal_source_url": "https://www.haaretz.com/us-news/2022-05-18/ty-article/.premium/netanyahu-acolyte-david-brog-running-for-congress-in-trumps-old-district/00000180-b219-db22-a7d0-be1b70220000",
+      "rebuttal_source_title": "Netanyahu acolyte David Brog running for Congress in Trump's old district"
+    },
+    {
+      "id": "a243c55a-406a-412e-9d22-167e41113b2e",
+      "text": "truschke' s view however continues to be widely supported by scholars and academics.",
+      "score": 5,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "The text asserts a synthetic consensus ('widely supported by scholars and academics') to validate a specific, likely critical, viewpoint.",
+      "sentence_index": 71,
+      "editor_id": "45454825",
+      "editor_name": "EarthDude",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "While Audrey Truschke's scholarship, particularly on figures like Aurangzeb and Maratha history, has garnered significant support among certain academic circles, it has also been the subject of considerable scholarly debate and criticism. Numerous historians and Indologists have offered alternative interpretations and challenged aspects of her methodology or conclusions, particularly concerning her framing of Hindu nationalism and historical narratives. Therefore, while her views are supported by some, asserting they are 'widely supported by scholars and academics' without acknowledging the substantial scholarly disagreements presents an incomplete picture of the academic discourse.",
+      "rebuttal_source_url": "https://journals.sagepub.com/doi/abs/10.1177/0019464619859344",
+      "rebuttal_source_title": "Aurangzeb: The Man and the Myth - The Indian Historical Review"
+    },
+    {
+      "id": "2701f56a-1135-4228-8980-04020c025816",
+      "text": "s. - based hindu nationalist organisations, including the haf, push politicised classroom materials into k - 12 settings, exploiting educators' unfamiliarity with south asian religions and politics to advance hindutva ideology.",
+      "score": 6,
+      "method_code": "E44",
+      "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "Frames standard civic advocacy on textbooks as a malicious campaign of 'exploiting educators' to 'advance hindutva ideology'.",
+      "sentence_index": 73,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "Engaging in textbook review and advocacy for curriculum changes is a common and legally protected form of civic participation by various religious, ethnic, and cultural groups in the U.S. Organizations like the Hindu American Foundation (HAF) have participated in official state-level textbook adoption processes, such as those in California, to advocate for what they view as more accurate or inclusive representations of Hinduism and Indian history. While their perspectives on curriculum content may differ from others, describing this participation as 'exploiting educators' unfamiliarity to advance an ideology frames legitimate civic advocacy as a malicious campaign, overlooking the standard processes through which such advocacy occurs.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/press/2016-05-20-haf-statement-california-history-social-science-framework-curriculum-adoption-process",
+      "rebuttal_source_title": "HAF Statement on California History-Social Science Framework Curriculum Adoption Process - Hindu American Foundation"
+    },
+    {
+      "id": "b8d8051e-848e-492c-982d-4505f56050b1",
+      "text": "the report further documented that such organisations target scholars critical of hindutva with harassment tactics including doxxing, lawsuits, and threats, seeking to intimidate and silence academic voices.",
+      "score": 7,
+      "method_code": "A7.1",
+      "method_name": "Unsubstantiated Accusations of Malice, Bigotry, or Criminality",
+      "Topic_id": "6.3",
+      "Topic_name": "Harassment of scholars and fight against academic freedom including through legal actions, doxxing of academics.",
+      "reasoning": "Directly accuses Hindu organizations of criminal harassment tactics like doxxing and making threats to silence critics.",
+      "sentence_index": 74,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        1
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS"
+      ],
+      "rebuttal": "While reports of harassment against scholars critical of Hindutva are serious and must be addressed, directly attributing systematic 'doxxing, lawsuits, and threats' to specific 'Hindu nationalist organizations' requires clear, verifiable evidence linking these actions to the organizations' official policies or direct conduct. While individuals who identify with such movements may engage in these behaviors, it is crucial to differentiate between individual actions and the organized, sanctioned tactics of a specific entity. Lawsuits, when filed, are a legal recourse, and their legitimacy is determined through due process rather than automatically being categorized as harassment unless proven frivolous.",
+      "rebuttal_source_url": "https://www.sahf.org/news/letter-to-the-hindu-american-foundation-haf",
+      "rebuttal_source_title": "Letter to the Hindu American Foundation (HAF)"
+    },
+    {
+      "id": "c1a0112c-4444-484c-9226-787884279549",
+      "text": "writing in'' harper' s magazine'', andrew cockburn reported that audrey truschke, a specialist in premodern sanskrit texts at rutgers university, has required armed police protection during lectures and public appearances owing to threats connected to her critiques of hindu nationalism.",
+      "score": 5,
+      "method_code": "B14",
+      "method_name": "Misattribution of Fringe or Unaffiliated Actions to the Mainstream",
+      "Topic_id": "6.1",
+      "Topic_name": "high-profile boycotts, censorship demands, attacks, threats, and harassment of journalists, academics, artists and filmmakers (death threats, legal notices, online mobs).",
+      "reasoning": "Creates guilt by association by linking threats against an academic to the broad category of 'hindu nationalism' immediately after accusing specific organizations of harassment.",
+      "sentence_index": 75,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "Reports of threats against academics like Audrey Truschke for their critiques of Hindu nationalism are deeply concerning and unacceptable, and ensuring their safety is paramount. While such threats often originate from individuals who identify with or claim to represent elements of Hindu nationalism, attributing these fringe actions to the broad and diverse category of 'Hindu nationalism' or specific mainstream organizations without direct evidence of their orchestration can be a misattribution. Many proponents of Hindu nationalism and various Hindu organizations have explicitly condemned threats and violence against scholars, asserting that such actions do not represent their principles or methods of engagement.",
+      "rebuttal_source_url": "https://hinduamerican.org/press/2022-09-14-haf-condemns-death-threats-against-rutgers-professor",
+      "rebuttal_source_title": "HAF Condemns Death Threats Against Rutgers Professor - Hindu American Foundation"
+    },
+    {
+      "id": "f2e9640f-7848-4351-860e-09677335272a",
+      "text": "truschke told cockburn that she receives death threats, misogynist attacks, and threats against her children, and that it would \" probably be unsafe \" for her ever to return to india.",
+      "score": 5,
+      "method_code": "B14",
+      "method_name": "Misattribution of Fringe or Unaffiliated Actions to the Mainstream",
+      "Topic_id": "6.1",
+      "Topic_name": "high-profile boycotts, censorship demands, attacks, threats, and harassment of journalists, academics, artists and filmmakers (death threats, legal notices, online mobs).",
+      "reasoning": "Amplifies the guilt-by-association narrative by detailing severe but unattributed threats, implicitly linking them to the previously mentioned Hindu nationalist groups.",
+      "sentence_index": 76,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "While reports indicate that historian Audrey Truschke has indeed received death threats, misogynist attacks, and threats against her children, these actions are typically attributed to online trolls or specific right-wing Hindu nationalist groups, not the mainstream Hindu community. Academics like Truschke often face intense online harassment, and attribution of such threats to broad groups can be complex, though some specific organizations have been identified in relation to such campaigns. Her research on Mughal history and interpretations of Hindu texts have often drawn strong reactions from certain Hindu nationalist factions.",
+      "rebuttal_source_url": "https://www.theguardian.com/world/2021/sep/09/death-threats-us-conference-hindu-nationalism",
+      "rebuttal_source_title": "Death threats sent to participants of US conference on Hindu nationalism - The Guardian"
+    },
+    {
+      "id": "a9876543-2109-4fed-b876-543210987654",
+      "text": "the suggested changes had sought to downplay the salience of caste in indian history, reject indo - aryan migrations in favor of indigenous aryanism, and not describe the declining status of women in ancient india, arguing that such portrayals would humiliate hindu children in classrooms.",
+      "score": 4,
+      "method_code": "B12",
+      "method_name": "Selective, Out-of-Context, and Biased Framing",
+      "Topic_id": "10.2",
+      "Topic_name": "Textbook edits and “saffronisation” of education – marginalize Mughal history, Removal of RSS links to Gandhi assassination",
+      "reasoning": "Selectively frames the organization's proposed textbook changes as attempts to 'downplay' caste and the 'declining status of women,' portraying their advocacy as historical denialism.",
+      "sentence_index": 77,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The Hindu American Foundation (HAF) and other Hindu advocacy groups argued that their proposed changes aimed to correct what they perceived as inaccuracies and an unbalanced portrayal of Hinduism in California textbooks. They contended that existing texts overemphasized negative aspects like the caste system, presented the Indo-Aryan migration theory as undisputed fact despite academic debate, and failed to adequately represent the positive contributions and diversity within Hindu traditions, leading to potential humiliation or misrepresentation for Hindu-American children in classrooms. Their goal was to ensure a more accurate, equitable, and culturally competent depiction.",
+      "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+      "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+    },
+    {
+      "id": "12345678-90ab-4cde-f012-34567890abcd",
+      "text": "multiple indologists, including romila thapar, michael witzel, harry falk, robert p. goldman, jonathan mark kenoyer, sheldon pollock, patrick olivelle and madhav deshpande, and other south asian activist groups opposed the changes.",
+      "score": 4,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "Lists numerous academics and 'activist groups' to create a synthetic consensus against the organization's position, appealing to authority to dismiss their arguments.",
+      "sentence_index": 79,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "While numerous prominent Indologists and South Asian activist groups opposed the proposed changes, it's important to recognize that the debates surrounding ancient Indian history, the Indo-Aryan migration theory, and the portrayal of caste are complex and encompass a diversity of scholarly opinions. The groups advocating for changes, like the Hindu American Foundation (HAF), also garnered support from various academics, community leaders, and elected officials who believed the existing textbooks contained inaccuracies or presented a biased view of Hinduism, highlighting that academic consensus on all specific interpretations is not monolithic.",
+      "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+      "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+    },
+    {
+      "id": "ef012345-6789-4abc-ddef-01234567890a",
+      "text": "the court ruled against the haf and chose to retain the textbooks; it found the haf' s accusations of a biased and negative portrayal of hinduism unpersuasive.",
+      "score": 3,
+      "method_code": "C16",
+      "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "The editorial choice to highlight that a court found the organization's accusations of bias 'unpersuasive' serves to invalidate their claims of persecution.",
+      "sentence_index": 80,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The court ruling against the Hindu American Foundation (HAF) in 2006 was a mixed decision. While the judge ultimately allowed the textbooks to be retained, the court also found that the California State Board of Education's textbook adoption *process* was flawed and illegal, conducted under 'invalid underground regulations.' The court's decision on the content itself did not deem the HAF's accusations of bias entirely baseless but rather found the portrayal of topics like the Aryan migration and caste system not to be 'grossly inaccurate' by legal standards for textbook adoption. This indicates a procedural victory for HAF, even if the content changes they sought were not mandated.",
+      "rebuttal_source_url": "https://www.pluralism.org/california-court-upholds-claim-of-hindu-american-foundation-regarding-illegal-process-but-retains-textbooks",
+      "rebuttal_source_title": "California Court Upholds Claim of Hindu American Foundation Regarding Illegal Process, but Retains Textbooks | The Pluralism Project"
+    },
+    {
+      "id": "bcde0123-4567-489a-bcde-f01234567890",
+      "text": "these efforts were protested by south asian academics and activists belonging to india' s minority groups, who said that those on the side of the haf sought to whitewash california' s history textbooks to present a nativist, blemish - free view of how the hindu caste system was enforced in india.",
+      "score": 6,
+      "method_code": "C17",
+      "method_name": "Strategic Mislabeling to Invert Victimhood and Enforce Aggressor Stigma",
+      "Topic_id": "10.2",
+      "Topic_name": "Textbook edits and “saffronisation” of education – marginalize Mughal history, Removal of RSS links to Gandhi assassination",
+      "reasoning": "Frames the organization's advocacy as an attempt to 'whitewash' history with a 'nativist' view, inverting their position into an aggressive act.",
+      "sentence_index": 82,
+      "editor_id": "34478357",
+      "editor_name": "MroWikipedian",
+      "main_categories": [
+        2
+      ],
+      "main_category_names": [
+        "Dehumanization or Hate Speech"
+      ],
+      "rebuttal": "Critics framed the Hindu American Foundation's (HAF) advocacy as an attempt to 'whitewash' history or promote a 'nativist' view, but HAF and its supporters maintained their efforts were aimed at ensuring accuracy, cultural sensitivity, and a balanced representation of Hinduism in textbooks. They argued that existing materials often presented a one-sided or outdated view, particularly regarding caste and the status of women, which could lead to negative stereotypes and bullying for Hindu students. Their intention, they asserted, was to reflect a more nuanced and inclusive understanding of Hindu civilization, not to erase inconvenient historical facts.",
+      "rebuttal_source_url": "https://www.hinduamericanfoundation.org/california-curriculum-reform/",
+      "rebuttal_source_title": "California Curriculum Reform - Hindu American Foundation"
+    },
+    {
+      "id": "2172a15c-396a-49c8-831e-9276274488b3",
+      "text": "however, multiple professors at the university who identify as hindus rejected the accusations and highlighted how the haf had weaponized hindutva to stifle free speech.",
+      "score": 4,
+      "method_code": "A6",
+      "method_name": "Creation of a False Dichotomy (The \"Good Hindu\" vs. \"Bad Hindu\" Binary)",
+      "Topic_id": "23",
+      "Topic_name": "Weaponizing Internal Dissent and Creating Asymmetric Binaries",
+      "reasoning": "The sentence structurally creates a \"Good Hindu\" (professors) vs. \"Bad Hindu\" (HAF) binary to invalidate the organization's civil rights complaint.",
+      "sentence_index": 94,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        6
+      ],
+      "main_category_names": [
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "The claim of a false dichotomy overlooks the genuine academic debate surrounding the Hindu American Foundation (HAF) and its approach to Hindutva. While some professors who identify as Hindus may reject accusations that HAF weaponizes Hindutva, others within academia and the Hindu community hold differing views on the organization's ideological underpinnings and political strategies. These internal disagreements reflect a complex spectrum of perspectives within Hinduism and on how religious and cultural identity intersects with political advocacy in the diaspora, rather than a simple 'good' versus 'bad' Hindu binary. The HAF itself states its mission is to advocate for Hindu Americans, promoting understanding of Hinduism, and protecting Hindu rights in the US.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+      "rebuttal_source_title": "About Us - Hindu American Foundation"
+    },
+    {
+      "id": "8b9f3d1e-9d5c-4a3d-888f-10118318858a",
+      "text": "the reporting placed the haf alongside sewa international, the vishwa hindu parishad of america, the ekal vidyalaya foundation, and rajiv malhotra' s infinity foundation, entities described in the article as having documented links to organizations that have been associated in india with violence against christian, muslim and dalit communities.",
+      "score": 6,
+      "method_code": "D28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "13",
+      "Topic_name": "Guilt by association",
+      "reasoning": "The editorial choice to include this attributed claim creates a multi-layered guilt-by-association link between a US-based Hindu group and alleged violence in India.",
+      "sentence_index": 98,
+      "editor_id": "47561671",
+      "editor_name": "Flyingphoenixchips",
+      "main_categories": [
+        8
+      ],
+      "main_category_names": [
+        "Guilt by Association"
+      ],
+      "rebuttal": "While the article links the Hindu American Foundation (HAF) to other organizations like Sewa International and the Vishwa Hindu Parishad of America, and notes their alleged associations with groups in India linked to violence, it is important to consider the HAF's stated position and operational independence. HAF explicitly defines itself as a non-profit advocacy organization focused on promoting the Hindu American voice and protecting civil rights in the US, without directly engaging in political or religious activities in India. Critics argue that guilt by association can unfairly tarnish organizations based on alleged ties rather than their direct actions or stated goals. The nature and extent of these alleged links, and the specific activities of the US-based entities versus those in India, often require more granular examination.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+      "rebuttal_source_title": "About Us - Hindu American Foundation"
+    },
+    {
+      "id": "1e7c8a9f-a8b1-4f6e-8a9d-5f8e7c6b3d1a",
+      "text": "reception scholarly consensus is that the haf purveys a politics embedded in hindutva.",
+      "score": 6,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "2.3",
+      "Topic_name": "Labeling Hindu organizations that monitor and report hate speech or discrimination against Hindus as \"front groups\" hiding a \"far-right supremacist agenda.\"",
+      "reasoning": "The text asserts a 'scholarly consensus' to validate a negative political label, a technique used to create a synthetic consensus and shut down debate.",
+      "sentence_index": 102,
+      "editor_id": "34505442",
+      "editor_name": "Shahinshah121",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "The assertion of a 'scholarly consensus' that the Hindu American Foundation (HAF) purveys a politics embedded in Hindutva is contested within academia. While some scholars hold this view, others argue for a more nuanced understanding of HAF's work, distinguishing its civil rights advocacy in the US from the political ideology of Hindutva in India. Academic discourse on diaspora organizations often features diverse interpretations regarding their ideological affiliations, funding, and operational autonomy. Therefore, framing it as a singular 'scholarly consensus' may oversimplify a complex and ongoing academic debate, overlooking the range of perspectives on the HAF's specific objectives and impact within the American context.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/blog/hindu-american-foundation-is-not-a-hindutva-organization",
+      "rebuttal_source_title": "Hindu American Foundation Responds to Misinformation Campaign - Hindu American Foundation"
+    },
+    {
+      "id": "8f9b1c2d-3e4f-4a5b-8c6d-7e8f9a0b1c2d",
+      "text": "mishra, an assistant professor of political science at drew university, argued that the haf had remolded hindutva - leaning politics into the language of \" hindu rights \" to be palatable in the american mainstream.",
+      "score": 6,
+      "method_code": "E44",
+      "method_name": "Systematic Criminalization of Civil Advocacy as Structured Disinformation",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "This sentence frames standard civil rights advocacy ('hindu rights') as a deceptive tactic to mask a sinister political agenda, thereby criminalizing their advocacy.",
+      "sentence_index": 106,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The framing of HAF's advocacy for \"Hindu rights\" as a deceptive tactic to mask a sinister political agenda, rather than legitimate civil rights work, is a contentious interpretation. The Hindu American Foundation (HAF) explicitly defines its mission as advocating for the civil rights of Hindu Americans, combating Hinduphobia, and promoting accurate understanding of Hinduism in the US. Like other identity-based advocacy groups, HAF engages in lobbying, educational initiatives, and legal advocacy to address issues such as religious discrimination, hate crimes, and misrepresentation. While critics may interpret these actions differently, HAF asserts its work is aligned with standard civil rights and religious freedom principles in the American democratic framework.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about-us/",
+      "rebuttal_source_title": "About Us - Hindu American Foundation"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "text": "truschke finds the haf to be an integral component of the \" wider sangh parivar \" and hindu right in the united states.",
+      "score": 5,
+      "method_code": "D28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "4.1",
+      "Topic_name": "Utilizing intense, non-falsifiable conspiracy theories regarding the RSS, Sangh Parivar, or Hindutva as a convenient, soft-coded proxy to attack, harass, and delegitimize ordinary Hindu individuals, rituals, and temples.",
+      "reasoning": "The text explicitly links HAF to the 'Sangh Parivar' to assign guilt by association, a common method for delegitimizing Hindu diaspora organizations.",
+      "sentence_index": 107,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        8
+      ],
+      "main_category_names": [
+        "Guilt by Association"
+      ],
+      "rebuttal": "The claim that Truschke \"finds the HAF to be an integral component of the wider Sangh Parivar and Hindu right in the United States\" represents one academic perspective, but it is important to acknowledge that the Hindu American Foundation (HAF) itself strongly rejects such characterizations. HAF explicitly states its independence from any political organization in India, including the Sangh Parivar, and defines its mission as an American-based civil rights and advocacy organization. While some scholars draw ideological connections, HAF maintains its distinct identity, programmatic focus on issues relevant to Hindu Americans in the US, and operational autonomy, suggesting that direct association or integral membership is not universally accepted or acknowledged.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/blog/hindu-american-foundation-is-not-a-hindutva-organization",
+      "rebuttal_source_title": "Hindu American Foundation Responds to Misinformation Campaign - Hindu American Foundation"
+    },
+    {
+      "id": "f6e5d4c3-b2a1-4f7e-8d9c-0b1a2f3e4d5c",
+      "text": "sundaram found among the group' s aims to sanitize the exclusionary nature of hindutva, in part by borrowing from decolonial vocabulary, misleadingly portraying terms like \" hindutva \", \" brahminism \", etc. as oriental pejoratives.",
+      "score": 7,
+      "method_code": "C16",
+      "method_name": "Gaslighting, Invalidation of Persecution, and Scare-Quote Dismissal",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "The text dismisses the idea that terms like 'Hindutva' can be used as pejoratives, framing such claims as a misleading 'sanitizing' tactic, which is a form of gaslighting.",
+      "sentence_index": 109,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The claim that referring to terms like 'Hindutva' as oriental pejoratives is gaslighting reflects a contested academic debate. Some scholars argue that Hindutva is a political ideology distinct from the religion of Hinduism, often associated with Hindu supremacy, and critiques are therefore not 'anti-Hindu' or pejorative in a decolonial sense. Conversely, the Hindu American Foundation (HAF) and other Hindu advocacy groups contend that terms like 'Hindutva' are often weaponized by critics to negatively stereotype and marginalize Hindus, portraying it as a form of 'Hindu-ness' or a way of life that is inappropriately maligned. They suggest that such criticisms sometimes conflate a broad religious tradition with a specific political movement, leading to accusations of 'Hinduphobia' that silence and gaslight Hindu voices.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/what-does-hindutva-really-mean",
+      "rebuttal_source_title": "What does Hindutva really mean? - Hindu American Foundation"
+    },
+    {
+      "id": "c9d8e7f6-a5b4-4c3d-8e2f-1a0b9c8d7e6f",
+      "text": "chad bauman, a professor of religion at butler university, contended the haf' s portrayal of hinduism to be misleadingly monolithic and in service of a political agenda.",
+      "score": 5,
+      "method_code": "C19",
+      "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+      "Topic_id": "2.2",
+      "Topic_name": "Characterizing standard civic participation, parent-led school board petitions, or civil rights advocacy by Hindu foundations as \"disinformation operations\" or \"hate campaigns.\"",
+      "reasoning": "This sentence automatically interprets the act of representing Hinduism as having a sinister political agenda, rejecting any possibility of good-faith cultural or religious advocacy.",
+      "sentence_index": 110,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        6
+      ],
+      "main_category_names": [
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "While some critics argue that the Hindu American Foundation's (HAF) portrayal of Hinduism is monolithic and serves a political agenda, the HAF asserts its mission is to advance the understanding of Hindu Dharma traditions and secure the rights and dignity of Hindu Americans. The organization states it provides accurate educational resources, engages in advocacy for religious liberty and justice, and empowers Hindu Americans to sustain their culture and identity. They aim to correct what they describe as inaccurate portrayals of Hinduism in public discourse and education, which they view as a legitimate cultural and religious advocacy effort, not a sinister political maneuver.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about",
+      "rebuttal_source_title": "About the Hindu American Foundation"
+    },
+    {
+      "id": "b7a6c5d4-e3f2-4a1b-9c8d-7e6f5a4b3c2d",
+      "text": "nishant upadhyay, a professor at the university of colorado, boulder, specializing in gender and sexuality studies found the group' s queer - friendly portrayal of hinduism to be embedded within a discourse of hindutva homonationalism.",
+      "score": 6,
+      "method_code": "C19",
+      "method_name": "Systemic Rejection of Good Intent and Altruistic Action",
+      "Topic_id": "2.5",
+      "Topic_name": "Utilizing specialized academic jargon (\"cruel optimism,\" \"confined universalism\") to pathologize the spiritual practices, rituals, and community devotions of ordinary immigrants.",
+      "reasoning": "The text reframes a positive, inclusive action (a queer-friendly portrayal) as having a sinister, manipulative motive by labeling it with pathologizing academic jargon ('homonationalism').",
+      "sentence_index": 111,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        6
+      ],
+      "main_category_names": [
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "The characterization of a group's queer-friendly portrayal of Hinduism as 'Hindutva homonationalism' is an academic critique that interprets inclusive actions through a specific political lens. However, the Hindu American Foundation (HAF) states its position on LGBTQ+ rights is rooted in ancient Hindu teachings that embrace the inherent spiritual equality of all beings, regardless of sexual orientation or gender identity. HAF has published policy briefs and guides articulating how Hindu traditions can offer space and affirmation for LGBTQ+ individuals, emphasizing that this stance is derived from timeless spiritual principles rather than a manipulative political strategy. They assert their efforts are to foster broader acceptance and understanding within the Hindu community and beyond.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/issues/haf-policy-brief-hindu-teachings-inclusive-of-lgbt-people/",
+      "rebuttal_source_title": "HAF Policy Brief: LGBTQ Rights - Hindu American Foundation"
+    },
+    {
+      "id": "1802958a-020a-422c-9694-874533083072",
+      "text": "georgetown university' s bridge initiative found the haf board member rishi bhutada to have also served as the official spokesperson of \" howdy modi \", a rashtriya swayamsevak sangh (rss) - backed rally in support of india' s incumbent prime minister narendra modi held in houston, texas in 2020.",
+      "score": 3,
+      "method_code": "C28",
+      "method_name": "Guilt by Association and Civic Contamination Framing",
+      "Topic_id": "13.3",
+      "Topic_name": "Condemnation, blacklisting and cancelling of anyone associating with or cites work by Sangh parivar organizations.",
+      "reasoning": "This sentence creates guilt by association by linking a HAF board member to an 'RSS-backed' rally, framing a civic advocacy group through a political lens.",
+      "sentence_index": 113,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [],
+      "main_category_names": [],
+      "rebuttal": "While a HAF board member did serve as a spokesperson for the 'Howdy Modi' rally, linking it directly to guilt by association with the RSS and framing it as 'civic contamination' overlooks the broader context of such diaspora events. The 'Howdy Modi' event was organized by the Texas India Forum, a US-based non-profit, and featured both the Indian Prime Minister and the then-US President, attracting a large bipartisan audience of Indian Americans. The HAF explicitly states it is a non-partisan, independent American organization, not affiliated with any political parties or organizations abroad, and that its members' participation in such events does not indicate organizational endorsement of all associated views.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/about/frequently-asked-questions-about-haf",
+      "rebuttal_source_title": "About the Hindu American Foundation"
+    },
+    {
+      "id": "9a38023c-834c-4734-9333-66258079815e",
+      "text": "academics and journalists have also investigated money trails linking the haf to other sangh parivar groups via their donors.",
+      "score": 6,
+      "method_code": "A5",
+      "method_name": "Ominous Innuendo, Suggestive Profiling, and Secret Plot Narratives",
+      "Topic_id": "2.4",
+      "Topic_name": "Presenting global Hindu cultural gatherings, multi-million dollar temple constructions, or charitable relief operations (Seva) as money-laundering operations for extremism.",
+      "reasoning": "Uses ominous innuendo ('money trails') to suggest a covert, sinister financial conspiracy without providing specific, verifiable evidence.",
+      "sentence_index": 114,
+      "editor_id": "34505442",
+      "editor_name": "Shahinshah121",
+      "main_categories": [
+        1,
+        6
+      ],
+      "main_category_names": [
+        "Negative Stereotyping of RSS",
+        "Fear-Mongering (\"hindutva\")"
+      ],
+      "rebuttal": "Claims of 'money trails' linking the HAF to other 'Sangh Parivar' groups via donors suggest a covert conspiracy, but the HAF maintains transparency regarding its financials. The organization is a 501(c)(3) non-profit, run by US citizens, funded by US donors, and subject to US law. HAF has consistently earned a Platinum Seal of Transparency from GuideStar, the highest level of recognition, and states that all corporate and tax filings are publicly available. While some critical reports allege donor overlap with organizations that critics associate with the Sangh Parivar, HAF denies affiliations with any foreign political groups and asserts its financial independence, emphasizing that shared donors do not inherently imply illicit ties or foreign control.",
+      "rebuttal_source_url": "https://www.hinduamerican.org/financials",
+      "rebuttal_source_title": "Financials - Hindu American Foundation"
+    },
+    {
+      "id": "f5b8712d-7647-495c-9400-36940348705f",
+      "text": "however, arun chaudhuri, an anthropologist of religion and politics at york university, cautions that such disavowals should not be taken at face value but rather as efforts at distancing the haf from the overtly negative connotations of hindu nationalism.",
+      "score": 6,
+      "method_code": "B15.1",
+      "method_name": "Propaganda Mandate Framing",
+      "Topic_id": "15.19",
+      "Topic_name": "Mandating understanding requires 'moving past alternatively ignoring and accepting Hindu nationalist propaganda,' treating all self-representation as obstruction.",
+      "reasoning": "Presents an academic's view that the organization's self-representation must be rejected as inherently deceptive propaganda.",
+      "sentence_index": 115,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        5
+      ],
+      "main_category_names": [
+        "Misrepresentation of RSS"
+      ],
+      "rebuttal": "The Hindu American Foundation (HAF) explicitly identifies as a non-partisan, politically agnostic 501(c)(3) advocacy organization, stating it is not affiliated with any religious or political entities. HAF asserts its mission is to advance the understanding of Hindu Dharma and secure the rights and dignity of Hindu Americans by focusing on human and civil rights, education, and community building, and working with all individuals committed to dignity, freedom, equality, and justice. The organization has consistently denied allegations linking it to Hindu nationalism and has pursued legal action against those making such claims, arguing that these are false accusations of dual loyalties and funding violence, presenting its self-description as an independent advocate for Hindu Americans.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3xR776rQeTYVTKHY9nONa5Jp2QE15IbRZWqALJJEQKGHOhLt-kX4gDmeXIoJFzLVDuhp8HH_c7CrHAStT75rmY7u1cgjfw2vNU3UH927To31Ppci_1IL5H5AiALPU2y7OrrQSRGLXBo_R0iNpkpoQptrpHarBhjAi",
+      "rebuttal_source_title": "Hindu American Foundation (HAF) Written Statement for the Record - US Commission on International Religious Freedom | USCIRF"
+    },
+    {
+      "id": "c12d345e-6789-4abc-8def-0123456789ab",
+      "text": "sonia sikka, an academic specializing in the intersection of religion and politics, also rejects the haf' s claims of non - partisanship.",
+      "score": 2,
+      "method_code": "A7",
+      "method_name": "Appeal to Inappropriate Authority or Synthetic Consensus",
+      "Topic_id": "N/A",
+      "Topic_name": "N/A",
+      "reasoning": "Uses a selective academic opinion to build a synthetic consensus that undermines the organization's stated non-partisan stance.",
+      "sentence_index": 116,
+      "editor_id": "39729082",
+      "editor_name": "TrangaBellam",
+      "main_categories": [
+        7
+      ],
+      "main_category_names": [
+        "Contextual Tone"
+      ],
+      "rebuttal": "While some academics, such as Sonia Sikka, have challenged the Hindu American Foundation's (HAF) claims of non-partisanship, the organization consistently maintains its identity as a strictly non-partisan 501(c)(3) not-for-profit advocacy group. HAF states that it does not favor or endorse any political party or candidates, focusing instead on issues transcending politics to secure the rights and dignity of Hindu Americans. Its guiding principles emphasize working with all institutions that promote integrity, reason, dignity, freedom, equality, and justice. HAF's stated activities include advocating for religious liberty, free expression, and accurate representation of Hinduism, underscoring its commitment to its declared non-partisan mission.",
+      "rebuttal_source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcEmcklt7Fy3baUkpAQaufzVAJ1RW-q0EJhHatck8t3K8wJDI4Z7N05GUgqdVNnz8znuxjMruEb1NNoHilG5alk00r1Hs4gVR58LSovs4RJquVGNXcmEe9fwIzPpiacg==",
+      "rebuttal_source_title": "About the Hindu American Foundation"
+    }
+  ]
+}

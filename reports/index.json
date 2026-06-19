@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-06-18T00:00:00Z",
+  "generated_at": "2026-06-19T14:17:39Z",
   "reports": [
     {
-      "id": "neutrality_Hindu_American_Foundation_20260618_124754",
-      "file": "reports/neutrality_Hindu_American_Foundation_20260618_124754_enriched.json",
+      "id": "neutrality_Hindu_American_Foundation_20260619_141739",
+      "file": "reports/neutrality_Hindu_American_Foundation_20260619_141739_enriched.json",
       "title": "Hindu American Foundation",
       "source_url": "https://en.wikipedia.org/wiki/Hindu_American_Foundation",
-      "latest_rev_timestamp": "2026-06-16T17:54:46Z",
-      "total_detections": 31,
-      "severe_count": 20,
-      "moderate_count": 11,
-      "minor_count": 0,
-      "final_score": 10.0,
+      "latest_rev_timestamp": "2026-06-18T19:11:13Z",
+      "total_detections": 42,
+      "severe_count": 24,
+      "moderate_count": 16,
+      "minor_count": 2,
+      "final_score": 5.55,
       "report_score": 10.0,
-      "editor_count": 8,
+      "editor_count": 7,
       "editors": [
         "EarthDude",
         "Flyingphoenixchips",
         "Ftrhi",
+        "MroWikipedian",
         "Shahinshah121",
-        "TNM101",
-        "Underthebusdweller",
-        "Vanamonde93",
-        "Walrus Ji"
+        "TrangaBellam",
+        "Vanamonde93"
       ]
     }
   ]
